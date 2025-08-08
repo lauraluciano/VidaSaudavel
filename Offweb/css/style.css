@@ -1,0 +1,52 @@
+/*===========================================
+Geral
+=============================================*/
+html{
+    font-family: 'Noto-Serif-Display', 'Atkinson Hyperlegible', 'IBM Plex Sans Thai', 'Asset';
+     font-size: calc(12px + 0.390625vw);
+     background: #2C3E50;
+     color: #ffffff;
+}
+
+
+/*============================================
+Header
+==============================================*/
+
+/*==============================================
+Banner
+================================================*/
+section.banner{
+    text-align: center;
+    margin: 2vw 4vw 2vw 4vw;
+     border-bottom: 1px solid rgb(202, 202, 202);
+}
+section.banner img{
+     width: 40%;
+}
+section.banner h1{
+  font-family: "Noto Serif Display", serif;
+  font-weight:bold;
+  font-size: xx-large;
+  margin: 0vw 4vw 4vw 4vw;
+}
+section.banner span {
+    font-style: italic;
+}
+section.banner p {
+    margin: 2vw 4vw 4vw 4vw;
+}
+section.banner button{
+    background: #A31D1D;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10vw;
+}
+/*========================================
+Introdução
+==========================================*/
+section.introducao {
+    margin: 5vw 0 0 0 ;
+}
