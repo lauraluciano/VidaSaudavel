@@ -48,5 +48,73 @@ section.banner button{
 Introdução
 ==========================================*/
 section.introducao {
-    margin: 5vw 0 0 0 ;
+    margin: 5vw 2vw 2vw 4vw ;
+    display: flex;
+}
+section.introducao h2{
+    font-size: xx-large;
+    color: #D1D1D1;
+  text-shadow:  2px 2px 0 #000,
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ 
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+section.introducao img{
+    width: 100%;
+}
+/*========================================
+MAPA DO SITE
+==========================================*/
+section.mapa{
+    margin: 2vw 4vw 2vw 4vw;
+    text-align: center;
+}
+section.mapa h1{
+    font-size: xx-large;
+    color: #D1D1D1;
+    margin: 0 0 0 10px;
+    text-shadow:  2px 2px 0 #540B24,
+    1px 1px 0 #540B24,
+    1px 1px 0 #540B24,
+    1px 1px 0 #540B24;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+section.mapa ul {
+    text-align: left;
+    background: #7E1537;
+    width: 537px;
+    height: 307px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+
+}
+section.mapa ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: larger;
+    line-height: 3rem;
+    font-weight: bold;
+}
+section.mapa div h3{
+     font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+
+section.mapa div ul {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #540B24;
+    text-align: center;
+    line-height: 6rem
 }
