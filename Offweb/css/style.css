@@ -72,6 +72,7 @@ MAPA DO SITE
 ==========================================*/
 section.mapa{
     margin: 2vw 4vw 2vw 4vw;
+    justify-content: center;
     text-align: center;
 }
 section.mapa h1{
@@ -87,6 +88,7 @@ section.mapa h1{
   font-style: italic;
 }
 section.mapa ul {
+    padding: 0 0 0 0;
     text-align: left;
     background: #7E1537;
     width: 537px;
@@ -100,7 +102,7 @@ section.mapa ul a {
     text-decoration: none;
     color: #ffffff;
     font-size: larger;
-    line-height: 3rem;
+    line-height: 2rem;
     font-weight: bold;
 }
 section.mapa div h3{
@@ -111,10 +113,11 @@ section.mapa div h3{
 }
 
 section.mapa div ul {
+    margin: 2vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-weight: 400;
     font-style: normal;
     background: #540B24;
     text-align: center;
-    line-height: 6rem
+    line-height: 6rem;
 }
