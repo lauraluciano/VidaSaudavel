@@ -2,53 +2,92 @@
 Geral
 =============================================*/
 html{
-    font-family: 'Noto-Serif-Display', 'Atkinson Hyperlegible', 'IBM Plex Sans Thai', 'Asset';
-     font-size: calc(12px + 0.390625vw);
+     text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
 }
 
-
 /*============================================
 Header
 ==============================================*/
-
+header{
+    background: #ffffff;
+    margin: 40px 20px ;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul li a:hover{
+    background-color: #540B24;
+    color: #ffffff;
+    transition: .2s;
+}
+header ul li a {
+    color: #000;
+    font-size: 20px;
+    padding: 20px  40px;
+    text-decoration: none;
+    display: block;
+}
+.drop-menu{
+    position: relative;
+}
+.drop-menu .drop {
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+.drop-menu .drop a {
+    padding: 20px;
+}
+.drop-menu:hover .drop{
+   height: 255px;
+}
 /*==============================================
 Banner
 ================================================*/
-section.banner{
-    text-align: center;
-    margin: 2vw 4vw 2vw 4vw;
-     border-bottom: 1px solid rgb(202, 202, 202);
+section.banner{ 
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
 }
 section.banner img{
-     width: 40%;
+     width: 55% ;
+}
+section.banner div.texto{
+    display: block;
+    text-align: center;
 }
 section.banner h1{
   font-family: "Noto Serif Display", serif;
   font-weight:bold;
-  font-size: xx-large;
-  margin: 0vw 4vw 4vw 4vw;
+  font-size: 4rem;
+  margin: 0 0 4vw 0;
 }
 section.banner span {
     font-style: italic;
 }
 section.banner p {
-    margin: 2vw 4vw 4vw 4vw;
+    font-size: 2rem;
+    margin: 2vw 0vw 4vw 0vw;
 }
-section.banner button{
+section.banner p button{
     background: #A31D1D;
     color: #ffffff;
-    border: none;
-    font-size: 1rem;
-    padding: 10px 10px 10px 10px;
+    border-color: #000;
+    font-size: 2rem;
+    padding: 20px;
     border-radius: 10vw;
 }
 /*========================================
 Introdução
 ==========================================*/
 section.introducao {
-    margin: 5vw 2vw 2vw 4vw ;
+    margin: 5vw 0vw 3vw 0vw ;
     display: flex;
 }
 section.introducao h2{
@@ -58,11 +97,6 @@ section.introducao h2{
     1px 1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
- 
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-
 }
 section.introducao img{
     width: 100%;
@@ -71,14 +105,16 @@ section.introducao img{
 MAPA DO SITE
 ==========================================*/
 section.mapa{
-    margin: 2vw 4vw 2vw 4vw;
+  
+    margin: 2vw 0vw 2vw 0vw;
     justify-content: center;
-    text-align: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 section.mapa h1{
-    font-size: xx-large;
+    text-align: center;
+    font-size: 3rem;
     color: #D1D1D1;
-    margin: 0 0 0 10px;
     text-shadow:  2px 2px 0 #540B24,
     1px 1px 0 #540B24,
     1px 1px 0 #540B24,
@@ -87,37 +123,108 @@ section.mapa h1{
   font-weight: 400;
   font-style: italic;
 }
-section.mapa ul {
-    padding: 0 0 0 0;
-    text-align: left;
+.mapa div.blocos {
+    display: flex;
+}
+section.mapa div.blocos ul {
+    display: block;
+    margin: 3vw;
     background: #7E1537;
-    width: 537px;
-    height: 307px;
     font-family: "IBM Plex Sans Thai", sans-serif;
    font-weight: 600;
    font-style: normal;
-
 }
 section.mapa ul a {
+    display: block;
+    margin: 20px 10px 20px 10px;
+    text-align: left;
     text-decoration: none;
     color: #ffffff;
-    font-size: larger;
-    line-height: 2rem;
+    font-size: 2rem;
     font-weight: bold;
+    line-height: 2vw;
 }
 section.mapa div h3{
-     font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: x-large;
 }
 
-section.mapa div ul {
-    margin: 2vw 0 0 0;
+section.mapa div.bloco2 ul {
+    margin:3vw;
+    font-size: 2rem;
+    padding: 20px;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-weight: 400;
     font-style: normal;
     background: #540B24;
     text-align: center;
-    line-height: 6rem;
+    line-height:4rem;
+}
+/*==========================================
+noticias
+=============================================*/
+.noticias{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.noticias h1{
+    font-size: 3rem;
+    font-style: italic;
+    background: #1B1B1B;
+    margin: 20px 20vw;
+}
+.noticias ul {
+    display: flex;
+}
+.noticias ul li {
+    display: flex;
+}
+.noticias h4 {
+     font-size: 1.7rem;
+     font-weight: bold;
+}
+.noticias p {
+   font-size: 1rem;
+}
+.noticias ul li img {
+    margin: 20px;
+    width: 40%;
+}
+/*======================================================
+formulario 
+=======================================================*/
+.formulario {
+    margin: 20px;
+}
+.formulario h1{
+      font-family: "Abril Fatface", serif;
+      font-size: 4rem;
+}
+.formulario p {
+    margin: 20px 40px;
+    font-size: 1.5rem;
+}
+/*=========================================================
+Footer
+===========================================================*/
+footer{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background: #1D1D1D;
+}
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+footer a{
+    display: flex;
+    font-size: 2rem ;
+    text-decoration: none;
+}
+footer div.creditos p{
+    text-align: center;
+    font-size: small;
 }
