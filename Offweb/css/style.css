@@ -48,6 +48,13 @@ header ul li a {
 .drop-menu:hover .drop{
    height: 255px;
 }
+.menu-mobile-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+
 /*==============================================
 Banner
 ================================================*/
@@ -105,7 +112,6 @@ section.introducao img{
 MAPA DO SITE
 ==========================================*/
 section.mapa{
-  
     margin: 2vw 0vw 2vw 0vw;
     justify-content: center;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -120,7 +126,6 @@ section.mapa h1{
     1px 1px 0 #540B24,
     1px 1px 0 #540B24;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 400;
   font-style: italic;
 }
 .mapa div.blocos {
@@ -131,7 +136,6 @@ section.mapa div.blocos ul {
     margin: 3vw;
     background: #7E1537;
     font-family: "IBM Plex Sans Thai", sans-serif;
-   font-weight: 600;
    font-style: normal;
 }
 section.mapa ul a {
@@ -142,7 +146,7 @@ section.mapa ul a {
     color: #ffffff;
     font-size: 2rem;
     font-weight: bold;
-    line-height: 2vw;
+    line-height: 2rem;
 }
 section.mapa div h3{
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -227,4 +231,54 @@ footer a{
 footer div.creditos p{
     text-align: center;
     font-size: small;
+}
+@media  screen and (max-width: 900px) {
+   .nav-bar{
+    padding: 1.5rem 4rem;
+   }
+   .nav-item{
+    display: none;
+   }
+   .menu-mobile-icon{
+    display: block;
+   }
+   .menu-mobile-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   }
+   .mobile-menu ul{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+   }
+   .open{
+    display: block;
+   }
+   section.banner{
+    display: block;
+   }
+   section.banner img {
+    width: 100%;
+   }
+   .mapa div.blocos{
+   display: block;
+   }
+   .noticias ul {
+    display: block;
+   }
+}
+/*=================================================================
+=====================================================================
+MALEFICIOS
+=====================================================================
+===================================================================*/
+.maleficios {
+    background: #540B24;
 }
