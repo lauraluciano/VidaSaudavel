@@ -5,6 +5,7 @@ html{
      text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 /*============================================
@@ -12,7 +13,7 @@ Header
 ==============================================*/
 header{
     background: #ffffff;
-    margin: 40px 20px ;
+    margin: 40px 40px ;
 }
 header nav ul {
     display: flex;
@@ -79,6 +80,7 @@ section.banner span {
     font-style: italic;
 }
 section.banner p {
+    font-family: "Noto Serif Display", serif;
     font-size: 2rem;
     margin: 2vw 0vw 4vw 0vw;
 }
@@ -281,4 +283,16 @@ MALEFICIOS
 ===================================================================*/
 .maleficios {
     background: #540B24;
+}
+.inicioMal h1 {
+     font-family: "Abril Fatface", serif;
+     font-size: 5rem;
+}
+.inicioMal div{
+    display: flex;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.inicioMal p {
+    margin: 40px;
+    font-size: 3rem;
 }
