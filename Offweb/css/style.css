@@ -369,3 +369,12 @@ MALEFICIOS
    padding: 50px;
    margin: 80px;
 }
+.finalMale div{
+    display: flex;
+    justify-content: space-between;
+}
+.finalMale p {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 1.5rem;
+}
