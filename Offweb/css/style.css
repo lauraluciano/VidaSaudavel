@@ -5,7 +5,7 @@ html{
      text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Atkinson Hyperlegible","IBM Plex Sans Thai", sans-serif;
 }
 
 /*============================================
@@ -283,6 +283,7 @@ MALEFICIOS
 ===================================================================*/
 .maleficios {
     background: #540B24;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 .inicioMal h1 {
      font-family: "Abril Fatface", serif;
@@ -293,6 +294,78 @@ MALEFICIOS
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 .inicioMal p {
+    font-weight: bold;
     margin: 40px;
     font-size: 3rem;
+}
+.inicioMal img{
+    width: 80%;
+}
+.pesquisaMal {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.pesquisaMal p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+.pesquisaMal div.div-pesquisa {
+    display: flex;
+}
+.pesquisaMal img{
+    width: 50%;
+}
+.pesquisaMal div ul{
+    background: #1D1D1D;
+    margin: 5vw;
+    padding: 50px 6vw;
+    border-radius: 200px;
+}
+.pesquisaMal ul li{
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+   list-style: disc;
+}
+.pesquisa-2Mal {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+.pesquisa-2Mal div{
+    width: 30%;
+}
+.pesquisa-2Mal div.texto1 {
+    padding: 0 40px;
+}
+.pesquisa-2Mal img{
+    width: 100%;
+}
+.pesquisa-2Mal p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.pesquisa-3Mal{
+     border-bottom: 1px solid rgb(202, 202, 202);
+     margin: 40px;
+}
+.pesquisa-3Mal p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.pesquisa-3Mal div {
+    margin: 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+.pesquisa-3Mal div img{
+    justify-content: space-around;
+    width: 160%;
+}
+.pesquisa-3Mal div p {
+    justify-content: space-around;
+   padding: 50px;
+   margin: 80px;
 }
