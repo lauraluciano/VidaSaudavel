@@ -2,51 +2,424 @@
 Geral
 =============================================*/
 html{
-    font-family: 'Noto-Serif-Display', 'Atkinson Hyperlegible', 'IBM Plex Sans Thai', 'Asset';
-     font-size: calc(12px + 0.390625vw);
+     text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
+    font-family:"IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
 }
-
 
 /*============================================
 Header
 ==============================================*/
+header{
+    background: #ffffff;
+    margin: 40px 40px ;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul li a:hover{
+    background-color: #540B24;
+    color: #ffffff;
+    transition: .2s;
+}
+header ul li a {
+    color: #000;
+    font-size: 20px;
+    padding: 20px  40px;
+    text-decoration: none;
+    display: block;
+}
+.drop-menu{
+    position: relative;
+}
+.drop-menu .drop {
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+.drop-menu .drop a {
+    padding: 20px;
+}
+.drop-menu:hover .drop{
+   height: 255px;
+}
+.menu-mobile-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
 
 /*==============================================
 Banner
 ================================================*/
-section.banner{
-    text-align: center;
-    margin: 2vw 4vw 2vw 4vw;
-     border-bottom: 1px solid rgb(202, 202, 202);
+section.banner{ 
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
 }
 section.banner img{
-     width: 40%;
+     width: 55% ;
+}
+section.banner div.texto{
+    display: block;
+    text-align: center;
 }
 section.banner h1{
   font-family: "Noto Serif Display", serif;
   font-weight:bold;
-  font-size: xx-large;
-  margin: 0vw 4vw 4vw 4vw;
+  font-size: 4rem;
+  margin: 0 0 4vw 0;
 }
 section.banner span {
     font-style: italic;
 }
 section.banner p {
-    margin: 2vw 4vw 4vw 4vw;
+    font-family: "Noto Serif Display", serif;
+    font-size: 2rem;
+    margin: 2vw 0vw 4vw 0vw;
 }
-section.banner button{
+section.banner p button{
     background: #A31D1D;
     color: #ffffff;
-    border: none;
-    font-size: 1rem;
-    padding: 10px 10px 10px 10px;
+    border-color: #000;
+    font-size: 2rem;
+    padding: 20px;
     border-radius: 10vw;
 }
 /*========================================
 Introdução
 ==========================================*/
 section.introducao {
-    margin: 5vw 0 0 0 ;
+    margin: 5vw 0vw 3vw 0vw ;
+    display: flex;
+}
+section.introducao h2{
+    font-size: xx-large;
+    color: #D1D1D1;
+  text-shadow:  2px 2px 0 #000,
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+section.introducao img{
+    width: 100%;
+}
+/*========================================
+MAPA DO SITE
+==========================================*/
+section.mapa{
+    margin: 2vw 0vw 2vw 0vw;
+    justify-content: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+section.mapa h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #D1D1D1;
+    text-shadow:  2px 2px 0 #540B24,
+    1px 1px 0 #540B24,
+    1px 1px 0 #540B24,
+    1px 1px 0 #540B24;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-style: italic;
+}
+.mapa div.blocos {
+    display: flex;
+}
+section.mapa div.blocos ul {
+    display: block;
+    margin: 3vw;
+    background: #7E1537;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+   font-style: normal;
+}
+section.mapa ul a {
+    display: block;
+    margin: 20px 10px 20px 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+section.mapa div h3{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+
+section.mapa div.bloco2 ul {
+    margin:3vw;
+    font-size: 2rem;
+    padding: 20px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #540B24;
+    text-align: center;
+    line-height:4rem;
+}
+/*==========================================
+noticias
+=============================================*/
+.noticias{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    text-align: center;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.noticias h1{
+    font-size: 3rem;
+    font-style: italic;
+    background: #1B1B1B;
+    margin: 20px 20vw;
+}
+.noticias ul {
+    display: flex;
+}
+.noticias ul li {
+    display: flex;
+}
+.noticias h4 {
+     font-size: 1.7rem;
+     font-weight: bold;
+}
+.noticias p {
+   font-size: 1rem;
+}
+.noticias ul li img {
+    margin: 20px;
+    width: 40%;
+}
+/*======================================================
+formulario 
+=======================================================*/
+.formulario {
+    margin: 20px;
+}
+.formulario h1{
+      font-family: "Abril Fatface", serif;
+      font-size: 4rem;
+}
+.formulario p {
+    margin: 20px 40px;
+    font-size: 1.5rem;
+}
+/*=========================================================
+Footer
+===========================================================*/
+footer{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background: #1D1D1D;
+}
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+footer a{
+    display: flex;
+    font-size: 2rem ;
+    text-decoration: none;
+}
+footer div.creditos p{
+    text-align: center;
+    font-size: small;
+}
+@media  screen and (max-width: 900px) {
+   .nav-bar{
+    padding: 1.5rem 4rem;
+   }
+   .nav-item{
+    display: none;
+   }
+   .menu-mobile-icon{
+    display: block;
+   }
+   .menu-mobile-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   }
+   .mobile-menu ul{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+   }
+   .open{
+    display: block;
+   }
+   section.banner{
+    display: block;
+   }
+   section.banner img {
+    width: 100%;
+   }
+   .mapa div.blocos{
+   display: block;
+   }
+   .noticias ul {
+    display: block;
+   }
+}
+/*=================================================================
+=====================================================================
+MALEFICIOS
+=====================================================================
+===================================================================*/
+.maleficios {
+    background: #540B24;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.inicioMal h1 {
+     font-family: "Abril Fatface", serif;
+     font-size: 5rem;
+}
+.inicioMal div{
+    display: flex;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.inicioMal p {
+    font-weight: bold;
+    margin: 40px;
+    font-size: 3rem;
+}
+.inicioMal img{
+    width: 80%;
+}
+.pesquisaMal {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.pesquisaMal p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+.pesquisaMal div.div-pesquisa {
+    display: flex;
+}
+.pesquisaMal img{
+    width: 50%;
+}
+.pesquisaMal div ul{
+    background: #1D1D1D;
+    margin: 5vw;
+    padding: 50px 6vw;
+    border-radius: 200px;
+}
+.pesquisaMal ul li{
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+   list-style: disc;
+}
+.pesquisa-2Mal {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+.pesquisa-2Mal div{
+    width: 30%;
+}
+.pesquisa-2Mal div.texto1 {
+    padding: 0 40px;
+}
+.pesquisa-2Mal img{
+    width: 100%;
+}
+.pesquisa-2Mal p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.pesquisa-3Mal{
+     border-bottom: 1px solid rgb(202, 202, 202);
+     margin: 40px;
+}
+.pesquisa-3Mal p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.pesquisa-3Mal div {
+    margin: 20px;
+    display: flex;
+    justify-content:space-between ;
+}
+.pesquisa-3Mal div img{
+    justify-content: space-around;
+    width: 160%;
+}
+.pesquisa-3Mal div p {
+    justify-content: space-around;
+   padding: 50px;
+   margin: 80px;
+}
+.finalMale div{
+    display: flex;
+    justify-content: space-between;
+}
+.finalMale p {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 1.5rem;
+}
+.referenciasMale h1{
+    font-size: 2rem;
+}
+.referenciasMale a{
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+}
+@media  screen and (max-width: 900px){
+
+}
+/*====================================================
+======================================================
+DADOS
+======================================================
+======================================================*/
+.bannerDados{
+       border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-between;
+
+}
+.bannerDados h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    line-height: 7rem;
+   
+}
+.bannerDados div{
+    padding: 0 4vw 0 8vw;
+
+}
+.bannerDados p {
+     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+.bannerDados div img {
+    width: 40%;
 }
