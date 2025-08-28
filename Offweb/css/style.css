@@ -379,6 +379,10 @@ MALEFICIOS
     max-width: 900px;
     font-size: 1.5rem;
 }
+  .finalMale div iframe{
+    width:600px;
+     height:300px;
+  }
 .referenciasMale h1{
     font-size: 2rem;
 }
@@ -391,7 +395,51 @@ MALEFICIOS
     line-height: 2rem;
 }
 @media  screen and (max-width: 900px){
-
+  .inicioMal img {
+    width: 40%;
+    height: 390px;
+  }
+  .pesquisaMal img {
+    width: 100%;
+  }
+  .pesquisaMal div.div-pesquisa {
+    display: block;
+  }
+  .pesquisa-2Mal{
+    display: block;
+    max-width: none;
+    justify-content: none;
+    margin: none;
+  }
+  .pesquisa-2Mal div {
+    width: 100%;
+  }
+  .pesquisa-3Mal{
+    margin: 20px;
+  }
+  .pesquisa-3Mal div {
+    display: block;
+    justify-content: none;
+  }
+  .pesquisa-3Mal div img{
+    width: 100%;
+  }
+  .pesquisa-3Mal div p{
+    justify-content: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+  }
+  .finalMale div {
+    display: block;
+  }
+  .finalMale div iframe{
+    width: 400px;
+    height: 300px;
+  }
+  .referenciasMale{
+    margin: 40px 0;
+  }
 }
 /*====================================================
 ======================================================
