@@ -399,20 +399,26 @@ DADOS
 ======================================================
 ======================================================*/
 .bannerDados{
-       border-bottom: 1px solid rgb(202, 202, 202);
+    border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
+    align-items: center;
+    width: 90%;
     justify-content: space-between;
-
+    padding: 4vw 4vw 4vw 4vw;
 }
 .bannerDados h1{
     font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-    line-height: 7rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0 1rem 0 2.5rem;
    
 }
 .bannerDados div{
-    padding: 0 4vw 0 8vw;
-
+    flex: 1;
+    text-align: justify;
 }
 .bannerDados p {
      font-family: "IBM Plex Sans Thai", sans-serif;
@@ -420,7 +426,30 @@ DADOS
     line-height: 30px;
     font-weight: 400;
     font-style: normal;
+    padding: 0 0 2vw 0;
 }
 .bannerDados div img {
-    width: 40%;
+    width: 90%;
+    justify-content: center;
+}
+.estudantes {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
+.estudantes h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.estudantes p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+}
+.estudantes div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 0 0 0;
+}
+.estudantes div ul {
+    padding: 0 0 0 5vw;
 }
