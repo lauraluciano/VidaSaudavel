@@ -459,10 +459,11 @@ DADOS
     font-family: "Abril Fatface", serif;
     font-size: 3.5rem;
     line-height: 5rem;
+    display: block;
     flex: 1;
     margin-top: 0;
     padding-top: 0;
-    padding: 0 1rem 0 2.5rem;
+    padding: 0 2vw 0 3vw;
    
 }
 .bannerDados div{
@@ -480,6 +481,7 @@ DADOS
 .bannerDados div img {
     width: 90%;
     justify-content: center;
+    padding: 0 0 0 2.2vw;
 }
 .estudantes {
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -493,6 +495,8 @@ DADOS
 .estudantes p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.3rem;
+    padding: 1vw 0 0 0;
+    line-height: 30px;
 }
 .estudantes div {
     display: flex;
@@ -501,4 +505,69 @@ DADOS
 }
 .estudantes div ul {
     padding: 0 0 0 5vw;
+    list-style-type: disc;
+    font-size: 1.3rem;
+}
+.estudantes div ul li {
+    line-height: 2vw;
+}
+.estudantes div ul p {
+    padding: 0 0 1vw 0;
+}
+.estudantes div img {
+    width: 40%;
+}
+.equipamento {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
+.equipamento h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.equipamento div {
+    display: flex;
+    justify-content: space-between;
+}
+.equipamento div p {
+    line-height: 30px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2vw 0 0 0;
+    max-width: 700px;
+}
+.equipamento img {
+    margin: 0 auto;
+}
+.equipamento div ul {
+    padding: 0 0 0 5vw;
+    list-style-type: disc;
+    font-size: 1.3rem;
+}
+.idade {
+    padding: 4vw 4vw 4vw 4vw;
+}
+.idade h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.idade p {
+    line-height: 30px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2vw 0 0 0;
+}
+.idade div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+}
+.idade div img {
+    padding: 0 0 0 3vw;
 }
