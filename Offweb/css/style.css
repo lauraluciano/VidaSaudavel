@@ -85,7 +85,8 @@ section.banner p {
     font-size: 2rem;
     margin: 2vw 0vw 4vw 0vw;
 }
-section.banner p button{
+section.banner p a{
+    text-decoration: none;;
     background: #A31D1D;
     color: #ffffff;
     border-color: #000;
