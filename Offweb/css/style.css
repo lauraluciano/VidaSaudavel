@@ -571,3 +571,77 @@ DADOS
 .idade div img {
     padding: 0 0 0 3vw;
 }
+/*==================================================================
+=====================================================================
+DESC0NECTA
+=======================================================================
+===================================================================*/
+.bannerDesconecta h1{
+    font-size: 4rem;
+     font-family: "Abril Fatface", serif;
+    margin: 2vw 0;
+}
+.bannerDesconecta div {
+    display: flex;
+    justify-content: space-between;
+}
+.bannerDesconecta div.texto{
+    display: block;
+}
+.bannerDesconecta p {
+    font-size: 2rem;
+    max-width: 700px;
+}
+.abandonar div{
+    display: flex;
+    margin: 3vw 0;
+}
+.abandonar div.texto{
+    display: block;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.abandonar h2{
+    margin: 3vw 0;
+    font-weight: bold;
+}
+.abandonar img{
+    width: 100%;
+    margin: 0 4vw;
+}
+.passos ul li h3 {
+    font-weight: bold;
+}
+.passos ul li {
+    line-height: 3rem;
+   list-style-type: circle;
+   font-size: 1.5rem;
+}
+.passos div {
+    display: flex;
+    justify-content: space-between;
+}
+.passos div.linksDesc{
+    display: block;
+}
+.passos div.linksDesc li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.passos div li {
+    max-width: 900px;
+}
+.passos div li h3 {
+    margin: 2vw 0;
+    font-size: 2rem;
+}
+.passos div.praia{
+    margin: 4vw 0;
+}
+.passos div.praia img {
+    width: 150%;
+}
+.passos div.praia  span{
+    font-weight: bolder;
+}
