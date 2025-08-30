@@ -614,7 +614,7 @@ DESC0NECTA
 }
 .passos ul li {
     line-height: 3rem;
-   list-style-type: circle;
+   list-style-type: disc;
    font-size: 1.5rem;
 }
 .passos div {
@@ -639,9 +639,68 @@ DESC0NECTA
 .passos div.praia{
     margin: 4vw 0;
 }
+    .passos div.praia li{
+        margin: 6vw 0;
+    }
 .passos div.praia img {
     width: 150%;
 }
 .passos div.praia  span{
     font-weight: bolder;
+}
+.FinalDesc {
+    font-size: 1.5rem;
+}
+.FinalDesc ul div{
+    display: flex;
+}
+.FinalDesc ul h3{
+    margin: 2vw 0;
+    font-weight: bold;
+}
+.FinalDesc li {
+    line-height: 3rem;
+    list-style-type: disc;
+}
+.FinalDesc ul div img{
+    width: 180%;
+}
+@media screen and (max-width: 900px) {
+    .bannerDesconecta div img {
+       width: 40%;
+    }
+    .abandonar div img {
+        width: 40%;
+        height: 300px;
+    }
+  
+
+
+
+
+
+
+
+    .passos div {
+        display: block;
+    }
+    .passos div.praia{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .passos div.praia img {
+        width: 100%;
+    }
+    .FinalDesc ul div img{
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+.FinalDesc ul div.imagem-direita{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.FinalDesc ul div li {
+    max-width: none;
+}
 }
