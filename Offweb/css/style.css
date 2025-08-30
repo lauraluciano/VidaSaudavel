@@ -450,14 +450,12 @@ DADOS
 .bannerDados{
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
-    align-items: center;
-    width: 90%;
     justify-content: space-between;
     padding: 4vw 4vw 4vw 4vw;
 }
 .bannerDados h1{
     font-family: "Abril Fatface", serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 5rem;
     display: block;
     flex: 1;
@@ -571,10 +569,10 @@ DADOS
 .idade div img {
     padding: 0 0 0 3vw;
 }
-/*==================================================================
+/*===================================================================
 =====================================================================
 DESC0NECTA
-=======================================================================
+=====================================================================
 ===================================================================*/
 .bannerDesconecta h1{
     font-size: 4rem;
@@ -703,4 +701,58 @@ DESC0NECTA
 .FinalDesc ul div li {
     max-width: none;
 }
+}
+/*===================================================================
+=====================================================================
+APLICATIVOS
+=====================================================================
+===================================================================*/
+.aplicativosHtml{
+    background: #540B24;
+}
+.bannerAplicativo {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4vw 4vw 4vw;   
+}
+.bannerAplicativo h1 {
+    font-size: 3.5rem;
+    font-family: "Abril Fatface", serif;
+    line-height: 5rem;
+}
+.bannerAplicativo p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 1vw 0 0 0;
+    max-width: 800px;
+}
+.bannerAplicativo img {
+    width: 20%;
+}
+.aplicativos {
+    padding: 4vw 4vw 4vw 4vw;
+}
+.aplicativos ul li{
+    list-style-type: disc;
+    font-size: 1.5rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: bold;
+}
+.aplicativos p {
+    font-size: 1.3rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    line-height: 30px;
+    padding: 0.5vw 0 0 0;
+}
+.aplicativos div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+}
+.aplicativos img {
+    width: 10%;
+    padding: 0 0 4rem 10rem;
 }
