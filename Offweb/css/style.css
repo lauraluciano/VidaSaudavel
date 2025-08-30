@@ -449,9 +449,7 @@ DADOS
 ======================================================*/
 .bannerDados{
     border-bottom: 1px solid rgb(202, 202, 202);
-    display: flex;
-    justify-content: space-between;
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 0 4vw 4vw 4vw;
 }
 .bannerDados h1{
     font-family: "Abril Fatface", serif;
@@ -462,11 +460,15 @@ DADOS
     margin-top: 0;
     padding-top: 0;
     padding: 0 2vw 0 3vw;
+    text-align: center;
    
 }
 .bannerDados div{
     flex: 1;
     text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 0 0 0;
 }
 .bannerDados p {
      font-family: "IBM Plex Sans Thai", sans-serif;
@@ -474,12 +476,10 @@ DADOS
     line-height: 30px;
     font-weight: 400;
     font-style: normal;
-    padding: 0 0 2vw 0;
+    padding: 0 3vw 0 0;
 }
 .bannerDados div img {
-    width: 90%;
-    justify-content: center;
-    padding: 0 0 0 2.2vw;
+    width: 50%;
 }
 .estudantes {
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -574,14 +574,15 @@ DADOS
 DESC0NECTA
 =====================================================================
 ===================================================================*/
-.bannerDesconecta h1{
-    font-size: 4rem;
-     font-family: "Abril Fatface", serif;
-    margin: 2vw 0;
-}
-.bannerDesconecta div {
+.bannerDesconecta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.bannerDesconecta h1{
+    font-size: 4rem;
+    font-family: "Abril Fatface", serif;
+    margin: 2vw 0;  
 }
 .bannerDesconecta div.texto{
     display: block;
@@ -711,10 +712,9 @@ APLICATIVOS
     background: #540B24;
 }
 .bannerAplicativo {
-    border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw 4vw 4vw;   
+    padding: 4vw 4vw 0 4vw;   
 }
 .bannerAplicativo h1 {
     font-size: 3.5rem;
