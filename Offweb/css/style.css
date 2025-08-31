@@ -485,6 +485,9 @@ DADOS
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
+.estudantes span {
+    font-weight: bold;
+}
 .estudantes h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
@@ -574,6 +577,9 @@ DADOS
 DESC0NECTA
 =====================================================================
 ===================================================================*/
+.desconecta {
+    background: #540B24;
+}
 .bannerDesconecta {
     display: flex;
     justify-content: space-between;
