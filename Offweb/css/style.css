@@ -221,6 +221,14 @@ Footer
 footer{
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding: 0;
+}
+footer div.comteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
 }
 footer p {
     font-size: 1.2rem;
