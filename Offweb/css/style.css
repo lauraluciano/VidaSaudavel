@@ -372,7 +372,9 @@ MALEFICIOS
 }
 .pesquisa-3Mal div img{
     justify-content: space-around;
-    width: 160%;
+    width: 522px;
+    height: 522px
+    ;
 }
 .pesquisa-3Mal div p {
     justify-content: space-around;
@@ -557,6 +559,7 @@ DADOS
     font-size: 1.3rem;
 }
 .idade {
+    border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
 .idade h2 {
@@ -580,6 +583,28 @@ DADOS
 .idade div img {
     padding: 0 0 0 3vw;
 }
+.conclusao {
+    padding: 4vw 4vw 4vw 4vw;
+}
+.conclusao h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.conclusao p {
+    line-height: 30px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.3rem;
+}
+.conclusao div {
+    justify-content: space-between;
+    display: flex;
+    padding: 2vw 0 0 0;
+}
+.conclusao img {
+    padding: 0 4vw 0 0;
+}
 /*===================================================================
 =====================================================================
 DESC0NECTA
@@ -587,6 +612,7 @@ DESC0NECTA
 ===================================================================*/
 .desconecta {
     background: #540B24;
+    padding: 0 4vw 0 4vw;
 }
 .bannerDesconecta {
     display: flex;
@@ -595,8 +621,7 @@ DESC0NECTA
 }
 .bannerDesconecta h1{
     font-size: 4rem;
-    font-family: "Abril Fatface", serif;
-    margin: 2vw 0;  
+    font-family: "Abril Fatface", serif;  
 }
 .bannerDesconecta div.texto{
     display: block;
@@ -661,8 +686,12 @@ DESC0NECTA
 .passos div.praia  span{
     font-weight: bolder;
 }
+.passos div.grande h3 {
+    font-size: 1.5rem;
+}
 .FinalDesc {
     font-size: 1.5rem;
+    padding: 0 0 4vw 0;
 }
 .FinalDesc ul div{
     display: flex;
