@@ -871,3 +871,48 @@ font-family: "IBM Plex Sans Thai", sans-serif;
     font-weight: thin;
 }
 
+
+
+
+/*----------------------------------------------
+------------------------------------------------
+PERIGOS
+-------------------------------------------------
+-----------------------------------------------*/
+.perigos {
+    background-color: #540B24;
+    margin: 1vw 4vw 0px 4vw;
+}
+
+section.inicioPerigos {
+    align-items: start;
+    display: flex;
+    margin: 3.5rem 0px 0px 0px;
+}
+
+section.inicioPerigos h1 {
+    font-size: 4rem;
+    text-align: left;
+    margin: 5vw;
+    font-weight: bold;
+}
+
+section.inicio2 {
+    text-align: left;
+    margin: 2vw;
+    font-size: 1.5rem;
+}
+
+section.comentariosPerigos {
+    font-size: 1.5rem;
+}
+
+section.comentariosPerigos h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0px 0px 2vw;
+}
+
+section.comentariosPerigos ul li span {
+    font-weight: bold;
+}
