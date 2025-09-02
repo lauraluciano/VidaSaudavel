@@ -585,6 +585,7 @@ DADOS
 }
 .conclusao {
     padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 .conclusao h2 {
     font-family: "Jacques Francois", serif;
@@ -604,6 +605,18 @@ DADOS
 }
 .conclusao img {
     padding: 0 4vw 0 0;
+}
+.referencias {
+    padding: 4vw 4vw 4vw 4vw;
+}
+.referencias h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 2vw 0;
+}
+.referencias ul li a {
+    color: white;
+    font-size: 1.2rem;
 }
 /*===================================================================
 =====================================================================
@@ -813,7 +826,7 @@ APLICATIVOS
 
 /*----------------------------------------------
 ------------------------------------------------
-DADOS
+CIENCIA
 -------------------------------------------------
 -----------------------------------------------*/
 
@@ -844,10 +857,6 @@ background-color: #1D1D1D;
 
 .introCien div {
     display: flex;
-}
-
-.introCien p span {
-    
 }
 
 .introCien p {
