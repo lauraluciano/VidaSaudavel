@@ -221,9 +221,7 @@ Footer
 footer{
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    padding: 0;
+    
 }
 footer div.comteudo {
     max-width: 1200px;
@@ -915,4 +913,55 @@ section.comentariosPerigos h2 {
 
 section.comentariosPerigos ul li span {
     font-weight: bold;
+}
+/*========================================
+NOTICIAS
+==========================================*/
+.noticiasHtml{
+    background: #1D1D1D;
+}
+.bannerNot h1 {
+    font-family:"Abril Fatface", serif ;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2vw;
+}
+.bannerNot div {
+ display: flex;
+ justify-content: space-between;
+ line-height: 2rem;
+}
+.bannerNot div p {
+    font-size: 1.5rem;
+    max-width: 500px;
+    text-align: left;
+}
+.texto1{
+     margin: 2vw;
+}
+.texto1 div{
+    display: flex;
+    font-size: 1.5rem;
+}
+.texto1 p {
+    font-size: 1.5rem;
+}
+.texto2 div.bloco {
+    display: flex;
+}
+.texto2 div h2 {
+    font-size: 2rem;
+}
+.texto2 p {
+    font-size: 1.5rem;
+}
+.texto2 p  {
+ text-align: center;
+}
+.ultimosTextos {
+        font-size: 1.5rem;
+}
+.ultimosTextos div {
+     margin: 2vw;
+    display: flex;
 }
