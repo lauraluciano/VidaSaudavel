@@ -880,8 +880,9 @@ font-family: "IBM Plex Sans Thai", sans-serif;
 
 /*neuro*/
 
-.neurodopamina div {
+.neurodopamina div.neuros {
     display: flex;
+    justify-content: space-between;
 }
 
 .neurodopamina p {
@@ -891,6 +892,28 @@ font-family: "IBM Plex Sans Thai", sans-serif;
     line-height: 2.5rem;
 }
 
+/*cerebro*/
+
+.cerebroParte p {
+    margin: 2vw 0 0 0;
+     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 10px 1vw 10px;
+    line-height: 2.5rem;
+}
+
+.cerebroParte img {
+ padding: 0 0 0 70rem;
+}
+
+.cerebroParte div.maquinaCassino {
+    display: flex;
+    justify-content: space-between;
+}
+.cerebroParte div.maquinaCassino img {
+  width: 545px;
+  height: 555px;
+}
 
 /*----------------------------------------------
 ------------------------------------------------
