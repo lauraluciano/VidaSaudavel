@@ -828,11 +828,12 @@ CIENCIA
 -------------------------------------------------
 -----------------------------------------------*/
 
+
 .ciencia {
 background-color: #1D1D1D;
 }
 
-
+/*banner*/
 
 .bannerCien {
     display: flex;
@@ -853,23 +854,42 @@ background-color: #1D1D1D;
     line-height: 2.5rem;
 }
 
+/*intro*/
+
 .introCien div {
     display: flex;
+    justify-content: space-between;
 }
+
 
 .introCien p {
 font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px
+    padding: 2vw 10px 2vw 10px;
+    line-height: 2.5rem;
+    
 }
 
 .introCien h3 {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 2.5rem;
-    font-weight: thin;
+    padding: 30px 20px 10px 0
+    ;
+    font-weight: bolder;
 }
 
+/*neuro*/
 
+.neurodopamina div {
+    display: flex;
+}
+
+.neurodopamina p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vw 10px 2vw 10px;
+    line-height: 2.5rem;
+}
 
 
 /*----------------------------------------------
