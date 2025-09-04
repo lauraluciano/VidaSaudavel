@@ -996,5 +996,28 @@ SOBRE O PROJETO
 .sobreProj h1 {
    font-size: 5rem;
    font-family: "Abril Fatface", serif;
-   
+   padding: 10vw 0 10vw 10vw;
 }
+.sobreProj div {
+    display: flex;
+}
+.sobreProj div h3{
+   font-size: 35px;
+   padding: 10vw 0 0 20vw;
+   text-align: right;
+}
+.sobreProj p {
+    font-size: 27px;
+    padding: 2vw 0 2vw 0 ;
+}
+.pessoas h4 {
+    font-size: 45px;
+    font-family: "Abril Fatface", serif;
+}
+.pessoas p{
+    font-size: 35px;
+}
+.pessoas ul li.eduarda div.tresjuntos{
+  display: flex;
+}
+
