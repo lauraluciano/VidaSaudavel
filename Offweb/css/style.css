@@ -1,20 +1,11 @@
 /*===========================================
 Geral
 =============================================*/
-<<<<<<< Updated upstream
 html{
      text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
     font-family:"IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
-=======
-html {
-    text-decoration: none;
-    background: #2C3E50;
-    color: #ffffff;
-    font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
-    margin: 0 4vw;
->>>>>>> Stashed changes
 }
 /*===========================================
 ============================================
@@ -27,11 +18,7 @@ Header
 ==============================================*/
 header {
     background: #ffffff;
-<<<<<<< Updated upstream
     margin: 40px 4vw ;
-=======
-    margin: 40px 40px;
->>>>>>> Stashed changes
 }
 
 header nav ul {
@@ -273,37 +260,18 @@ Footer
 footer {
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
-<<<<<<< Updated upstream
     padding: 2vw;
 }   
-=======
-    padding: 0;
-}
-
-footer div.conteudo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 0;
-}
-
->>>>>>> Stashed changes
 footer p {
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-weight: bold;
 }
-<<<<<<< Updated upstream
 footer nav p a{
     display: flex;
     justify-content: right;
     padding: 10px 0px;
     font-size: 2rem ;
-=======
-
-footer a {
-    display: flex;
-    font-size: 2rem;
->>>>>>> Stashed changes
     text-decoration: none;
 }
 
@@ -376,16 +344,6 @@ MALEFICIOS
 }
 
 .inicioMal h1 {
-<<<<<<< Updated upstream
-     font-family: "Abril Fatface", serif;
-     font-size: 4rem;
-     padding: 0 0 2vw 3vw;
-}
-.inicioMal div{
-    display: flex; 
-}
-.inicioMal div p {
-=======
     font-family: "Abril Fatface", serif;
     font-size: 5rem;
 }
@@ -397,7 +355,6 @@ MALEFICIOS
 
 .inicioMal p {
     font-weight: bold;
->>>>>>> Stashed changes
     margin: 40px;
     font-size: 3rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -783,16 +740,6 @@ DADOS
     color: white;
     font-size: 1.2rem;
 }
-<<<<<<< Updated upstream
-@media  screen and (max-width: 900px) {
-.bannerDados div img{
-    padding: 8vw 0 8vw 12vw;
-    width: 70%;
-}
-.bannerDados div {
-    display: block;
-=======
->>>>>>> Stashed changes
 
 @media screen and (max-width: 1200px) {
     .bannerDados div img {
@@ -935,30 +882,14 @@ DESC0NECTA
 }
 
 @media screen and (max-width: 900px) {
-<<<<<<< Updated upstream
 .bannerDesconecta div img {
    width: 40%;
-=======
-    .bannerDesconecta div img {
-        width: 40%;
->>>>>>> Stashed changes
     }
 
     .abandonar div img {
         width: 40%;
         height: 300px;
     }
-<<<<<<< Updated upstream
-=======
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
     .passos div {
         display: block;
     }
@@ -971,7 +902,6 @@ DESC0NECTA
     .passos div.praia img {
         width: 100%;
     }
-<<<<<<< Updated upstream
     .FinalDesc ul div img{
     width: 40%;
     height: 300px;
@@ -983,22 +913,6 @@ DESC0NECTA
     }
     .FinalDesc ul div li {
     max-width: none;
-=======
-
-    .FinalDesc ul div img {
-        width: 40%;
-        height: 300px;
-        float: right;
-    }
-
-    .FinalDesc ul div.imagem-direita {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    .FinalDesc ul div li {
-        max-width: none;
->>>>>>> Stashed changes
     }
 }
 
@@ -1059,14 +973,8 @@ APLICATIVOS
     justify-content: space-between;
     max-width: 80vw;
 }
-<<<<<<< Updated upstream
 .aplicativos ul div a img {
     width: 50%;
-=======
-
-.aplicativos img {
-    width: 10%;
->>>>>>> Stashed changes
     padding: 0 0 4rem 10rem;
 }
 /*----------------------------------------------
@@ -1158,14 +1066,9 @@ CIENCIA
 }
 
 .cerebroParte div.maquinaCassino img {
-<<<<<<< Updated upstream
-    width: 545px;
-    height: 555px;
-=======
   width: 545px;
   height: 555px;
   padding: 0 0 0 2vw;
->>>>>>> Stashed changes
 }
 
 .cerebroParte div.liberacao {
@@ -1366,13 +1269,6 @@ SOBRE O PROJETO
     font-size: 27px;
     padding: 2vw 0 2vw 0;
 }
-<<<<<<< Updated upstream
-.pessoas {
-    margin: 2vw 0;
-}
-=======
-
->>>>>>> Stashed changes
 .pessoas h4 {
     font-size: 45px;
     font-family: "Abril Fatface", serif;
@@ -1381,7 +1277,6 @@ SOBRE O PROJETO
 .pessoas p {
     font-size: 35px;
 }
-<<<<<<< Updated upstream
 .pessoas ul li {
   display: flex;
   padding: 30px 0;
@@ -1412,9 +1307,6 @@ SOBRE O PROJETO
     height: 570px;
     padding: 0 0 0 13vw;
 }
-
-=======
->>>>>>> Stashed changes
 
 .pessoas ul li.eduarda div.tresjuntos {
     display: flex;
