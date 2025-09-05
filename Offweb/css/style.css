@@ -1065,6 +1065,10 @@ SOBRE O PROJETO
     width: 200px;
     height: 200px;
 }
+.pessoas ul li.ester img {
+    width: 250px;
+    height: 200px;
+}
 .pessoas ul li div p{
     padding: 20px 0 0 0;
 }
