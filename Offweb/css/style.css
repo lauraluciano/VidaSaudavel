@@ -1,11 +1,20 @@
 /*===========================================
 Geral
 =============================================*/
+<<<<<<< Updated upstream
 html{
      text-decoration: none;
      background: #2C3E50;
      color: #ffffff;
     font-family:"IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
+=======
+html {
+    text-decoration: none;
+    background: #2C3E50;
+    color: #ffffff;
+    font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
+    margin: 0 4vw;
+>>>>>>> Stashed changes
 }
 /*===========================================
 ============================================
@@ -16,30 +25,39 @@ INICIO
 /*============================================
 Header
 ==============================================*/
-header{
+header {
     background: #ffffff;
+<<<<<<< Updated upstream
     margin: 40px 4vw ;
+=======
+    margin: 40px 40px;
+>>>>>>> Stashed changes
 }
+
 header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     background-color: #540B24;
     color: #ffffff;
     transition: .2s;
 }
+
 header ul li a {
     color: #000;
     font-size: 20px;
-    padding: 20px  40px;
+    padding: 20px 40px;
     text-decoration: none;
     display: block;
 }
-.drop-menu{
+
+.drop-menu {
     position: relative;
 }
+
 .drop-menu .drop {
     background-color: #ffffff;
     width: 100%;
@@ -48,49 +66,60 @@ header ul li a {
     overflow: hidden;
     transition: .4s;
 }
+
 .drop-menu .drop a {
     padding: 20px;
 }
-.drop-menu:hover .drop{
-   height: 255px;
+
+.drop-menu:hover .drop {
+    height: 255px;
 }
-.menu-mobile-icon{
+
+.menu-mobile-icon {
     display: none;
 }
-.mobile-menu{
+
+.mobile-menu {
     display: none;
 }
 
 /*==============================================
 Banner
 ================================================*/
-section.banner{ 
+section.banner {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
 }
-section.banner img{
-     width: 55% ;
+
+section.banner img {
+    width: 55%;
 }
-section.banner div.texto{
+
+section.banner div.texto {
     display: block;
     text-align: center;
 }
-section.banner h1{
-  font-family: "Noto Serif Display", serif;
-  font-weight:bold;
-  font-size: 4rem;
-  margin: 0 0 4vw 0;
+
+section.banner h1 {
+    font-family: "Noto Serif Display", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0 0 4vw 0;
 }
+
 section.banner span {
     font-style: italic;
 }
+
 section.banner p {
     font-family: "Noto Serif Display", serif;
     font-size: 2rem;
     margin: 2vw 0vw 4vw 0vw;
 }
-section.banner p a{
-    text-decoration: none;;
+
+section.banner p a {
+    text-decoration: none;
+    ;
     background: #A31D1D;
     color: #ffffff;
     border-color: #000;
@@ -98,54 +127,61 @@ section.banner p a{
     padding: 20px;
     border-radius: 10vw;
 }
+
 /*========================================
 Introdução
 ==========================================*/
 section.introducao {
-    margin: 5vw 0vw 3vw 0vw ;
+    margin: 5vw 0vw 3vw 0vw;
     display: flex;
 }
-section.introducao h2{
+
+section.introducao h2 {
     font-size: xx-large;
     color: #D1D1D1;
-  text-shadow:  2px 2px 0 #000,
-    1px 1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    text-shadow: 2px 2px 0 #000,
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
-section.introducao img{
+
+section.introducao img {
     width: 100%;
 }
+
 /*========================================
 MAPA DO SITE
 ==========================================*/
-section.mapa{
+section.mapa {
     margin: 2vw 0vw 2vw 0vw;
     justify-content: center;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
-section.mapa h1{
+section.mapa h1 {
     text-align: center;
     font-size: 3rem;
     color: #D1D1D1;
-    text-shadow:  2px 2px 0 #540B24,
-    1px 1px 0 #540B24,
-    1px 1px 0 #540B24,
-    1px 1px 0 #540B24;
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-style: italic;
+    text-shadow: 2px 2px 0 #540B24,
+        1px 1px 0 #540B24,
+        1px 1px 0 #540B24,
+        1px 1px 0 #540B24;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: italic;
 }
+
 .mapa div.blocos {
     display: flex;
 }
+
 section.mapa div.blocos ul {
     display: block;
     margin: 3vw;
     background: #7E1537;
     font-family: "IBM Plex Sans Thai", sans-serif;
-   font-style: normal;
+    font-style: normal;
 }
+
 section.mapa ul a {
     display: block;
     margin: 20px 10px 20px 10px;
@@ -156,15 +192,16 @@ section.mapa ul a {
     font-weight: bold;
     line-height: 2rem;
 }
-section.mapa div h3{
+
+section.mapa div h3 {
     font-family: "Atkinson Hyperlegible", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+    font-size: x-large;
 }
 
 section.mapa div.bloco2 ul {
-    margin:3vw;
+    margin: 3vw;
     font-size: 2rem;
     padding: 20px;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -172,118 +209,160 @@ section.mapa div.bloco2 ul {
     font-style: normal;
     background: #540B24;
     text-align: center;
-    line-height:4rem;
+    line-height: 4rem;
 }
+
 /*==========================================
 noticias
 =============================================*/
-.noticias{
+.noticias {
     font-family: "Atkinson Hyperlegible", sans-serif;
     text-align: center;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
-.noticias h1{
+
+.noticias h1 {
     font-size: 3rem;
     font-style: italic;
     background: #1B1B1B;
     margin: 20px 20vw;
 }
+
 .noticias ul {
     display: flex;
 }
+
 .noticias ul li {
     display: flex;
 }
+
 .noticias h4 {
-     font-size: 1.7rem;
-     font-weight: bold;
+    font-size: 1.7rem;
+    font-weight: bold;
 }
+
 .noticias p {
-   font-size: 1rem;
+    font-size: 1rem;
 }
+
 .noticias ul li img {
     margin: 20px;
     width: 40%;
 }
+
 /*======================================================
 formulario 
 =======================================================*/
 .formulario {
     margin: 20px;
 }
-.formulario h1{
-      font-family: "Abril Fatface", serif;
-      font-size: 4rem;
+
+.formulario h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
 }
+
 .formulario p {
     margin: 20px 40px;
     font-size: 1.5rem;
 }
+
 /*=========================================================
 Footer
 ===========================================================*/
-footer{
+footer {
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
+<<<<<<< Updated upstream
     padding: 2vw;
 }   
+=======
+    padding: 0;
+}
+
+footer div.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+>>>>>>> Stashed changes
 footer p {
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-weight: bold;
 }
+<<<<<<< Updated upstream
 footer nav p a{
     display: flex;
     justify-content: right;
     padding: 10px 0px;
     font-size: 2rem ;
+=======
+
+footer a {
+    display: flex;
+    font-size: 2rem;
+>>>>>>> Stashed changes
     text-decoration: none;
 }
-footer div.creditos p{
+
+footer div.creditos p {
     text-align: center;
     font-size: small;
 }
-@media  screen and (max-width: 900px) {
-   .nav-bar{
-    padding: 1.5rem 4rem;
-   }
-   .nav-item{
-    display: none;
-   }
-   .menu-mobile-icon{
-    display: block;
-   }
-   .menu-mobile-icon button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-   }
-   .mobile-menu ul{
-    
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
-   }
-   .mobile-menu .nav-item{
-    display: block;
-    padding-top: 1.2rem;
-   }
-   .open{
-    display: block;
-   }
-   section.banner{
-    display: block;
-   }
-   section.banner img {
-    width: 100%;
-   }
-   .mapa div.blocos{
-   display: block;
-   }
-   .noticias ul {
-    display: block;
-   }
+
+@media screen and (max-width: 900px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .menu-mobile-icon {
+        display: block;
+    }
+
+    .menu-mobile-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    section.banner {
+        display: block;
+    }
+
+    section.banner img {
+        width: 100%;
+    }
+
+    .mapa div.blocos {
+        display: block;
+    }
+
+    .noticias ul {
+        display: block;
+    }
 }
 
 /*=================================================================
@@ -295,7 +374,9 @@ MALEFICIOS
     background: #540B24;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 .inicioMal h1 {
+<<<<<<< Updated upstream
      font-family: "Abril Fatface", serif;
      font-size: 4rem;
      padding: 0 0 2vw 3vw;
@@ -304,16 +385,32 @@ MALEFICIOS
     display: flex; 
 }
 .inicioMal div p {
+=======
+    font-family: "Abril Fatface", serif;
+    font-size: 5rem;
+}
+
+.inicioMal div {
+    display: flex;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.inicioMal p {
+    font-weight: bold;
+>>>>>>> Stashed changes
     margin: 40px;
     font-size: 3rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
 }
-.inicioMal img{
+
+.inicioMal img {
     width: 80%;
 }
+
 .pesquisaMal {
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 .pesquisaMal p {
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -323,86 +420,104 @@ MALEFICIOS
     font-size: 0.7rem;
     padding: 0;
 }
+
 .pesquisaMal div.div-pesquisa {
     display: flex;
 }
-.pesquisaMal img{
+
+.pesquisaMal img {
     width: 50%;
 }
-.pesquisaMal div ul{
+
+.pesquisaMal div ul {
     background: #1D1D1D;
     margin: 5vw;
     padding: 50px 6vw;
     border-radius: 200px;
 }
-.pesquisaMal ul li{
+
+.pesquisaMal ul li {
     line-height: 2rem;
     text-align: center;
     font-size: 1.5rem;
-   list-style: disc;
+    list-style: disc;
 }
+
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
     justify-content: space-around;
-    
+
 }
-.pesquisa-2Mal div{
+
+.pesquisa-2Mal div {
     width: 30%;
 }
+
 .pesquisa-2Mal div.texto1 {
     padding: 0 40px;
 }
-.pesquisa-2Mal img{
+
+.pesquisa-2Mal img {
     width: 100%;
 }
+
 .pesquisa-2Mal p {
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
-.pesquisa-3Mal{
-     border-bottom: 1px solid rgb(202, 202, 202);
-     margin: 40px;
+
+.pesquisa-3Mal {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin: 40px;
 }
+
 .pesquisa-3Mal p {
     font-size: 1.5rem;
     line-height: 1.8rem;
 }
+
 .pesquisa-3Mal div {
     margin: 20px;
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
-.pesquisa-3Mal div img{
+
+.pesquisa-3Mal div img {
     justify-content: space-around;
     width: 522px;
-    height: 522px
-    ;
+    height: 522px;
 }
+
 .pesquisa-3Mal div p {
     justify-content: space-around;
-   padding: 50px;
-   margin: 80px;
+    padding: 50px;
+    margin: 80px;
 }
-.finalMale div{
+
+.finalMale div {
     display: flex;
     justify-content: space-between;
 }
+
 .finalMale div p {
     margin: 0 auto;
     max-width: 900px;
     font-size: 1.5rem;
 }
-  .finalMale div iframe{
-    width:600px;
-     height:300px;
-  }
-.referenciasMale h1{
+
+.finalMale div iframe {
+    width: 600px;
+    height: 300px;
+}
+
+.referenciasMale h1 {
     font-size: 2rem;
 }
-.referenciasMale a{
+
+.referenciasMale a {
     margin: 2vw;
     text-align: left;
     font-weight: bolder;
@@ -410,63 +525,77 @@ MALEFICIOS
     text-decoration: none;
     line-height: 2rem;
 }
-@media  screen and (max-width: 900px){
-  .inicioMal img {
-    width: 40%;
-    height: 390px;
-  }
-  .pesquisaMal img {
-    width: 100%;
-  }
-  .pesquisaMal div.div-pesquisa {
-    display: block;
-  }
-  .pesquisa-2Mal{
-    display: block;
-    max-width: none;
-    justify-content: none;
-    margin: none;
-  }
-  .pesquisa-2Mal div {
-    width: 100%;
-  }
-  .pesquisa-3Mal{
-    margin: 20px;
-  }
-  .pesquisa-3Mal div {
-    display: block;
-    justify-content: none;
-  }
-  .pesquisa-3Mal div img{
-    width: 100%;
-  }
-  .pesquisa-3Mal div p{
-    justify-content: none;
-    padding: 10px;
-    width: 100%;
-    margin: 10px;
-  }
-  .finalMale div {
-    display: block;
-  }
-  .finalMale div iframe{
-    width: 400px;
-    height: 300px;
-  }
-  .referenciasMale{
-    margin: 40px 0;
-  }
+
+@media screen and (max-width: 900px) {
+    .inicioMal img {
+        width: 40%;
+        height: 390px;
+    }
+
+    .pesquisaMal img {
+        width: 100%;
+    }
+
+    .pesquisaMal div.div-pesquisa {
+        display: block;
+    }
+
+    .pesquisa-2Mal {
+        display: block;
+        max-width: none;
+        justify-content: none;
+        margin: none;
+    }
+
+    .pesquisa-2Mal div {
+        width: 100%;
+    }
+
+    .pesquisa-3Mal {
+        margin: 20px;
+    }
+
+    .pesquisa-3Mal div {
+        display: block;
+        justify-content: none;
+    }
+
+    .pesquisa-3Mal div img {
+        width: 100%;
+    }
+
+    .pesquisa-3Mal div p {
+        justify-content: none;
+        padding: 10px;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .finalMale div {
+        display: block;
+    }
+
+    .finalMale div iframe {
+        width: 400px;
+        height: 300px;
+    }
+
+    .referenciasMale {
+        margin: 40px 0;
+    }
 }
+
 /*====================================================
 ======================================================
 DADOS
 ======================================================
 ======================================================*/
-.bannerDados{
+.bannerDados {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 0 4vw 4vw 4vw;
 }
-.bannerDados h1{
+
+.bannerDados h1 {
     font-family: "Abril Fatface", serif;
     font-size: 4rem;
     line-height: 5rem;
@@ -476,76 +605,92 @@ DADOS
     padding-top: 0;
     padding: 0 2vw 0 3vw;
     text-align: center;
-   
+
 }
-.bannerDados div{
+
+.bannerDados div {
     flex: 1;
     text-align: justify;
     display: flex;
     justify-content: space-between;
     padding: 5vw 0 0 0;
 }
+
 .bannerDados p {
-     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.3rem;
     line-height: 30px;
     font-weight: 400;
     font-style: normal;
     padding: 0 3vw 0 0;
 }
+
 .bannerDados div img {
     width: 50%;
 }
+
 .estudantes {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .estudantes span {
     font-weight: bold;
 }
+
 .estudantes h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .estudantes p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.3rem;
     padding: 1vw 0 0 0;
     line-height: 30px;
 }
+
 .estudantes div {
     display: flex;
     justify-content: space-between;
     padding: 2vw 0 0 0;
 }
+
 .estudantes div ul {
     padding: 0 0 0 5vw;
     list-style-type: disc;
     font-size: 1.3rem;
 }
+
 .estudantes div ul li {
     line-height: 2vw;
 }
+
 .estudantes div ul p {
     padding: 0 0 1vw 0;
 }
+
 .estudantes div img {
     width: 40%;
 }
+
 .equipamento {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .equipamento h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .equipamento div {
     display: flex;
     justify-content: space-between;
 }
+
 .equipamento div p {
     line-height: 30px;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -555,23 +700,28 @@ DADOS
     padding: 2vw 0 0 0;
     max-width: 700px;
 }
+
 .equipamento img {
     margin: 0 auto;
 }
+
 .equipamento div ul {
     padding: 0 0 0 5vw;
     list-style-type: disc;
     font-size: 1.3rem;
 }
+
 .idade {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .idade h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .idade p {
     line-height: 30px;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -580,49 +730,60 @@ DADOS
     font-style: normal;
     padding: 2vw 0 0 0;
 }
+
 .idade div {
     display: flex;
     justify-content: space-between;
     max-width: 75vw;
 }
+
 .idade div img {
     padding: 0 0 0 3vw;
 }
+
 .conclusao {
     padding: 4vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 .conclusao h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
 }
+
 .conclusao p {
     line-height: 30px;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.3rem;
 }
+
 .conclusao div {
     justify-content: space-between;
     display: flex;
     padding: 2vw 0 0 0;
 }
+
 .conclusao img {
     padding: 0 4vw 0 0;
 }
+
 .referencias {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .referencias h3 {
     font-size: 2rem;
     font-weight: bold;
     padding: 0 0 2vw 0;
 }
+
 .referencias ul li a {
     color: white;
     font-size: 1.2rem;
 }
+<<<<<<< Updated upstream
 @media  screen and (max-width: 900px) {
 .bannerDados div img{
     padding: 8vw 0 8vw 12vw;
@@ -630,9 +791,21 @@ DADOS
 }
 .bannerDados div {
     display: block;
+=======
+>>>>>>> Stashed changes
 
+@media screen and (max-width: 1200px) {
+    .bannerDados div img {
+        padding: 8vw 0 8vw 12vw;
+        width: 70%;
+    }
+
+    .bannerDados div {
+        display: block;
+
+    }
 }
-}
+
 /*===================================================================
 =====================================================================
 DESC0NECTA
@@ -642,117 +815,163 @@ DESC0NECTA
     background: #540B24;
     padding: 0 4vw 0 4vw;
 }
+
 .bannerDesconecta {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bannerDesconecta h1{
+
+.bannerDesconecta h1 {
     font-size: 4rem;
-    font-family: "Abril Fatface", serif;  
+    font-family: "Abril Fatface", serif;
 }
-.bannerDesconecta div.texto{
+
+.bannerDesconecta div.texto {
     display: block;
 }
+
 .bannerDesconecta p {
     font-size: 2rem;
     max-width: 700px;
 }
-.abandonar div{
+
+.abandonar div {
     display: flex;
     margin: 3vw 0;
 }
-.abandonar div.texto{
+
+.abandonar div.texto {
     display: block;
     font-size: 1.5rem;
     line-height: 3rem;
 }
-.abandonar h2{
+
+.abandonar h2 {
     margin: 3vw 0;
     font-weight: bold;
 }
-.abandonar img{
+
+.abandonar img {
     width: 100%;
     margin: 0 4vw;
 }
+
 .passos ul li h3 {
     font-weight: bold;
 }
+
 .passos ul li {
     line-height: 3rem;
-   list-style-type: disc;
-   font-size: 1.5rem;
+    list-style-type: disc;
+    font-size: 1.5rem;
 }
+
 .passos div {
     display: flex;
     justify-content: space-between;
 }
-.passos div.linksDesc{
+
+.passos div.linksDesc {
     display: block;
 }
+
 .passos div.linksDesc li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bolder;
 }
+
 .passos div li {
     max-width: 900px;
 }
+
 .passos div li h3 {
     margin: 2vw 0;
     font-size: 2rem;
 }
-.passos div.praia{
+
+.passos div.praia {
     margin: 4vw 0;
 }
-    .passos div.praia li{
-        margin: 6vw 0;
-    }
+
+.passos div.praia li {
+    margin: 6vw 0;
+}
+
 .passos div.praia img {
     width: 150%;
 }
-.passos div.praia  span{
+
+.passos div.praia span {
     font-weight: bolder;
 }
+
 .passos div.grande h3 {
     font-size: 1.5rem;
 }
+
 .FinalDesc {
     font-size: 1.5rem;
     padding: 0 0 4vw 0;
 }
-.FinalDesc ul div{
+
+.FinalDesc ul div {
     display: flex;
 }
-.FinalDesc ul h3{
+
+.FinalDesc ul h3 {
     margin: 2vw 0;
     font-weight: bold;
 }
+
 .FinalDesc li {
     line-height: 3rem;
     list-style-type: disc;
 }
-.FinalDesc ul div img{
+
+.FinalDesc ul div img {
     width: 180%;
 }
+
 @media screen and (max-width: 900px) {
+<<<<<<< Updated upstream
 .bannerDesconecta div img {
    width: 40%;
+=======
+    .bannerDesconecta div img {
+        width: 40%;
+>>>>>>> Stashed changes
     }
+
     .abandonar div img {
         width: 40%;
         height: 300px;
     }
+<<<<<<< Updated upstream
+=======
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
     .passos div {
         display: block;
     }
-    .passos div.praia{
+
+    .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
     }
+
     .passos div.praia img {
         width: 100%;
     }
+<<<<<<< Updated upstream
     .FinalDesc ul div img{
     width: 40%;
     height: 300px;
@@ -764,26 +983,46 @@ DESC0NECTA
     }
     .FinalDesc ul div li {
     max-width: none;
+=======
+
+    .FinalDesc ul div img {
+        width: 40%;
+        height: 300px;
+        float: right;
+    }
+
+    .FinalDesc ul div.imagem-direita {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .FinalDesc ul div li {
+        max-width: none;
+>>>>>>> Stashed changes
     }
 }
+
 /*===================================================================
 =====================================================================
 APLICATIVOS
 =====================================================================
 ===================================================================*/
-.aplicativosHtml{
+.aplicativosHtml {
     background: #540B24;
 }
+
 .bannerAplicativo {
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw 0 4vw;   
+    padding: 4vw 4vw 0 4vw;
 }
+
 .bannerAplicativo h1 {
     font-size: 3.5rem;
     font-family: "Abril Fatface", serif;
     line-height: 5rem;
 }
+
 .bannerAplicativo p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.3rem;
@@ -792,31 +1031,42 @@ APLICATIVOS
     padding: 1vw 0 0 0;
     max-width: 800px;
 }
+
 .bannerAplicativo img {
     width: 20%;
 }
+
 .aplicativos {
     padding: 4vw 4vw 4vw 4vw;
 }
-.aplicativos ul li{
+
+.aplicativos ul li {
     list-style-type: disc;
     font-size: 1.5rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-weight: bold;
 }
+
 .aplicativos p {
     font-size: 1.3rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
     line-height: 30px;
     padding: 0.5vw 0 0 0;
 }
+
 .aplicativos div {
     display: flex;
     justify-content: space-between;
     max-width: 80vw;
 }
+<<<<<<< Updated upstream
 .aplicativos ul div a img {
     width: 50%;
+=======
+
+.aplicativos img {
+    width: 10%;
+>>>>>>> Stashed changes
     padding: 0 0 4rem 10rem;
 }
 /*----------------------------------------------
@@ -827,7 +1077,7 @@ CIENCIA
 
 
 .ciencia {
-background-color: #1D1D1D;
+    background-color: #1D1D1D;
 }
 
 /*banner*/
@@ -839,9 +1089,9 @@ background-color: #1D1D1D;
 
 
 .bannerCien h1 {
- font-family: "Abril Fatface", serif;
- font-size: 4rem;
- margin: 20px 20px;
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    margin: 20px 20px;
 }
 
 .bannerCien h2 {
@@ -860,18 +1110,17 @@ background-color: #1D1D1D;
 
 
 .introCien p {
-font-family: "IBM Plex Sans Thai", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 2vw 10px 2vw 10px;
     line-height: 2.5rem;
-    
+
 }
 
 .introCien h3 {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 2.5rem;
-    padding: 30px 20px 10px 0
-    ;
+    padding: 30px 20px 10px 0;
     font-weight: bolder;
 }
 
@@ -893,23 +1142,24 @@ font-family: "IBM Plex Sans Thai", sans-serif;
 
 .cerebroParte p {
     margin: 2vw 0 0 0;
-     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 1vw 10px 1vw 10px;
     line-height: 2.5rem;
 }
 
 .cerebroParte img {
- padding: 0 0 0 70rem;
+    padding: 0 0 0 70rem;
 }
 
 .cerebroParte div.maquinaCassino {
     display: flex;
     justify-content: space-between;
 }
+
 .cerebroParte div.maquinaCassino img {
-  width: 545px;
-  height: 555px;
+    width: 545px;
+    height: 555px;
 }
 
 /*----------------------------------------------
@@ -917,6 +1167,8 @@ font-family: "IBM Plex Sans Thai", sans-serif;
 PERIGOS
 -------------------------------------------------
 -----------------------------------------------*/
+
+
 .perigos {
     background-color: #540B24;
     margin: 1vw 4vw 0px 4vw;
@@ -925,7 +1177,7 @@ PERIGOS
 section.inicioPerigos {
     align-items: start;
     display: flex;
-    margin: 3.5rem 0px 0px 0px;
+    margin: 3vw 5vw 3vw 5vw;
 }
 
 section.inicioPerigos h1 {
@@ -941,8 +1193,10 @@ section.inicio2 {
     font-size: 1.5rem;
 }
 
-section.comentariosPerigos {
-    font-size: 1.5rem;
+section.comentariosPerigos div.blocoPeri {
+    font-size: 1rem;
+    display: flex;
+
 }
 
 section.comentariosPerigos h2 {
@@ -954,56 +1208,86 @@ section.comentariosPerigos h2 {
 section.comentariosPerigos ul li span {
     font-weight: bold;
 }
+.comentariosPerigos  div.blocoPeri div.texto1Peri p{
+    font-size: 1.3rem;
+}
+.comentariosPerigos div.blocoPeri ul li{
+font-size: 1.3rem;
+
+}
+.cyberbullying h3 {
+    margin: 0 0 2vw 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section.cyberbullying p {
+    font-size: 1.5rem;
+    margin: 0 0 1vw 0;
+
+}
 
 /*========================================
 NOTICIAS
 ==========================================*/
-.noticiasHtml{
+.noticiasHtml {
     background: #1D1D1D;
 }
+
 .bannerNot h1 {
-    font-family:"Abril Fatface", serif ;
+    font-family: "Abril Fatface", serif;
     font-size: 3rem;
     text-align: center;
     margin: 2vw;
 }
+
 .bannerNot div {
- display: flex;
- justify-content: space-between;
- line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
 }
+
 .bannerNot div p {
     font-size: 1.5rem;
     max-width: 500px;
     text-align: left;
 }
-.texto1{
-     margin: 2vw;
+
+.texto1 {
+    margin: 2vw;
 }
-.texto1 div{
+
+.texto1 div {
     display: flex;
     font-size: 1.5rem;
 }
+
 .texto1 p {
     font-size: 1.5rem;
 }
+
 .texto2 div.bloco {
     display: flex;
 }
+
 .texto2 div h2 {
     font-size: 2rem;
 }
+
 .texto2 p {
     font-size: 1.5rem;
 }
-.texto2 p  {
- text-align: center;
+
+.texto2 p {
+    text-align: center;
 }
+
 .ultimosTextos {
-        font-size: 1.5rem;
+    font-size: 1.5rem;
 }
+
 .ultimosTextos div {
-     margin: 2vw;
+    margin: 2vw;
     display: flex;
 }
 
@@ -1017,33 +1301,43 @@ SOBRE O PROJETO
 .sobreProj {
     margin: 3vw 0;
 }
+
 .sobreProj h1 {
-   font-size: 5rem;
-   font-family: "Abril Fatface", serif;
-   padding: 10vw 0 10vw 10vw;
+    font-size: 5rem;
+    font-family: "Abril Fatface", serif;
+    padding: 10vw 0 10vw 10vw;
 }
+
 .sobreProj div {
     display: flex;
 }
-.sobreProj div h3{
-   font-size: 35px;
-   padding: 10vw 0 0 20vw;
-   text-align: right;
+
+.sobreProj div h3 {
+    font-size: 35px;
+    padding: 10vw 0 0 20vw;
+    text-align: right;
 }
+
 .sobreProj p {
     font-size: 27px;
-    padding: 2vw 0 2vw 0 ;
+    padding: 2vw 0 2vw 0;
 }
+<<<<<<< Updated upstream
 .pessoas {
     margin: 2vw 0;
 }
+=======
+
+>>>>>>> Stashed changes
 .pessoas h4 {
     font-size: 45px;
     font-family: "Abril Fatface", serif;
 }
-.pessoas p{
+
+.pessoas p {
     font-size: 35px;
 }
+<<<<<<< Updated upstream
 .pessoas ul li {
   display: flex;
   padding: 30px 0;
@@ -1075,4 +1369,9 @@ SOBRE O PROJETO
     padding: 0 0 0 13vw;
 }
 
+=======
+>>>>>>> Stashed changes
 
+.pessoas ul li.eduarda div.tresjuntos {
+    display: flex;
+}
