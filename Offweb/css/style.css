@@ -16,9 +16,10 @@ INICIO
 /*============================================
 Header
 ==============================================*/
+
 header {
     background: #ffffff;
-    margin: 40px 4vw ;
+      margin: 40px 4vw ;
 }
 
 header nav ul {
@@ -118,6 +119,9 @@ section.banner p a {
 /*========================================
 Introdução
 ==========================================*/
+.inicio{
+      margin: 0px 4vw ;
+}
 section.introducao {
     margin: 5vw 0vw 3vw 0vw;
     display: flex;
@@ -341,8 +345,11 @@ MALEFICIOS
 .maleficios {
     background: #540B24;
     border-bottom: 1px solid rgb(202, 202, 202);
+     
 }
-
+.mainMal{
+ margin: 40px 4vw ;
+}
 .inicioMal h1 {
     font-family: "Abril Fatface", serif;
     font-size: 5rem;
@@ -547,6 +554,9 @@ MALEFICIOS
 DADOS
 ======================================================
 ======================================================*/
+.dados{
+    margin: 40px 4vw ;
+}
 .bannerDados {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 0 4vw 4vw 4vw;
@@ -760,9 +770,11 @@ DESC0NECTA
 ===================================================================*/
 .desconecta {
     background: #540B24;
-    padding: 0 4vw 0 4vw;
+    
 }
-
+.mainDesc{
+    margin: 40px 4vw ;
+}
 .bannerDesconecta {
     display: flex;
     justify-content: space-between;
@@ -924,7 +936,9 @@ APLICATIVOS
 .aplicativosHtml {
     background: #540B24;
 }
-
+.mainApli{
+    margin: 40px 4vw ;
+}
 .bannerAplicativo {
     display: flex;
     justify-content: space-between;
@@ -982,12 +996,12 @@ APLICATIVOS
 CIENCIA
 -------------------------------------------------
 -----------------------------------------------*/
-
-
 .ciencia {
     background-color: #1D1D1D;
 }
-
+.mainCien{
+    margin: 40px 4vw ;
+}
 /*banner*/
 
 .bannerCien {
@@ -1118,9 +1132,10 @@ PERIGOS
 
 .perigos {
     background-color: #540B24;
-    margin: 1vw 4vw 0px 4vw;
 }
-
+.mainPer{
+    margin: 40px 4vw ;
+}
 section.inicioPerigos {
     align-items: start;
     display: flex;
@@ -1180,7 +1195,9 @@ NOTICIAS
 .noticiasHtml {
     background: #1D1D1D;
 }
-
+.mainNot{
+    margin: 40px 4vw ;
+}
 .bannerNot h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
@@ -1243,7 +1260,9 @@ SOBRE O PROJETO
 ==========================================*/
 .sobre {
     background-color: #1B1B1B;
-    margin:  5vw;
+}
+.mainProj{
+    margin: 40px 4vw ;
 }
 .sobreProj {
     margin: 3vw 0;
