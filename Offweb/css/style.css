@@ -6,15 +6,19 @@ html{
      background: #2C3E50;
      color: #ffffff;
     font-family:"IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
-    margin:0 4vw;
 }
-
+/*===========================================
+============================================
+INICIO
+===============================================
+===============================================
+*/
 /*============================================
 Header
 ==============================================*/
 header{
     background: #ffffff;
-    margin: 40px 40px ;
+    margin: 40px 4vw ;
 }
 header nav ul {
     display: flex;
@@ -221,20 +225,17 @@ Footer
 footer{
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
-    padding: 0;
-}
-footer div.conteudo {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 0;
-}
+    padding: 2vw;
+}   
 footer p {
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-weight: bold;
 }
-footer a{
+footer nav p a{
     display: flex;
+    justify-content: right;
+    padding: 10px 0px;
     font-size: 2rem ;
     text-decoration: none;
 }
@@ -284,6 +285,7 @@ footer div.creditos p{
     display: block;
    }
 }
+
 /*=================================================================
 =====================================================================
 MALEFICIOS
@@ -816,8 +818,8 @@ APLICATIVOS
     justify-content: space-between;
     max-width: 80vw;
 }
-.aplicativos img {
-    width: 10%;
+.aplicativos ul div a img {
+    width: 50%;
     padding: 0 0 4rem 10rem;
 }
 
