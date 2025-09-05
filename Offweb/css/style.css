@@ -297,16 +297,16 @@ MALEFICIOS
 }
 .inicioMal h1 {
      font-family: "Abril Fatface", serif;
-     font-size: 5rem;
+     font-size: 4rem;
+     padding: 0 0 2vw 3vw;
 }
 .inicioMal div{
-    display: flex;
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    display: flex; 
 }
-.inicioMal p {
-    font-weight: bold;
+.inicioMal div p {
     margin: 40px;
     font-size: 3rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
 }
 .inicioMal img{
     width: 80%;
@@ -317,6 +317,11 @@ MALEFICIOS
 .pesquisaMal p {
     font-size: 1.4rem;
     line-height: 1.8rem;
+    padding: 4vw 0 4vw 0;
+}
+.pesquisaMal p.creditos {
+    font-size: 0.7rem;
+    padding: 0;
 }
 .pesquisaMal div.div-pesquisa {
     display: flex;
@@ -618,7 +623,7 @@ DADOS
     color: white;
     font-size: 1.2rem;
 }
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 900px) {
 .bannerDados div img{
     padding: 8vw 0 8vw 12vw;
     width: 70%;
@@ -731,21 +736,13 @@ DESC0NECTA
     width: 180%;
 }
 @media screen and (max-width: 900px) {
-    .bannerDesconecta div img {
-       width: 40%;
+.bannerDesconecta div img {
+   width: 40%;
     }
     .abandonar div img {
         width: 40%;
         height: 300px;
     }
-  
-
-
-
-
-
-
-
     .passos div {
         display: block;
     }
@@ -760,14 +757,14 @@ DESC0NECTA
     width: 40%;
     height: 300px;
     float: right;
-}
-.FinalDesc ul div.imagem-direita{
+    }
+    .FinalDesc ul div.imagem-direita{
     display: flex;
     flex-direction: row-reverse;
-}
-.FinalDesc ul div li {
+    }
+    .FinalDesc ul div li {
     max-width: none;
-}
+    }
 }
 /*===================================================================
 =====================================================================
@@ -822,18 +819,6 @@ APLICATIVOS
     width: 50%;
     padding: 0 0 4rem 10rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------------------------------------------
 ------------------------------------------------
 CIENCIA
