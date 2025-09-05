@@ -1025,6 +1025,10 @@ SOBRE O PROJETO
 ==========================================*/
 .sobre {
     background-color: #1B1B1B;
+    margin:  5vw;
+}
+.sobreProj {
+    margin: 3vw 0;
 }
 .sobreProj h1 {
    font-size: 5rem;
@@ -1043,6 +1047,9 @@ SOBRE O PROJETO
     font-size: 27px;
     padding: 2vw 0 2vw 0 ;
 }
+.pessoas {
+    margin: 2vw 0;
+}
 .pessoas h4 {
     font-size: 45px;
     font-family: "Abril Fatface", serif;
@@ -1050,7 +1057,31 @@ SOBRE O PROJETO
 .pessoas p{
     font-size: 35px;
 }
-.pessoas ul li.eduarda div.tresjuntos{
+.pessoas ul li {
   display: flex;
+  padding: 30px 0;
 }
+.pessoas ul li img {
+    width: 200px;
+    height: 200px;
+}
+.pessoas ul li div p{
+    padding: 20px 0 0 0;
+}
+.pessoas ul li img {
+    padding: 0 50px;
+}
+.final {
+    margin: 2vw 0;
+}
+.final p {
+    font-size: 27px;
+    padding: 2vw 0 2vw 0 ;
+}
+.final div img {
+    width: 1118px;
+    height: 570px;
+    padding: 0 0 0 13vw;
+}
+
 
