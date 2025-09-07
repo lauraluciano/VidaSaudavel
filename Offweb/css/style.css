@@ -389,7 +389,7 @@ MALEFICIOS
 }
 
 .pesquisaMal img {
-    width: 50%;
+    width: 100%;
 }
 
 .pesquisaMal div ul {
@@ -424,7 +424,8 @@ MALEFICIOS
 }
 
 .pesquisa-2Mal img {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .pesquisa-2Mal p {
@@ -1109,6 +1110,11 @@ margin: 2vw;
     color: #ffffff;
     text-decoration: none;
     line-height: 2rem;
+}
+.conclusaoCien div.ref p a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
 }
 
  
