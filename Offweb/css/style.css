@@ -180,7 +180,7 @@ section.mapa ul a {
     text-align: left;
     text-decoration: none;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     line-height: 2rem;
 }
@@ -348,21 +348,23 @@ MALEFICIOS
     border-bottom: 1px solid rgb(202, 202, 202);
      
 }
-
+.inicioMal {
+    display: flex;
+    justify-content: space-between;
+}
 .inicioMal h1 {
     font-family: "Abril Fatface", serif;
-    font-size: 5rem;
+    font-size: 4rem;
+    padding: 0 0 4vw 0
 }
 
-.inicioMal div {
-    display: flex;
+.inicioMal div {    
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 .inicioMal p {
-    font-weight: bold;
     margin: 40px;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
 }
 
@@ -1281,7 +1283,8 @@ SOBRE O PROJETO
 }
 .pessoas h4 {
     font-size: 45px;
-    font-family: "Abril Fatface", serif;
+    font-family: "IBM Plex Sans Thai", serif;
+    color: gray;
 }
 
 .pessoas p {
