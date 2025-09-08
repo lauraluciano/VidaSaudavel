@@ -78,6 +78,7 @@ header ul li a {
 Banner
 ================================================*/
 section.banner {
+    padding: 4vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
 }
@@ -124,7 +125,7 @@ Introdução
 ==========================================*/
 
 section.introducao {
-    margin: 5vw 0vw 3vw 0vw;
+    padding: 4vw 4vw 4vw 4vw;
     display: flex;
 }
 
@@ -145,7 +146,7 @@ section.introducao img {
 MAPA DO SITE
 ==========================================*/
 section.mapa {
-    margin: 2vw 0vw 2vw 0vw;
+    padding: 4vw 4vw 4vw 4vw;
     justify-content: center;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -208,6 +209,7 @@ section.mapa div.bloco2 ul {
 noticias
 =============================================*/
 .noticias {
+    padding: 4vw 4vw 4vw 4vw;
     font-family: "Atkinson Hyperlegible", sans-serif;
     text-align: center;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -349,6 +351,7 @@ MALEFICIOS
      
 }
 .inicioMal {
+    padding: 4vw 4vw 4vw 4vw;
     display: flex;
     justify-content: space-between;
 }
@@ -373,6 +376,7 @@ MALEFICIOS
 }
 
 .pesquisaMal {
+    padding: 4vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
@@ -414,6 +418,7 @@ MALEFICIOS
     max-width: 1600px;
     margin: 0 auto;
     justify-content: space-around;
+    padding: 4vw 4vw 4vw 4vw;
 
 }
 
@@ -436,6 +441,7 @@ MALEFICIOS
 }
 
 .pesquisa-3Mal {
+    padding: 4vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
     margin: 40px;
 }
@@ -462,7 +468,10 @@ MALEFICIOS
     padding: 50px;
     margin: 80px;
 }
-
+.finalMale{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
 .finalMale div {
     display: flex;
     justify-content: space-between;
@@ -478,7 +487,9 @@ MALEFICIOS
     width: 600px;
     height: 300px;
 }
-
+.referenciasMale {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .referenciasMale h1 {
     font-size: 2rem;
 }
@@ -585,8 +596,8 @@ DADOS
 
 .bannerDados p {
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
-    line-height: 30px;
+    font-size: 1.4rem;
+    line-height: 40px;
     font-weight: 400;
     font-style: normal;
     padding: 0 3vw 0 0;
@@ -613,9 +624,9 @@ DADOS
 
 .estudantes p {
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1vw 0 0 0;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .estudantes div {
@@ -627,11 +638,13 @@ DADOS
 .estudantes div ul {
     padding: 0 0 0 5vw;
     list-style-type: disc;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
-
+.estudantes div ul p {
+    font-size: 1.5rem;
+}
 .estudantes div ul li {
-    line-height: 2vw;
+    line-height: 5vw;
 }
 
 .estudantes div ul p {
@@ -659,9 +672,9 @@ DADOS
 }
 
 .equipamento div p {
-    line-height: 30px;
+    line-height: 35px;
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
     padding: 2vw 0 0 0;
@@ -675,7 +688,7 @@ DADOS
 .equipamento div ul {
     padding: 0 0 0 5vw;
     list-style-type: disc;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .idade {
@@ -690,9 +703,9 @@ DADOS
 }
 
 .idade p {
-    line-height: 30px;
+    line-height: 35px;
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
     padding: 2vw 0 0 0;
@@ -721,9 +734,9 @@ DADOS
 }
 
 .conclusao p {
-    line-height: 30px;
+    line-height: 35px;
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .conclusao div {
@@ -742,25 +755,17 @@ DADOS
 
 .referencias h3 {
     font-size: 2rem;
-    font-weight: bold;
     padding: 0 0 2vw 0;
+    font-weight: bold;
 }
 
 .referencias ul li a {
-    color: white;
-    font-size: 1.2rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .bannerDados div img {
-        padding: 8vw 0 8vw 12vw;
-        width: 70%;
-    }
-
-    .bannerDados div {
-        display: block;
-
-    }
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
 }
 
 /*===================================================================
@@ -774,6 +779,7 @@ DESC0NECTA
 }
 
 .bannerDesconecta {
+    padding: 4vw 4vw 4vw 4vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -792,7 +798,9 @@ DESC0NECTA
     font-size: 2rem;
     max-width: 700px;
 }
-
+.abandonar {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .abandonar div {
     display: flex;
     margin: 3vw 0;
@@ -813,7 +821,9 @@ DESC0NECTA
     width: 100%;
     margin: 0 4vw;
 }
-
+.passos{
+    padding: 4vw 4vw 4vw 4vw;
+}
 .passos ul li h3 {
     font-weight: bold;
 }
@@ -870,7 +880,7 @@ DESC0NECTA
 
 .FinalDesc {
     font-size: 1.5rem;
-    padding: 0 0 4vw 0;
+    padding: 4vw 4vw 4vw 4vw;
 }
 
 .FinalDesc ul div {
@@ -938,7 +948,7 @@ APLICATIVOS
 .bannerAplicativo {
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw 0 4vw;
+    padding: 4vw 4vw 4vw 4vw;
 }
 
 .bannerAplicativo h1 {
@@ -1000,7 +1010,8 @@ CIENCIA
 
 .bannerCien {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 4vw 4vw 4vw 4vw;
 }
 
 
@@ -1018,7 +1029,9 @@ CIENCIA
 }
 
 /*intro*/
-
+.introCien {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .introCien div {
     display: flex;
     justify-content: space-between;
@@ -1041,7 +1054,9 @@ CIENCIA
 }
 
 /*neuro*/
-
+.neurodopamina {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -1055,7 +1070,9 @@ CIENCIA
 }
 
 /*cerebro*/
-
+.cerebroParte {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .cerebroParte p {
     margin: 2vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -1096,7 +1113,9 @@ CIENCIA
 
 
 /*conclusao*/ 
-
+.conclusaoCien {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .conclusaoCien p {
     margin: 2vw 0 0 0;
      font-family: "IBM Plex Sans Thai", sans-serif;
@@ -1136,7 +1155,7 @@ PERIGOS
 section.inicioPerigos {
     align-items: start;
     display: flex;
-    margin: 3vw 5vw 3vw 5vw;
+    padding: 4vw 4vw 4vw 4vw;
 }
 
 section.inicioPerigos h1 {
@@ -1148,10 +1167,12 @@ section.inicioPerigos h1 {
 
 section.inicio2 {
     text-align: left;
-    margin: 2vw;
+    padding: 4vw 4vw 4vw 4vw;
     font-size: 1.5rem;
 }
-
+.comentariosPerigos {
+    padding: 4vw 4vw 4vw 4vw;
+}
 section.comentariosPerigos div.blocoPeri {
     font-size: 1rem;
     display: flex;
@@ -1174,6 +1195,9 @@ section.comentariosPerigos ul li span {
 font-size: 1.3rem;
 
 }
+.cyberbullying {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .cyberbullying h3 {
     margin: 0 0 2vw 0;
     font-size: 2rem;
@@ -1192,7 +1216,9 @@ NOTICIAS
 .noticiasHtml {
     background: #1D1D1D;
 }
-
+.bannerNot {
+    padding: 4vw 4vw 4vw 4vw;
+}
 .bannerNot h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
@@ -1213,7 +1239,7 @@ NOTICIAS
 }
 
 .texto1 {
-    margin: 2vw;
+    padding: 4vw 4vw 4vw 4vw;
 }
 
 .texto1 div {
