@@ -1,2 +1,2 @@
 # Vida_Saudavel
-Repósitório dedicado ao trabalho de projeto integrador para a SEPE 2025
+Repósitório dedicado ao trabalho de Projeto Integrador 2025
