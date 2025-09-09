@@ -1028,8 +1028,7 @@ CIENCIA
 
 .bannerCien {
     display: flex;
-    justify-content: space-between;
-    padding: 4vw 4vw 4vw 4vw;
+    justify-content: space-between
 }
 
 
@@ -1047,9 +1046,6 @@ CIENCIA
 }
 
 /*intro*/
-.introCien {
-    padding: 4vw 4vw 4vw 4vw;
-}
 
 .introCien div {
     display: flex;
@@ -1073,9 +1069,6 @@ CIENCIA
 }
 
 /*neuro*/
-.neurodopamina {
-    padding: 4vw 4vw 4vw 4vw;
-}
 
 .neurodopamina div.neuros {
     display: flex;
@@ -1090,9 +1083,6 @@ CIENCIA
 }
 
 /*cerebro*/
-.cerebroParte {
-    padding: 4vw 4vw 4vw 4vw;
-}
 
 .cerebroParte p {
     margin: 2vw 0 0 0;
@@ -1112,53 +1102,71 @@ CIENCIA
 }
 
 .cerebroParte div.maquinaCassino img {
-    width: 545px;
-    height: 555px;
-    padding: 0 0 0 2vw;
+  width: 545px;
+  height: 555px;
+  padding: 0 0 0 2vw;
 }
 
 .cerebroParte div.liberacao {
     display: flex;
     justify-content: space-between;
-
+   
 }
 
 .cerebroParte div.liberacao img {
-    padding: 0 0 0 10vw;
+    padding: 0 0 5vw 10vw;
+    width: 30%;
 }
 
-.cerebroParte div.liberacao div.textosCere {
+.cerebroParte div.liberacao p {
     display: flex;
+   
 }
 
+.cerebroParte div.textosCere p {
+    text-align: right;
+    padding: 5vw 20px 0 20px;
+}
 
+/*conclusao*/ 
 
-/*conclusao*/
-.conclusaoCien {
-    padding: 4vw 4vw 4vw 4vw;
+.conclusaoCien p.mencao {
+    padding: 1.5vw 1.5vw 1.5vw 2.5vw;
+    background-color: #540B24;
+text-align: center;
 }
 
 .conclusaoCien p {
     margin: 2vw 0 0 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
+     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 1vw 10px 1vw 2vw;
     line-height: 2.5rem;
 }
 
+.conclusaoCien div.psico {
+    display: flex;
+     margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien p {
+    padding: 2vw 0 2vw 0;
+}
+
 .conclusaoCien h2 {
-    margin: 2vw;
+margin: 2vw;
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
     text-decoration: none;
     line-height: 2rem;
+    font-size: 2rem;
 }
-
-.conclusaoCien div.ref p a {
+.conclusaoCien div.ref p a{
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    line-height: 30px;
 }
 
 
