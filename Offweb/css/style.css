@@ -1,15 +1,17 @@
 /*===========================================
 Geral
 =============================================*/
-html{
-     text-decoration: none;
-     background: #2C3E50;
-     color: #ffffff;
-    font-family:"IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
+html {
+    text-decoration: none;
+    background: #2C3E50;
+    color: #ffffff;
+    font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
 }
-main{
-       margin: 40px 4vw ;
+
+main {
+    margin: 40px 4vw;
 }
+
 /*===========================================
 ============================================
 INICIO
@@ -22,7 +24,7 @@ Header
 
 header {
     background: #ffffff;
-      margin: 40px 4vw ;
+    margin: 40px 4vw;
 }
 
 header nav ul {
@@ -268,17 +270,19 @@ footer {
     font-family: "Atkinson Hyperlegible", sans-serif;
     background: #1D1D1D;
     padding: 2vw;
-}   
+}
+
 footer p {
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-weight: bold;
 }
-footer nav p a{
+
+footer nav p a {
     display: flex;
     justify-content: right;
     padding: 10px 0px;
-    font-size: 2rem ;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -348,20 +352,22 @@ MALEFICIOS
 .maleficios {
     background: #540B24;
     border-bottom: 1px solid rgb(202, 202, 202);
-     
+
 }
+
 .inicioMal {
     padding: 4vw 4vw 4vw 4vw;
     display: flex;
     justify-content: space-between;
 }
+
 .inicioMal h1 {
     font-family: "Abril Fatface", serif;
     font-size: 4rem;
     padding: 0 0 4vw 0
 }
 
-.inicioMal div {    
+.inicioMal div {
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
@@ -385,6 +391,7 @@ MALEFICIOS
     line-height: 1.8rem;
     padding: 4vw 0 4vw 0;
 }
+
 .pesquisaMal p.creditos {
     font-size: 0.7rem;
     padding: 0;
@@ -468,10 +475,12 @@ MALEFICIOS
     padding: 50px;
     margin: 80px;
 }
-.finalMale{
+
+.finalMale {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .finalMale div {
     display: flex;
     justify-content: space-between;
@@ -487,9 +496,11 @@ MALEFICIOS
     width: 600px;
     height: 300px;
 }
+
 .referenciasMale {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .referenciasMale h1 {
     font-size: 2rem;
 }
@@ -640,9 +651,11 @@ DADOS
     list-style-type: disc;
     font-size: 1.5rem;
 }
+
 .estudantes div ul p {
     font-size: 1.5rem;
 }
+
 .estudantes div ul li {
     line-height: 5vw;
 }
@@ -775,7 +788,7 @@ DESC0NECTA
 ===================================================================*/
 .desconecta {
     background: #540B24;
-    
+
 }
 
 .bannerDesconecta {
@@ -798,9 +811,11 @@ DESC0NECTA
     font-size: 2rem;
     max-width: 700px;
 }
+
 .abandonar {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .abandonar div {
     display: flex;
     margin: 3vw 0;
@@ -821,9 +836,11 @@ DESC0NECTA
     width: 100%;
     margin: 0 4vw;
 }
-.passos{
+
+.passos {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .passos ul li h3 {
     font-weight: bold;
 }
@@ -902,14 +919,15 @@ DESC0NECTA
 }
 
 @media screen and (max-width: 900px) {
-.bannerDesconecta div img {
-   width: 40%;
+    .bannerDesconecta div img {
+        width: 40%;
     }
 
     .abandonar div img {
         width: 40%;
         height: 300px;
     }
+
     .passos div {
         display: block;
     }
@@ -922,17 +940,20 @@ DESC0NECTA
     .passos div.praia img {
         width: 100%;
     }
-    .FinalDesc ul div img{
-    width: 40%;
-    height: 300px;
-    float: right;
+
+    .FinalDesc ul div img {
+        width: 40%;
+        height: 300px;
+        float: right;
     }
-    .FinalDesc ul div.imagem-direita{
-    display: flex;
-    flex-direction: row-reverse;
+
+    .FinalDesc ul div.imagem-direita {
+        display: flex;
+        flex-direction: row-reverse;
     }
+
     .FinalDesc ul div li {
-    max-width: none;
+        max-width: none;
     }
 }
 
@@ -993,10 +1014,12 @@ APLICATIVOS
     justify-content: space-between;
     max-width: 80vw;
 }
+
 .aplicativos ul div a img {
     width: 50%;
     padding: 0 0 4rem 10rem;
 }
+
 /*----------------------------------------------
 ------------------------------------------------
 CIENCIA
@@ -1032,6 +1055,7 @@ CIENCIA
 .introCien {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .introCien div {
     display: flex;
     justify-content: space-between;
@@ -1057,6 +1081,7 @@ CIENCIA
 .neurodopamina {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -1073,6 +1098,7 @@ CIENCIA
 .cerebroParte {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .cerebroParte p {
     margin: 2vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -1091,15 +1117,15 @@ CIENCIA
 }
 
 .cerebroParte div.maquinaCassino img {
-  width: 545px;
-  height: 555px;
-  padding: 0 0 0 2vw;
+    width: 545px;
+    height: 555px;
+    padding: 0 0 0 2vw;
 }
 
 .cerebroParte div.liberacao {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 .cerebroParte div.liberacao img {
@@ -1112,33 +1138,35 @@ CIENCIA
 
 
 
-/*conclusao*/ 
+/*conclusao*/
 .conclusaoCien {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .conclusaoCien p {
     margin: 2vw 0 0 0;
-     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 1vw 10px 1vw 2vw;
     line-height: 2.5rem;
 }
 
 .conclusaoCien h2 {
-margin: 2vw;
+    margin: 2vw;
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
     text-decoration: none;
     line-height: 2rem;
 }
-.conclusaoCien div.ref p a{
+
+.conclusaoCien div.ref p a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 }
 
- 
+
 
 
 /*----------------------------------------------
@@ -1165,17 +1193,28 @@ section.inicioPerigos h1 {
     font-weight: bold;
 }
 
+.inicio2 p {
+    line-height: 1.6vw;
+    text-align: center;
+    margin: 0 2vw 0 2vw;
+}
+
 section.inicio2 {
     text-align: left;
     padding: 4vw 4vw 4vw 4vw;
     font-size: 1.5rem;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 .comentariosPerigos {
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw 4vw 2vw 4vw;
+    
 }
+
 section.comentariosPerigos div.blocoPeri {
-    font-size: 1rem;
+    font-size: 1.6rem;
     display: flex;
+    line-height: 2vw;
 
 }
 
@@ -1188,16 +1227,29 @@ section.comentariosPerigos h2 {
 section.comentariosPerigos ul li span {
     font-weight: bold;
 }
-.comentariosPerigos  div.blocoPeri div.texto1Peri p{
-    font-size: 1.3rem;
+
+.comentariosPerigos div.blocoPeri div.texto1Peri p {
+    font-size: 1.5rem;
 }
-.comentariosPerigos div.blocoPeri ul li{
-font-size: 1.3rem;
+
+.comentariosPerigos div.blocoPeri ul li {
+    font-size: 1.3rem;
+    margin: 0.5vw 0 0.5vw 2vw;
 
 }
-.cyberbullying {
-    padding: 4vw 4vw 4vw 4vw;
+
+.comentariosPerigos div.imagem img {
+    margin: 0 0 0 3vw;
+    width: 35vw;
 }
+.comentariosPerigos div.imagem p{
+    margin: 2vw 2vw 0 3vw;
+}
+
+.cyberbullying {
+    padding: 1vw 4vw 4vw 4vw;
+}
+
 .cyberbullying h3 {
     margin: 0 0 2vw 0;
     font-size: 2rem;
@@ -1216,9 +1268,11 @@ NOTICIAS
 .noticiasHtml {
     background: #1D1D1D;
 }
+
 .bannerNot {
     padding: 4vw 4vw 4vw 4vw;
 }
+
 .bannerNot h1 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
@@ -1307,6 +1361,7 @@ SOBRE O PROJETO
     font-size: 27px;
     padding: 2vw 0 2vw 0;
 }
+
 .pessoas h4 {
     font-size: 45px;
     font-family: "IBM Plex Sans Thai", serif;
@@ -1316,31 +1371,39 @@ SOBRE O PROJETO
 .pessoas p {
     font-size: 35px;
 }
+
 .pessoas ul li {
-  display: flex;
-  padding: 30px 0;
+    display: flex;
+    padding: 30px 0;
 }
+
 .pessoas ul li img {
     width: 200px;
     height: 200px;
 }
+
 .pessoas ul li.ester img {
     width: 250px;
     height: 200px;
 }
-.pessoas ul li div p{
+
+.pessoas ul li div p {
     padding: 20px 0 0 0;
 }
+
 .pessoas ul li img {
     padding: 0 50px;
 }
+
 .final {
     margin: 2vw 0;
 }
+
 .final p {
     font-size: 27px;
-    padding: 2vw 0 2vw 0 ;
+    padding: 2vw 0 2vw 0;
 }
+
 .final div img {
     width: 1118px;
     height: 570px;
