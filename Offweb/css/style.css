@@ -143,13 +143,11 @@ section.introducao h2 {
 }
 
 section.introducao img {
-    width: 350%;
-    height: 110%;
-
+    width: 300%;
 }
 
 .introducao p {
-    padding: 2vw 20vw 0 0;
+    padding: 2vw 0 0 0;
     font-size: 1.5vw;
 }
 
@@ -267,7 +265,8 @@ noticias
 
 .noticias ul li img {
     margin: 20px;
-    width: 40%;
+    width: 60%;
+
 }
 
 /*=========================================================
@@ -386,7 +385,7 @@ MALEFICIOS
 }
 
 .inicioMal img {
-    width: 50%;
+    width: 40%;
 }
 
 .pesquisaMal {
@@ -407,7 +406,7 @@ MALEFICIOS
 
 .pesquisaMal div.div-pesquisa {
     display: flex;
-    padding: 0 0 0 22vw;
+    padding: 0 0 0 20vw;
 }
 
 .pesquisaMal img {
@@ -694,6 +693,7 @@ span {
 .equipamento div {
     display: flex;
     justify-content: space-between;
+    padding: 0 0 2vw 0;
 }
 
 .equipamento div p {
@@ -791,7 +791,7 @@ span {
     line-height: 2rem;
 }
 
-/*=========================================================    border-bottom: 1px solid rgb(202, 202, 202);
+/*=========================================================    
 ==========
 =====================================================================
 DESC0NECTA
@@ -851,8 +851,6 @@ DESC0NECTA
 
 .passos {
     padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
 }
 
 .passos ul li summary {
@@ -918,7 +916,6 @@ DESC0NECTA
 .FinalDesc {
     font-size: 1.5rem;
     padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .FinalDesc ul div {
@@ -1061,7 +1058,7 @@ CIENCIA
 /*banner*/
 .bannerCien {
     display: flex;
-    justify-content: space-between
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .bannerCien h1 {
@@ -1078,6 +1075,11 @@ CIENCIA
 }
 
 /*intro*/
+.introCien {
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+
 .introCien div {
     display: flex;
     justify-content: space-between;
@@ -1096,8 +1098,15 @@ CIENCIA
     padding: 30px 20px 10px 0;
     font-weight: bolder;
 }
+.introCien img {
+    width: 20%;
+    padding: 0 6vw 0 0;
+}
 
 /*neuro*/
+.dopa {
+    padding: 7vw 0 0 0;
+}
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -1133,6 +1142,10 @@ CIENCIA
 .cerebroParte div.maquinaCassino {
     display: flex;
     justify-content: space-between;
+    padding: 2vw 13vw ;
+}
+.pinterest p {
+    text-align: center;
 }
 
 .cerebroParte div.maquinaCassino img {
@@ -1176,6 +1189,10 @@ CIENCIA
 }
 
 /*conclusao*/
+.conclusaoCien {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
 .conclusaoCien p.mencao {
     padding: 1.5vw 1.5vw 1.5vw 2.5vw;
     background-color: #540B24;
@@ -1358,6 +1375,9 @@ ciencia {
 }
 
 /*conclusao*/
+.conclusaoCien {
+
+}
 .conclusaoCien p.mencao {
     padding: 1.5vw 1.5vw 1.5vw 2.5vw;
     background-color: #540B24;
