@@ -143,12 +143,12 @@ section.introducao h2 {
 }
 
 section.introducao img {
-     width: 220%;
-   height: 110%;
+    width: 350%;
+    height: 110%;
 
 }
 .introducao p {
-   padding: 2vw 13vw 0 0;
+   padding: 2vw 20vw 0 0;
    font-size: 1.5vw;
 }
 /*========================================
@@ -162,7 +162,7 @@ section.mapa {
 
 section.mapa h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #D1D1D1;
     text-shadow: 2px 2px 0 #540B24,
         1px 1px 0 #540B24,
@@ -170,6 +170,7 @@ section.mapa h1 {
         1px 1px 0 #540B24;
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-style: italic;
+    padding: 0 0 6vw 0;
 }
 
 .mapa div.blocos {
@@ -186,6 +187,8 @@ section.mapa h1 {
     width: 390px;
     position: relative;
     color: #ffffff;
+    line-height: 60px;
+    font-size: 1.5rem;
 }
 .mapa div.bloco2 ul {
      list-style-type: disc;
@@ -202,6 +205,11 @@ section.mapa h1 {
 .mapa div.bloco2 img.lupa {
   position: absolute;
   top: -190px;
+}
+.comp {
+  position: absolute;
+  top: -160px;
+  padding: 0 0 0 3vw;
 }
 .mapa div.bloco2 p {
   margin: 15px 0;
@@ -406,7 +414,7 @@ MALEFICIOS
 
 .pesquisaMal div.div-pesquisa {
     display: flex;
-    padding: 0 16vw;
+    padding: 0 0 0 22vw;
 }
 .pesquisaMal img {
     width: 100%;
@@ -429,7 +437,7 @@ MALEFICIOS
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
-    max-width: 1600px;
+    
     margin: 0 auto;
     justify-content: space-around;
     padding: 4vw 4vw 4vw 4vw;
@@ -630,7 +638,7 @@ DADOS
     padding: 4vw 4vw 4vw 4vw;
 }
 
-.estudantes span {
+span {
     font-weight: bold;
 }
 
@@ -775,11 +783,9 @@ DADOS
 
 .referencias h3 {
     font-size: 2rem;
-    padding: 0 0 2vw 0;
-    font-weight: bold;
 }
 
-.referencias ul li a {
+.referencias a {
     margin: 2vw;
     text-align: left;
     font-weight: bolder;
@@ -807,6 +813,7 @@ DESC0NECTA
 
 .bannerDesconecta h1 {
     font-size: 4rem;
+    padding: 0 0 1vw 0;
     font-family: "Abril Fatface", serif;
 }
 
@@ -1167,7 +1174,7 @@ CIENCIA
 }
 
 .conclusaoCien h2 {
-margin: 2vw;
+    margin: 2vw;
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
@@ -1175,11 +1182,20 @@ margin: 2vw;
     line-height: 2rem;
     font-size: 2rem;
 }
-.conclusaoCien div.ref p a{
-    text-decoration: none;
+.referenciasCere {
+    padding: 4vw 0;
+}
+.referenciasCere h2{
+    font-size: 2rem;
+}
+
+.referenciasCere  a{
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
     color: #ffffff;
-    font-weight: bold;
-    line-height: 30px;
+    text-decoration: none;
+    line-height: 2rem;
 }
 
 
@@ -1278,18 +1294,21 @@ section.cyberbullying p {
     text-align: center;
     margin: 4vw 0 2vw 0;
 }
+.referenciasPeri {
+    padding: 4vw 4vw 4vw 4vw;
+}
+
 .referenciasPeri h1 {
-    margin-top: 2vw;
     font-size: 2rem;
 }
-.referenciasPeri ul {
-    margin: 2vw 0 0 0;
-}
-.referenciasPeri ul li {
-    line-height: 2rem;
-}
-.referenciasPeri ul li a{
+
+.referenciasPeri a {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
     color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
 }
 
 /*========================================
