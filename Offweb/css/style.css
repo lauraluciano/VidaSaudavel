@@ -775,7 +775,8 @@ span {
     line-height: 2rem;
 }
 
-/*===================================================================
+/*=========================================================    border-bottom: 1px solid rgb(202, 202, 202);
+==========
 =====================================================================
 DESC0NECTA
 =====================================================================
@@ -833,7 +834,8 @@ DESC0NECTA
 }
 
 .passos {
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw 4vw 4vw 4vw;    border-bottom: 1px solid rgb(202, 202, 202);
+
 }
 
 .passos ul li summary{
@@ -893,6 +895,7 @@ DESC0NECTA
 .FinalDesc {
     font-size: 1.5rem;
     padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .FinalDesc ul div {
@@ -926,7 +929,7 @@ DESC0NECTA
     .passos div {
         display: block;
     }
-
+Aplicativos que podem te ajudar a se lirar do vício nas telas"
     .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
@@ -947,7 +950,8 @@ DESC0NECTA
         flex-direction: row-reverse;
     }
 
-    .FinalDesc ul div li {
+    .FinalDesc ul div li {    border-bottom: 1px solid rgb(202, 202, 202);
+
         max-width: none;
     }
 }
@@ -988,6 +992,8 @@ APLICATIVOS
 
 .aplicativos {
     padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+
 }
 
 .aplicativos ul li {
@@ -1257,12 +1263,12 @@ section.comentariosPerigos ul li span {
 
 .cyberbullying {
     padding: 1vw 4vw 2vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
+    
 }
 
 .cyberbullying h3 {
     margin: 0 0 2vw 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -1275,10 +1281,37 @@ section.cyberbullying p {
     text-align: center;
     margin: 4vw 0 2vw 0;
 }
+<<<<<<< Updated upstream
 .referenciasPeri {
     padding: 4vw 4vw 4vw 4vw;
 }
 
+=======
+.menores {
+    margin: 3vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.menores h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2vw;
+}
+.menores h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2vw 4vw ;
+}
+.menores p {
+    font-size: 1.3rem;
+    margin: 0 10vw 0 0;
+}
+.menores div p {
+    font-size: 1rem;
+    margin: 3vw 5vw 3vw 10vw;
+    text-align: center;
+   
+}
+>>>>>>> Stashed changes
 .referenciasPeri h1 {
     font-size: 2rem;
 }
@@ -1392,6 +1425,7 @@ NOTICIAS
     display: flex;
 }
 
+<<<<<<< HEAD
 .carrosel .slider {
     margin: 0 auto;
     width: 423px;
@@ -1423,6 +1457,8 @@ NOTICIAS
     border-radius: 10px;
     cursor: pointer;
 }
+=======
+>>>>>>> 359bceadeaef9b2bdd2010d499c773e63ec9a395
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
