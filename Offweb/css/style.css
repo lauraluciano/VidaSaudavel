@@ -928,9 +928,8 @@ DESC0NECTA
 
     .passos div {
         display: block;
-    }
-Aplicativos que podem te ajudar a se lirar do vício nas telas"
-    .passos div.praia {
+
+    .passos div.praia a {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -955,7 +954,7 @@ Aplicativos que podem te ajudar a se lirar do vício nas telas"
         max-width: none;
     }
 }
-
+}
 /*===================================================================
 =====================================================================
 APLICATIVOS
@@ -1281,12 +1280,6 @@ section.cyberbullying p {
     text-align: center;
     margin: 4vw 0 2vw 0;
 }
-<<<<<<< Updated upstream
-.referenciasPeri {
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-=======
 .menores {
     margin: 3vw;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -1311,7 +1304,6 @@ section.cyberbullying p {
     text-align: center;
    
 }
->>>>>>> Stashed changes
 .referenciasPeri h1 {
     font-size: 2rem;
 }
@@ -1425,7 +1417,6 @@ NOTICIAS
     display: flex;
 }
 
-<<<<<<< HEAD
 .carrosel .slider {
     margin: 0 auto;
     width: 423px;
@@ -1457,8 +1448,6 @@ NOTICIAS
     border-radius: 10px;
     cursor: pointer;
 }
-=======
->>>>>>> 359bceadeaef9b2bdd2010d499c773e63ec9a395
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
