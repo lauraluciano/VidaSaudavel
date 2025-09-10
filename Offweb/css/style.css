@@ -1390,7 +1390,61 @@ NOTICIAS
     margin: 2vw;
     display: flex;
 }
+ .carrosel div.slider {
+   margin: 0 auto;
+   width: 423px;
+   height: 593px;
+   overflow: hidden;
+ }
+ .carrosel div.slides {
+   display: flex;
+ }
+ .carrosel div.slides input{
+   display: none;
+ }
+ .carrosel div.slide {
+   transition: 5s;
+   position: relative;
+ }
 
+ .carrosel .manual-navigation{
+   position: absolute;
+   
+   display: flex;
+   justify-content: center;
+ }
+ .carrosel .manual-btn{
+   border: 2px solid #fff;
+   padding: 5px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 1s;
+ }
+ .carrosel .manual-btn:not(:last-child){
+   margin-right: 40px;
+ }
+ .carrosel .manual-btn:hover{
+   background-color: black;
+ }
+ .carrosel #radio1:checked ~.first{
+   margin-left: 0;
+ }
+  .carrosel #radio2:checked ~.first{
+   margin-left: -40%;
+ }
+   .carrosel #radio3:checked ~.first{
+   margin-left: -180%;
+ }
+  .carrosel  #radio4:checked ~.first{
+   margin-left: -280%;
+ }
+ 
+.carrosel #radio5:checked ~.first{
+   margin-left: -280%;
+ }
+ .carrosel #radio6:checked ~.first{
+   margin-left: -280%;
+ }
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
