@@ -127,9 +127,9 @@ Introdução
 ==========================================*/
 
 section.introducao {
-   padding: 6vw 5vw 4vw 4vw;
-   display: flex;
-   border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 6vw 5vw 4vw 4vw;
+    display: flex;
+    border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
@@ -147,10 +147,12 @@ section.introducao img {
     height: 110%;
 
 }
+
 .introducao p {
-   padding: 2vw 20vw 0 0;
-   font-size: 1.5vw;
+    padding: 2vw 20vw 0 0;
+    font-size: 1.5vw;
 }
+
 /*========================================
 MAPA DO SITE
 ==========================================*/
@@ -177,9 +179,10 @@ section.mapa h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.mapa  div.bloco2 {
+
+.mapa div.bloco2 {
     background-color: #53061F;
     padding: 3vw;
     margin: 40px;
@@ -190,31 +193,37 @@ section.mapa h1 {
     line-height: 60px;
     font-size: 1.5rem;
 }
+
 .mapa div.bloco2 ul {
-     list-style-type: disc;
-       text-align: left;
-       padding-left: 20px;
-    
+    list-style-type: disc;
+    text-align: left;
+    padding-left: 20px;
+
 }
-.mapa div  a {
+
+.mapa div a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bolder;
-    
+
 }
+
 .mapa div.bloco2 img.lupa {
-  position: absolute;
-  top: -190px;
+    position: absolute;
+    top: -190px;
 }
+
 .comp {
-  position: absolute;
-  top: -160px;
-  padding: 0 0 0 3vw;
+    position: absolute;
+    top: -160px;
+    padding: 0 0 0 3vw;
 }
+
 .mapa div.bloco2 p {
-  margin: 15px 0;
-  line-height: 1.6;
+    margin: 15px 0;
+    line-height: 1.6;
 }
+
 /*==========================================
 noticias
 =============================================*/
@@ -239,11 +248,12 @@ noticias
     display: flex;
 }
 
-.noticias h4  {
+.noticias h4 {
     margin-top: 4vw;
     font-size: 1.7rem;
     font-weight: bold;
 }
+
 .noticias h4 a {
     font-size: 1.7rem;
     font-weight: bold;
@@ -399,6 +409,7 @@ MALEFICIOS
     display: flex;
     padding: 0 0 0 22vw;
 }
+
 .pesquisaMal img {
     width: 100%;
 }
@@ -411,14 +422,19 @@ MALEFICIOS
 .pesquisaMal details summary span {
     font-size: 2rem;
 }
+
 .pesquisaMal details img {
-    width: 100%;
+    width: 30%;
+}
+
+.pesquisaMal details div {
+    display: flex;
 }
 
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
-    
+
     margin: 0 auto;
     justify-content: space-around;
     padding: 4vw 4vw 4vw 4vw;
@@ -834,11 +850,12 @@ DESC0NECTA
 }
 
 .passos {
-    padding: 4vw 4vw 4vw 4vw;    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
-.passos ul li summary{
+.passos ul li summary {
     font-weight: bold;
 }
 
@@ -928,8 +945,10 @@ DESC0NECTA
 
     .passos div {
         display: block;
+    }
 
-    .passos div.praia a {
+   
+ .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -949,12 +968,13 @@ DESC0NECTA
         flex-direction: row-reverse;
     }
 
-    .FinalDesc ul div li {    border-bottom: 1px solid rgb(202, 202, 202);
+    .FinalDesc ul div li {
+        border-bottom: 1px solid rgb(202, 202, 202);
 
         max-width: none;
     }
 }
-}
+
 /*===================================================================
 =====================================================================
 APLICATIVOS
@@ -1030,12 +1050,10 @@ CIENCIA
 }
 
 /*banner*/
-
 .bannerCien {
     display: flex;
     justify-content: space-between
 }
-
 
 .bannerCien h1 {
     font-family: "Abril Fatface", serif;
@@ -1051,19 +1069,16 @@ CIENCIA
 }
 
 /*intro*/
-
 .introCien div {
     display: flex;
     justify-content: space-between;
 }
-
 
 .introCien p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 2vw 10px 2vw 10px;
     line-height: 2.5rem;
-
 }
 
 .introCien h3 {
@@ -1074,7 +1089,6 @@ CIENCIA
 }
 
 /*neuro*/
-
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -1087,8 +1101,13 @@ CIENCIA
     line-height: 2.5rem;
 }
 
-/*cerebro*/
+.neurodopamina h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
 
+/*cerebro*/
 .cerebroParte p {
     margin: 2vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -1097,8 +1116,9 @@ CIENCIA
     line-height: 2.5rem;
 }
 
-.cerebroParte img {
+.cerebroParte div.imgcerebro img {
     padding: 0 0 0 70rem;
+    border-bottom: 1px solid white;
 }
 
 .cerebroParte div.maquinaCassino {
@@ -1107,15 +1127,29 @@ CIENCIA
 }
 
 .cerebroParte div.maquinaCassino img {
-  width: 545px;
-  height: 555px;
-  padding: 0 0 0 2vw;
+    width: 545px;
+    height: 555px;
+    padding: 0 0 0 2vw;
+}
+
+.cerebroParte div.maquinaCassino p {
+    margin: 0 0 1vw 0;
+}
+
+.cerebroParte div.maquinaCassino {
+    margin: 2vw 0 0 0;
+    border-bottom: 1px solid white;
+}
+
+.cerebroParte h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
 }
 
 .cerebroParte div.liberacao {
     display: flex;
     justify-content: space-between;
-   
 }
 
 .cerebroParte div.liberacao img {
@@ -1125,7 +1159,6 @@ CIENCIA
 
 .cerebroParte div.liberacao p {
     display: flex;
-   
 }
 
 .cerebroParte div.textosCere p {
@@ -1133,8 +1166,7 @@ CIENCIA
     padding: 5vw 20px 0 20px;
 }
 
-/*conclusao*/ 
-
+/*conclusao*/
 .conclusaoCien p.mencao {
     padding: 1.5vw 1.5vw 1.5vw 2.5vw;
     background-color: #540B24;
@@ -1144,7 +1176,7 @@ CIENCIA
 
 .conclusaoCien p {
     margin: 2vw 0 0 0;
-     font-family: "IBM Plex Sans Thai", sans-serif;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 1vw 10px 1vw 2vw;
     line-height: 2.5rem;
@@ -1152,11 +1184,15 @@ CIENCIA
 
 .conclusaoCien div.psico {
     display: flex;
-     margin: 1vw 3vw 0 3vw;
+    margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien div.psico p {
+    margin: 1vw 3vw 0 3vw;
 }
 
 .conclusaoCien p {
-    padding: 2vw 0 2vw 0;
+    padding: 1vw 0 2vw 0;
 }
 
 .conclusaoCien h2 {
@@ -1168,20 +1204,209 @@ CIENCIA
     line-height: 2rem;
     font-size: 2rem;
 }
+
 .referenciasCere {
     padding: 4vw 0;
 }
-.referenciasCere h2{
+
+.referenciasCere h2 {
     font-size: 2rem;
 }
 
-.referenciasCere  a{
+.referenciasCere a {
     margin: 2vw;
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
     text-decoration: none;
     line-height: 2rem;
+}
+
+body p.creditosCien {
+    font-size: 0.7rem;
+    padding: 0;
+}
+
+ciencia {
+    background-color: #1D1D1D;
+}
+
+/*banner*/
+.bannerCien {
+    display: flex;
+    justify-content: space-between
+}
+
+.bannerCien h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    margin: 20px 20px;
+}
+
+.bannerCien h2 {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2.5vw 20px;
+    line-height: 2.5rem;
+}
+
+/*intro*/
+.introCien div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introCien p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vw 10px 2vw 10px;
+    line-height: 2.5rem;
+}
+
+.introCien h3 {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 2.5rem;
+    padding: 30px 20px 10px 0;
+    font-weight: bolder;
+}
+
+/*neuro*/
+.neurodopamina div.neuros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.neurodopamina p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vw 10px 2vw 10px;
+    line-height: 2.5rem;
+}
+
+.neurodopamina h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
+
+/*cerebro*/
+.cerebroParte p {
+    margin: 2vw 0 0 0;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 10px 1vw 2vw;
+    line-height: 2.5rem;
+}
+
+.cerebroParte div.imgcerebro img {
+    padding: 0 0 0 70rem;
+    border-bottom: 1px solid white;
+}
+
+.cerebroParte div.maquinaCassino {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cerebroParte div.maquinaCassino img {
+    width: 545px;
+    height: 555px;
+    padding: 0 0 0 2vw;
+}
+
+.cerebroParte div.maquinaCassino p {
+    margin: 0 0 1vw 0;
+}
+
+.cerebroParte div.maquinaCassino {
+    margin: 2vw 0 0 0;
+    border-bottom: 1px solid white;
+}
+
+.cerebroParte h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
+
+.cerebroParte div.liberacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cerebroParte div.liberacao img {
+    padding: 0 0 5vw 10vw;
+    width: 30%;
+}
+
+.cerebroParte div.liberacao p {
+    display: flex;
+}
+
+.cerebroParte div.textosCere p {
+    text-align: right;
+    padding: 5vw 20px 0 20px;
+}
+
+/*conclusao*/
+.conclusaoCien p.mencao {
+    padding: 1.5vw 1.5vw 1.5vw 2.5vw;
+    background-color: #540B24;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.conclusaoCien p {
+    margin: 2vw 0 0 0;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 10px 1vw 2vw;
+    line-height: 2.5rem;
+}
+
+.conclusaoCien div.psico {
+    display: flex;
+    margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien div.psico p {
+    margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien p {
+    padding: 1vw 0 2vw 0;
+}
+
+.conclusaoCien h2 {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.referenciasCere {
+    padding: 4vw 0;
+}
+
+.referenciasCere h2 {
+    font-size: 2rem;
+}
+
+.referenciasCere a {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+body p.creditosCien {
+    font-size: 0.7rem;
+    padding: 0;
 }
 
 
@@ -1209,7 +1434,7 @@ section.inicioPerigos h1 {
     text-align: left;
     margin: 5vw;
     font-weight: bold;
-    
+
 }
 
 section.inicio2 {
@@ -1238,23 +1463,27 @@ section.comentariosPerigos h2 {
 
 section.comentariosPerigos ul li span {
     font-weight: bold;
-    
+
 }
 
 .comentariosPerigos div.blocoPeri div.texto1Peri p {
     font-size: 1.3rem;
 }
+
 .comentariosPerigos div.blocoPeri ul {
     margin: 2vw;
 }
+
 .comentariosPerigos div.blocoPeri ul li {
     font-size: 1.3rem;
-   
+
 }
+
 .comentariosPerigos div.imagem img {
     margin: 0 0 0 6vw;
     width: 30vw;
 }
+
 .comentariosPerigos div.imagem p {
     margin: 2vw 2vw 1vw 3vw;
     font-size: 1.5rem;
@@ -1262,7 +1491,7 @@ section.comentariosPerigos ul li span {
 
 .cyberbullying {
     padding: 1vw 4vw 2vw 4vw;
-    
+
 }
 
 .cyberbullying h3 {
@@ -1275,7 +1504,8 @@ section.cyberbullying p {
     font-size: 1.5rem;
     margin: 0 0 1vw 0;
 }
-.cyberbullying span P{
+
+.cyberbullying span P {
     font-size: 1rem;
     text-align: center;
     margin: 4vw 0 2vw 0;
@@ -1284,25 +1514,29 @@ section.cyberbullying p {
     margin: 3vw;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+
 .menores h1 {
     font-size: 2rem;
     font-weight: bold;
     margin: 2vw;
 }
-.menores h2{
+
+.menores h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 2vw 4vw ;
+    margin: 2vw 4vw;
 }
+
 .menores p {
     font-size: 1.3rem;
     margin: 0 10vw 0 0;
 }
+
 .menores div p {
     font-size: 1rem;
     margin: 3vw 5vw 3vw 10vw;
     text-align: center;
-   
+
 }
 .referenciasPeri h1 {
     font-size: 2rem;
@@ -1382,9 +1616,11 @@ NOTICIAS
 
     font-size: 1.5rem;
 }
-.texto2{
+
+.texto2 {
     padding: 0 4vw;
 }
+
 .texto2 div.bloco {
     display: flex;
 }
@@ -1399,15 +1635,19 @@ NOTICIAS
 .texto2 p {
     font-size: 1.5rem;
 }
-.texto2 p.img{
+
+.texto2 p.img {
     text-align: center;
 }
-.texto2 div.right{
+
+.texto2 div.right {
     text-align: right;
 }
-.texto2 div.left{
+
+.texto2 div.left {
     text-align: left;
 }
+
 .ultimosTextos {
     font-size: 1.5rem;
 }
