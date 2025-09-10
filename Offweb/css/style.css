@@ -908,6 +908,12 @@ DESC0NECTA
 .passos div.grande h3 {
     font-size: 1.5rem;
 }
+.passos div.grande div.linksDesc li a:hover{
+    background-color: #2C3E50;
+    transition: .2s;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
 
 .FinalDesc {
     font-size: 1.5rem;
@@ -947,7 +953,10 @@ DESC0NECTA
         display: block;
     }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
