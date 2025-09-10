@@ -232,9 +232,16 @@ noticias
     display: flex;
 }
 
-.noticias h4 {
+.noticias h4  {
+    margin-top: 4vw;
     font-size: 1.7rem;
     font-weight: bold;
+}
+.noticias h4 a {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .noticias p {
@@ -841,7 +848,7 @@ DESC0NECTA
     padding: 4vw 4vw 4vw 4vw;
 }
 
-.passos ul li h3 {
+.passos ul li summary{
     font-weight: bold;
 }
 
