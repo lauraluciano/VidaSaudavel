@@ -260,23 +260,6 @@ noticias
     width: 40%;
 }
 
-/*======================================================
-formulario 
-=======================================================*/
-.formulario {
-    margin: 20px;
-}
-
-.formulario h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-}
-
-.formulario p {
-    margin: 20px 40px;
-    font-size: 1.5rem;
-}
-
 /*=========================================================
 Footer
 ===========================================================*/
@@ -393,7 +376,7 @@ MALEFICIOS
 }
 
 .inicioMal img {
-    width: 60%;
+    width: 50%;
 }
 
 .pesquisaMal {
@@ -429,11 +412,9 @@ MALEFICIOS
     font-size: 2rem;
 }
 .pesquisaMal details img {
-    width: 30%;
+    width: 100%;
 }
-.pesquisaMal details div{
-    display: flex;
-}
+
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
@@ -1410,61 +1391,38 @@ NOTICIAS
     margin: 2vw;
     display: flex;
 }
- .carrosel div.slider {
-   margin: 0 auto;
-   width: 423px;
-   height: 593px;
-   overflow: hidden;
- }
- .carrosel div.slides {
-   display: flex;
- }
- .carrosel div.slides input{
-   display: none;
- }
- .carrosel div.slide {
-   transition: 5s;
-   position: relative;
- }
 
- .carrosel .manual-navigation{
-   position: absolute;
-   
-   display: flex;
-   justify-content: center;
- }
- .carrosel .manual-btn{
-   border: 2px solid #fff;
-   padding: 5px;
-   border-radius: 10px;
-   cursor: pointer;
-   transition: 1s;
- }
- .carrosel .manual-btn:not(:last-child){
-   margin-right: 40px;
- }
- .carrosel .manual-btn:hover{
-   background-color: black;
- }
- .carrosel #radio1:checked ~.first{
-   margin-left: 0;
- }
-  .carrosel #radio2:checked ~.first{
-   margin-left: -40%;
- }
-   .carrosel #radio3:checked ~.first{
-   margin-left: -180%;
- }
-  .carrosel  #radio4:checked ~.first{
-   margin-left: -280%;
- }
- 
-.carrosel #radio5:checked ~.first{
-   margin-left: -280%;
- }
- .carrosel #radio6:checked ~.first{
-   margin-left: -280%;
- }
+.carrosel .slider {
+    margin: 0 auto;
+    width: 423px;
+    height: 593px;
+    overflow: hidden;
+}
+.carrosel .slides {
+    width: 400%;
+    height: 593px;
+    display: flex;
+}
+.carrosel .slides input {
+    display: none;
+}
+.carrosel .slide {
+    width: 423px;
+    position: relative;
+}
+.carrosel .manual-navigation {
+    position: absolute;
+    width: 423px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.carrosel .manual-btn{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
