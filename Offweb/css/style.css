@@ -947,8 +947,8 @@ DESC0NECTA
         display: block;
     }
 
-   
- .passos div.praia {
+
+    .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -1491,6 +1491,7 @@ section.comentariosPerigos ul li span {
 
 .cyberbullying {
     padding: 1vw 4vw 2vw 4vw;
+     border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
@@ -1505,11 +1506,12 @@ section.cyberbullying p {
     margin: 0 0 1vw 0;
 }
 
-.cyberbullying span P {
+.cyberbullying span p {
     font-size: 1rem;
-    text-align: center;
+    text-align: right;
     margin: 4vw 0 2vw 0;
 }
+
 .menores {
     margin: 3vw;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -1518,26 +1520,36 @@ section.cyberbullying p {
 .menores h1 {
     font-size: 2rem;
     font-weight: bold;
-    margin: 2vw;
+    margin: 2vw 2vw 3vw 2vw;
 }
 
 .menores h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 2vw 4vw;
+
+}
+
+.menores span p{
+    font-size: 1rem;
+    text-align: center;
 }
 
 .menores p {
     font-size: 1.3rem;
-    margin: 0 10vw 0 0;
+    margin: 2vw;
 }
 
-.menores div p {
+.menores div {
     font-size: 1rem;
-    margin: 3vw 5vw 3vw 10vw;
-    text-align: center;
-
+    display: flex;
+    align-items: start;
 }
+
+.menores div img {
+    width: 15vw;
+    margin: 0 10vw 3vw 9vw;
+}
+
 .referenciasPeri h1 {
     font-size: 2rem;
 }
@@ -1663,18 +1675,22 @@ NOTICIAS
     height: 593px;
     overflow: hidden;
 }
+
 .carrosel .slides {
     width: 400%;
     height: 593px;
     display: flex;
 }
+
 .carrosel .slides input {
     display: none;
 }
+
 .carrosel .slide {
     width: 423px;
     position: relative;
 }
+
 .carrosel .manual-navigation {
     position: absolute;
     width: 423px;
@@ -1682,12 +1698,14 @@ NOTICIAS
     display: flex;
     justify-content: center;
 }
-.carrosel .manual-btn{
+
+.carrosel .manual-btn {
     border: 2px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
+
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
