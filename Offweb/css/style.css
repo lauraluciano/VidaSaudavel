@@ -127,12 +127,14 @@ Introdução
 ==========================================*/
 
 section.introducao {
-    padding: 4vw 4vw 4vw 4vw;
-    display: flex;
+   padding: 6vw 5vw 4vw 4vw;
+   display: flex;
+   border-bottom: 1px solid rgb(202, 202, 202);
+
 }
 
 section.introducao h2 {
-    font-size: xx-large;
+    font-size: 4rem;
     color: #D1D1D1;
     text-shadow: 2px 2px 0 #000,
         1px 1px 0 #000,
@@ -141,9 +143,14 @@ section.introducao h2 {
 }
 
 section.introducao img {
-    width: 100%;
-}
+     width: 220%;
+   height: 110%;
 
+}
+.introducao p {
+   padding: 2vw 13vw 0 0;
+   font-size: 1.5vw;
+}
 /*========================================
 MAPA DO SITE
 ==========================================*/
@@ -167,46 +174,39 @@ section.mapa h1 {
 
 .mapa div.blocos {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
-
-section.mapa div.blocos ul {
-    display: block;
-    margin: 3vw;
-    background: #7E1537;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-style: normal;
+.mapa  div.bloco2 {
+    background-color: #53061F;
+    padding: 3vw;
+    margin: 40px;
+    border-radius: 20px;
+    width: 390px;
+    position: relative;
+    color: #ffffff;
 }
-
-section.mapa ul a {
-    display: block;
-    margin: 20px 10px 20px 10px;
-    text-align: left;
+.mapa div.bloco2 ul {
+     list-style-type: disc;
+       text-align: left;
+       padding-left: 20px;
+    
+}
+.mapa div  a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2rem;
+    font-weight: bolder;
+    
 }
-
-section.mapa div h3 {
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: x-large;
+.mapa div.bloco2 img.lupa {
+  position: absolute;
+  top: -190px;
 }
-
-section.mapa div.bloco2 ul {
-    margin: 3vw;
-    font-size: 2rem;
-    padding: 20px;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background: #540B24;
-    text-align: center;
-    line-height: 4rem;
+.mapa div.bloco2 p {
+  margin: 15px 0;
+  line-height: 1.6;
 }
-
 /*==========================================
 noticias
 =============================================*/
@@ -413,7 +413,12 @@ MALEFICIOS
 .pesquisaMal details summary span {
     font-size: 2rem;
 }
-
+.pesquisaMal details img {
+    width: 30%;
+}
+.pesquisaMal details div{
+    display: flex;
+}
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
@@ -1344,23 +1349,32 @@ NOTICIAS
 
     font-size: 1.5rem;
 }
-
+.texto2{
+    padding: 0 4vw;
+}
 .texto2 div.bloco {
     display: flex;
 }
 
-.texto2 div h2 {
+.texto2 div h2 a {
+    text-decoration: none;
+    color: #ffffff;
     font-size: 2rem;
+    font-weight: bolder;
 }
 
 .texto2 p {
     font-size: 1.5rem;
 }
-
-.texto2 p {
+.texto2 p.img{
     text-align: center;
 }
-
+.texto2 div.right{
+    text-align: right;
+}
+.texto2 div.left{
+    text-align: left;
+}
 .ultimosTextos {
     font-size: 1.5rem;
 }
