@@ -260,23 +260,6 @@ noticias
     width: 40%;
 }
 
-/*======================================================
-formulario 
-=======================================================*/
-.formulario {
-    margin: 20px;
-}
-
-.formulario h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-}
-
-.formulario p {
-    margin: 20px 40px;
-    font-size: 1.5rem;
-}
-
 /*=========================================================
 Footer
 ===========================================================*/
@@ -393,7 +376,7 @@ MALEFICIOS
 }
 
 .inicioMal img {
-    width: 60%;
+    width: 50%;
 }
 
 .pesquisaMal {
@@ -429,11 +412,9 @@ MALEFICIOS
     font-size: 2rem;
 }
 .pesquisaMal details img {
-    width: 30%;
+    width: 100%;
 }
-.pesquisaMal details div{
-    display: flex;
-}
+
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
@@ -947,9 +928,8 @@ DESC0NECTA
 
     .passos div {
         display: block;
-    }
-Aplicativos que podem te ajudar a se lirar do vício nas telas"
-    .passos div.praia {
+
+    .passos div.praia a {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -974,7 +954,7 @@ Aplicativos que podem te ajudar a se lirar do vício nas telas"
         max-width: none;
     }
 }
-
+}
 /*===================================================================
 =====================================================================
 APLICATIVOS
@@ -1300,12 +1280,6 @@ section.cyberbullying p {
     text-align: center;
     margin: 4vw 0 2vw 0;
 }
-<<<<<<< Updated upstream
-.referenciasPeri {
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-=======
 .menores {
     margin: 3vw;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -1330,7 +1304,6 @@ section.cyberbullying p {
     text-align: center;
    
 }
->>>>>>> Stashed changes
 .referenciasPeri h1 {
     font-size: 2rem;
 }
@@ -1444,6 +1417,37 @@ NOTICIAS
     display: flex;
 }
 
+.carrosel .slider {
+    margin: 0 auto;
+    width: 423px;
+    height: 593px;
+    overflow: hidden;
+}
+.carrosel .slides {
+    width: 400%;
+    height: 593px;
+    display: flex;
+}
+.carrosel .slides input {
+    display: none;
+}
+.carrosel .slide {
+    width: 423px;
+    position: relative;
+}
+.carrosel .manual-navigation {
+    position: absolute;
+    width: 423px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.carrosel .manual-btn{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
