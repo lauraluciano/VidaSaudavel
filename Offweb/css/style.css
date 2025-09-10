@@ -1282,12 +1282,12 @@ section.comentariosPerigos ul li span {
 
 .cyberbullying {
     padding: 1vw 4vw 2vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
+    
 }
 
 .cyberbullying h3 {
     margin: 0 0 2vw 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -1300,10 +1300,37 @@ section.cyberbullying p {
     text-align: center;
     margin: 4vw 0 2vw 0;
 }
+<<<<<<< Updated upstream
 .referenciasPeri {
     padding: 4vw 4vw 4vw 4vw;
 }
 
+=======
+.menores {
+    margin: 3vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.menores h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2vw;
+}
+.menores h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2vw 4vw ;
+}
+.menores p {
+    font-size: 1.3rem;
+    margin: 0 10vw 0 0;
+}
+.menores div p {
+    font-size: 1rem;
+    margin: 3vw 5vw 3vw 10vw;
+    text-align: center;
+   
+}
+>>>>>>> Stashed changes
 .referenciasPeri h1 {
     font-size: 2rem;
 }
