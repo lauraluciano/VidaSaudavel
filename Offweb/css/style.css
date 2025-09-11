@@ -1746,13 +1746,13 @@ SOBRE O PROJETO
 }
 
 .sobreProj {
-    margin: 3vw 0;
+    margin: 2vw 0;
 }
 
 .sobreProj h1 {
     font-size: 5rem;
     font-family: "Abril Fatface", serif;
-    padding: 10vw 0 10vw 10vw;
+    margin:10vw ;
 }
 
 .sobreProj div {
@@ -1760,45 +1760,53 @@ SOBRE O PROJETO
 }
 
 .sobreProj div h3 {
-    font-size: 35px;
-    padding: 10vw 0 0 20vw;
+    font-size: 2rem;
     text-align: right;
+    margin: 10vw;
 }
 
 .sobreProj p {
-    font-size: 27px;
-    padding: 2vw 0 2vw 0;
+    font-size: 1.8rem;
+    padding: 20px 0 20px 0;
 }
 
 .pessoas h4 {
-    font-size: 45px;
+    font-size: 2.6rem;
     font-family: "IBM Plex Sans Thai", serif;
     color: gray;
+    margin: 20px 0  20px  0;
 }
 
 .pessoas p {
     font-size: 35px;
 }
-
+.pessoas ul {
+    margin: 0 5vw 0 5vw;
+}
 .pessoas ul li {
+    display: block;
+    margin: 20px;
+}
+.pessoas ul div.grupo1sobre  {
     display: flex;
-    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+.pessoas ul div.grupo2sobre  {
+    display: flex;
+    justify-content: center;
+}
+.pessoas ul li.giulia{
+    padding: 40px;
 }
 
-.pessoas ul li img {
-    width: 200px;
-    height: 200px;
-}
 
-.pessoas ul li.ester img {
+
+
+.pessoas  img {
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
-
-.pessoas ul li div p {
-    padding: 20px 0 0 0;
-}
-
 .pessoas ul li img {
     padding: 0 50px;
 }
@@ -1816,8 +1824,4 @@ SOBRE O PROJETO
     width: 1118px;
     height: 570px;
     padding: 0 0 0 13vw;
-}
-
-.pessoas ul li.eduarda div.tresjuntos {
-    display: flex;
 }
