@@ -11,7 +11,9 @@ html {
 main {
     margin: 40px 4vw;
 }
-
+section{
+    padding: 4vw;
+}
 /*===========================================
 ============================================
 INICIO
@@ -143,12 +145,14 @@ section.introducao h2 {
 }
 
 section.introducao img {
-    width: 240%;
+    width:40%;
+    padding: 2vw 0 0 0;
 }
 
 .introducao p {
     padding: 2vw 0 0 0;
     font-size: 1.5vw;
+    margin: 0 6vw 0 0;
 }
 
 /*========================================
@@ -226,12 +230,12 @@ section.mapa h1 {
 noticias
 =============================================*/
 .noticias {
-    padding: 4vw 4vw 4vw 4vw;
     font-family: "Atkinson Hyperlegible", sans-serif;
-    text-align: center;
+    padding: 4vw;
 }
 
 .noticias h1 {
+    text-align: center;
     font-size: 3rem;
     font-style: italic;
     background: #1B1B1B;
@@ -250,11 +254,13 @@ noticias
     margin-top: 4vw;
     font-size: 1.7rem;
     font-weight: bold;
+    text-align: left;
 }
 
 .noticias h4 a {
     font-size: 1.7rem;
     font-weight: bold;
+    text-align: left;
     text-decoration: none;
     color: #ffffff;
 }
@@ -265,7 +271,7 @@ noticias
 
 .noticias ul li img {
     margin: 20px;
-    width: 60%;
+    width: 50%;
 
 }
 
@@ -1072,6 +1078,10 @@ CIENCIA
     font-size: 1.5rem;
     padding: 2.5vw 20px;
     line-height: 2.5rem;
+
+}
+p.creditosCien {
+    margin: 0 0 0 7vw;
 }
 
 /*intro*/
@@ -1117,7 +1127,7 @@ CIENCIA
 .neurodopamina p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px;
+    padding: 2vw 10px 0 10px;
     line-height: 2.5rem;
 }
 
@@ -1128,6 +1138,10 @@ CIENCIA
 }
 
 /*cerebro*/
+.cerebroParte div.imgcerebro{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 0 0 4vw 0;
+}
 .cerebroParte p {
     margin: 2vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
@@ -1137,10 +1151,12 @@ CIENCIA
 }
 
 .cerebroParte div.imgcerebro img {
-    padding: 0 0 0 70rem;
-    border-bottom: 1px solid white;
+    padding: 0 0 0 70rem;  
 }
-
+p.creditosCere {
+    font-size: 0.8rem;
+    padding:  0 0 0 80rem;
+}
 .cerebroParte div.maquinaCassino {
     display: flex;
     justify-content: space-between;
@@ -1172,25 +1188,18 @@ CIENCIA
     margin: 2vw 2vw;
 }
 
-.cerebroParte div.liberacao {
+.cerebroParte div.texImgCere {
     display: flex;
     justify-content: space-between;
+    padding: 0 4vw;
 }
-
 .cerebroParte div.liberacao img {
-    padding: 0 0 5vw 10vw;
-    width: 30%;
+    width: 110%;
 }
 
-.cerebroParte div.liberacao p {
-    display: flex;
+.textosCere {
+padding: 8vw 0 0 0;
 }
-
-.cerebroParte div.textosCere p {
-    text-align: right;
-    padding: 5vw 20px 0 20px;
-}
-
 /*conclusao*/
 .conclusaoCien {
     border-bottom: 1px solid rgb(202, 202, 202);
