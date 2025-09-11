@@ -421,15 +421,18 @@ MALEFICIOS
 .pesquisaMal details summary span {
     font-size: 2rem;
 }
-
+.pesquisaMal details p {
+    padding: 0 6vw;
+}
+.pesquisaMal details p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder
+}
 .pesquisaMal details img {
-    width: 30%;
+    width: 60%;
+    padding: 0 6vw;
 }
-
-.pesquisaMal details div {
-    display: flex;
-}
-
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
@@ -906,7 +909,8 @@ DESC0NECTA
 .passos div.grande h3 {
     font-size: 1.5rem;
 }
-.passos div.grande div.linksDesc li a:hover{
+
+.passos div.grande div.linksDesc li a:hover {
     background-color: #2C3E50;
     transition: .2s;
     padding: 5px 10px;
@@ -950,10 +954,6 @@ DESC0NECTA
         display: block;
     }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     .passos div.praia {
         display: flex;
         flex-direction: row-reverse;
@@ -1098,6 +1098,7 @@ CIENCIA
     padding: 30px 20px 10px 0;
     font-weight: bolder;
 }
+
 .introCien img {
     width: 20%;
     padding: 0 6vw 0 0;
@@ -1107,6 +1108,7 @@ CIENCIA
 .dopa {
     padding: 7vw 0 0 0;
 }
+
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -1142,8 +1144,9 @@ CIENCIA
 .cerebroParte div.maquinaCassino {
     display: flex;
     justify-content: space-between;
-    padding: 2vw 13vw ;
+    padding: 2vw 13vw;
 }
+
 .pinterest p {
     text-align: center;
 }
@@ -1253,193 +1256,6 @@ body p.creditosCien {
     padding: 0;
 }
 
-ciencia {
-    background-color: #1D1D1D;
-}
-
-/*banner*/
-.bannerCien {
-    display: flex;
-    justify-content: space-between
-}
-
-.bannerCien h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-    margin: 20px 20px;
-}
-
-.bannerCien h2 {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2.5vw 20px;
-    line-height: 2.5rem;
-}
-
-/*intro*/
-.introCien div {
-    display: flex;
-    justify-content: space-between;
-}
-
-.introCien p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px;
-    line-height: 2.5rem;
-}
-
-.introCien h3 {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 2.5rem;
-    padding: 30px 20px 10px 0;
-    font-weight: bolder;
-}
-
-/*neuro*/
-.neurodopamina div.neuros {
-    display: flex;
-    justify-content: space-between;
-}
-
-.neurodopamina p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px;
-    line-height: 2.5rem;
-}
-
-.neurodopamina h2 {
-    font-size: 2vw;
-    font-weight: bold;
-    margin: 2vw 2vw;
-}
-
-/*cerebro*/
-.cerebroParte p {
-    margin: 2vw 0 0 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 1vw 10px 1vw 2vw;
-    line-height: 2.5rem;
-}
-
-.cerebroParte div.imgcerebro img {
-    padding: 0 0 0 70rem;
-    border-bottom: 1px solid white;
-}
-
-.cerebroParte div.maquinaCassino {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cerebroParte div.maquinaCassino img {
-    width: 545px;
-    height: 555px;
-    padding: 0 0 0 2vw;
-}
-
-.cerebroParte div.maquinaCassino p {
-    margin: 0 0 1vw 0;
-}
-
-.cerebroParte div.maquinaCassino {
-    margin: 2vw 0 0 0;
-    border-bottom: 1px solid white;
-}
-
-.cerebroParte h2 {
-    font-size: 2vw;
-    font-weight: bold;
-    margin: 2vw 2vw;
-}
-
-.cerebroParte div.liberacao {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cerebroParte div.liberacao img {
-    padding: 0 0 5vw 10vw;
-    width: 30%;
-}
-
-.cerebroParte div.liberacao p {
-    display: flex;
-}
-
-.cerebroParte div.textosCere p {
-    text-align: right;
-    padding: 5vw 20px 0 20px;
-}
-
-/*conclusao*/
-.conclusaoCien {
-
-}
-.conclusaoCien p.mencao {
-    padding: 1.5vw 1.5vw 1.5vw 2.5vw;
-    background-color: #540B24;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.conclusaoCien p {
-    margin: 2vw 0 0 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 1vw 10px 1vw 2vw;
-    line-height: 2.5rem;
-}
-
-.conclusaoCien div.psico {
-    display: flex;
-    margin: 1vw 3vw 0 3vw;
-}
-
-.conclusaoCien div.psico p {
-    margin: 1vw 3vw 0 3vw;
-}
-
-.conclusaoCien p {
-    padding: 1vw 0 2vw 0;
-}
-
-.conclusaoCien h2 {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-    font-size: 2rem;
-}
-
-.referenciasCere {
-    padding: 4vw 0;
-}
-
-.referenciasCere h2 {
-    font-size: 2rem;
-}
-
-.referenciasCere a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
-
-body p.creditosCien {
-    font-size: 0.7rem;
-    padding: 0;
-}
-
-
-
 
 /*----------------------------------------------
 ------------------------------------------------
@@ -1520,7 +1336,7 @@ section.comentariosPerigos ul li span {
 
 .cyberbullying {
     padding: 1vw 4vw 2vw 4vw;
-     border-bottom: 1px solid rgb(202, 202, 202);
+    border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
@@ -1558,7 +1374,7 @@ section.cyberbullying p {
 
 }
 
-.menores span p{
+.menores span p {
     font-size: 1rem;
     text-align: center;
 }
@@ -1697,21 +1513,40 @@ NOTICIAS
     margin: 2vw;
     display: flex;
 }
-
+.ultimosTextos div iframe {
+    width: 600px;
+    height: 560px;
+}
+.ultimosTextos div p{
+    max-width: 800px;
+    line-height: 2.5rem;
+    margin: 0 0 0 10vw;
+}
+.ultimosTextos p {
+     line-height: 2.5rem;
+     padding: 0 0 2vw 2vw;
+}
+.carrosel-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px; 
+}
 .carrosel .slider {
-    margin: 0 auto;
+    margin-left: 20px;
     width: 423px;
     height: 593px;
     overflow: hidden;
+    position: relative;
 }
 
 .carrosel .slides {
     width: 400%;
     height: 593px;
     display: flex;
+    transition: margin-left 1s ease-in-out;
 }
 
-.carrosel .slides input {
+.carrosel .slider input {
     display: none;
 }
 
@@ -1720,12 +1555,18 @@ NOTICIAS
     position: relative;
 }
 
+.carrosel .slide img {
+    width: 423px;
+}
+
 .carrosel .manual-navigation {
     position: absolute;
-    width: 423px;
+    width: 100%;
     margin-top: -40px;
+    left: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .carrosel .manual-btn {
@@ -1733,8 +1574,158 @@ NOTICIAS
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
+    transition: .05s;
 }
 
+.carrosel .manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.carrosel .manual-btn:hover {
+    background: #ffffff;
+}
+
+#radio1:checked~.slides {
+    margin-left: 0;
+}
+
+#radio2:checked~.slides {
+    margin-left: -423px;
+}
+
+#radio3:checked~.slides {
+    margin-left: -846px;
+}
+
+#radio4:checked~.slides {
+    margin-left: -1269px;
+}
+
+#radio5:checked~.slides {
+    margin-left: -1692px;
+}
+
+#radio6:checked~.slides {
+    margin-left: -2115px;
+}
+
+.carrosel .navigation-auto div {
+    border: 2px solid #D1D1D1;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.carrosel .navigation-auto {
+    position: absolute;
+    width: 423px;
+    margin-top: 552px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.carrosel .navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: #ffffff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: #ffffff;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: #ffffff;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: #ffffff;
+}
+
+#radio5:checked~.navigation-auto .auto-btn5 {
+    background-color: #ffffff;
+}
+
+#radio6:checked~.navigation-auto .auto-btn6 {
+    background-color: #ffffff;
+}
+
+/*=========carrosel2=========*/
+.carrosel .manual-btn2 {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s;
+}
+
+.carrosel .manual-btn2:not(:last-child) {
+    margin-right: 40px;
+}
+
+.carrosel .manual-btn2:hover {
+    background: #ffffff;
+}
+#c2radio1:checked~.slides {
+    margin-left: 0;
+}
+
+#c2radio2:checked~.slides {
+    margin-left: -423px;
+}
+
+#c2radio3:checked~.slides {
+    margin-left: -846px;
+}
+
+#c2radio4:checked~.slides {
+    margin-left: -1269px;
+}
+
+#c2radio5:checked~.slides {
+    margin-left: -1692px;
+}
+
+#c2radio6:checked~.slides {
+    margin-left: -2115px;
+}
+#c2radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: #ffffff;
+}
+
+#c2radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: #ffffff;
+}
+
+#c2radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: #ffffff;
+}
+
+#c2radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: #ffffff;
+}
+
+#c2radio5:checked~.navigation-auto .auto-btn5 {
+    background-color: #ffffff;
+}
+
+#c2radio6:checked~.navigation-auto .auto-btn6 {
+    background-color: #ffffff;
+}
+/*========FIM CARROSEL===========*/
+.pod-cast {
+  padding: 4vw;
+ 
+}
+.pod-cast a {
+     margin: 2vw 0 ;
+   display: flex;
+   justify-content: center;
+}
 /*========================================
 SOBRE O PROJETO
 ==========================================*/
