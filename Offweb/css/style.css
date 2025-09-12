@@ -1370,6 +1370,9 @@ section.cyberbullying p {
     margin: 3vw;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
+.menores a {
+    color: #ffffff;
+}
 
 .menores h1 {
     font-size: 2rem;
