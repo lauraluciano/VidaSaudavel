@@ -194,8 +194,12 @@ section.mapa h1 {
     color: #ffffff;
     line-height: 60px;
     font-size: 1.5rem;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.mapa div.bloco2:hover{
+    transform:  translateY(-40px);
+}
 .mapa div.bloco2 ul {
     list-style-type: disc;
     text-align: left;
@@ -231,7 +235,7 @@ noticias
 =============================================*/
 .noticias {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    padding: 4vw;
+
 }
 
 .noticias h1 {
@@ -244,6 +248,7 @@ noticias
 
 .noticias ul {
     display: flex;
+    justify-content: space-between;
 }
 
 .noticias ul li {
@@ -251,7 +256,7 @@ noticias
 }
 
 .noticias h4 {
-    margin-top: 4vw;
+    margin-top: 6vw;
     font-size: 1.7rem;
     font-weight: bold;
     text-align: left;
@@ -266,15 +271,16 @@ noticias
 }
 
 .noticias p {
-    font-size: 1rem;
+    margin-top: 15px;
+    font-size: 1.5rem;
 }
 
-.noticias ul li img {
-    margin: 20px;
+.noticias ul li img{
+    margin: 40px;
     width: 50%;
+    height: 80% ;
 
 }
-
 /*=========================================================
 Footer
 ===========================================================*/
@@ -1058,7 +1064,7 @@ CIENCIA
 -------------------------------------------------
 -----------------------------------------------*/
 .ciencia {
-    background-color: #1D1D1D;
+    background-color: #1B1B1B;
 }
 
 /*banner*/
@@ -1425,7 +1431,7 @@ section.cyberbullying p {
 NOTICIAS
 ==========================================*/
 .noticiasHtml {
-    background: #1D1D1D;
+    background-color: #1B1B1B;
 }
 
 .bannerNot {
@@ -1749,26 +1755,35 @@ SOBRE O PROJETO
 }
 
 .sobreProj {
-    margin: 2vw 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sobreProj h1 {
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: "Abril Fatface", serif;
-    margin:10vw ;
+    margin-bottom: 8vw;
 }
 
 .sobreProj div {
-    display: flex;
+    display: block;
 }
 
 .sobreProj div h3 {
     font-size: 2rem;
-    text-align: right;
-    margin: 10vw;
+    padding: 40px;
+    color: #000;
+    background: #ffffff;
 }
-
+.sobreProj div img {
+    width:100% ;
+    
+}
 .sobreProj p {
+     font-size: 1.8rem;
+     margin: 8vw 0;
+}
+.pessoas p {
     font-size: 1.8rem;
     padding: 20px 0 20px 0;
 }
@@ -1803,9 +1818,6 @@ SOBRE O PROJETO
     padding: 40px;
 }
 
-
-
-
 .pessoas  img {
     width: 250px;
     height: 250px;
@@ -1824,7 +1836,7 @@ SOBRE O PROJETO
 }
 
 .final div img {
-    width: 1118px;
-    height: 570px;
+    width: 1047px;
+    height: 786px;
     padding: 0 0 0 13vw;
 }
