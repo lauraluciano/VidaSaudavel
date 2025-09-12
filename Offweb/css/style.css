@@ -859,9 +859,9 @@ DESC0NECTA
     font-weight: bold;
 }
 
-.abandonar img {
+.abandonar div img {
     width: 100%;
-    margin: 0 4vw;
+    height: 80%;
 }
 
 .passos {
@@ -911,7 +911,7 @@ DESC0NECTA
 }
 
 .passos div.praia img {
-    width: 150%;
+    width: 100%;
 }
 
 .passos div.praia span {
@@ -949,7 +949,8 @@ DESC0NECTA
 }
 
 .FinalDesc ul div img {
-    width: 180%;
+    width: 100%;
+    height: 80%;
 }
 
 @media screen and (max-width: 900px) {
