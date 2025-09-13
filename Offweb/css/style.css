@@ -443,27 +443,43 @@ p.creditosCien {
     font-weight: bold;
     margin: 2vw 2vw;
 }
-
-.cerebroParte div.imgcerebro{
+.cerebroParte {
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 0 0 4vw 0;
 }
+
 .cerebroParte p {
-    margin: 2vw 0 0 0;
+    margin: 0.5vw 0 0 0;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
-    padding: 1vw 10px 1vw 2vw;
+    padding: 1vw 0px 1vw 2vw;
     line-height: 2.5rem;
 }
 
-.cerebroParte div.imgcerebro img {
-    padding: 0 0 0 70rem;  
+.texImgParte {
+    padding: 15.8rem 6rem 0 0;
+}
+.cerebroParte div.tudo {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.cerebroParte div.texto {
+    max-width: 1200px;
+}
+.cerebroParte h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
+.imgcerebro {
+    transform: rotate(5deg);
+    width: 130%;
 }
 p.creditosCere {
-    font-size: 0.8rem;
-    padding:  0 0 0 80rem;
+    margin: 2px 0 0 5vw;
+    font-size: 0.7rem;
 }
-.cerebroParte div.maquinaCassino {
+.conclusaoCien div.maquinaCassino {
     display: flex;
     justify-content: space-between;
     padding: 2vw 13vw;
@@ -473,33 +489,31 @@ p.creditosCere {
     text-align: center;
 }
 
-.cerebroParte div.maquinaCassino img {
+.conclusaoCien div.maquinaCassino img {
     width: 545px;
     height: 555px;
     padding: 0 0 0 2vw;
 }
 
-.cerebroParte div.maquinaCassino p {
+.conclusaoCien div.maquinaCassino p {
     margin: 0 0 1vw 0;
 }
 
-.cerebroParte div.maquinaCassino {
+.conclusaoCien div.maquinaCassino {
     margin: 2vw 0 0 0;
-    border-bottom: 1px solid white;
 }
-
-.cerebroParte h2 {
+.conclusaoCien h2 {
     font-size: 2vw;
     font-weight: bold;
     margin: 2vw 2vw;
 }
 
-.cerebroParte div.texImgCere {
+.conclusaoCien div.texImgCere {
     display: flex;
     justify-content: space-between;
     padding: 0 4vw;
 }
-.cerebroParte div.liberacao img {
+.conclusaoCien div.liberacao img {
     width: 110%;
 }
 
@@ -1011,7 +1025,7 @@ DESCONECTA
 }
 
 .passos {
-    padding: 4vw;
+    padding: 0 4vw 4vw 4vw;
 }
 
 .passos ul li summary {
@@ -1077,7 +1091,8 @@ DESCONECTA
 
 .FinalDesc {
     font-size: 1.5rem;
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 0 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .FinalDesc ul div {
@@ -1784,22 +1799,21 @@ SOBRE O PROJETO
 }
 .pessoas ul li {
     display: block;
-    padding: 0 3vw 0 0;
-   
+    padding: 0 5vw;
 }
 .pessoas ul div.grupo1sobre  {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 0 3vw 0;
+}
+.pessoas li.giulia  {
+    margin: 3.3vw 0 0 0;
 }
 .pessoas ul div.grupo2sobre  {
     display: flex;
     justify-content: center;
 }
-.pessoas ul li.giulia{
-    padding: 40px;
-}
-
 .pessoas  img {
     width: 250px;
     height: 250px;
@@ -1820,5 +1834,5 @@ SOBRE O PROJETO
 .final div img {
     width: 1047px;
     height: 786px;
-    padding: 0 0 0 13vw;
+    padding: 0 0 0 17vw;
 }
