@@ -174,8 +174,9 @@ INICIO
 
 .introducao p {
     padding: 2vw 0 0 0;
+    line-height: 1.9vw;
     font-size: 1.4vw;
-    margin: 0 6vw 0 0;
+    margin: 0 6vw 0 3vw;
 }
 
 .mapa {
