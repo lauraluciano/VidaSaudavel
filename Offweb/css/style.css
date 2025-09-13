@@ -178,7 +178,9 @@ INICIO
     font-size: 1.4vw;
     margin: 0 6vw 0 3vw;
 }
-
+.textoInt {
+    padding: 0 0 6vw 0;
+}
 .mapa {
     padding: 4vw 4vw 4vw 4vw;
     justify-content: center;
@@ -811,7 +813,7 @@ PERIGOS
 
 
 .perigos {
-    background-color: #540B24;
+    background-color: #2C3E50;
 }
 
 .inicioPerigos {
@@ -1748,6 +1750,21 @@ SOBRE O PROJETO
      font-size: 1.8rem;
      margin: 4vw 0 0 0;
 }
+.centro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10vw 0 5vw 0;
+}
+.pessoas h2 {
+    font-size: 5rem;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    border-bottom: 5px solid #2C3E50;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
 .pessoas p {
     font-size: 1.8rem;
     padding: 20px 0 20px 0;
@@ -1759,15 +1776,15 @@ SOBRE O PROJETO
     color: gray;
     margin: 20px 0  20px  0;
 }
-
 .pessoas p {
     font-size: 35px;
 }
 .pessoas ul {
-    margin: 0 5vw 0 5vw;
+    margin: 0 5vw 0 8vw;
 }
 .pessoas ul li {
     display: block;
+    padding: 0 3vw 0 0;
    
 }
 .pessoas ul div.grupo1sobre  {
