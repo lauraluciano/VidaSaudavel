@@ -256,10 +256,20 @@ INICIO
 
 }
 .imgDilema {
-    width: 20%;
+    width: 50%;
+    height: 70%;
+    padding: 0 0 0 1vw;
 }
 .geração {
-    width: 20%;
+    width: 55%;
+    height: 70%;
+    padding: 0 0 0 4vw;
+}
+.linhaVertical {
+    border-right: 1px solid rgb(202, 202, 202);
+    height: 370px;
+    margin: 2vw 0 0 4vw;
+
 }
 .noticiasInicio h1 {
     text-align: center;
@@ -272,6 +282,7 @@ INICIO
 .noticiasInicio ul {
     display: flex;
     justify-content: space-between;
+    padding: 2vw 0 0 0;
 }
 
 .noticiasInicio ul li {
