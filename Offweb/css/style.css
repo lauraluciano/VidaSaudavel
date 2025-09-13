@@ -254,7 +254,12 @@ INICIO
     font-family: "Atkinson Hyperlegible", sans-serif;
 
 }
-
+.imgDilema {
+    width: 20%;
+}
+.geração {
+    width: 20%;
+}
 .noticiasInicio h1 {
     text-align: center;
     font-size: 3rem;
@@ -294,8 +299,6 @@ INICIO
 
 .noticiasInicio ul li img{
     margin: 40px;
-    width: 50%;
-    height: 80% ;
 
 }
 
