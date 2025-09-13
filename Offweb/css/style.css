@@ -14,15 +14,15 @@ main {
 section{
     padding: 4vw;
 }
-/*===========================================
-============================================
-INICIO
-===============================================
-===============================================
-*/
-/*============================================
-Header
-==============================================*/
+.subtitulo {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 2rem;
+    padding: 2vw 20px;
+    line-height: 2.5rem;
+}
+/*===========================================================
+HEADER
+===========================================================*/
 
 header {
     background: #ffffff;
@@ -77,43 +77,70 @@ header ul li a {
 .mobile-menu {
     display: none;
 }
+/*===========================================================
+FOOTER
+===========================================================*/
+footer {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background: #1D1D1D;
+    padding: 2vw;
+}
 
-/*==============================================
-Banner
-================================================*/
-section.banner {
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+
+footer nav p a {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+footer div.creditos p {
+    text-align: center;
+    font-size: small;
+}
+/*==========================================================
+INICIO
+==========================================================*/
+
+.banner {
     padding: 4vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
 }
 
-section.banner img {
+.banner img {
     width: 55%;
 }
 
-section.banner div.texto {
+.banner div.texto {
     display: block;
     text-align: center;
 }
 
-section.banner h1 {
+.banner h1 {
     font-family: "Noto Serif Display", serif;
     font-weight: bold;
     font-size: 4rem;
     margin: 0 0 4vw 0;
 }
 
-section.banner span {
+.banner span {
     font-style: italic;
 }
 
-section.banner p {
+.banner p {
     font-family: "Noto Serif Display", serif;
     font-size: 2rem;
     margin: 2vw 0vw 4vw 0vw;
 }
 
-section.banner p a {
+.banner p a {
     text-decoration: none;
     ;
     background: #A31D1D;
@@ -124,18 +151,14 @@ section.banner p a {
     border-radius: 10vw;
 }
 
-/*========================================
-Introdução
-==========================================*/
-
-section.introducao {
+.introducao {
     padding: 6vw 5vw 4vw 4vw;
     display: flex;
     border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
-section.introducao h2 {
+.introducao h2{
     font-size: 4rem;
     color: #D1D1D1;
     text-shadow: 2px 2px 0 #000,
@@ -144,27 +167,24 @@ section.introducao h2 {
         1px 1px 0 #000;
 }
 
-section.introducao img {
-    width:40%;
+.introducao img {
+    width:30%;
     padding: 2vw 0 0 0;
 }
 
 .introducao p {
     padding: 2vw 0 0 0;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin: 0 6vw 0 0;
 }
 
-/*========================================
-MAPA DO SITE
-==========================================*/
-section.mapa {
+.mapa {
     padding: 4vw 4vw 4vw 4vw;
     justify-content: center;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
-section.mapa h1 {
+.mapa h1 {
     text-align: center;
     font-size: 4rem;
     color: #D1D1D1;
@@ -230,15 +250,12 @@ section.mapa h1 {
     line-height: 1.6;
 }
 
-/*==========================================
-noticias
-=============================================*/
-.noticias {
+.noticiasInicio {
     font-family: "Atkinson Hyperlegible", sans-serif;
 
 }
 
-.noticias h1 {
+.noticiasInicio h1 {
     text-align: center;
     font-size: 3rem;
     font-style: italic;
@@ -246,23 +263,23 @@ noticias
     margin: 20px 20vw;
 }
 
-.noticias ul {
+.noticiasInicio ul {
     display: flex;
     justify-content: space-between;
 }
 
-.noticias ul li {
+.noticiasInicio ul li {
     display: flex;
 }
 
-.noticias h4 {
+.noticiasInicio h4 {
     margin-top: 6vw;
     font-size: 1.7rem;
     font-weight: bold;
     text-align: left;
 }
 
-.noticias h4 a {
+.noticiasInicio h4 a {
     font-size: 1.7rem;
     font-weight: bold;
     text-align: left;
@@ -270,43 +287,16 @@ noticias
     color: #ffffff;
 }
 
-.noticias p {
+.noticiasInicio p {
     margin-top: 15px;
     font-size: 1.5rem;
 }
 
-.noticias ul li img{
+.noticiasInicio ul li img{
     margin: 40px;
     width: 50%;
     height: 80% ;
 
-}
-/*=========================================================
-Footer
-===========================================================*/
-footer {
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    background: #1D1D1D;
-    padding: 2vw;
-}
-
-footer p {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    font-weight: bold;
-}
-
-footer nav p a {
-    display: flex;
-    justify-content: right;
-    padding: 10px 0px;
-    font-size: 2rem;
-    text-decoration: none;
-}
-
-footer div.creditos p {
-    text-align: center;
-    font-size: small;
 }
 
 @media screen and (max-width: 900px) {
@@ -345,11 +335,11 @@ footer div.creditos p {
         display: block;
     }
 
-    section.banner {
+    .banner {
         display: block;
     }
 
-    section.banner img {
+    .banner img {
         width: 100%;
     }
 
@@ -362,11 +352,212 @@ footer div.creditos p {
     }
 }
 
-/*=================================================================
-=====================================================================
-MALEFICIOS
-=====================================================================
-===================================================================*/
+/*==========================================================
+CIÊNCIA
+==========================================================*/
+
+.ciencia {
+    background-color: #1B1B1B;
+}
+
+.bannerCien {
+    display: flex;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.bannerCien h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    margin: 20px 20px;
+}
+
+
+p.creditosCien {
+    margin: 0 0 0 7vw;
+}
+
+.introCien {
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+
+.introCien div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introCien p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vw 10px 2vw 10px;
+    line-height: 2.5rem;
+}
+
+.introCien h3 {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 2.5rem;
+    padding: 30px 20px 10px 0;
+    font-weight: bolder;
+}
+
+.introCien img {
+    width: 20%;
+    padding: 0 6vw 0 0;
+}
+
+.dopa {
+    padding: 7vw 0 0 0;
+}
+
+.neurodopamina div.neuros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.neurodopamina p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 2vw 10px 0 10px;
+    line-height: 2.5rem;
+}
+
+.neurodopamina h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
+
+.cerebroParte div.imgcerebro{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 0 0 4vw 0;
+}
+.cerebroParte p {
+    margin: 2vw 0 0 0;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 10px 1vw 2vw;
+    line-height: 2.5rem;
+}
+
+.cerebroParte div.imgcerebro img {
+    padding: 0 0 0 70rem;  
+}
+p.creditosCere {
+    font-size: 0.8rem;
+    padding:  0 0 0 80rem;
+}
+.cerebroParte div.maquinaCassino {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 13vw;
+}
+
+.pinterest p {
+    text-align: center;
+}
+
+.cerebroParte div.maquinaCassino img {
+    width: 545px;
+    height: 555px;
+    padding: 0 0 0 2vw;
+}
+
+.cerebroParte div.maquinaCassino p {
+    margin: 0 0 1vw 0;
+}
+
+.cerebroParte div.maquinaCassino {
+    margin: 2vw 0 0 0;
+    border-bottom: 1px solid white;
+}
+
+.cerebroParte h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw 2vw;
+}
+
+.cerebroParte div.texImgCere {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.cerebroParte div.liberacao img {
+    width: 110%;
+}
+
+.textosCere {
+padding: 8vw 0 0 0;
+}
+
+.conclusaoCien {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.conclusaoCien p.mencao {
+    padding: 1.5vw 1.5vw 1.5vw 2.5vw;
+    background-color: #540B24;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.conclusaoCien p {
+    margin: 2vw 0 0 0;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 10px 1vw 2vw;
+    line-height: 2.5rem;
+}
+
+.conclusaoCien div.psico {
+    display: flex;
+    margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien div.psico p {
+    margin: 1vw 3vw 0 3vw;
+}
+
+.conclusaoCien p {
+    padding: 1vw 0 2vw 0;
+}
+
+.conclusaoCien h2 {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.referenciasCere {
+    padding: 4vw 0;
+}
+
+.referenciasCere h2 {
+    font-size: 2rem;
+}
+
+.referenciasCere a {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+body p.creditosCien {
+    font-size: 0.7rem;
+    padding: 0;
+}
+
+/*==========================================================
+MALEFÍCIOS
+==========================================================*/
+
 .maleficios {
     background: #540B24;
     border-bottom: 1px solid rgb(202, 202, 202);
@@ -388,12 +579,6 @@ MALEFICIOS
 
 .inicioMal div {
     font-family: "Atkinson Hyperlegible", sans-serif;
-}
-
-.inicioMal p {
-    margin: 0 50px 0 0;
-    font-size: 2rem;
-    font-family: "IBM Plex Sans Thai", sans-serif;
 }
 
 .inicioMal img {
@@ -605,205 +790,150 @@ MALEFICIOS
     }
 }
 
-/*====================================================
-======================================================
-DADOS
-======================================================
-======================================================*/
+/*==========================================================
+PERIGOS
+==========================================================*/
 
-.bannerDados {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 0 4vw 4vw 4vw;
+
+.perigos {
+    background-color: #540B24;
 }
 
-.bannerDados h1 {
-    font-family: "Abril Fatface", serif;
+.inicioPerigos {
+    align-items: start;
+    display: flex;
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.inicioPerigos h1 {
     font-size: 4rem;
-    line-height: 5rem;
-    display: block;
-    flex: 1;
-    margin-top: 0;
-    padding-top: 0;
-    padding: 0 2vw 0 3vw;
+    text-align: left;
+    margin: 5vw;
+    font-family: "Abril Fatface", serif;
+}
+
+.inicio2 {
+    text-align: left;
+    padding: 4vw 4vw 4vw 4vw;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+
+.comentariosPerigos {
+    padding: 4vw 4vw 2vw 4vw;
+}
+
+.comentariosPerigos div.blocoPeri {
+    font-size: 1rem;
+    display: flex;
+
+}
+
+.comentariosPerigos h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 2vw;
+}
+
+.comentariosPerigos ul li span {
+    font-weight: bold;
+
+}
+
+.comentariosPerigos div.blocoPeri div.texto1Peri p {
+    font-size: 1.3rem;
+}
+
+.comentariosPerigos div.blocoPeri ul {
+    margin: 2vw;
+}
+
+.comentariosPerigos div.blocoPeri ul li {
+    font-size: 1.3rem;
+
+}
+
+.comentariosPerigos div.imagem img {
+    margin: 0 0 0 6vw;
+    width: 30vw;
+}
+
+.comentariosPerigos div.imagem p {
+    margin: 2vw 2vw 1vw 3vw;
+    font-size: 1.5rem;
+}
+
+.cyberbullying {
+    padding: 0 4vw 2vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+
+.cyberbullying h3 {
+    margin: 0 0 1.5vw 2vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cyberbullying p {
+    font-size: 1.5rem;
+    margin: 0 10vw 1vw 0;
+}
+
+.cyberbullying span p {
+    font-size: 1rem;
+    text-align: right;
+    margin: 4vw 0 2vw 0;
+}
+
+.menores {
+    margin: 3vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.menores a {
+    color: #ffffff;
+}
+
+.menores h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1vw 2vw 3vw 2vw;
+}
+
+.menores h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.menores span p {
+    font-size: 1rem;
     text-align: center;
 
 }
 
-.bannerDados div {
-    flex: 1;
-    text-align: justify;
+.menores p {
+    font-size: 1.3rem;
+    margin: 2vw;
+}
+
+.menores div {
+    font-size: 1rem;
     display: flex;
-    justify-content: space-between;
-    padding: 5vw 0 0 0;
+    align-items: start;
 }
 
-.bannerDados p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.4rem;
-    line-height: 40px;
-    font-weight: 400;
-    font-style: normal;
-    padding: 0 3vw 0 0;
+.menores div img {
+    width: 15vw;
+    margin: 0 10vw 1vw 9vw;
 }
 
-.bannerDados div img {
-    width: 50%;
-}
-
-.estudantes {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-span {
-    font-weight: bold;
-}
-
-.estudantes h2 {
-    font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.estudantes p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 1vw 0 0 0;
-    line-height: 35px;
-}
-
-.estudantes div {
-    display: flex;
-    justify-content: space-between;
-    padding: 2vw 0 0 0;
-}
-
-.estudantes div ul {
-    padding: 0 0 0 5vw;
-    list-style-type: disc;
-    font-size: 1.5rem;
-}
-
-.estudantes div ul p {
-    font-size: 1.5rem;
-}
-
-.estudantes div ul li {
-    line-height: 5vw;
-}
-
-.estudantes div ul p {
-    padding: 0 0 1vw 0;
-}
-
-.estudantes div img {
-    width: 40%;
-}
-
-.equipamento {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-.equipamento h2 {
-    font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.equipamento div {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0 2vw 0;
-}
-
-.equipamento div p {
-    line-height: 35px;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-style: normal;
-    padding: 2vw 0 0 0;
-    max-width: 700px;
-}
-
-.equipamento img {
-    margin: 0 auto;
-}
-
-.equipamento div ul {
-    padding: 0 0 0 5vw;
-    list-style-type: disc;
-    font-size: 1.5rem;
-}
-
-.idade {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-.idade h2 {
-    font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.idade p {
-    line-height: 35px;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-style: normal;
-    padding: 2vw 0 0 0;
-}
-
-.idade div {
-    display: flex;
-    justify-content: space-between;
-    max-width: 75vw;
-}
-
-.idade div img {
-    padding: 0 0 0 3vw;
-}
-
-.conclusao {
-    padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-}
-
-.conclusao h2 {
-    font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.conclusao p {
-    line-height: 35px;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-}
-
-.conclusao div {
-    justify-content: space-between;
-    display: flex;
-    padding: 2vw 0 0 0;
-}
-
-.conclusao img {
-    padding: 0 4vw 0 0;
-}
-
-.referencias {
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-.referencias h3 {
+.referenciasPeri h1 {
     font-size: 2rem;
 }
 
-.referencias a {
+.referenciasPeri a {
     margin: 2vw;
     text-align: left;
     font-weight: bolder;
@@ -812,12 +942,10 @@ span {
     line-height: 2rem;
 }
 
-/*=========================================================    
-==========
-=====================================================================
-DESC0NECTA
-=====================================================================
-===================================================================*/
+/*==========================================================
+DESCONECTA
+==========================================================*/
+
 .desconecta {
     background: #540B24;
 
@@ -838,11 +966,6 @@ DESC0NECTA
 
 .bannerDesconecta div.texto {
     display: block;
-}
-
-.bannerDesconecta p {
-    font-size: 2rem;
-    max-width: 700px;
 }
 
 .abandonar {
@@ -1000,443 +1123,10 @@ DESC0NECTA
     }
 }
 
-/*===================================================================
-=====================================================================
-APLICATIVOS
-=====================================================================
-===================================================================*/
-.aplicativosHtml {
-    background: #540B24;
-}
+/*==========================================================
+NOTÍCIAS
+==========================================================*/
 
-.bannerAplicativo {
-    display: flex;
-    justify-content: space-between;
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-.bannerAplicativo h1 {
-    font-size: 3.5rem;
-    font-family: "Abril Fatface", serif;
-    line-height: 5rem;
-}
-
-.bannerAplicativo p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.3rem;
-    line-height: 30px;
-    font-weight: 400;
-    padding: 1vw 0 0 0;
-    max-width: 800px;
-}
-
-.bannerAplicativo img {
-    width: 20%;
-}
-
-.aplicativos {
-    padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
-}
-
-.aplicativos ul li {
-    list-style-type: disc;
-    font-size: 1.5rem;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-weight: bold;
-}
-
-.aplicativos p {
-    font-size: 1.3rem;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    line-height: 30px;
-    padding: 0.5vw 0 0 0;
-}
-
-.aplicativos div {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80vw;
-}
-
-.aplicativos ul div a img {
-    width: 50%;
-    padding: 0 0 4rem 10rem;
-}
-
-/*----------------------------------------------
-------------------------------------------------
-CIENCIA
--------------------------------------------------
------------------------------------------------*/
-.ciencia {
-    background-color: #1B1B1B;
-}
-
-/*banner*/
-.bannerCien {
-    display: flex;
-    border-bottom: 1px solid rgb(202, 202, 202);
-}
-
-.bannerCien h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-    margin: 20px 20px;
-}
-
-.bannerCien h2 {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2.5vw 20px;
-    line-height: 2.5rem;
-
-}
-p.creditosCien {
-    margin: 0 0 0 7vw;
-}
-
-/*intro*/
-.introCien {
-    border-bottom: 1px solid rgb(202, 202, 202);
-
-}
-
-.introCien div {
-    display: flex;
-    justify-content: space-between;
-}
-
-.introCien p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px;
-    line-height: 2.5rem;
-}
-
-.introCien h3 {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 2.5rem;
-    padding: 30px 20px 10px 0;
-    font-weight: bolder;
-}
-
-.introCien img {
-    width: 20%;
-    padding: 0 6vw 0 0;
-}
-
-/*neuro*/
-.dopa {
-    padding: 7vw 0 0 0;
-}
-
-.neurodopamina div.neuros {
-    display: flex;
-    justify-content: space-between;
-}
-
-.neurodopamina p {
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 2vw 10px 0 10px;
-    line-height: 2.5rem;
-}
-
-.neurodopamina h2 {
-    font-size: 2vw;
-    font-weight: bold;
-    margin: 2vw 2vw;
-}
-
-/*cerebro*/
-.cerebroParte div.imgcerebro{
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 0 0 4vw 0;
-}
-.cerebroParte p {
-    margin: 2vw 0 0 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 1vw 10px 1vw 2vw;
-    line-height: 2.5rem;
-}
-
-.cerebroParte div.imgcerebro img {
-    padding: 0 0 0 70rem;  
-}
-p.creditosCere {
-    font-size: 0.8rem;
-    padding:  0 0 0 80rem;
-}
-.cerebroParte div.maquinaCassino {
-    display: flex;
-    justify-content: space-between;
-    padding: 2vw 13vw;
-}
-
-.pinterest p {
-    text-align: center;
-}
-
-.cerebroParte div.maquinaCassino img {
-    width: 545px;
-    height: 555px;
-    padding: 0 0 0 2vw;
-}
-
-.cerebroParte div.maquinaCassino p {
-    margin: 0 0 1vw 0;
-}
-
-.cerebroParte div.maquinaCassino {
-    margin: 2vw 0 0 0;
-    border-bottom: 1px solid white;
-}
-
-.cerebroParte h2 {
-    font-size: 2vw;
-    font-weight: bold;
-    margin: 2vw 2vw;
-}
-
-.cerebroParte div.texImgCere {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 4vw;
-}
-.cerebroParte div.liberacao img {
-    width: 110%;
-}
-
-.textosCere {
-padding: 8vw 0 0 0;
-}
-/*conclusao*/
-.conclusaoCien {
-    border-bottom: 1px solid rgb(202, 202, 202);
-}
-
-.conclusaoCien p.mencao {
-    padding: 1.5vw 1.5vw 1.5vw 2.5vw;
-    background-color: #540B24;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.conclusaoCien p {
-    margin: 2vw 0 0 0;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 1.5rem;
-    padding: 1vw 10px 1vw 2vw;
-    line-height: 2.5rem;
-}
-
-.conclusaoCien div.psico {
-    display: flex;
-    margin: 1vw 3vw 0 3vw;
-}
-
-.conclusaoCien div.psico p {
-    margin: 1vw 3vw 0 3vw;
-}
-
-.conclusaoCien p {
-    padding: 1vw 0 2vw 0;
-}
-
-.conclusaoCien h2 {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-    font-size: 2rem;
-}
-
-.referenciasCere {
-    padding: 4vw 0;
-}
-
-.referenciasCere h2 {
-    font-size: 2rem;
-}
-
-.referenciasCere a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
-
-body p.creditosCien {
-    font-size: 0.7rem;
-    padding: 0;
-}
-
-
-/*----------------------------------------------
-------------------------------------------------
-PERIGOS
--------------------------------------------------
------------------------------------------------*/
-
-
-.perigos {
-    background-color: #540B24;
-}
-
-section.inicioPerigos {
-    align-items: start;
-    display: flex;
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-section.inicioPerigos h1 {
-    font-size: 4rem;
-    text-align: left;
-    margin: 5vw;
-    font-weight: bold;
-
-}
-
-section.inicio2 {
-    text-align: left;
-    padding: 4vw 4vw 4vw 4vw;
-    font-size: 1.5rem;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
-}
-
-.comentariosPerigos {
-    padding: 4vw 4vw 2vw 4vw;
-}
-
-section.comentariosPerigos div.blocoPeri {
-    font-size: 1rem;
-    display: flex;
-
-}
-
-section.comentariosPerigos h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 2vw;
-}
-
-section.comentariosPerigos ul li span {
-    font-weight: bold;
-
-}
-
-.comentariosPerigos div.blocoPeri div.texto1Peri p {
-    font-size: 1.3rem;
-}
-
-.comentariosPerigos div.blocoPeri ul {
-    margin: 2vw;
-}
-
-.comentariosPerigos div.blocoPeri ul li {
-    font-size: 1.3rem;
-
-}
-
-.comentariosPerigos div.imagem img {
-    margin: 0 0 0 6vw;
-    width: 30vw;
-}
-
-.comentariosPerigos div.imagem p {
-    margin: 2vw 2vw 1vw 3vw;
-    font-size: 1.5rem;
-}
-
-.cyberbullying {
-    padding: 0 4vw 2vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
-}
-
-.cyberbullying h3 {
-    margin: 0 0 1.5vw 2vw;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-section.cyberbullying p {
-    font-size: 1.5rem;
-    margin: 0 10vw 1vw 0;
-}
-
-.cyberbullying span p {
-    font-size: 1rem;
-    text-align: right;
-    margin: 4vw 0 2vw 0;
-}
-
-.menores {
-    margin: 3vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-}
-.menores a {
-    color: #ffffff;
-}
-
-.menores h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 1vw 2vw 3vw 2vw;
-}
-
-.menores h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-
-}
-
-.menores span p {
-    font-size: 1rem;
-    text-align: center;
-
-}
-
-.menores p {
-    font-size: 1.3rem;
-    margin: 2vw;
-}
-
-.menores div {
-    font-size: 1rem;
-    display: flex;
-    align-items: start;
-}
-
-.menores div img {
-    width: 15vw;
-    margin: 0 10vw 1vw 9vw;
-}
-
-.referenciasPeri h1 {
-    font-size: 2rem;
-}
-
-.referenciasPeri a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
-
-/*========================================
-NOTICIAS
-==========================================*/
 .noticiasHtml {
     background-color: #1B1B1B;
 }
@@ -1682,7 +1372,6 @@ NOTICIAS
     background-color: #ffffff;
 }
 
-/*=========carrosel2=========*/
 .carrosel .manual-btn2 {
     border: 2px solid #ffffff;
     padding: 5px;
@@ -1744,7 +1433,7 @@ NOTICIAS
 #c2radio6:checked~.navigation-auto .auto-btn6 {
     background-color: #ffffff;
 }
-/*========FIM CARROSEL===========*/
+
 .pod-cast {
   padding: 4vw;
  
@@ -1754,9 +1443,271 @@ NOTICIAS
    display: flex;
    justify-content: center;
 }
-/*========================================
+
+/*==========================================================
+APLICATIVOS
+==========================================================*/
+
+.aplicativosHtml {
+    background: #540B24;
+}
+
+.bannerAplicativo {
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.bannerAplicativo h1 {
+    font-size: 3.5rem;
+    font-family: "Abril Fatface", serif;
+    line-height: 5rem;
+}
+
+.bannerAplicativo img {
+    width: 20%;
+}
+
+.aplicativos {
+    padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+
+.aplicativos ul li {
+    list-style-type: disc;
+    font-size: 1.5rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: bold;
+}
+
+.aplicativos p {
+    font-size: 1.3rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    line-height: 30px;
+    padding: 0.5vw 0 0 0;
+}
+
+.aplicativos div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+}
+
+.aplicativos ul div a img {
+    width: 50%;
+    padding: 0 0 4rem 10rem;
+}
+
+/*==========================================================
+DADOS
+==========================================================*/
+
+.bannerDados {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 0 4vw 4vw 4vw;
+}
+
+.bannerDados h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    display: block;
+    flex: 1;
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0 2vw 0 3vw;
+    text-align: center;
+
+}
+
+.bannerDados div {
+    flex: 1;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 0 0 0;
+}
+
+.bannerDados p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.4rem;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 3vw 0 0;
+}
+
+.bannerDados div img {
+    width: 50%;
+}
+
+.estudantes {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+span {
+    font-weight: bold;
+}
+
+.estudantes h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.estudantes p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    padding: 1vw 0 0 0;
+    line-height: 35px;
+}
+
+.estudantes div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 0 0 0;
+}
+
+.estudantes div ul {
+    padding: 0 0 0 5vw;
+    list-style-type: disc;
+    font-size: 1.5rem;
+}
+
+.estudantes div ul p {
+    font-size: 1.5rem;
+}
+
+.estudantes div ul li {
+    line-height: 5vw;
+}
+
+.estudantes div ul p {
+    padding: 0 0 1vw 0;
+}
+
+.estudantes div img {
+    width: 40%;
+}
+
+.equipamento {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.equipamento h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.equipamento div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2vw 0;
+}
+
+.equipamento div p {
+    line-height: 35px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2vw 0 0 0;
+    max-width: 700px;
+}
+
+.equipamento img {
+    margin: 0 auto;
+}
+
+.equipamento div ul {
+    padding: 0 0 0 5vw;
+    list-style-type: disc;
+    font-size: 1.5rem;
+}
+
+.idade {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.idade h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.idade p {
+    line-height: 35px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2vw 0 0 0;
+}
+
+.idade div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75vw;
+}
+
+.idade div img {
+    padding: 0 0 0 3vw;
+}
+
+.conclusao {
+    padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.conclusao h2 {
+    font-family: "Jacques Francois", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conclusao p {
+    line-height: 35px;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-size: 1.5rem;
+}
+
+.conclusao div {
+    justify-content: space-between;
+    display: flex;
+    padding: 2vw 0 0 0;
+}
+
+.conclusao img {
+    padding: 0 4vw 0 0;
+}
+
+.referencias {
+    padding: 4vw 4vw 4vw 4vw;
+}
+
+.referencias h3 {
+    font-size: 2rem;
+}
+
+.referencias a {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+/*==========================================================
 SOBRE O PROJETO
-==========================================*/
+==========================================================*/
+
 .sobre {
     background-color: #1B1B1B;
 }
@@ -1769,25 +1720,18 @@ SOBRE O PROJETO
 .sobreProj h1 {
     font-size: 8rem;
     font-family: "Abril Fatface", serif;
-    margin-bottom: 8vw;
+    padding: 0 0 4vw 0;
 }
 
 .sobreProj div {
     display: block;
-}
-
-.sobreProj div h3 {
-    font-size: 2rem;
-    padding: 40px;
-    color: #000;
-    background: #ffffff;
 }
 .sobreProj div img {
     width:100% ;
 }
 .sobreProj p {
      font-size: 1.8rem;
-     margin: 8vw 0;
+     margin: 4vw 0 0 0;
 }
 .pessoas p {
     font-size: 1.8rem;
