@@ -140,7 +140,7 @@ INICIO
     margin: 2vw 0vw 4vw 0vw;
 }
 
-.banner p a {
+.banner a {
     text-decoration: none;
     ;
     background: #A31D1D;
@@ -168,15 +168,23 @@ INICIO
 }
 
 .introducao img {
-    width:30%;
+    width:100%;
     padding: 2vw 0 0 0;
 }
 
 .introducao p {
     padding: 2vw 0 0 0;
-    line-height: 1.9vw;
-    font-size: 1.4vw;
+    line-height: 2rem;
+    font-size: 1.5rem;
     margin: 0 6vw 0 3vw;
+}
+.introducao div.creditoMaos {
+    display: block;
+}
+.introducao div.creditoMaos p {
+    font-size: 1rem;
+    margin: none;
+    line-height:normal ;
 }
 .textoInt {
     padding: 0 0 6vw 0;
@@ -316,9 +324,10 @@ INICIO
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .nav-bar {
         padding: 1.5rem 4rem;
+        
     }
 
     .nav-item {
@@ -336,7 +345,6 @@ INICIO
     }
 
     .mobile-menu ul {
-
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -503,7 +511,7 @@ p.creditosCere {
     margin: 2vw 0 0 0;
 }
 .conclusaoCien h2 {
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: bold;
     margin: 2vw 2vw;
 }
@@ -1832,7 +1840,7 @@ SOBRE O PROJETO
 }
 
 .final div img {
-    width: 1047px;
-    height: 786px;
-    padding: 0 0 0 17vw;
+    width: 90%;
+
+  
 }
