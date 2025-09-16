@@ -622,7 +622,6 @@ MALEFÍCIOS
 
 .maleficios {
     background: #540B24;
-    border-bottom: 1px solid rgb(202, 202, 202);
 
 }
 
@@ -630,7 +629,6 @@ MALEFÍCIOS
     padding: 4vw 4vw 4vw 4vw;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .inicioMal h1 {
@@ -643,8 +641,8 @@ MALEFÍCIOS
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
-.inicioMal img {
-    width: 40%;
+.inicioMal a img {
+    width: 120%;
 }
 
 .pesquisaMal {
@@ -655,7 +653,7 @@ MALEFÍCIOS
 .pesquisaMal p {
     font-size: 1.4rem;
     line-height: 1.8rem;
-    padding: 4vw 0 4vw 0;
+    margin: 0 2vw;
 }
 
 .pesquisaMal p.creditos {
@@ -707,13 +705,16 @@ MALEFÍCIOS
 .pesquisa-2Mal {
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
-
     margin: 0 auto;
     justify-content: space-around;
     padding: 4vw 4vw 4vw 4vw;
 
 }
-
+.pesquisa-2Mal h2 {
+     font-family: "Abril Fatface", serif;
+    font-size: 3.2rem;
+    display: block;
+}
 .pesquisa-2Mal div {
     width: 30%;
 }
@@ -734,10 +735,14 @@ MALEFÍCIOS
 
 .pesquisa-3Mal {
     padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
     margin: 40px;
 }
-
+.pesquisa-3Mal h2 {
+     font-family: "Abril Fatface", serif;
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+    display: block;
+}
 .pesquisa-3Mal p {
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -1242,18 +1247,19 @@ NOTÍCIAS
     font-weight: bolder;
 }
 
-.bannerNot div img {
-    width: 25%;
+.bannerNot div  a img {
+    width: 100%;
 }
 
 .texto1 {
     padding: 0vw 4vw 4vw 4vw;
+    line-height: 2rem;
 }
 
 .texto1 div {
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.5rem;  
 }
 
 .texto1 div iframe {
@@ -1268,7 +1274,7 @@ NOTÍCIAS
 }
 
 .texto1 p {
-
+    margin-top: 40px;
     font-size: 1.5rem;
 }
 
@@ -1289,6 +1295,7 @@ NOTÍCIAS
 
 .texto2 p {
     font-size: 1.5rem;
+    
 }
 
 .texto2 p.img {
@@ -1297,6 +1304,7 @@ NOTÍCIAS
 
 .texto2 div.right {
     text-align: right;
+ 
 }
 
 .texto2 div.left {
@@ -1820,7 +1828,9 @@ SOBRE O PROJETO
 .sobreProj div img {
     width: 100%;
 }
-
+.sobreProj div legend {
+    text-align: right;
+}
 .sobreProj p {
     font-size: 1.8rem;
     margin: 4vw 0 0 0;
