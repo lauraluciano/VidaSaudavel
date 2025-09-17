@@ -7,7 +7,6 @@ html {
     color: #ffffff;
     font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
 }
-
 main {
     margin: 40px 4vw;
 }
@@ -1927,6 +1926,48 @@ div.imgSobreBanner p {
 .final div img {
     width: 60%;
     padding: 0 0 0 22rem;
+}
+/* 
+Referências 
+*/
 
-
+.refs{
+    background-color: #D1D1D1;
+    
+}
+.refs a {
+    text-decoration: none;
+    color: #1B1B1B;
+}
+.refs a.link {
+    text-decoration: underline;
+    color: #1B1B1B;
+}
+.refs main{
+    margin: 4vw;
+}
+.refs .inicio h1{
+    font-size: 8rem;
+    font-family: "Abril Fatface", serif;
+    padding: 2vw 0 10vw 0;
+    color: #1B1B1B;
+    text-align: center;
+}
+.refs .inicio h2 {
+    padding: 5vw 0 2vw 0;
+    font-size: 3vw;
+    color: #1B1B1B;
+    font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
+}
+.refs .inicio ul li {
+    list-style-type: disc;
+    color: #1B1B1B;
+    padding: 10px 0 ;
+    font-size: 25px;
+}
+.refs .inicio p {
+    list-style-type: disc;
+    color: #1B1B1B;
+    padding: 10px 0 ;
+    font-size: 25px;
 }
