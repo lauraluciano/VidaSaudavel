@@ -929,7 +929,7 @@ PERIGOS
 
 .comentariosPerigos div.imagem img {
     margin: 0 0 0 6vw;
-    width:90%;
+    width:70%;
 }
 
 .comentariosPerigos div.imagem p {
@@ -1007,13 +1007,9 @@ PERIGOS
     margin: 2vw;
 }
 .menores div img {
-    width: 50%;
-    display: block;
+    width: 35%;
+    text-align: center;
   
-}
-.menores div a {
-    text-decoration: none;
-    display: block;
 }
 .referenciasPeri h1 {
     font-size: 2rem;
