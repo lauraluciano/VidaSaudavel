@@ -29,6 +29,7 @@ HEADER
 header {
     background: #ffffff;
     margin: 40px 4vw;
+      font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 header nav ul {
@@ -98,7 +99,7 @@ footer p {
 footer nav p a {
     display: flex;
     justify-content: right;
-    padding: 10px 0px;
+    padding: 10px 40px;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -432,7 +433,7 @@ p.creditosCien {
 .introCien p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
-    padding: 2vw 10px 2vw 10px;
+    padding: 2vw 10px ;
     line-height: 2.5rem;
 }
 
@@ -447,11 +448,6 @@ p.creditosCien {
     width: 20%;
     padding: 0 6vw 0 0;
 }
-
-.dopa {
-    padding: 7vw 0 0 0;
-}
-
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -460,6 +456,7 @@ p.creditosCien {
 .neurodopamina p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
+   
     padding: 2vw 10px 0 10px;
     line-height: 2.5rem;
 }
@@ -469,7 +466,14 @@ p.creditosCien {
     font-weight: bold;
     margin: 4vw 2vw 2vw 2vw;
 }
-
+.neurodopamina div.textoEsquerda {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+.dopa {
+    padding: 7vw 0 0 0;
+}
 .cerebroParte {
     border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -524,6 +528,7 @@ p.creditosCien {
 
 .conclusaoCien div.maquinaCassino p {
     margin: 0 8vw;
+
 }
 
 .conclusaoCien div.maquinaCassino {
@@ -541,17 +546,20 @@ p.creditosCien {
 .conclusaoCien div.texImgCere {
     display: flex;
     justify-content: space-between;
+    text-align: right;
     padding: 3vw 4vw 0 4vw;
 }
 
 .conclusaoCien div.liberacao img {
-    width: 110%;
+    width: 120%;
 }
 
 .textosCere {
     padding: 2vw 0 8vw 0;
 }
-
+.textosCere p span{
+    font-weight: bold
+}
 .conclusaoCien h2.conclusaoH2 {
     font-size: 2rem;
     font-weight: bold;
@@ -647,7 +655,7 @@ MALEFÍCIOS
 }
 
 .pesquisaMal p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.8rem;
     margin: 0 2vw;
 }
@@ -727,6 +735,7 @@ MALEFÍCIOS
 .pesquisa-2Mal p {
     font-size: 1.5rem;
     line-height: 2.5rem;
+    font-weight: 400;
 }
 
 .pesquisa-3Mal {
@@ -777,14 +786,16 @@ MALEFÍCIOS
     max-width: 900px;
     font-size: 1.5rem;
 }
-
+.finalMale div p span{
+    font-weight: bold;
+}
 .finalMale div iframe {
     width: 600px;
     height: 300px;
 }
 
 .referenciasMale {
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw;
 }
 
 .referenciasMale h1 {
@@ -880,8 +891,8 @@ PERIGOS
 
 .inicio2 {
     text-align: left;
-    padding: 4vw 4vw 4vw 4vw;
-    font-size: 1.5rem;
+    padding: 4vw ;
+    font-size: 1.8rem;
     border-bottom: 1px solid rgb(202, 202, 202);
 
 }
@@ -891,7 +902,7 @@ PERIGOS
 }
 
 .comentariosPerigos div.blocoPeri {
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
 
 }
@@ -908,7 +919,7 @@ PERIGOS
 }
 
 .comentariosPerigos div.blocoPeri div.texto1Peri p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .comentariosPerigos div.blocoPeri ul {
@@ -916,7 +927,7 @@ PERIGOS
 }
 
 .comentariosPerigos div.blocoPeri ul li {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
 }
 
@@ -947,7 +958,7 @@ PERIGOS
 
 .cyberbullying h3 {
     margin: 0 0 1.5vw 2vw;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -957,8 +968,8 @@ PERIGOS
 }
 
 .cyberbullying span p {
-    font-size: 1rem;
-    text-align: right;
+    font-size: 1.5rem;
+    text-align: center;
     margin: 4vw 0 2vw 0;
 }
 
@@ -968,34 +979,40 @@ PERIGOS
 }
 
 .menores a {
+    font-size: 1.5rem;
     color: #ffffff;
+     margin: 3vw;
 }
 
 .menores h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin: 1vw 2vw 3vw 2vw;
 }
 
 .menores h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 
 }
 
 .menores p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     margin: 2vw;
 }
-
+.menores p span{
+    font-weight: bold;
+}
 .menores > div {
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
 .menores div  p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     max-width: 800px;
     margin: 2vw;
 }
@@ -1645,13 +1662,13 @@ DADOS
     padding: 4vw 4vw 4vw 4vw;
 }
 
-span {
+.dados span {
     font-weight: bold;
 }
 
 .estudantes h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -1697,7 +1714,7 @@ span {
 
 .equipamento h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -1735,7 +1752,7 @@ span {
 
 .idade h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -1766,7 +1783,7 @@ span {
 
 .conclusao h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
@@ -1793,6 +1810,8 @@ span {
 
 .referencias h3 {
     font-size: 2rem;
+    font-weight: bold;
+    margin: 2vw;
 }
 
 .referencias a {
@@ -1944,10 +1963,15 @@ div.imgSobreBanner p {
     width: 50%;
     padding: 0 0 0 28rem;
 }
+/*==========================================================
+REFERÊNCIAS
+==========================================================*/
 .refs{
     background-color: #D1D1D1;
-    padding: 2vw;
-    
+}
+.refs main{
+     padding: 2vw;
+    margin: 4vw;
 }
 .refs a {
     text-decoration: none;
@@ -1956,9 +1980,6 @@ div.imgSobreBanner p {
 .refs a.link {
     text-decoration: underline;
     color: #1B1B1B;
-}
-.refs main{
-    margin: 4vw;
 }
 .refs .inicio h1{
     font-size: 8rem;
@@ -1972,6 +1993,30 @@ div.imgSobreBanner p {
     font-size: 3vw;
     color: #1B1B1B;
     font-family: "IBM Plex Sans Thai", "Atkinson Hyperlegible", sans-serif;
+     
+}
+.refs .inicio h2 a{
+transition: transform 0.8s ease, box-shadow 0.8s ease;
+}
+.refs .inicio h2.Preto a:hover{
+     background: #1B1B1B;
+     border-radius: 200px;
+     padding: 20px 40px;
+     color: #ffffff;
+}
+.refs .inicio h2.Vermelho a:hover{
+      transform: translateY(-10px);
+     background: #540B24;
+     border-radius: 200px;
+     padding: 20px 40px;
+     color: #ffffff;
+}
+.refs .inicio h2.Azul a:hover{
+      transform: translateY(-10px);
+     background: #2C3E50;
+     border-radius: 200px;
+     padding: 20px 40px;
+     color: #ffffff;
 }
 .refs .inicio ul li {
     list-style-type: disc;
@@ -1984,7 +2029,4 @@ div.imgSobreBanner p {
     color: #1B1B1B;
     padding: 10px 0 ;
     font-size: 25px;
-}
-.refs span {
-    margin: 0 6vw 0 0;
 }
