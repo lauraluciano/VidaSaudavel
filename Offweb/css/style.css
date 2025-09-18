@@ -173,7 +173,7 @@ INICIO
 
 .introducao img {
     width: 100%;
-    padding: 2vw 0 0 0;
+    padding: 7vw 0 0 0;
 }
 
 .introducao p {
@@ -275,20 +275,20 @@ INICIO
 
 }
 .texto1Ini {
-    padding: 0 0 0 15vw;
+    padding: 0 0 0 17vw;
 }
 .imgDilema {
-    width: 250%;
+    width: 300%;
     height: 70%;
     padding: 0 0 0 1vw;
 }
 .texto2Ini {
-    padding: 0 0 0 15vw;
+    padding: 0 0 0 17vw;
 }
 
 .geração {
-    width: 280%;
-    height: 70%;
+    width: 330%;
+    height: 68%;
     padding: 0 0 0 1vw;
 }
 
@@ -483,7 +483,7 @@ p.creditosCien {
 }
 
 .texImgParte {
-    padding: 13rem 6rem 0 0;
+    margin: 16rem 6rem 0 0;
 }
 
 .cerebroParte div.tudo {
@@ -493,7 +493,7 @@ p.creditosCien {
 }
 
 .cerebroParte div.texto {
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .cerebroParte h2 {
@@ -504,18 +504,12 @@ p.creditosCien {
 
 .imgcerebro {
     transform: rotate(5deg);
-    width: 130%;
-}
-
-p.creditosCere {
-    margin: 2px 0 0 5vw;
-    font-size: 0.7rem;
+    width: 140%;
 }
 
 .conclusaoCien div.maquinaCassino {
     display: flex;
     justify-content: space-between;
-    padding: 2vw 13vw;
 }
 
 .pinterest p {
@@ -529,7 +523,7 @@ p.creditosCere {
 }
 
 .conclusaoCien div.maquinaCassino p {
-    margin: 0 0 1vw 0;
+    margin: 0 8vw;
 }
 
 .conclusaoCien div.maquinaCassino {
@@ -736,7 +730,7 @@ MALEFÍCIOS
 }
 
 .pesquisa-3Mal {
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw 4vw 2vw 4vw;
     margin: 40px;
 }
 .pesquisa-3Mal h2 {
@@ -770,7 +764,7 @@ MALEFÍCIOS
 
 .finalMale {
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 0 4vw 4vw 4vw;
 }
 
 .finalMale div {
@@ -1006,9 +1000,8 @@ PERIGOS
     margin: 2vw;
 }
 .menores div img {
-    width: 35%;
-    text-align: center;
-  
+    width: 55%;
+    margin: 0 0 0 5vw;  
 }
 .referenciasPeri h1 {
     font-size: 2rem;
@@ -1070,8 +1063,9 @@ DESCONECTA
 }
 
 .abandonar div img {
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    height: 40%;
+    margin: 5vw 0 0 0;
 }
 
 .passos {
@@ -1279,7 +1273,7 @@ NOTÍCIAS
 }
 
 .texto2 {
-    padding: 0 4vw;
+    padding: 6vw 4vw 0 4vw;
 }
 
 .texto2 div.bloco {
@@ -1304,11 +1298,13 @@ NOTÍCIAS
 
 .texto2 div.right {
     text-align: right;
- 
+    max-width: 850px;
+    margin: 0 0 0 20vw;
 }
 
 .texto2 div.left {
     text-align: left;
+    max-width: 850px;
 }
 
 .ultimosTextos {
@@ -1584,7 +1580,7 @@ APLICATIVOS
     font-family: "IBM Plex Sans Thai", sans-serif;
     line-height: 30px;
     padding: 0.5vw 0 0 0;
-    max-width: 1450px;
+    max-width: 1200px;
 }
 
 .aplicativos div {
@@ -1592,17 +1588,14 @@ APLICATIVOS
     justify-content: space-between;
     max-width: 80vw;
 }
-.offscreen {
-    margin: 0 0 0 4vw;
-    width: 60%;
-} 
+.todos {
+    width: 40%;
+    margin: 0 0 0 8vw;
+}
 .aplicativos div {
     padding: 2vw 0;
 }
-.aplicativos ul div a img.todos {
-   width: 60%;
-   padding: 0 0 0 4vw;
-}
+
 
 /*==========================================================
 DADOS
@@ -1676,7 +1669,7 @@ span {
 }
 
 .estudantes div ul {
-    padding: 0 0 0 5vw;
+    padding: 0 0 0 10vw;
     list-style-type: disc;
     font-size: 1.5rem;
 }
@@ -1694,7 +1687,7 @@ span {
 }
 
 .estudantes div a img {
-    width: 135%;
+    width: 130%;
 }
 
 .equipamento {
@@ -1725,7 +1718,7 @@ span {
 }
 
 .equipamento img {
-    margin: 0 0 0 34rem;
+    margin: 0 0 0 27rem;
     width: 62%;
 }
 
@@ -1853,7 +1846,10 @@ div.imgSobreBanner p {
     justify-content: center;
     padding: 10vw 0 5vw 0;
 }
-
+.projeto p {
+    font-size: 1.8rem;
+    padding: 1vw 1vw 1vw 0;
+}
 .pessoas h2 {
     font-size: 5rem;
     font-family: "Abril Fatface", serif;
@@ -1863,21 +1859,11 @@ div.imgSobreBanner p {
     margin-bottom: 10px;
     display: inline-block;
 }
-
-.pessoas p {
-    font-size: 1.8rem;
-    padding: 20px 0 20px 0;
-}
-
 .pessoas h4 {
     font-size: 2.6rem;
     font-family: "IBM Plex Sans Thai", serif;
     color: gray;
     margin: 20px 0 20px 0;
-}
-
-.pessoas p {
-    font-size: 35px;
 }
 
 .pessoas ul {
@@ -1925,12 +1911,8 @@ div.imgSobreBanner p {
 
 .final div img {
     width: 60%;
-    padding: 0 0 0 22rem;
+    padding: 0 0 0 18rem;
 }
-/* 
-Referências 
-*/
-
 .refs{
     background-color: #D1D1D1;
     
