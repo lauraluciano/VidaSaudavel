@@ -497,7 +497,7 @@ p.creditosCien {
 }
 
 .cerebroParte div.texto {
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .cerebroParte h2 {
@@ -1029,11 +1029,11 @@ PERIGOS
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
-    text-decoration: none;
+    tex3t-decoration: none;
     line-height: 2rem;
 }
 
-/*==========================================================
+/*========================================3==================
 DESCONECTA
 ==========================================================*/
 
@@ -1080,8 +1080,8 @@ DESCONECTA
 }
 
 .abandonar div img {
-    width: 90%;
-    height: 40%;
+    width: 80%;
+    height: 30%;
     margin: 5vw 0 0 0;
 }
 
@@ -1132,7 +1132,7 @@ DESCONECTA
 }
 
 .passos div.praia img {
-    width: 140%;
+    width: 110%;
 }
 
 .passos div.praia span {
@@ -1171,13 +1171,13 @@ DESCONECTA
 }
 
 .FinalDesc ul div img {
-    width: 100%;
-    height: 50%;
+    width: 50%;
+    height: 40%;
 }
 img.descida {
     margin: 18rem 0 0 6rem;
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    height: 40%;
     transform: rotate(5deg);
 }
 
@@ -1735,7 +1735,7 @@ DADOS
 }
 
 .equipamento img {
-    margin: 0 0 0 33rem;
+    margin: 0 0 0 28rem;
     width: 62%;
 }
 
@@ -2001,21 +2001,21 @@ transition: transform 0.8s ease, box-shadow 0.8s ease;
 .refs .inicio h2.Preto a:hover{
      background: #1B1B1B;
      border-radius: 200px;
-     padding: 20px 40px;
+     padding: 15px 40px;
      color: #ffffff;
 }
 .refs .inicio h2.Vermelho a:hover{
       transform: translateY(-10px);
      background: #540B24;
      border-radius: 200px;
-     padding: 20px 40px;
+     padding: 15px 40px;
      color: #ffffff;
 }
 .refs .inicio h2.Azul a:hover{
       transform: translateY(-10px);
      background: #2C3E50;
      border-radius: 200px;
-     padding: 20px 40px;
+     padding: 15px 40px;
      color: #ffffff;
 }
 .refs .inicio ul li {
