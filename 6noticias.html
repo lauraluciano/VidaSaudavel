@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/d588e7aa63.js" crossorigin="anonymous"></script>
   <script src="js/menu.js"></script>
- 
- 
+
+
   <title>Inicio</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -21,26 +21,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
 </head>
+
 <body>
   <header>
     <div class="menu">
       <nav class="nav-bar">
         <ul class="nav-item">
-          <li> <a href="index.html">Início</a> </li>
-          <li> <a href="2cerebroCiencia.html"> A Ciência por trás do uso</a> </li>
-          <li> <a href="3maleficios.html">Malefícios</a> </li>
-          <li> <a href="4perigos.html">O Perigo por trás do ódio </a> </li>
-          <li> <a href="5desconecta.html">Desconecte-se da tela! </a> </li>
-          <li> <a href="6noticias.html">Notícias e relatos</a> </li>
-          <li class="drop-menu"> <a href="#">Mais <span class="material-symbols-outlined">arrow_drop_down</span></a>
-            <div class="drop"> <a href="7aplicativos.html">Aplicativos</a> <a href="8dados.html"> Dados </a> <a
-                href="9sobreProjeto.html">Sobre O Projeto</a> <a href="10referencias.html">Referências</a>
-            </div>
+          <li class="azulHeader"> <a href="index.html">Início</a> </li>
+
+          <li class="pretoHeader"> <a href="2cerebroCiencia.html"> Ciência</a>
+            <ul>
+              <li class="azulHeader"> <a href="8dados.html"> Dados </a></li>
+            </ul>
+          </li>
+          <li class="vermelhoHeader"> <a href="3maleficios.html">Malefícios
+            </a> </li>
+          <li class="azulHeader"> <a href="4perigos.html">O Perigo por trás do ódio </a> </li>
+          <li class="vermelhoHeader"> <a href="5desconecta.html">Desconecte-se da tela! </a>
+            <ul>
+              <li class="vermelhoHeader"> <a href="7aplicativos.html">Aplicativos</a></li>
+            </ul>
+          </li>
+          <li class="pretoHeader"> <a class="atual" href="6noticias.html">Notícias e relatos</a> </li>
+          <li class="pretoHeader"><a href="9sobreProjeto.html">Sobre O Projeto</a>
+            <ul>
+              <li class="begeHeader"><a href="10referencias.html">Referências</a></li>
+            </ul>
+          </li>
         </ul>
-        <div class="menu-mobile-icon"><button onclick="menuShow()"><img  class="icon" src="imagens/menu-preto.png" alt="menu preto"></button></div>
+        <div class="menu-mobile-icon"><button onclick="menuShow()"><img class="icon" src="imagens/menu-preto.png"
+              alt="menu preto"></button></div>
       </nav>
       <div class="mobile-menu">
         <ul class="nav-item">
@@ -53,13 +67,14 @@
           <li><a href="7noticias.html">Notícias e relatos</a></li>
           <li><a href="8aplicativos.html">Aplicativos</a></li>
           <li> <a href="9sobreProjeto.html">Sobre Nós</a> </li>
-          </ul>
-    </div>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
     <section class="bannerNot">
-      <h1>Notícias: Conheça os relatos sobre o mau uso de telas! </h1>
+      <h1>NOTÍCIAS </h1>
+      <p class="textBot">Conheça os relatos sobre o mau uso de telas!</p>
       <div>
         <p>
           Desde que o acesso às telas se tornou mais fácil, as notícias sobre como elas afetam as pessoas também têm
@@ -71,7 +86,8 @@
           Quando se trata de assuntos da atualidade, o cuidado deve ser ainda maior, pois é fácil para pessoas menos
           atentas caírem em notícias falsas.
         </p>
-        <a href="https://media.desenio.com/site_images/685c3ced5bc2e6c81f1cbed1_484730101_15930-5.jpg"> <img src="imagens/BannerNot.png" alt="Mulherjornal"></a>  
+        <a href="https://media.desenio.com/site_images/685c3ced5bc2e6c81f1cbed1_484730101_15930-5.jpg"> <img
+            src="imagens/BannerNot.png" alt="Mulherjornal"></a>
       </div>
     </section>
     <section class="texto1">
@@ -90,7 +106,7 @@
 
         </p>
         <iframe src="https://www.youtube.com/embed/CKMjHPk_mq8"
-          title="Fantástico: O impacto das telas em crianças e adolescentes" frameborder="0"
+          title="Fantástico: O impacto das telas em crianças e adolescentes" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
@@ -149,10 +165,11 @@
     </section>
     <section class="ultimosTextos">
       <div>
-       <iframe width="1250" height="703" src="https://www.youtube.com/embed/rrcwIePVs40" 
-       title="Fantástico: &#39;É mais importante do que eu, não vou parar&#39;, diz Felca em entrevista exclusiva" 
-       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="1250" height="703" src="https://www.youtube.com/embed/rrcwIePVs40"
+          title="Fantástico: &#39;É mais importante do que eu, não vou parar&#39;, diz Felca em entrevista exclusiva"
+         
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Ao lado, há uma entrevista do programa Fantástico com o influenciador Felca,
           que ganhou notoriedade nas últimas semanas devido ao seu vídeo mais recente sobre “adultização”.
           Nesse vídeo, Felca apresenta exemplos de situações descritas como a sexualização de menores nas
@@ -175,152 +192,176 @@
         reais da idade dos usuários, que os pais tenham acesso e possam controlar as atividades online dos adolescentes
         e que haja uma remoção imediata de conteúdos de abuso ou exploração infantil. </p>
     </section>
-    <div class="carrosel-container">
-    <section class="carrosel">
-      <div class="slider">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <input type="radio" name="radio-btn" id="radio4">
-          <input type="radio" name="radio-btn" id="radio5">
-          <input type="radio" name="radio-btn" id="radio6">
-         
-          <div class="slides">
-            <div class="slide">
-            <img src="imagens/bannerCarrosel.png" alt="image1">
+    <section class="conjuntoCarro">
+      <h2>RELATOS</h2>
+      <div class="carrosel-container">
+        <div class="carrosel">
+
+          <div class="slider">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+
+            <div class="slides">
+              <div class="slide">
+                <img src="imagens/bannerCarrosel.png" alt="image1">
+              </div>
+              <div class="slide">
+                <img src="imagens/2imagemCar.png" alt="image2">
+              </div>
+              <div class="slide">
+                <img src="imagens/3imagemCar.png" alt="image3">
+              </div>
+              <div class="slide">
+                <img src="imagens/4ImagemCar.png" alt="image4">
+              </div>
+              <div class="slide">
+                <img src="imagens/5ImagemCar.png" alt="image5">
+              </div>
+              <div class="slide">
+                <img src="imagens/6ImagemCar.png" alt="image6">
+              </div>
+            </div>
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+              <div class="auto-btn6"></div>
+            </div>
+
+            <div class="manual-navigation">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+              <label for="radio5" class="manual-btn"></label>
+              <label for="radio6" class="manual-btn"></label>
+            </div>
           </div>
-          <div class="slide">
-            <img src="imagens/2imagemCar.png" alt="image2">
-          </div>
-          <div class="slide">
-            <img src="imagens/3imagemCar.png" alt="image3">
-          </div>
-          <div class="slide">
-            <img src="imagens/4ImagemCar.png" alt="image4">
-          </div>
-          <div class="slide">
-            <img src="imagens/5ImagemCar.png" alt="image5">
-          </div>
-          <div class="slide">
-            <img src="imagens/6ImagemCar.png" alt="image6">
-          </div>
-           </div>
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-            <div class="auto-btn6"></div>
-          </div>
-       
-        <div class="manual-navigation">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-          <label for="radio5" class="manual-btn"></label>
-          <label for="radio6" class="manual-btn"></label>
         </div>
-      </div>
-    </section>
-    <section class="carrosel">
-      <div class="slider">
-          <input type="radio" name="radio-btn2" id="c2radio1">
-          <input type="radio" name="radio-btn2" id="c2radio2">
-          <input type="radio" name="radio-btn2" id="c2radio3">
-          <input type="radio" name="radio-btn2" id="c2radio4">
-          <input type="radio" name="radio-btn2" id="c2radio5">
-          <input type="radio" name="radio-btn2" id="c2radio6">
-         
-          <div class="slides">
-            <div class="slide">
-            <img src="imagens/bannerCarrosel2.png" alt="image1">
+        <div class="carrosel">
+          <div class="slider">
+            <input type="radio" name="radio-btn2" id="c2radio1">
+            <input type="radio" name="radio-btn2" id="c2radio2">
+            <input type="radio" name="radio-btn2" id="c2radio3">
+            <input type="radio" name="radio-btn2" id="c2radio4">
+            <input type="radio" name="radio-btn2" id="c2radio5">
+            <input type="radio" name="radio-btn2" id="c2radio6">
+
+            <div class="slides">
+              <div class="slide">
+                <img src="imagens/bannerCarrosel2.png" alt="image1">
+              </div>
+              <div class="slide">
+                <img src="imagens/2imagemcar2.png" alt="image2">
+              </div>
+              <div class="slide">
+                <img src="imagens/3imgCar2.png" alt="image3">
+              </div>
+              <div class="slide">
+                <img src="imagens/4imgCar2.png" alt="image4">
+              </div>
+              <div class="slide">
+                <img src="imagens/5imgCar2.png" alt="image5">
+              </div>
+              <div class="slide">
+                <img src="imagens/6imgCar2.png" alt="image6">
+              </div>
+            </div>
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+              <div class="auto-btn6"></div>
+            </div>
+
+            <div class="manual-navigation">
+              <label for="c2radio1" class="manual-btn2"></label>
+              <label for="c2radio2" class="manual-btn2"></label>
+              <label for="c2radio3" class="manual-btn2"></label>
+              <label for="c2radio4" class="manual-btn2"></label>
+              <label for="c2radio5" class="manual-btn2"></label>
+              <label for="c2radio6" class="manual-btn2"></label>
+            </div>
           </div>
-          <div class="slide">
-            <img src="imagens/2imagemcar2.png" alt="image2">
-          </div>
-          <div class="slide">
-            <img src="imagens/3imgCar 2.png" alt="image3">
-          </div>
-          <div class="slide">
-            <img src="imagens/4imgCar 2.png" alt="image4">
-          </div>
-          <div class="slide">
-            <img src="imagens/5imgCar 2.png" alt="image5">
-          </div>
-          <div class="slide">
-            <img src="imagens/6imgCar2.png" alt="image6">
-          </div>
-           </div>
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-            <div class="auto-btn5"></div>
-            <div class="auto-btn6"></div>
-          </div>
-       
-        <div class="manual-navigation">
-          <label for="c2radio1" class="manual-btn2"></label>
-          <label for="c2radio2" class="manual-btn2"></label>
-          <label for="c2radio3" class="manual-btn2"></label>
-          <label for="c2radio4" class="manual-btn2"></label>
-          <label for="c2radio5" class="manual-btn2"></label>
-          <label for="c2radio6" class="manual-btn2"></label>
         </div>
-      </div>
-      </div>
-    </section>
+        </div>
+    <div class="pod-cast">
+      <a href="https://open.spotify.com/episode/5ArlQf9h0ZMYlKlQZcb3n4"> <img src="imagens/PodcastRosa.png"
+          alt="Psicologia na prática"></a>
+      <a href="https://open.spotify.com/episode/3Fo72VvS6GMbAKjtsJNRL9"><img src="imagens/PodcastAzul.png"
+          alt="isso é fantastico "></a>
     </div>
-    <section class="pod-cast">
-      <a href="https://open.spotify.com/episode/5ArlQf9h0ZMYlKlQZcb3n4"> <img src="imagens/PodcastRosa.png" alt="Psicologia na prática"></a>
-      <a href="https://open.spotify.com/episode/3Fo72VvS6GMbAKjtsJNRL9"><img src="imagens/PodcastAzul.png" alt="isso é fantastico "></a>
-    </section>
-     <section class="referenciasMale">
-    <h1>
-      Referências
-    </h1>
-    <ul>
-      <li>
-         <a href="https://youtu.be/CKMjHPk_mq8?si=B6tXCnZiMultMvii">"Fantástico: O impacto das telas em crianças e adolescentes" </a>
+        </section>
+    <section class="referenciasMale">
+      <h1>
+        Referências
+      </h1>
+      <ul>
+        <li>
+          <a href="https://youtu.be/CKMjHPk_mq8?si=B6tXCnZiMultMvii">"Fantástico: O impacto das telas em crianças e
+            adolescentes" </a>
 
-      </li>
-      <li>
-           <a href="https://youtu.be/rrcwIePVs40?si=uNaN-tp2-CMdo9Qb">"Fantástico: 'É mais importante do que eu, não vou parar', diz Felca em entrevista exclusiva"</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/rrcwIePVs40?si=uNaN-tp2-CMdo9Qb">"Fantástico: 'É mais importante do que eu, não vou
+            parar', diz Felca em entrevista exclusiva"</a>
 
-      </li>
-      <li>
-           <a href="https://youtu.be/T96Octke7kE?si=bi6-QIHcUs7L_3MV">"ALERTA: USO EXCESSIVO DE CELULAR POR CRIANÇAS PODE PROVOCAR SÉRIO PROBLEMAS DE SAÚDE"</a>
-      </li>
-      <li><a href="https://youtu.be/2kykXlnFjCg?si=GUHM1w5vRIcO7uXV">"Entenda por que o excesso de telas digitais é perigoso para as crianças"</a></li>
-       <li><a href="https://youtu.be/UOAoaad5oUk?si=0zEVIH8ej3H8kd45">"O que é e como evitar o brain rot (apodrecimento cerebral)?"</a></li>
-        <li><a href="https://youtu.be/xWkbCaGh4ys?si=Mdc7a5j4KJyZhLmI">"Como a tecnologia pode estar alterando a sua memória."</a></li>
-    </ul>
+        </li>
+        <li>
+          <a href="https://youtu.be/T96Octke7kE?si=bi6-QIHcUs7L_3MV">"ALERTA: USO EXCESSIVO DE CELULAR POR CRIANÇAS PODE
+            PROVOCAR SÉRIO PROBLEMAS DE SAÚDE"</a>
+        </li>
+        <li><a href="https://youtu.be/2kykXlnFjCg?si=GUHM1w5vRIcO7uXV">"Entenda por que o excesso de telas digitais é
+            perigoso para as crianças"</a></li>
+        <li><a href="https://youtu.be/UOAoaad5oUk?si=0zEVIH8ej3H8kd45">"O que é e como evitar o brain rot (apodrecimento
+            cerebral)?"</a></li>
+        <li><a href="https://youtu.be/xWkbCaGh4ys?si=Mdc7a5j4KJyZhLmI">"Como a tecnologia pode estar alterando a sua
+            memória."</a></li>
+      </ul>
     </section>
-  </main>
+  </main> 
   <footer>
-    <p>
-      Desconecte-se da tela com o Off Web!
-    </p>
-    <p>
-      Acompanhe a gente nas redes sociais, vamos adorar te ter por lá!
-    </p>
-    <nav>
-      <p>
-        <a href="https://www.instagram.com/offweeb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
-            class="fa-brands fa-instagram" style="color: #ffffff;"></span></a>
-        <a href="https://github.com/lauraluciano/Vida_Saudavel.git"><span class="fa-brands fa-github"
-            style="color: #ffffff;"></span></a>
-        <a href="https://x.com/off_weeb"> <i class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></i></a>
-      </p>
-    </nav>
+    <div class="footerCont">
+      <nav class="mapaFooter">
+        <ul>
+          <li> <a href="index.html">Início</a> </li>
+          <li> <a href="2cerebroCiencia.html"> Ciência </a> </li>
+          <li> <a href="3maleficios.html">Malefícios</a> </li>
+          <li> <a href="4perigos.html"> Perigo </a> </li>
+          <li> <a href="5desconecta.html">Desconecte-se </a></li>
+        </ul>
+        <ul>
+          <li> <a href="8dados.html"> Dados sobre uso de tela</a> </li>
+          <li><a href="6noticias.html">Notícias e relatos</a></li>
+          <li><a href="7aplicativos.html">Aplicativos</a></li>
+          <li> <a href="9sobreProjeto.html">Sobre Nós</a> </li>
+          <li><a href="10referencias.html">Referências</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p> Desconecte-se da tela com o Off Web! </p>
+        <p> Acompanhe a gente nas redes sociais, vamos adorar te ter por lá! </p>
+        <nav>
+          <p> <a
+              href="https://www.instagram.com/offweeb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
+                class="fa-brands fa-instagram" style="color: #000000;"></span></a> <a
+              href="https://github.com/lauraluciano/Vida_Saudavel.git"><span class="fa-brands fa-github"
+                style="color: #000000;"></span></a> <a href="https://x.com/off_weeb"><i
+                class="fa-brands fa-square-x-twitter" style="color: #000000;"></i></a> </p>
+        </nav>
+      </div>
+    </div>
     <div class="creditos">
-      <p>
-        Desenvolvido por: Eduarda Gomes, Ester S. Viana, Giulia M. Corrêa, Halicya G. F. Recalde, Laura L. Werner,
-        Tiago M. Perin
-      </p>
+      <p> Desenvolvido por: Eduarda Gomes, Ester S. Viana, Giulia M. Corrêa, Halicya G. F. Recalde, Laura L. Werner,
+        Tiago M. Perin </p>
     </div>
   </footer>
   <script src="js/carrosel.js"></script>

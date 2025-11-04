@@ -19,27 +19,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-<header>
+  <header>
     <div class="menu">
       <nav class="nav-bar">
         <ul class="nav-item">
-          <li> <a href="index.html">Início</a> </li>
-          <li> <a href="2cerebroCiencia.html"> A Ciência por trás do uso</a> </li>
-          <li> <a href="3maleficios.html">Malefícios</a> </li>
-          <li> <a href="4perigos.html">O Perigo por trás do ódio </a> </li>
-          <li> <a href="5desconecta.html">Desconecte-se da tela! </a> </li>
-          <li> <a href="6noticias.html">Notícias e relatos</a> </li>
-          <li class="drop-menu"> <a href="#">Mais <span class="material-symbols-outlined">arrow_drop_down</span></a>
-            <div class="drop"> <a href="7aplicativos.html">Aplicativos</a> <a href="8dados.html"> Dados </a> <a
-                href="9sobreProjeto.html">Sobre O Projeto</a> <a href="10referencias.html">Referências</a>
-            </div>
+          <li class="azulHeader"> <a href="index.html">Início</a> </li>
+
+          <li class="pretoHeader"> <a href="2cerebroCiencia.html"> Ciência</a>
+            <ul>
+              <li class="azulHeader"> <a href="8dados.html"> Dados </a></li>
+            </ul>
+          </li>
+          <li class="vermelhoHeader"> <a href="3maleficios.html">Malefícios
+            </a> </li>
+          <li class="azulHeader"> <a class="atual" href="4perigos.html">O Perigo por trás do ódio </a> </li>
+          <li class="vermelhoHeader"> <a href="5desconecta.html">Desconecte-se da tela! </a>
+            <ul>
+              <li class="vermelhoHeader"> <a href="7aplicativos.html">Aplicativos</a></li>
+            </ul>
+          </li>
+          <li class="pretoHeader"> <a href="6noticias.html">Notícias e relatos</a> </li>
+          <li class="pretoHeader"><a href="9sobreProjeto.html">Sobre O Projeto</a>
+            <ul>
+              <li class="begeHeader"><a href="10referencias.html">Referências</a></li>
+            </ul>
+          </li>
         </ul>
-        <div class="menu-mobile-icon"><button onclick="menuShow()"><img  class="icon" src="imagens/menu-preto.png" alt="menu preto"></button></div>
+        <div class="menu-mobile-icon"><button onclick="menuShow()"><img class="icon" src="imagens/menu-preto.png"
+              alt="menu preto"></button></div>
       </nav>
       <div class="mobile-menu">
         <ul class="nav-item">
@@ -52,8 +65,8 @@
           <li><a href="7noticias.html">Notícias e relatos</a></li>
           <li><a href="8aplicativos.html">Aplicativos</a></li>
           <li> <a href="9sobreProjeto.html">Sobre Nós</a> </li>
-          </ul>
-    </div>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
@@ -130,8 +143,8 @@
         Divulgação de fotografias íntimas;<br>
         Críticas à aparência física, à opinião e ao comportamento social de indivíduos repetitivamente.</p>
       <span>Se algum comentário, pessoalmente ou na internet, desrespeita, ataca, ofende, ameaça <br>ou humilha alguma
-          pessoa
-          ou grupo, essa é uma situação de ódio e não de opinião.
+        pessoa
+        ou grupo, essa é uma situação de ódio e não de opinião.
       </span>
     </section>
     <section class="menores">
@@ -145,14 +158,15 @@
           especialmente crianças e adolescentes, que são mais vulneráveis a esses riscos. A exposição a esse conteúdo
           pode
           levar os jovens a adotarem comportamentos não-saudáveis e não adequados para suas idades. <br>
-          
+
         </p>
         <div>
           <a href="https://br.pinterest.com/pin/97460779430407037/"><img src="imagens/criancasnoCelular.png"
               alt="três crianças mexendo em tablets e celulares"></a>
         </div>
       </div>
-       <p> <span> "Por muito tempo, encontramos maneiras de proteger as crianças, até que, com a criação da internet, muitos
+      <p> <span> "Por muito tempo, encontramos maneiras de proteger as crianças, até que, com a criação da internet,
+          muitos
           acharam que ali elas estariam seguras. Ledo engano! Nós as colocamos para navegar em mar aberto, sem
           supervisão,
           sem boia caso se afoguem, sem direção", avalia o psiquiatra do hospital Beneficência Portuguesa, de São Paulo,
@@ -221,26 +235,40 @@
 
   </main>
   <footer>
-    <p>
-      Desconecte-se da tela com o Off Web!
-    </p>
-    <p>
-      Acompanhe a gente nas redes sociais, vamos adorar te ter por lá!
-    </p>
-    <nav>
-      <p>
-        <a href="https://www.instagram.com/offweeb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
-            class="fa-brands fa-instagram" style="color: #ffffff;"></span></a>
-        <a href="https://x.com/off_weeb"><span class="fa-brands fa-square-x-twitter" style="color: #ffffff;"></span></a>
-        <a href="https://github.com/lauraluciano/Vida_Saudavel.git"><span class="fa-brands fa-github"
-            style="color: #ffffff;"></span></a>
-      </p>
-    </nav>
+    <div class="footerCont">
+      <nav class="mapaFooter">
+        <ul>
+          <li> <a href="index.html">Início</a> </li>
+          <li> <a href="2cerebroCiencia.html"> Ciência </a> </li>
+          <li> <a href="3maleficios.html">Malefícios</a> </li>
+          <li> <a href="4perigos.html"> Perigo </a> </li>
+          <li> <a href="5desconecta.html">Desconecte-se </a></li>
+        </ul>
+        <ul>
+          <li><a href="6noticias.html">Notícias e relatos</a></li>
+          <li><a href="7aplicativos.html">Aplicativos</a></li>
+          <li> <a href="8dados.html"> Dados sobre uso de tela</a> </li>
+
+          <li> <a href="9sobreProjeto.html">Sobre Nós</a> </li>
+          <li><a href="10referencias.html">Referências</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p> Desconecte-se da tela com o Off Web! </p>
+        <p> Acompanhe a gente nas redes sociais, vamos adorar te ter por lá! </p>
+        <nav>
+          <p> <a
+              href="https://www.instagram.com/offweeb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
+                class="fa-brands fa-instagram" style="color: #000000;"></span></a> <a
+              href="https://github.com/lauraluciano/Vida_Saudavel.git"><span class="fa-brands fa-github"
+                style="color: #000000;"></span></a> <a href="https://x.com/off_weeb"><i
+                class="fa-brands fa-square-x-twitter" style="color: #000000;"></i></a> </p>
+        </nav>
+      </div>
+    </div>
     <div class="creditos">
-      <p>
-        Desenvolvido por: Eduarda Gomes, Ester S. Viana, Giulia M. Corrêa, Halicya G. F. Recalde, Laura L. Werner,
-        Tiago M. Perin
-      </p>
+      <p> Desenvolvido por: Eduarda Gomes, Ester S. Viana, Giulia M. Corrêa, Halicya G. F. Recalde, Laura L. Werner,
+        Tiago M. Perin </p>
     </div>
   </footer>
 </body>
