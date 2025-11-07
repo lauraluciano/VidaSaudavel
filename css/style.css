@@ -33,12 +33,15 @@ header {
     font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
+
 header nav ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
-
+header ul li.logo {
+    padding: 0 19vw 0 0;
+}
 header ul li.azulHeader a:hover {
     background-color: #2C3E50 !important;
     border-radius: 50px;
@@ -2024,20 +2027,35 @@ div.imgSobreBanner p {
     padding: 5vw 0 5vw 0;
 }
 
-.projeto p {
-    font-size: 1.8rem;
-    padding: 1vw 1vw 1vw 0;
+.projeto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5vw 0 5vw 0;
+}
+.projeto ul {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    width: 90%;
+
+}
+.projeto ul li {
+    width: 40%;
+}
+.projeto ul li p {
+    line-height: 2rem;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 80px;
+    padding: 2vw;
+    border: 30px solid #540B24;
+
+}
+.projeto ul li p.segunda{
+   line-height: 1.5rem;
 }
 
-.projeto p a {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 1.8rem;
-}
-
-.projeto div {
-    padding: 0 0 4vw 0;
-}
 
 .botao {
     background-color: #2C3E50;
