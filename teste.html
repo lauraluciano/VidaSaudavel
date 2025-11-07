@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tootip</title>
+ <style type="text/css">
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+     }
+
+     #tooltip{
+        position: relative;
+        cursor: pointer;
+        border-bottom: 2px dotted;
+        padding: 7px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: sans-serif;
+
+     }
+
+     #tootipText{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 10px 15px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    #tooltipText::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 100% ;
+        transform: translateX(-50%);
+        border: 15px solid;
+        border-color: #000 #000 #000;
+     
+    }
+    #tooltip:hover #tooltipText {
+        top: -130%;
+        visibility: visible;
+        opacity: 1;
+    }
+ </style>
+
+</head>
+<body>
+    <div id="tooltip">
+      <span id="tooltipText">Tooltip Text</span>
+      <span>
+         hover over me
+      </span>
+    </div>
+</body>
+</html>
