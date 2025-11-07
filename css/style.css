@@ -457,14 +457,24 @@ CIÊNCIA
 .bannerCien {
     display: flex;
     border-bottom: 1px solid rgb(202, 202, 202);
+    margin: 6vw 0 0 0;
+}
+.bannerCien {
+    border: 1px solid white;
+    border-radius: 80px;
 }
 
+.bannerCien div.texto {
+    border: 1px solid white;
+    border-radius: 80px;
+    padding: 4vw 1vw 0 1vw;
+}
 .bannerCien h1 {
     font-family: "Abril Fatface", serif;
     font-size: 4rem;
     margin: 20px 20px;
+    text-align:  center;
 }
-
 
 p.creditosCien {
     margin: 0 0 0 7vw;
@@ -472,12 +482,18 @@ p.creditosCien {
 
 .introCien {
     border-bottom: 1px solid rgb(202, 202, 202);
-
+    margin: 5vw 0 0 0;
 }
 
-.introCien div {
+.introCien div p {
+    margin: 1vw;
+}
+.introCien div.cinza {
     display: flex;
     justify-content: space-between;
+    color: #000;
+    background-color: #ffffff6e;
+    border-radius: 20px;
 }
 
 .introCien p {
@@ -489,16 +505,37 @@ p.creditosCien {
 
 .introCien h3 {
     font-family: "IBM Plex Sans Thai", sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 30px 20px 10px 0;
-    font-weight: bolder;
+    font-weight: 100;
+    color: #FFFFFF;
+    margin: 5vw 0 0 1.5vw;
 }
-
-.introCien img {
-    width: 20%;
-    padding: 0 6vw 0 0;
+.introCien div.neuro {
+    display: flex;
+    justify-content: space-between;
 }
-
+.introCien div.neuro p {
+    max-width: 500px;
+}
+.introCien div.neuro ul {
+    display: flex;
+}
+.introCien div.neuro ul li {
+    font-size: 1.5rem;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    padding: 1.5vw;
+}
+.introCien span.vermelho{
+    background-color: #540B24;
+}
+.introCien span.azul {
+    background-color: #2C3E50;
+}
+.introCien span.branco {
+    background-color: #FFFFFF;
+    color: #000;
+}
 .neurodopamina div.neuros {
     display: flex;
     justify-content: space-between;
@@ -514,20 +551,33 @@ p.creditosCien {
 
 .neurodopamina h2 {
     font-size: 3rem;
-    font-weight: bold;
-    margin: 4vw 2vw 2vw 2vw;
+    font-weight: 100;
+    color: #FFFFFF;
+    margin: 2vw 2vw 2vw 2vw;
 }
 
 .neurodopamina div.textoEsquerda {
     margin-top: 2vw;
     margin-left: 5vw;
     margin-right: 10vw;
+    border: 2px solid white;
+    border-radius: 40px;
+    max-width: 550px;
+    padding: 2vw;
 }
 
 .dopa {
     padding: 7vw 0 0 0;
 }
-
+.dopa p {
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 0 0 2vw 0;
+    padding: 2vw;
+}
+.dopa img {
+    margin: 0 0 0 5vw;
+}
 .cerebroParte {
     border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -552,12 +602,17 @@ p.creditosCien {
 
 .cerebroParte div.texto {
     max-width: 1050px;
+    background-color: #FFFFFF;
+    color: #000;
+    border-radius: 40px;
+    padding: 1vw;
+     box-shadow: 3px 3px 25px rgba(255, 255, 255, 0.397);
 }
 
 .cerebroParte h2 {
     font-size: 3rem;
-    font-weight: bold;
-    margin: 2vw 2vw;
+    font-weight: 400;
+    margin: 2vw 2vw 0 2vw;
 }
 
 .imgcerebro {
