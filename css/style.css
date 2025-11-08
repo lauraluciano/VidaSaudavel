@@ -2382,3 +2382,66 @@ RESPONSIVIDADE
     }
 
 }
+
+/* ========== oque vamos abordar - inicio =========== */
+
+.mapa h1 {
+    font-size: 2.8rem;
+    padding: 0 2vw 0 2vw;
+}
+
+.mapa div.bloco2 {
+    margin: 10vw 2vw 0 2vw;
+    width: 220px;
+    line-height: 60px;
+    font-size: 1.4rem;
+}
+
+/*arrumar imagens*/
+
+.mapa div.bloco2 img.lupa {
+    position: absolute;
+    top: -190px;
+    height: 207px;
+}
+
+.comp {
+    position: absolute;
+    top: -160px;
+    padding: 0 0 0 3vw;
+}
+
+/* ======== veja também - inicio ========= */
+
+.noticiasInicio h1 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.noticiasInicio ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 2vw 0 0 0;
+    width: 100%;
+}
+
+.noticiasInicio ul li {
+    background-color: #ffffff;
+    border-radius: 80px;
+    padding: 2vw;
+    width: 50%;
+}
+
+.noticiasInicio h4 {
+    font-size: 1.6rem;
+}
+
+/* arrumar texto */
+.noticiasInicio p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #000;
+}
+
