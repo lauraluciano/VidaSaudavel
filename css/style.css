@@ -1210,11 +1210,11 @@ DESCONECTA
 }
 
 .abandonar div.textoAban {
-
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
     border-radius: 20px;
+    
     line-height: 3rem;
     width: 95%;
 }
@@ -2380,10 +2380,7 @@ RESPONSIVIDADE
         font-size: 1.4rem;
         margin: 0 2vw 0 2vw;
     }
-
-}
-
-/* ========== oque vamos abordar - inicio =========== */
+    /* ========== oque vamos abordar - inicio =========== */
 
 .mapa h1 {
     font-size: 2.8rem;
@@ -2444,4 +2441,8 @@ RESPONSIVIDADE
     font-size: 1.2rem;
     color: #000;
 }
+
+
+}
+
 
