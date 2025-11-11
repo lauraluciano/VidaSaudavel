@@ -1799,30 +1799,25 @@ APLICATIVOS
 DADOS
 ==========================================================*/
 
-.bannerDados {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 0 4vw 4vw 4vw;
-}
-
 .bannerDados h1 {
     font-family: "Abril Fatface", serif;
-    font-size: 4rem;
-    line-height: 5rem;
-    display: block;
-    flex: 1;
-    margin-top: 0;
-    padding-top: 0;
-    padding: 0 2vw 0 3vw;
-    text-align: center;
+    font-size: 5rem;
+    padding: 0 0 2vw 0;
+}
 
+.bannerDados {
+    display: flex;
+    padding: 5vw;
+    margin: 5vw 8vw 0 8vw;
+    border: 2px solid #000;
+    border-radius: 80px;
 }
 
 .bannerDados div {
-    flex: 1;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
-    padding: 5vw 0 0 0;
+    border: 2px solid #000;
+    border-radius: 80px;
+    padding: 2vw 0 2vw 2vw;
+    margin: 0 2vw 0 0;
 }
 
 .bannerDados p {
@@ -1832,10 +1827,12 @@ DADOS
     font-weight: 400;
     font-style: normal;
     padding: 0 3vw 0 0;
+    max-width: 550px;
 }
 
-.bannerDados div img {
-    width: 50%;
+.bannerDados img {
+    border-radius: 20px;
+    width: 45%;
 }
 
 .estudantes {
@@ -1850,17 +1847,24 @@ DADOS
 .estudantes h2 {
     font-family: "Jacques Francois", serif;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 300;
+    color: #000;
 }
 
-.estudantes p {
+.estudantes div.texto p {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
     padding: 1vw 0 0 0;
     line-height: 35px;
+    color: #000;
 }
 
-.estudantes div {
+.estudantes div.texto {
+    background-color: white;
+    border-radius: 40px;
+    padding: 2vw;
+}
+.estudantes div.grafico {
     display: flex;
     justify-content: space-between;
     padding: 2vw 0 0 0;
