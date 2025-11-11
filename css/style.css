@@ -1251,57 +1251,6 @@ DESCONECTA
     font-size: 1.5rem;
 }
 
-.linksDesc ul {
-    display: flex;
-    flex-direction: column;
-   background-color: #FFFFFF;
-   padding: 20px;
-}
-.linksDesc ul li {
-    padding: 20px;
-}
-.linksDesc ul li span svg {
-    width: 8%;
-    fill: #D1D1D1;
-}
- #tooltip{
-        position: relative;
-        cursor: pointer;
-        background-color: #2C3E50   ;
-        padding: 7px;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: sans-serif;
-
-     }
-
-     #tooltipText{
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%);
-        background-color: #ffffff;
-        white-space: nowrap;
-        padding: 10px 15px;
-        border-radius: 7px;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-    #tooltipText::before{
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 100% ;
-        transform: translateX(-50%);
-        border: 15px solid;
-     
-    }
-    #tooltip:hover #tooltipText {
-        top: -130%;
-        visibility: visible;
-        opacity: 1;
-    }
 
 .FinalDesc {
     font-size: 1.5rem;
@@ -1827,28 +1776,44 @@ DADOS
     font-weight: 400;
     font-style: normal;
     padding: 0 3vw 0 0;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 .bannerDados img {
-    border-radius: 20px;
-    width: 45%;
+    border-radius: 30px;
+    width: 50%;
 }
 
 .estudantes {
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw;
+    margin: 5vw 0 0 0;
 }
 
+.estudantes p.mochila img {
+    width: 100%;
+}
+
+.estudantes p.mochila {
+    position: absolute;
+    width: 3%;
+    top: 54vw;
+    left: 10vw;
+    background-color: white;
+    padding: 2vw 2.5vw ;
+    border-radius: 300px;
+    margin: 0 0 0 1vw;
+}
 .dados span {
     font-weight: bold;
 }
 
 .estudantes h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: #000;
+    margin: 0 0 0 10vw;
 }
 
 .estudantes div.texto p {
@@ -1867,61 +1832,74 @@ DADOS
 .estudantes div.grafico {
     display: flex;
     justify-content: space-between;
-    padding: 2vw 0 0 0;
+    padding: 4vw 0 0 0;
 }
 
-.estudantes div ul {
-    padding: 0 0 0 10vw;
-    list-style-type: disc;
+.estudantes div.grafico img {
+    border-radius: 30px;
+}
+
+.estudantes div.grafico p {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.estudantes div ul p {
-    font-size: 1.5rem;
+.estudantes div.grafico ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw 4vw 0 4vw;
 }
 
-.estudantes div ul li {
-    line-height: 5vw;
+.estudantes div.grafico ul li {
+    background-color: white;
+    color: #000;
+    margin: 0 0 2vw 0;
+    font-size: 1.2rem;
+    padding: 1vw;
+    max-width: 300px;
 }
-
-.estudantes div ul p {
-    padding: 0 0 1vw 0;
-}
-
-.estudantes div a img {
-    width: 130%;
-}
-
 .equipamento {
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .equipamento h2 {
     font-family: "Jacques Francois", serif;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.equipamento div {
-    display: flex;
-    justify-content: space-between;
+    font-size: 2.5rem;
+    font-weight: 500; 
+    text-align: right;
     padding: 0 0 2vw 0;
 }
 
-.equipamento div p {
+.equipamento p {
     line-height: 35px;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     padding: 2vw 0 0 0;
-    max-width: 700px;
+    text-align: right;
 }
-
-.equipamento img {
-    margin: 0 0 0 28rem;
-    width: 62%;
+.equipamento .textoBorda p {
+    color: #000;
+    text-align: left;
+}
+.equipamento .textoBorda  {
+    padding: 3vw ;
+    margin: 2vw 0 ;
+    text-align: left;
+    background-color: #FFFFFF;
+    color: #000;
+    border-radius: 20px 20px 20px 0px;
+}
+.equipamento div.texto {
+    color: #000;
+    background-color: white;
+    margin: 0 0 0 20vw;
+    padding: 3vw;
+    border: 80px solid #000;
 }
 
 .equipamento div ul {
@@ -1930,9 +1908,13 @@ DADOS
     font-size: 1.5rem;
 }
 
+.equipamento img {
+    border-radius: 30px;
+}
+
 .idade {
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 4vw 4vw 4vw 4vw;
+   
 }
 
 .idade h2 {
@@ -1950,20 +1932,30 @@ DADOS
     padding: 2vw 0 0 0;
     max-width: 1100px;
 }
+.idade .textosIdade{
+    display: block;
+}
+.idade .textosIdade p {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin: 2vw;
+    padding: 2vw ;
+    color: #000;
+}
 
 .idade div {
     display: flex;
     justify-content: space-between;
-    max-width: 75vw;
 }
 
 .idade div img {
     width: 130%;
+    border-radius: 20px;
 }
 
 .conclusao {
-    padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
+     background-color: #1B1B1B;
+     margin: 2vw;
 }
 
 .conclusao h2 {
@@ -1979,10 +1971,10 @@ DADOS
     font-size: 1.5rem;
 }
 
-.conclusao div {
+.conclusao >div {
     justify-content: space-between;
     display: flex;
-    padding: 2vw 0 0 0;
+   
 }
 
 .conclusao img {
