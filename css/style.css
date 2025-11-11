@@ -1251,70 +1251,57 @@ DESCONECTA
     font-size: 1.5rem;
 }
 
-.passos {
-    padding: 0 4vw 4vw 4vw;
-}
-
-.passos ul li summary {
-    font-weight: bold;
-}
-
-.passos ul li {
-    line-height: 3rem;
-    list-style-type: disc;
-    font-size: 1.5rem;
-}
-
-.passos div {
+.linksDesc ul {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+   background-color: #FFFFFF;
+   padding: 20px;
 }
+.linksDesc ul li {
+    padding: 20px;
+}
+.linksDesc ul li span svg {
+    width: 8%;
+    fill: #D1D1D1;
+}
+ #tooltip{
+        position: relative;
+        cursor: pointer;
+        background-color: #2C3E50   ;
+        padding: 7px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: sans-serif;
 
-.passos div.linksDesc {
-    display: block;
-}
+     }
 
-.passos div.linksDesc li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-.passos div li {
-    max-width: 900px;
-}
-
-.passos div li h3 {
-    margin: 2vw 0;
-    font-size: 2rem;
-}
-
-.passos div.praia {
-    margin: 4vw 0;
-}
-
-.passos div.praia li {
-    margin: 6vw 0;
-}
-
-.passos div.praia img {
-    width: 110%;
-}
-
-.passos div.praia span {
-    font-weight: bolder;
-}
-
-.passos div.grande h3 {
-    font-size: 1.5rem;
-}
-
-.passos div.grande div.linksDesc li a:hover {
-    background-color: #2C3E50;
-    transition: .2s;
-    padding: 5px 10px;
-    border-radius: 20px;
-}
+     #tooltipText{
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #ffffff;
+        white-space: nowrap;
+        padding: 10px 15px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    #tooltipText::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 100% ;
+        transform: translateX(-50%);
+        border: 15px solid;
+     
+    }
+    #tooltip:hover #tooltipText {
+        top: -130%;
+        visibility: visible;
+        opacity: 1;
+    }
 
 .FinalDesc {
     font-size: 1.5rem;
