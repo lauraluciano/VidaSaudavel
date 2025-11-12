@@ -1,6 +1,4 @@
-:root {
-    font-size: clamp(0.9375rem, 0.9119rem + 0.1536vw, 3rem);
-}
+
 
 
 
@@ -1233,13 +1231,6 @@ DESCONECTA
     margin: 2vw;
     font-size: 1.4rem;
 }
-
-
-
-
-
-
-
 .abandonar {
     padding: 4vw;
     display: flex;
@@ -1247,14 +1238,15 @@ DESCONECTA
     gap: 2vw;
 }
 
-.abandonar div {
+.abandonar >div {
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
     border-radius: 20px;
-    
-    line-height: 3rem;
+    line-height: 2rem;
+    margin: 2vw 0;
     width: 95%;
+    height: fit-content;
 }
 
 .abandonar div h3 {
@@ -1262,13 +1254,12 @@ DESCONECTA
     font-size: 2rem;
     margin: 2vw 0;
 }
-
 .abandonar ul li {
     background-color: #ffffff;
     color: #000;
-    margin: 2vw;
+    margin: 2vw 20px;
     display: flex;
-    padding: 60px;
+    padding: 20px;
     border-radius: 40px;
 }
 
@@ -1276,19 +1267,26 @@ DESCONECTA
     background-color: #262323;
     border-radius: 200px;
     width: 10%;
+    height: 40%;
+    color: #000;
     padding: 20px;
-    height: 60%;
+    margin: 20px 10px;
 }
-
+.abandonar ul li:last-child p {
+    height: 10%;
+    
+}
 .abandonar ul li p img {
     width: 100%;
-    height: 40%;
+    height: auto;
 }
 
 .abandonar ul li div {
     display: block;
 }
-
+.abandonar ul li div p {
+    font-size: 1.2rem
+}
 .abandonar ul li h4 {
     font-weight: bold;
     font-size: 1.5rem;
@@ -1387,8 +1385,29 @@ DESCONECTA
 
 .imagem-direita div p {
     color: #000;
-    line-height: 2rem;
+    width: 90%;
+    text-align: center;
+     font-size: 1.4rem;
+    line-height: 3rem;
 }
+
+.imagem-direita img {
+    width: 30%;
+    border:30px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.fotosAlternadas{
+    display: flex;
+
+}
+.fotosAlternadas img {
+    width: 20%;
+    border-radius: 50px;
+    border: 2px solid #D9D9D9;
+}
+
+
 
 
 /*==========================================================
