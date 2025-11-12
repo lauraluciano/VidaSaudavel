@@ -1694,27 +1694,38 @@ APLICATIVOS
 .bannerAplicativo {
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 4vw;
 }
 
 .bannerAplicativo h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-family: "Abril Fatface", serif;
-    line-height: 5rem;
+    line-height: 90px;
 }
 
-.bannerAplicativo img {
-    width: 20%;
+.bannerAplicavo h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
+.bannerAplicativo p {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.89);
+    line-height: 40px;
+}
+
+.bannerAplicativo div {
+    border: 1px solid rgba(255, 255, 255, 0.795);
+    border-radius: 80px;
+    padding: 2vw;
+    max-width: 700px;
+}
 .aplicativos {
-    padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
+    padding: 4vw;
+    border-bottom: 1px solid white;
 }
 
 .aplicativos ul li {
-    list-style-type: disc;
     font-size: 1.8rem;
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-weight: bold;
