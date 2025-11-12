@@ -710,34 +710,55 @@ MALEFÍCIOS
 }
 
 .inicioMal {
-    padding: 4vw 4vw 4vw 4vw;
     display: flex;
-    justify-content: space-between;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin: 6vw 0 0 0;
 }
+
+.inicioMal {
+    border: 1px solid #000000;
+    border-radius: 80px;
+}
+
+.inicioMal div.texto {
+    border: 1px solid #000000;
+    border-radius: 80px;
+    padding: 4vw 1vw 0 1vw;
+}
+
 
 .inicioMal h1 {
     font-family: "Abril Fatface", serif;
     font-size: 4rem;
-    padding: 0 0 3vw 0
+    margin: 20px 20px;
+    text-align: center;
 }
 
-.inicioMal div {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+.inicioMal img {
+    margin-right: 4vw;
 }
 
-.inicioMal a img {
-    width: 120%;
-}
 
 .pesquisaMal {
     padding: 2vw 4vw 4vw 4vw;
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
+.pesquisaMal h2 {
+    font-size: 2.3rem;
+    margin: 2vw;
+    font-weight: 600;
+
+}
+
 .pesquisaMal p {
     font-size: 1.5rem;
     line-height: 1.8rem;
-    margin: 0 2vw;
+    margin: 2vw;
+    border: 1px solid white;
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
 }
 
 .pesquisaMal p.creditos {
@@ -754,51 +775,16 @@ MALEFÍCIOS
     width: 100%;
 }
 
-.pesquisaMal details summary {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: #1D1D1D;
-    border-radius: 25px;
-    text-align: center;
-    margin: 1.8vw 0vw;
-    padding: 10px 20px
-}
 
-.pesquisaMal details summary:hover {
-    transform: translateY(-10px);
-}
 
-.pesquisaMal details summary span {
-    font-size: 2rem;
-}
 
-.pesquisaMal details p {
-    padding: 0 6vw;
-}
-
-.pesquisaMal details p a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bolder
-}
-
-.pesquisaMal details img {
-    width: 60%;
-    padding: 0 6vw;
-}
-
-.pesquisa-2Mal {
-    border-bottom: 1px solid rgb(202, 202, 202);
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
-    padding: 4vw 4vw 4vw 4vw;
-
-}
 
 .pesquisa-2Mal h2 {
     font-family: "Abril Fatface", serif;
     font-size: 3.2rem;
     display: block;
+    line-height: 2vw;
+    margin: 4vw 0;
 }
 
 .pesquisa-2Mal div {
@@ -811,7 +797,7 @@ MALEFÍCIOS
 
 .pesquisa-2Mal img {
     width: 90%;
-    margin: 0 auto;
+ 
 }
 
 .pesquisa-2Mal p {
@@ -819,6 +805,11 @@ MALEFÍCIOS
     line-height: 2.5rem;
     font-weight: 400;
 }
+
+
+
+
+
 
 .pesquisa-3Mal {
     padding: 4vw 4vw 2vw 4vw;
@@ -963,24 +954,33 @@ PERIGOS
 }
 
 .inicioPerigos {
-    align-items: start;
     display: flex;
-    padding: 4vw 4vw 4vw 4vw;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin: 6vw 0 0 0;
 }
+
+.inicioPerigos {
+    border: 1px solid #000000;
+    border-radius: 80px;
+}
+
+.inicioPerigos div.texto {
+    border: 1px solid #000000;
+    border-radius: 80px;
+    padding: 4vw 1vw 0 1vw;
+}
+
 
 .inicioPerigos h1 {
-    font-size: 4rem;
-    text-align: left;
-    margin: 5vw;
     font-family: "Abril Fatface", serif;
+    font-size: 4rem;
+    margin: 20px 20px;
+    text-align: center;
 }
 
-.inicio2 {
-    text-align: left;
-    padding: 4vw;
-    font-size: 1.8rem;
-    border-bottom: 1px solid rgb(202, 202, 202);
-
+.inicioPerigos img {
+    margin-right: 4vw;
+    width: 70%;
 }
 
 .comentariosPerigos {
@@ -1053,10 +1053,15 @@ PERIGOS
     margin: 0 10vw 1vw 0;
 }
 
-.cyberbullying span {
-    font-size: 1.5rem;
+.cyberbullying p.caixaAjuda {
+    margin: 3vw 2vw;
     text-align: center;
-    margin: 4vw 0 2vw 0;
+    line-height: 2.1vw;
+    background-color: white;
+    color: #000000;
+    padding: 1.5vw;
+    border-radius: 1.5vw;
+  
 }
 
 .menores {
@@ -1066,8 +1071,11 @@ PERIGOS
 
 .menores a {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     margin: 3vw;
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 1.5vw;
+    border-radius: 1.5vw;
 }
 
 .menores h1 {
@@ -1077,8 +1085,8 @@ PERIGOS
 }
 
 .menores h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 2.2rem;
+    font-weight: 300;
 
 }
 
@@ -1091,6 +1099,27 @@ PERIGOS
 .menores p span {
     font-weight: bold;
 }
+
+.menores details {
+    margin: 4vw 0;
+}
+
+.menores details summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menores details.grupoUm {
+    background-color: #540B24;
+    padding: 2vw;
+}
+
+.menores details.grupoDois {
+    
+    background-color: #1B1B1B;
+    padding: 2vw;
+}
+
 
 .menores>div {
     font-size: 1.5rem;
