@@ -1743,39 +1743,64 @@ APLICATIVOS
     padding: 2vw;
     max-width: 700px;
 }
-.aplicativos {
-    padding: 4vw;
-    border-bottom: 1px solid white;
-}
 
-.aplicativos ul li {
-    font-size: 1.8rem;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    font-weight: bold;
-}
-
-.aplicativos p {
-    font-size: 1.5rem;
-    font-family: "IBM Plex Sans Thai", sans-serif;
-    line-height: 30px;
-    padding: 0.5vw 0 0 0;
-    max-width: 1200px;
-}
-
-.aplicativos div {
+.apliDois {
+     margin: 0 auto; 
     display: flex;
-    justify-content: space-between;
-    max-width: 80vw;
+    gap: 4vw;
+    width: 90%;
+  
+}
+.apliDois >div {
+    width: 80%;
+    margin: 2vw 0 ;
+    background-color: #1D1D1D;
+    border-radius: 60px;
+    padding: 20px;
+    border: 15px solid #F4F4F4;
+}
+.apliDois div div  {
+    display: flex;
+    
+}
+.apliDois div div img {
+    width: 15%;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    margin-right: 20px
 }
 
-.todos {
-    width: 40%;
-    margin: 0 0 0 8vw;
+.apliDois div div h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.apliDois div  p {
+    margin: 2vw 0;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+.foco{
+    background-color: #FFFFFF;
 }
 
-.aplicativos div {
-    padding: 2vw 0;
+.brancoAzul{
+    background-color: #D9D9D9 !important;
+    border-color: #2C3E50 !important;
+    color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*==========================================================
