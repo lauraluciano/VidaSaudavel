@@ -1,3 +1,9 @@
+:root {
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1536vw, 3rem);
+}
+
+
+
 /*===========================================
 Geral
 =============================================*/
@@ -22,6 +28,7 @@ section {
     padding: 2vw 20px;
     line-height: 2.5rem;
 }
+
 
 /*===========================================================
 HEADER
@@ -187,8 +194,8 @@ INICIO
 
 .banner {
     padding: 4vw 4vw 4vw 4vw;
-    border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .banner img {
@@ -215,6 +222,7 @@ INICIO
     font-family: "Noto Serif Display", serif;
     font-size: 2rem;
     margin: 2vw 0vw 4vw 0vw;
+
 }
 
 .banner a.botaoInicio {
@@ -225,6 +233,7 @@ INICIO
     font-size: 2rem;
     padding: 20px;
     border-radius: 10vw;
+
 }
 
 .introducao {
@@ -1238,7 +1247,7 @@ DESCONECTA
     gap: 2vw;
 }
 
-.abandonar div.textoAban {
+.abandonar div {
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
@@ -1264,11 +1273,16 @@ DESCONECTA
 }
 
 .abandonar ul li>p {
-    background-color: #1D1D1D;
-    padding: 20px 40px;
+    background-color: #262323;
     border-radius: 200px;
-    margin: 0 2vw;
+    width: 10%;
+    padding: 20px;
+    height: 60%;
+}
 
+.abandonar ul li p img {
+    width: 100%;
+    height: 40%;
 }
 
 .abandonar ul li div {
@@ -2344,176 +2358,103 @@ REFERÊNCIAS
     font-size: 25px;
 }
 
-/*=======================================================
-RESPONSIVIDADE
-========================================================*/
 
 @media only screen and (max-width: 600px) {
+    body {
 
-    /*========= menu ==========*/
+        /*BANNER*/
 
-    .nav-bar {
-        padding: 1rem 1rem;
+        .banner img {
+            width: 60%;
+            margin: 0 0 0 18vw;
+        }
 
+        .banner h1 {
+            font-size: 2.5rem;
+            margin: 5vw 10vw 1vw 10vw;
+        }
+
+        .banner p {
+            font-size: 1.3rem;
+        }
+
+        .banner a.botaoInicio {
+            font-size: 1.3rem;
+            padding: 10px 20px;
+        }
+
+        /*INTRODUCAO*/
+        
+        .introducao {
+            display: block;
+        }
+
+        .introducao h2 {
+            font-size: 2.2rem;
+        }
+
+        .introducao div.textoInt p {
+            font-size: 1.2rem;
+
+        }
+
+        .introducao img {
+            align-items: center;
+            width: 60%;
+            padding: 0 0 0 12vw;
+        }
+
+        /*MAPA*/
+
+        .mapa h1 {
+            font-size: 2.6rem;
+        }
+
+        .mapa div.bloco2 {
+            margin: 25vw 0 20vw 6vw;
+            padding: 10vw 0 5vw 5vw;
+        }
+
+        .mapa div.bloco2 img.lupa {
+            width: 50%;
+            margin: 0 0vw 0vw 10vw;
+            position: absolute;
+            top: -160px;
+        }
+
+        .mapa div.bloco2 img.comp {
+            margin: 0 0vw 0vw 8vw;
+        }
+
+        /*NOTICIAS*/
+        
+        .noticiasInicio h1 {
+            font-size: 2.5rem;
+        }
+
+        .noticiasInicio h4 {
+            font-size: 1.5rem;
+        }
+
+        .noticiasInicio div.texto1Ini p {
+            font-size: 1rem;
+        }
+
+        .noticiasInicio div.texto2Ini p {
+            font-size: 1rem;
+        }
+
+        .noticiasInicio ul li {
+            background-color: #ffffff;
+            border-radius: 60px;
+            padding: 4vw;
+           
+        }
+
+        .noticiasInicio ul li a img {
+            margin: 0 1vw 0 0 0;
+            width: 85%;
+            height: 35%;
+        }
     }
-
-    .nav-item {
-        display: none;
-    }
-
-    .menu-mobile-icon {
-        display: block;
-    }
-
-    .menu-mobile-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .open {
-        display: block;
-    }
-
-    .banner {
-        display: block;
-    }
-
-    .banner img {
-        width: 100%;
-    }
-
-    .mapa div.blocos {
-        display: block;
-    }
-
-    .noticias ul {
-        display: block;
-    }
-
-    /*========= banner ========= */
-
-    .banner img {
-        width: 87%;
-    }
-
-    .banner a.botaoInicio {
-        font-size: 1.2rem;
-        padding: 10px;
-        border-radius: 20vw;
-    }
-
-    .banner p {
-        font-size: 1.4rem;
-        margin: 5vw 2vw 5vw 2vw;
-        line-height: 1.5rem;
-    }
-
-    .banner h1 {
-        font-size: 2.2rem;
-        margin: 0 2vw 0 2vw;
-    }
-
-    /*======== introdução ===========*/
-
-    .introducao {
-        padding: 6vw 5vw 4vw 4vw;
-        line-height: 1.7rem;
-        font-size: 1.4rem;
-        margin: 5vw 2vw 5vw 2vw;
-    }
-
-    .introducao h2 {
-        font-size: 2.2rem;
-        margin: 0 2vw 0 2vw;
-    }
-
-    .introducao img {
-        width: 207%;
-        padding: 2vw 0 0 0;
-    }
-
-    .introducao p {
-        padding: 2vw;
-        line-height: 1.7rem;
-        font-size: 1.4rem;
-        margin: 0 2vw 0 2vw;
-    }
-    /* ========== oque vamos abordar - inicio =========== */
-
-.mapa h1 {
-    font-size: 2.8rem;
-    padding: 0 2vw 0 2vw;
 }
-
-.mapa div.bloco2 {
-    margin: 10vw 2vw 0 2vw;
-    width: 220px;
-    line-height: 60px;
-    font-size: 1.4rem;
-}
-
-/*arrumar imagens*/
-
-.mapa div.bloco2 img.lupa {
-    position: absolute;
-    top: -190px;
-    height: 207px;
-}
-
-.comp {
-    position: absolute;
-    top: -160px;
-    padding: 0 0 0 3vw;
-}
-
-/* ======== veja também - inicio ========= */
-
-.noticiasInicio h1 {
-    text-align: center;
-    font-size: 1.4rem;
-}
-
-.noticiasInicio ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    gap: 40px;
-    padding: 2vw 0 0 0;
-    width: 100%;
-}
-
-.noticiasInicio ul li {
-    background-color: #ffffff;
-    border-radius: 80px;
-    padding: 2vw;
-    width: 50%;
-}
-
-.noticiasInicio h4 {
-    font-size: 1.6rem;
-}
-
-/* arrumar texto */
-.noticiasInicio p {
-    margin-top: 15px;
-    font-size: 1.2rem;
-    color: #000;
-}
-
-
-}
-
-
