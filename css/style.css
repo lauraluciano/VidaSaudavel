@@ -783,6 +783,21 @@ body p.creditosCien {
     font-size: 0.7rem;
     padding: 0;
 }
+@media screen and (max-width: 900px) {
+    .bannerCien img{
+        width: 200%;
+    }
+    .bannerCien h1 {
+        font-size: 30px;
+    }
+    .bannerCien h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bannerCien div{
+        padding: 10px;
+    }
+}
 
 /*==========================================================
 MALEFÍCIOS
@@ -908,6 +923,9 @@ MALEFÍCIOS
     border-radius: 20px;
     padding: 1.7vw;
     text-align: center;
+    position: absolute;
+    top: 137vw;
+    margin: 0 0 0 23vw;
 }
 
 
@@ -2557,18 +2575,6 @@ div.imgSobreBanner p {
     margin-bottom: 1vw;
     width: 80%;
     margin: 0 auto;
-}
-
-.final {
-    margin: 2vw 4vw;
-    background-color: #2C3E50;
-    border-radius: 60px;
-    text-align: center;
-}
-
-.final p {
-    font-weight: bold;
-    font-size: 2rem;
 }
 
 /*==========================================================
