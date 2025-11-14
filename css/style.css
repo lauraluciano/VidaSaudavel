@@ -10,9 +10,11 @@
     outline: none;
     /* remove contorno */
 }
+
 :root {
     font-size: clamp(0.9375rem, 0.9119rem + 0.1536vw, 3rem);
 }
+
 html {
     text-decoration: none;
     background: #2C3E50;
@@ -307,7 +309,6 @@ INICIO
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .mapa div.bloco2 {
@@ -2696,98 +2697,110 @@ REFERÊNCIAS
     }
 
     /*BANNER*/
+    .banner {
+        display: block;
+        border-bottom: 1px solid rgb(211, 211, 211);
+        padding-bottom: 40px;
+    }
 
     .banner img {
-        width: 60%;
-        margin: 0 0 0 18vw;
+        width: 80%;
+        display: grid;
+        margin: 0 12vw;
     }
 
     .banner h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin: 5vw 10vw 1vw 10vw;
     }
 
     .banner p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        line-height: 24px;
+        margin: 0 0 25px 0;
     }
 
     .banner a.botaoInicio {
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding: 10px 20px;
+
     }
 
     /*INTRODUCAO*/
 
     .introducao {
-        display: block;
+        display: grid;
     }
 
     .introducao h2 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .introducao div.textoInt p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+
 
     }
 
     .introducao img {
         align-items: center;
-        width: 60%;
+        width: 80%;
         padding: 0 0 0 12vw;
     }
 
     /*MAPA*/
 
     .mapa h1 {
-        font-size: 2.6rem;
+        font-size: 2rem;
+        margin: 0 0 13vw;
     }
 
     .mapa div.bloco2 {
-        margin: 25vw 0 20vw 6vw;
-        padding: 10vw 0 5vw 5vw;
+
+        padding: 3vw;
+        margin: 40px;
+        border-radius: 20px;
+        width: 200px;
+        line-height: 30px;
+        font-size: 0.9rem;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
 
     .mapa div.bloco2 img.lupa {
         width: 50%;
-        margin: 0 0vw 0vw 10vw;
+        margin: 0 8vw;
         position: absolute;
-        top: -160px;
+        top: -70px;
     }
 
     .mapa div.bloco2 img.comp {
-        margin: 0 0vw 0vw 8vw;
+        width: 50%;
+        top: -60px;
+        margin: 0 7vw;
     }
 
     /*NOTICIAS*/
 
     .noticiasInicio h1 {
-        font-size: 2.5rem;
+        font-size: 1.4rem;
     }
 
     .noticiasInicio h4 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .noticiasInicio ul {
+        padding: 2vw;
+       
     }
 
     .noticiasInicio div.texto1Ini p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .noticiasInicio div.texto2Ini p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
-    .noticiasInicio ul li {
-        background-color: #ffffff;
-        border-radius: 60px;
-        padding: 4vw;
 
-    }
-
-    .noticiasInicio ul li a img {
-        margin: 0 1vw 0 0 0;
-        width: 85%;
-        height: 35%;
-    }
 
 }
