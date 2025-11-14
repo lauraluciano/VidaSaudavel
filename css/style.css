@@ -1,10 +1,18 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 
-
-
-
-/*===========================================
-Geral
-=============================================*/
+    -webkit-tap-highlight-color: transparent;
+    /* Chrome/Safari Android/iOS */
+    -webkit-focus-ring-color: transparent;
+    /* iOS */
+    outline: none;
+    /* remove contorno */
+}
+:root {
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1536vw, 3rem);
+}
 html {
     text-decoration: none;
     background: #2C3E50;
@@ -472,9 +480,9 @@ p.creditosCien {
     display: inline-block;
     cursor: pointer;
 
-  }
-  
-  .introCien .tooltip .tooltiptext  {
+}
+
+.introCien .tooltip .tooltiptext {
     visibility: hidden;
     opacity: 0;
     width: 180px;
@@ -484,30 +492,31 @@ p.creditosCien {
     border-radius: 6px;
     padding: 8px;
     position: absolute;
-    bottom: 125%; /* aparece acima do elemento */
+    bottom: 125%;
+    /* aparece acima do elemento */
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.3s;
     z-index: 10;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+}
 
-  .introCien .tooltip p.caixaVermelha {
+.introCien .tooltip p.caixaVermelha {
     background-color: #540B24;
-  }
+}
 
-  .introCien .tooltip p.caixaAzul {
+.introCien .tooltip p.caixaAzul {
     background-color: #2C3E50;
-  }
+}
 
-  .introCien .tooltip p.caixaBranca {
+.introCien .tooltip p.caixaBranca {
     background-color: white;
     color: #000;
-  }
+}
 
 
 
@@ -600,7 +609,7 @@ p.creditosCien {
 .cerebroParte {
     position: relative;
     border-bottom: 1px solid rgb(202, 202, 202);
-    
+
 }
 
 .cerebroParte p {
@@ -620,7 +629,7 @@ p.creditosCien {
     align-items: flex-start;
     gap: 40px;
     position: relative;
-    
+
 }
 
 .cerebroParte div.texto {
@@ -647,7 +656,7 @@ p.creditosCien {
     width: 40%;
     bottom: -4vw;
     z-index: 5;
-    
+
 }
 
 
@@ -865,23 +874,23 @@ MALEFÍCIOS
 
 .pesquisa-2Mal div.tabelaTexto {
     display: flex;
-    
+
 }
 
 .pesquisa-2Mal img {
     width: 30vw;
     height: 40vw;
- 
+
 }
 
 .pesquisa-2Mal p {
     margin: 4vw;
     padding: 3vw;
-   font-size: 1.2rem;
-   background-color: #2C3E50;
-   border: 1px solid white;
-   border-radius: 20px;
-   line-height: 2vw;
+    font-size: 1.2rem;
+    background-color: #2C3E50;
+    border: 1px solid white;
+    border-radius: 20px;
+    line-height: 2vw;
 }
 
 
@@ -902,7 +911,7 @@ MALEFÍCIOS
 }
 
 
-.enfermidades div.enfermidadesEx{
+.enfermidades div.enfermidadesEx {
     margin: 3vw 5vw;
     padding: 2vw;
     border: 5px solid #2C3E50;
@@ -912,12 +921,12 @@ MALEFÍCIOS
 .enfermidades div.enfermidadesEx ul {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .enfermidades div.enfermidadesEx ul li {
-    padding: 1vw 8vw ;
-    
+    padding: 1vw 8vw;
+
 }
 
 .enfermidades div.enfermidadesEx ul li p.btn-modal {
@@ -939,24 +948,24 @@ MALEFÍCIOS
     padding: 1vw;
 }
 
-    .modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.6);
-        display: none;
-        justify-content: center;
-        align-items: center;
-      }
-  
-      .modal-content {
-        background: white;
-        padding: 20px;
-        max-width: 600px;
-        border-radius: 8px;
-      }
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+}
 
 
 
@@ -971,7 +980,7 @@ MALEFÍCIOS
     font-size: 3.2rem;
     margin-bottom: 40px;
     display: block;
-    
+
 }
 
 .pesquisa-3Mal p {
@@ -1223,7 +1232,7 @@ PERIGOS
     color: #000000;
     padding: 1.5vw;
     border-radius: 1.5vw;
-  
+
 }
 
 .menores {
@@ -1277,7 +1286,7 @@ PERIGOS
 }
 
 .menores details.grupoDois {
-    
+
     background-color: #1B1B1B;
     padding: 2vw;
 }
@@ -1386,6 +1395,7 @@ DESCONECTA
     margin: 2vw;
     font-size: 1.4rem;
 }
+
 .abandonar {
     padding: 4vw;
     display: flex;
@@ -1393,7 +1403,7 @@ DESCONECTA
     gap: 2vw;
 }
 
-.abandonar >div {
+.abandonar>div {
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
@@ -1409,6 +1419,7 @@ DESCONECTA
     font-size: 2rem;
     margin: 2vw 0;
 }
+
 .abandonar ul li {
     background-color: #ffffff;
     color: #000;
@@ -1427,10 +1438,12 @@ DESCONECTA
     padding: 20px;
     margin: 20px 10px;
 }
+
 .abandonar ul li:last-child p {
     height: 10%;
-    
+
 }
+
 .abandonar ul li p img {
     width: 100%;
     height: auto;
@@ -1439,41 +1452,49 @@ DESCONECTA
 .abandonar ul li div {
     display: block;
 }
+
 .abandonar ul li div p {
     font-size: 1.2rem
 }
+
 .abandonar ul li h4 {
     font-weight: bold;
     font-size: 1.5rem;
 }
-.passos{
+
+.passos {
     display: flex;
     justify-content: space-between;
     line-height: 40px;
 }
-.passos div h3{
+
+.passos div h3 {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .passos div p {
     width: 40%;
     font-size: 1.2rem;
 }
-.hobbieSquare{
+
+.hobbieSquare {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 2vw ;
+    padding: 2vw;
     border-radius: 30px;
     gap: 40px;
     background-color: #ffffff;
     width: 60%;
 }
+
 .hobbieSquare div {
     display: flex;
     width: 80%;
 }
+
 .hobbieSquare span svg {
     fill: #FFFFFF;
     width: 60px;
@@ -1481,65 +1502,69 @@ DESCONECTA
     padding: 20px;
     border-radius: 20px;
 }
-.backAzul{
+
+.backAzul {
     background-color: #2C3E50;
     width: auto;
     height: auto;
-     border-radius: 20px;
+    border-radius: 20px;
     margin-right: 40px;
 }
-.backRed{
+
+.backRed {
     background-color: #53061F;
     width: fit-content;
-      width: auto;
+    width: auto;
     height: auto;
-     border-radius: 20px;
-      margin-right: 40px;
+    border-radius: 20px;
+    margin-right: 40px;
 
 }
 
-     #tooltip{
-        position: relative;
-        cursor: pointer;
-        padding: 7px;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: sans-serif;
+#tooltip {
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
 
-     }
+}
 
-     #tooltipText{
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translateX(-50%);
-        background-color: #ffffff;
-        color: #000000;
-        white-space: nowrap;
-        padding: 10px 15px;
-        border-radius: 7px;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }  
-    
-    #tooltipText a {
-        text-decoration: none;
-        color: #000;
-    }
-    #tooltipText::before{
-        position: absolute;
-        left: 50%;
-        top: 60% ;
-        transform: translateX(-50%);
-        border: 15px solid;
-     
-    }
-    #tooltip:hover #tooltipText {
-        top: -30%;
-        visibility: visible;
-        opacity: 1;
-    }
+#tooltipText {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #000000;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#tooltipText a {
+    text-decoration: none;
+    color: #000;
+}
+
+#tooltipText::before {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    border: 15px solid;
+
+}
+
+#tooltip:hover #tooltipText {
+    top: -30%;
+    visibility: visible;
+    opacity: 1;
+}
 
 .imagem-direita {
     display: flex;
@@ -1549,6 +1574,7 @@ DESCONECTA
     padding: 2vw;
     border-radius: 20px;
 }
+
 .imagem-direita div h3 {
     font-size: 2rem;
     background-color: #2C3E50;
@@ -1562,25 +1588,27 @@ DESCONECTA
     color: #000;
     width: 90%;
     text-align: center;
-     font-size: 1.4rem;
+    font-size: 1.4rem;
     line-height: 3rem;
 }
 
 .imagem-direita img {
     width: 30%;
-    border:30px solid #FFFFFF;
+    border: 30px solid #FFFFFF;
     border-radius: 50px;
 }
 
-.fotosAlternadas{
+.fotosAlternadas {
     display: flex;
     margin: 4vw 0;
     width: 90%;
 }
+
 .fotosAlternadas div h3 {
     font-size: 2rem;
     font-weight: bold;
 }
+
 .fotosAlternadas div p {
     font-size: 1.4rem;
     line-height: 3rem;
@@ -1593,9 +1621,10 @@ DESCONECTA
     border-radius: 50px;
     border: 10px solid #D9D9D9;
 }
-img.azulBaixo  {
+
+img.azulBaixo {
     width: 15%;
-     background-color: #ffffff;
+    background-color: #ffffff;
     border: 20px solid #2C3E50;
     position: absolute;
     right: 2vw;
@@ -2001,24 +2030,27 @@ APLICATIVOS
 }
 
 .apliDois {
-     margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     gap: 4vw;
     width: 90%;
-  
+
 }
-.apliDois >div {
+
+.apliDois>div {
     width: 80%;
-    margin: 2vw 0 ;
+    margin: 2vw 0;
     background-color: #1D1D1D;
     border-radius: 60px;
     padding: 20px;
     border: 15px solid #F4F4F4;
 }
-.apliDois div div  {
+
+.apliDois div div {
     display: flex;
-    
+
 }
+
 .apliDois div div img {
     width: 15%;
     border: 5px solid #ffffff;
@@ -2030,16 +2062,18 @@ APLICATIVOS
     font-weight: bold;
     font-size: 2rem;
 }
-.apliDois div  p {
+
+.apliDois div p {
     margin: 2vw 0;
     line-height: 2rem;
     font-size: 1.4rem;
 }
-.foco{
+
+.foco {
     background-color: #FFFFFF;
 }
 
-.brancoAzul{
+.brancoAzul {
     background-color: #D9D9D9 !important;
     border-color: #2C3E50 !important;
     color: #000;
@@ -2115,10 +2149,11 @@ DADOS
     top: 54vw;
     left: 10vw;
     background-color: white;
-    padding: 2vw 2.5vw ;
+    padding: 2vw 2.5vw;
     border-radius: 300px;
     margin: 0 0 0 1vw;
 }
+
 .dados span {
     font-weight: bold;
 }
@@ -2144,6 +2179,7 @@ DADOS
     border-radius: 40px;
     padding: 2vw;
 }
+
 .estudantes div.grafico {
     display: flex;
     justify-content: space-between;
@@ -2173,6 +2209,7 @@ DADOS
     padding: 1vw;
     max-width: 300px;
 }
+
 .equipamento {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw;
@@ -2183,7 +2220,7 @@ DADOS
 .equipamento h2 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
-    font-weight: 500; 
+    font-weight: 500;
     text-align: right;
     padding: 0 0 2vw 0;
 }
@@ -2197,18 +2234,21 @@ DADOS
     padding: 2vw 0 0 0;
     text-align: right;
 }
+
 .equipamento .textoBorda p {
     color: #000;
     text-align: left;
 }
-.equipamento .textoBorda  {
-    padding: 3vw ;
-    margin: 2vw 0 ;
+
+.equipamento .textoBorda {
+    padding: 3vw;
+    margin: 2vw 0;
     text-align: left;
     background-color: #FFFFFF;
     color: #000;
     border-radius: 20px 20px 20px 0px;
 }
+
 .equipamento div.texto {
     color: #000;
     background-color: white;
@@ -2229,7 +2269,7 @@ DADOS
 
 .idade {
     border-bottom: 1px solid rgb(202, 202, 202);
-   
+
 }
 
 .idade h2 {
@@ -2247,14 +2287,16 @@ DADOS
     padding: 2vw 0 0 0;
     max-width: 1100px;
 }
-.idade .textosIdade{
+
+.idade .textosIdade {
     display: block;
 }
+
 .idade .textosIdade p {
     background-color: #FFFFFF;
     border-radius: 50px;
     margin: 2vw;
-    padding: 2vw ;
+    padding: 2vw;
     color: #000;
 }
 
@@ -2269,8 +2311,8 @@ DADOS
 }
 
 .conclusao {
-     background-color: #1B1B1B;
-     margin: 2vw;
+    background-color: #1B1B1B;
+    margin: 2vw;
 }
 
 .conclusao h2 {
@@ -2286,10 +2328,10 @@ DADOS
     font-size: 1.5rem;
 }
 
-.conclusao >div {
+.conclusao>div {
     justify-content: space-between;
     display: flex;
-   
+
 }
 
 .conclusao img {
@@ -2391,7 +2433,8 @@ div.imgSobreBanner p {
     border: 30px solid #540B24;
 
 }
-.projeto p.primeiraAzul{
+
+.projeto p.primeiraAzul {
     border: 30px solid #2C3E50;
     line-height: 2.5rem;
 }
@@ -2406,6 +2449,7 @@ div.imgSobreBanner p {
     font-weight: bold;
     margin: 33.5vw;
 }
+
 /*.pessoas h2 {
   text-align: center;
   font-size: 2rem;
@@ -2468,38 +2512,45 @@ div.imgSobreBanner p {
     text-align: center;
     font-size: 2rem;
 }
-.grupo1sobre, .grupo2sobre{
+
+.grupo1sobre,
+.grupo2sobre {
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 2vw;
-     margin: 2vw auto;
-    
+    margin: 2vw auto;
+
 }
 
 .card {
     position: relative;
     background-color: #FFFFFF;
     padding: 2vw;
-    width: 20%; 
-    box-shadow: 0 20px 20px #53061F ;
- 
+    width: 20%;
+    box-shadow: 0 20px 20px #53061F;
+
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card:hover{
+
+.card:hover {
     transform: translateY(-20px);
-     box-shadow: 0 60px 60px  #53061F; /* aumenta a sombra */
+    box-shadow: 0 60px 60px #53061F;
+    /* aumenta a sombra */
 }
-.card  div {
- color: #000;
- font-size: 1.4rem;
- 
-  margin: 20px;
+
+.card div {
+    color: #000;
+    font-size: 1.4rem;
+
+    margin: 20px;
 }
-.card div h4{
+
+.card div h4 {
     margin: 2vw 0;
     text-align: center;
 }
+
 .card img {
     display: block;
     border-radius: 4px;
@@ -2507,16 +2558,19 @@ div.imgSobreBanner p {
     width: 80%;
     margin: 0 auto;
 }
-.final{
+
+.final {
     margin: 2vw 4vw;
     background-color: #2C3E50;
     border-radius: 60px;
     text-align: center;
 }
+
 .final p {
     font-weight: bold;
     font-size: 2rem;
 }
+
 /*==========================================================
 REFERÊNCIAS
 ==========================================================*/
@@ -2597,8 +2651,10 @@ REFERÊNCIAS
 }
 
 
-@media only screen and (max-width: 600px) {
-       .nav-bar {
+@media only screen and (max-width: 900px) {
+    /*HEADER*/
+
+    .nav-bar {
         padding: 1rem 1rem;
 
     }
@@ -2606,6 +2662,7 @@ REFERÊNCIAS
     .nav-item {
         display: none;
     }
+
     .menu-mobile-icon {
         display: block;
     }
@@ -2632,99 +2689,99 @@ REFERÊNCIAS
         display: block;
     }
 
-        /*BANNER*/
+    /*BANNER*/
 
-        .banner img {
-            width: 60%;
-            margin: 0 0 0 18vw;
-        }
+    .banner img {
+        width: 60%;
+        margin: 0 0 0 18vw;
+    }
 
-        .banner h1 {
-            font-size: 2.5rem;
-            margin: 5vw 10vw 1vw 10vw;
-        }
+    .banner h1 {
+        font-size: 2.5rem;
+        margin: 5vw 10vw 1vw 10vw;
+    }
 
-        .banner p {
-            font-size: 1.3rem;
-        }
+    .banner p {
+        font-size: 1.3rem;
+    }
 
-        .banner a.botaoInicio {
-            font-size: 1.3rem;
-            padding: 10px 20px;
-        }
+    .banner a.botaoInicio {
+        font-size: 1.3rem;
+        padding: 10px 20px;
+    }
 
-        /*INTRODUCAO*/
-        
-        .introducao {
-            display: block;
-        }
+    /*INTRODUCAO*/
 
-        .introducao h2 {
-            font-size: 2.2rem;
-        }
+    .introducao {
+        display: block;
+    }
 
-        .introducao div.textoInt p {
-            font-size: 1.2rem;
+    .introducao h2 {
+        font-size: 2.2rem;
+    }
 
-        }
+    .introducao div.textoInt p {
+        font-size: 1.2rem;
 
-        .introducao img {
-            align-items: center;
-            width: 60%;
-            padding: 0 0 0 12vw;
-        }
+    }
 
-        /*MAPA*/
+    .introducao img {
+        align-items: center;
+        width: 60%;
+        padding: 0 0 0 12vw;
+    }
 
-        .mapa h1 {
-            font-size: 2.6rem;
-        }
+    /*MAPA*/
 
-        .mapa div.bloco2 {
-            margin: 25vw 0 20vw 6vw;
-            padding: 10vw 0 5vw 5vw;
-        }
+    .mapa h1 {
+        font-size: 2.6rem;
+    }
 
-        .mapa div.bloco2 img.lupa {
-            width: 50%;
-            margin: 0 0vw 0vw 10vw;
-            position: absolute;
-            top: -160px;
-        }
+    .mapa div.bloco2 {
+        margin: 25vw 0 20vw 6vw;
+        padding: 10vw 0 5vw 5vw;
+    }
 
-        .mapa div.bloco2 img.comp {
-            margin: 0 0vw 0vw 8vw;
-        }
+    .mapa div.bloco2 img.lupa {
+        width: 50%;
+        margin: 0 0vw 0vw 10vw;
+        position: absolute;
+        top: -160px;
+    }
 
-        /*NOTICIAS*/
-        
-        .noticiasInicio h1 {
-            font-size: 2.5rem;
-        }
+    .mapa div.bloco2 img.comp {
+        margin: 0 0vw 0vw 8vw;
+    }
 
-        .noticiasInicio h4 {
-            font-size: 1.5rem;
-        }
+    /*NOTICIAS*/
 
-        .noticiasInicio div.texto1Ini p {
-            font-size: 1rem;
-        }
+    .noticiasInicio h1 {
+        font-size: 2.5rem;
+    }
 
-        .noticiasInicio div.texto2Ini p {
-            font-size: 1rem;
-        }
+    .noticiasInicio h4 {
+        font-size: 1.5rem;
+    }
 
-        .noticiasInicio ul li {
-            background-color: #ffffff;
-            border-radius: 60px;
-            padding: 4vw;
-           
-        }
+    .noticiasInicio div.texto1Ini p {
+        font-size: 1rem;
+    }
 
-        .noticiasInicio ul li a img {
-            margin: 0 1vw 0 0 0;
-            width: 85%;
-            height: 35%;
-        }
-    
+    .noticiasInicio div.texto2Ini p {
+        font-size: 1rem;
+    }
+
+    .noticiasInicio ul li {
+        background-color: #ffffff;
+        border-radius: 60px;
+        padding: 4vw;
+
+    }
+
+    .noticiasInicio ul li a img {
+        margin: 0 1vw 0 0 0;
+        width: 85%;
+        height: 35%;
+    }
+
 }
