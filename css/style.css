@@ -1651,6 +1651,16 @@ img.azulBaixo {
 }
 
 
+#comodo1 {
+    cursor: pointer;
+
+}
+
+#comodo1:hover {
+    color: #540B24;
+}
+
+
 
 /*==========================================================
 NOTÍCIAS
@@ -2800,6 +2810,76 @@ REFERÊNCIAS
     .noticiasInicio div.texto2Ini p {
         font-size: 0.8rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+  /*MALEFICIOS*/
+
+
+  .maleficios {
+    background: #540B24;
+    margin: 2vw;
+    max-width: 1000px;
+
+}
+
+.inicioMal {
+    display: flex;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 12vw 6vw;
+    margin-bottom: 8vw;
+    
+}
+
+.inicioMal {
+    border: 1px solid #000000;
+    border-radius: 80px;
+
+}
+
+.inicioMal div.texto {
+    border: 1px solid #000000;
+    border-radius: 40px;
+    padding: 2vw 4vw;
+    margin-left: 6vw;
+}
+
+.inicioMal h2 {
+    font-size: 11px;
+    line-height: 11px;
+    margin: 0;
+}
+
+
+.inicioMal h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 1.3rem;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+.inicioMal img {
+   margin: 2vw 2vw 2vw 0;
+    width: 110%;
+    height: 80%;
+}
+
+
+.pesquisaMal h2{
+    font-size: 1.5rem;
+    margin: 4vw;
+}
+
+
+
 
 
 
