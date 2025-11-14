@@ -2598,7 +2598,39 @@ REFERÊNCIAS
 
 
 @media only screen and (max-width: 600px) {
-    body {
+       .nav-bar {
+        padding: 1rem 1rem;
+
+    }
+
+    .nav-item {
+        display: none;
+    }
+    .menu-mobile-icon {
+        display: block;
+    }
+
+    .menu-mobile-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
 
         /*BANNER*/
 
@@ -2694,5 +2726,5 @@ REFERÊNCIAS
             width: 85%;
             height: 35%;
         }
-    }
+    
 }
