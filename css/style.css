@@ -181,7 +181,7 @@ footer nav p {
 }
 
 footer nav p a {
-    color: #1B1B1B;
+    color: #000000;
 
     display: flex;
     justify-content: right;
@@ -784,18 +784,22 @@ body p.creditosCien {
     font-size: 0.7rem;
     padding: 0;
 }
+
 @media screen and (max-width: 900px) {
-    .bannerCien img{
+    .bannerCien img {
         width: 200%;
     }
+
     .bannerCien h1 {
         font-size: 30px;
     }
+
     .bannerCien h2 {
         font-size: 15px;
         line-height: 20px;
     }
-    .bannerCien div{
+
+    .bannerCien div {
         padding: 10px;
     }
 }
@@ -2765,6 +2769,10 @@ REFERÊNCIAS
         margin: 0 0 13vw;
     }
 
+    .mapa p {
+        font-size: 0.8rem;
+    }
+
     .mapa div.bloco2 {
 
         padding: 3vw;
@@ -2793,94 +2801,136 @@ REFERÊNCIAS
 
     .noticiasInicio h1 {
         font-size: 1.4rem;
+
     }
 
     .noticiasInicio h4 {
         font-size: 1.2rem;
-    }
-    .noticiasInicio ul {
-        padding: 2vw;
-       
+        text-align: center;
+        padding: 1px 0 0 0;
     }
 
+    .noticiasInicio ul {
+        display: block;
+        margin: 0 0 0 10vw;
+        width: 150%;
+
+    }
+
+
     .noticiasInicio div.texto1Ini p {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        text-align: center;
+        margin: 2vw 4vw 8vw 4vw;
+
     }
 
     .noticiasInicio div.texto2Ini p {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        text-align: center;
+        margin: 2vw 4vw 8vw 4vw;
+    }
+
+    .noticiasInicio ul li {
+        margin: 0 0 15vw 0;
+
     }
 
 
 
 
+    /*MALEFICIOS*/
+
+
+    .maleficios {
+        background: #540B24;
+        margin: 2vw;
+        max-width: 1000px;
+
+    }
+
+    .inicioMal {
+        display: flex;
+        border-bottom: 1px solid rgb(202, 202, 202);
+        padding: 12vw 6vw;
+        margin-bottom: 8vw;
+
+    }
+
+    .inicioMal {
+        border: 1px solid #000000;
+        border-radius: 80px;
+
+    }
+
+    .inicioMal div.texto {
+        border: 1px solid #000000;
+        border-radius: 40px;
+        padding: 2vw 4vw;
+        margin-left: 6vw;
+    }
+
+    .inicioMal h2 {
+        font-size: 11px;
+        line-height: 11px;
+        margin: 0;
+    }
+
+
+    .inicioMal h1 {
+        font-family: "Abril Fatface", serif;
+        font-size: 1.3rem;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
+
+    .inicioMal img {
+        margin: 2vw 2vw 2vw 0;
+        width: 110%;
+        height: 80%;
+    }
+
+
+    .pesquisaMal h2 {
+        font-size: 1.5rem;
+        margin: 4vw;
+    }
 
 
 
 
+    /*FOOTER*/
 
+    footer nav.mapaFooter {
+        display: flex;
+        
+    }
 
+    footer .footerCont {
+        display: block;
+    }
 
-  /*MALEFICIOS*/
-
-
-  .maleficios {
-    background: #540B24;
-    margin: 2vw;
-    max-width: 1000px;
-
-}
-
-.inicioMal {
-    display: flex;
-    border-bottom: 1px solid rgb(202, 202, 202);
-    padding: 12vw 6vw;
-    margin-bottom: 8vw;
     
-}
+    .mapaFooter ul li a {
+        font-size: 1rem;
 
-.inicioMal {
-    border: 1px solid #000000;
-    border-radius: 80px;
+    }
 
-}
+    footer nav p {
+        display: flex;
+        justify-content: center;
+    }
 
-.inicioMal div.texto {
-    border: 1px solid #000000;
-    border-radius: 40px;
-    padding: 2vw 4vw;
-    margin-left: 6vw;
-}
-
-.inicioMal h2 {
-    font-size: 11px;
-    line-height: 11px;
-    margin: 0;
-}
-
-
-.inicioMal h1 {
-    font-family: "Abril Fatface", serif;
-    font-size: 1.3rem;
-    margin: 20px 20px 10px 20px;
-    text-align: center;
-}
-
-.inicioMal img {
-   margin: 2vw 2vw 2vw 0;
-    width: 110%;
-    height: 80%;
-}
-
-
-.pesquisaMal h2{
-    font-size: 1.5rem;
-    margin: 4vw;
-}
-
-
-
-
-
-
+    footer div.creditos p {
+    
+    font-size: 0.8rem;
+    line-height: 14px;
+    }
+    footer div.p p {
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 12px;
+        margin: 0vw 0 5vw 0;
+    }
+ 
 }
