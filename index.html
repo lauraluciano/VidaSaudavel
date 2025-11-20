@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/d588e7aa63.js" crossorigin="anonymous"></script>
   <script src="js/menu.js"></script>
+ 
   <title>Inicio</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -154,7 +155,83 @@
         </li>
       </ul>
     </section>
+    <section class="quiz">
+        <h1> Faça nosso formulário </h1>
+        <p>Futuramente na página desconecta você verá como sair das telas, uma forma que é muito eficaz e que
+            acreditamos que você irá gostar é realizando novas coisas, criando habilidades e passatempos, para isso
+            criamos um formulário que, além de calcular se o seu tempo de tela está acima do normal, te mostra um
+            hobby para você realizar no seu tempo
+            livre fora das telas. </p>
+        <p id="btn-modalQuizz"> Formulário</p>
+        <div id="modal">
+            <div id="modal-content">
+                <div class="perguntas">
+                    <div class="pergunta" id="pergunta1">
+                        <h3>Quantas horas você trabalha/estuda por dia?</h3>
+                        <button onclick="responder(1,1)" class="option">0 a 4 horas</button>
+                        <button onclick="responder(1,2)" class="option">4 a 8 horas</button>
+                        <button onclick="responder(1,3)" class="option">Mais de 8 horas</button>
+                    </div>
+                    <div class="pergunta hidden" id="pergunta2">
+                        <h3>Quantas horas você usa o celular por dia?</h3>
+                        <button onclick="responder(2,1)" class="option">0 a 4 horas</button>
+                        <button onclick="responder(2,2)" class="option">4 a 9 horas</button>
+                        <button onclick="responder(2,3)" class="option">Mais de 9 horas</button>
+                    </div>
+                    <div class="pergunta hidden" id="pergunta3">
+                        <h3>O celular faz parte do seu trabalho?</h3>
+                        <button onclick="responder(3,1)" class="option">Sim</button>
+                        <button onclick="responder(3,2)" class="option">Não</button>
+                    </div>
+                    <div class="pergunta hidden" id="pergunta4">
+                        <h3>Qual período você trabalha/estuda?</h3>
+                        <button onclick="responder(4,1)" class="option">Manhã</button>
+                        <button onclick="responder(4,2)" class="option">Tarde</button>
+                        <button onclick="responder(4,3)" class="option">Noite</button>
+                        <button onclick="responder(4,4)" class="option">Integral</button>
+                    </div>
+                    <div class="pergunta hidden" id="pergunta5">
+                        <h3>Qual área você tem mais afinidade?</h3>
+                        <button onclick="responder(5,1)" class="option">Artes Visuais</button>
+                        <button onclick="responder(5,2)" class="option">Leitura</button>
+                        <button onclick="responder(5,3)" class="option">Atividade Física</button>
+                        <button onclick="responder(5,4)" class="option">Cozinha</button>
+                        <button onclick="responder(5,5)" class="option">Jardinagem</button>
+                    </div>
+                </div>
+                <div id="graficoHoras" class="hidden">
+                    <p>Segundo as respostas anteriores, a sua média de uso de tela é <br> <span>X horas</span> </p>
+                    <div id="containerGrafico">
+                    <div class="usoMedio" data-info="Consumo Médio dos brasileiros: 9 horas">
+                        <div class="grafico" data-info="Seu consumo de tela "></div>
+                    </div>
+                    </div>
+                    <p id="textoGrafico"  class="hidden"> Você está <span class="horasTexto">XX</span> horas acima da média dos brasileiros! 
+                   O seu consumo de tela é <span>inadequado</span> , para mudar isso recomendamos... </p>
+                    <p id="textoGrafico2"  class="hidden"> Você está <span class="horasTexto">XX</span> horas abaixo da média dos brasileiros! 
+                   O seu consumo de tela é <span>adequado</span> , porém caso queira diminuir temos uma opção para você! </p>
+                </div>
+                <div class="hobbie">
+                    <div>
+                        <h2 id="respostaP" class="hidden">Você deveria tentar!</h2>
+                        <h3 id="tituloRecomendado"></h3>
+                        <p  id="textoRecomendado" >Segundo suas respostas anteriores, você pode tentar começar a <span> praticar DIY</span> como alternativa para não ficar no celular</p>
+                    </div>
+                    <div>
+                        <p id="respostaP2" class="hidden">Não sabe por onde começar?</p>
+                        <p id="recomendacao"></p>
+                        <p id="videoTexto" class="hidden"></p>
+                        <div id="videoContainer" class="hidden">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
   </main>
+     <script src="js/textosQuizz.js"></script>
+  <script src="js/modal.js"></script>
   <footer>
     <div class="footerCont">
       <nav class="mapaFooter">
@@ -191,4 +268,5 @@
         Tiago M. Perin </p>
     </div>
   </footer>
+
 </body>
