@@ -3130,64 +3130,209 @@ REFERÊNCIAS
 
 
 
-    /*MALEFICIOS*/
+   
 
 
-    .maleficios {
-        background: #540B24;
-        margin: 2vw;
-        max-width: 1000px;
 
-    }
-
-    .inicioMal {
-        display: flex;
-        border-bottom: 1px solid rgb(202, 202, 202);
-        padding: 12vw 6vw;
-        margin-bottom: 8vw;
-
-    }
-
-    .inicioMal {
-        border: 1px solid #000000;
-        border-radius: 80px;
-
-    }
-
-    .inicioMal div.texto {
-        border: 1px solid #000000;
-        border-radius: 40px;
-        padding: 2vw 4vw;
-        margin-left: 6vw;
-    }
-
-    .inicioMal h2 {
-        font-size: 11px;
-        line-height: 11px;
-        margin: 0;
-    }
+ /*MALEFICIOS*/
 
 
-    .inicioMal h1 {
-        font-family: "Abril Fatface", serif;
-        font-size: 1.3rem;
-        margin: 20px 20px 10px 20px;
-        text-align: center;
-    }
-
-    .inicioMal img {
-        margin: 2vw 2vw 2vw 0;
-        width: 110%;
-        height: 80%;
-    }
 
 
-    .pesquisaMal h2 {
-        font-size: 1.5rem;
-        margin: 4vw;
-    }
+ .maleficios {
+   background: #540B24;
+   margin: 2vw;
+   max-width: 1000px;
 
 
+}
+
+
+.inicioMal {
+   display: flex;
+   border-bottom: 1px solid rgb(202, 202, 202);
+   padding: 12vw 6vw;
+   margin-bottom: 8vw;
+  
+}
+
+
+.inicioMal {
+   border: 1px solid #000000;
+   border-radius: 80px;
+
+
+}
+
+
+.inicioMal div.texto {
+   border: 1px solid #000000;
+   border-radius: 40px;
+   padding: 2vw 4vw;
+   margin-left: 6vw;
+}
+
+
+.inicioMal h2 {
+   font-size: 13px;
+   line-height: 11px;
+   margin: 0;
+   padding-bottom: 5vw;
+}
+
+
+
+
+.inicioMal h1 {
+   font-family: "Abril Fatface", serif;
+   font-size: 1.5rem;
+   margin: 20px 20px 10px 20px;
+   text-align: center;
+}
+
+
+.inicioMal img {
+  margin: 8vw 2vw 2vw 0;
+   width: 119%;
+   height: 65%;
+}
+
+
+
+
+/*pesquisa*/
+
+
+
+
+.pesquisaMal h2{
+   font-size: 1.8rem;
+   margin: 5vw 4vw;
+}
+
+
+.pesquisaMal p {
+   font-size: 1.1rem;
+   margin-bottom: 9vw;
+}
+
+
+.pesquisa-2Mal h2 {
+   font-size: 2.5rem;
+   line-height: 10vw;
+}
+
+
+.pesquisa-2Mal div.tabelaTexto {
+   display: block;
+}
+
+
+.pesquisa-2Mal div.tabelaTexto p {
+font-size: 1.1rem;
+line-height: 5vw;
+}
+
+
+.pesquisa-2Mal div.tabelaTexto p span {
+   line-height: 6vw;
+}
+
+
+.pesquisa-2Mal div.tabelaTexto img {
+  width: 100%;
+  height: 160%;
+}
+
+
+
+
+.enfermidades h2 {
+   top: 160.5rem;
+   text-align: center;
+   font-size: 1.1rem;
+   padding: 3vw;
+   margin: 0 15vw;
+    width: 200px;
+  word-break: break-word;
+ 
+
+}
+
+
+.enfermidades div.enfermidadesEx ul {
+  display: block;
+}
+
+
+.enfermidades div.enfermidadesEx ul li p {
+   line-height: 6vw;
+   padding: 2vw 3vw;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+
+.pesquisa-3Mal h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.pesquisa-3Mal p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.pesquisa-3Mal div img {
+    width: 261px;
+    height: 261px;
+    margin: 0 10px;
+}
+
+.pesquisa-3Mal div {
+    margin: 1px;
+
+}
+
+.finalMale h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 2vw 0.5vw;
+}
+
+.finalMale div p {
+    margin: 3vw 0;
+    max-width: 900px;
+    font-size: 1.1rem;
+    padding-right: 5vw;
+}
+
+
+.finalMale div iframe {
+    width: 300px;
+    height: 150px;
+    margin: 2vw;
+}
+
+
+.referenciasMale h1 {
+    font-size: 1.8rem;
+}
+
+.referenciasMale a {
+    margin: 6vw 2vw;
+   font-size: 0.9rem;
+    line-height: 2rem;
+}
 
 
     /*FOOTER*/
