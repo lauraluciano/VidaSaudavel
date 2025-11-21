@@ -2820,6 +2820,49 @@ div.imgSobreBanner p {
     width: 80%;
     margin: 0 auto;
 }
+@media screen and (max-width: 900px) {
+.sobreProj h1 {
+    font-size: 2.5rem;
+}
+.subtitulo {
+    font-size: 1.3rem;
+    color: white;
+    padding: 0;
+    font-weight: 0;
+    line-height: 20px;
+}
+.projeto {
+    display: block;
+}
+.projeto ul{
+    display: block;
+}
+.projeto ul li { 
+    width: 110%;
+    line-height: 10px;
+    margin: 5vw 0;
+}
+.projeto ul li p.segunda {
+    padding: 4vw;
+    font-weight: 600;
+    line-height: 20px;
+}
+.projeto ul li p.primeiraAzul {
+    padding: 4vw;
+    font-weight: 600;
+    line-height: 20px;
+}
+.grupo1sobre {
+    display: block;
+}
+.grupo2sobre {
+    display: block;
+}
+.card {
+    width: 100%;
+    margin: 15vw 0;
+}
+}
 
 /*==========================================================
 REFERÊNCIAS
@@ -2899,7 +2942,26 @@ REFERÊNCIAS
     padding: 10px 0;
     font-size: 25px;
 }
-
+@media only screen and (max-width: 900px){
+    .refs .inicio h1 {
+        font-size: 2.5rem;
+    }
+    .refs .inicio h2 {
+        font-size: 1.3rem;
+    }
+    .refs .inicio ul li {
+        font-size: 1rem;
+    }
+    .refs .inicio h2.Azul a:hover {
+        padding: 5px;
+    }
+    .refs .inicio h2.Vermelho a:hover {
+        padding: 5px;
+    }
+    .refs .inicio h2.Preto a:hover {
+        padding: 5px;
+    }
+}
 
 @media only screen and (max-width: 900px) {
     /*HEADER*/
