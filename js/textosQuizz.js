@@ -75,11 +75,8 @@ function finalizar() {
             listaHobbie = "pintar"
             recomendacao = `Procure começar com materiais simples, você pode ir até uma loja de departamento e comprar um kit simples de pintura, com tintas e pincéis de tamanhos variados. Junto, você pode optar por comprar telas, cadernos de desenho ou até livros de pintura. Alguns livros vêm com desenhos prontos para só pintar, outros vem com desenhos para você finalizar e pintar. As opções são diversas! Comece devagar, não gaste muito dinheiro no início e vá descobrindo qual o seu ritmo, suas preferências, para depois investir em materiais bons.Além disso, no Youtube existem tutoriais para diversos tipos de pintura, você começar tentando por`
             videoTexto = `Além disso, no Youtube existem tutoriais para diversos tipos de pintura, você começar tentando por:`
-            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/-itZ9a97pzY?si=QmMoWIhdmdHU7gkF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cfapAB9ofss?si=b67n-_XiEOIxG4fh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-`
+            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-itZ9a97pzY?si=Ql-wRr_sYoqcgYjX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" Referrer-Policy: strict-origin-when-cross-origin allowfullscreen></iframe> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cfapAB9ofss?si=b67n-_XiEOIxG4fh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
         }
         else if (pergunta3 == 2 && (pergunta4 == 1 || pergunta4 == 2)) {
             tituloRecomendado = "ARTESANATO!"
@@ -100,10 +97,10 @@ function finalizar() {
             tituloRecomendado = "MÚSICA!"
             recomendacao = `Procure iniciar com um instrumento simples e acessível. Você pode ir até uma loja de música ou até mesmo pesquisar online por instrumentos para iniciantes, como ukulele, teclado pequeno, violão básico ou flauta doce. Escolha algo que desperte sua curiosidade e que você ache agradável de ouvir, um caderno de anotações também pode ajudar a registrar acordes, exercícios e músicas que você quer aprender. Comece com exercícios leves, treine alguns minutos por dia e não se preocupe em dominar tudo de imediato. Vá devagar, sem gastar muito no começo, até descobrir qual instrumento combina mais com seu ritmo e estilo.\nAlém disso, no YouTube existem tutoriais para diversos instrumentos. Você pode começar tentando por: acordes básicos no violão, primeiras melodias no teclado, ritmos simples no ukulele ou exercícios de respiração e notas na flauta. Existem também aplicativos gratuitos que ajudam no treino de afinação, ritmo e leitura musical.`
             videoTexto = `Além disso, no YouTube existem tutoriais para diversos instrumentos. Você pode começar tentando por: acordes básicos no violão, primeiras melodias no teclado, ritmos simples no ukulele ou exercícios de respiração e notas na flauta. Existem também aplicativos gratuitos que ajudam no treino de afinação, ritmo e leitura musical.`
-            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/yOr42co9UjA?si=2mnD-F7Idwc3uSnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/yOr42co9UjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D2ULaxhImRU?si=PS9bdGuiGLik4mpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D2ULaxhImRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 `
         }
 
@@ -225,9 +222,9 @@ function finalizar() {
                             Você pode começar tentando por: treinos de alongamento, exercícios funcionais, ou séries rápidas de cardio.Também existem aplicativos gratuitos que ajudam a acompanhar seu progresso e sugerem treinos simples para cada dia. `
             videoTexto = `Além disso, no YouTube existem tutoriais para diversos tipos de atividades físicas. Você pode começar tentando por: treinos de alongamento, exercícios funcionais, ou séries rápidas de cardio. Também existem aplicativos gratuitos que ajudam a acompanhar seu progresso e sugerem treinos simples para cada dia.`
             videoContainer.innerHTML = `
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wELAKN2QsOU?si=1mDZapZIKLTmbtoy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wELAKN2QsOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m1QV6EAyuaw?si=jyvv9VP8lQ2Bdmef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m1QV6EAyuaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 `
         }
         else if (pergunta3 == 2 && (pergunta4 == 1 || pergunta4 == 2)) {
@@ -238,9 +235,9 @@ function finalizar() {
                             Além disso, no YouTube existem tutoriais para diversos estilos de dança. 
                             Você pode começar tentando por: fitdance, hip hop, k - pop, dança contemporânea ou até aulas de alongamento corporal voltadas para bailarinos.Existem também playlists prontas com coreografias bem simples para iniciantes.`
             videoTexto = `Além disso, no YouTube existem tutoriais para diversos estilos de dança. Você pode começar tentando por: fitdance, hip hop, k-pop, dança contemporânea ou até aulas de alongamento corporal voltadas para bailarinos. Existem também playlists prontas com coreografias bem simples para iniciantes.`
-            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/BxOBhZBLOio?si=Q-kJzSi0o3xZ7wPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/BxOBhZBLOio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cwsq6C3AR7I?si=NuugBYZl41GdB3yy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cwsq6C3AR7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 `
         }
         else if (pergunta3 == 1 && (pergunta4 == 4 || pergunta4 == 3)) {
@@ -250,10 +247,10 @@ function finalizar() {
                             Além disso, existem inúmeros vídeos no YouTube com dicas para iniciantes. 
                             Você pode começar tentando por: caminhadas guiadas, treinos de corrida leve, exercícios de aquecimento e alongamento. Existem também aplicativos gratuitos que ajudam a monitorar distância, tempo e ritmo.`
             videoTexto = `Além disso, existem inúmeros vídeos no YouTube com dicas para iniciantes. Você pode começar tentando por: caminhadas guiadas, treinos de corrida leve, exercícios de aquecimento e alongamento. Existem também aplicativos gratuitos que ajudam a monitorar distância, tempo e ritmo.`
-            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/rRK6yk6vO5A?si=u1IC8Yo-qN2-zlIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/rRK6yk6vO5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5FJoqhlszTI?si=HAMhnQJb7UjwNSFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FJoqhlszTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 `
         }
 
@@ -264,7 +261,7 @@ function finalizar() {
             videoTexto = `Além disso, no YouTube existem tutoriais para diversos níveis de yoga. Você pode começar tentando por: yoga para iniciantes, alongamentos matinais, yoga restaurativa ou sequências simples de mobilidade. Há também aulas guiadas que duram de 5 a 20 minutos — perfeitas para quem está começando.`
             videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/OuCvUDVoX3M?si=UOTRk9pnii4tFBpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rcaSC0-d6YE?si=6RJHlqbwi2W-yCHv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rcaSC0-d6YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 `
         }
     }
@@ -678,7 +675,7 @@ function finalizar() {
     document.getElementById("respostaP").classList.remove("hidden");
     document.getElementById("respostaP2").classList.remove("hidden");
     document.getElementById("respostaP2").style.display = "inline-block";
-    videoContainer.classList.remove("hidden");
+   document.getElementById("videoContainer").classList.add("mostrar")
     console.log(`eba`)
     document.getElementById("modal-content").style.background=`url("imagens/resposta.png") center/cover no-repeat`;
     document.querySelector(".grafico")

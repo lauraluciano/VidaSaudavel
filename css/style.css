@@ -421,8 +421,10 @@ INICIO
             justify-content: center;
             padding: 4vw;
             color: #000;
+            box-shadow: 2px 2px 15px #000 ;
+           
         }
-
+        
         .quiz h1 {
             background-color: #540B24;
             color: #fff;
@@ -455,6 +457,7 @@ INICIO
         }
 
         div#modal {
+            
             position: fixed;
             top: 0;
             left: 0;
@@ -511,7 +514,9 @@ INICIO
         }
 
         button.option:hover {
-            background: #dcdcdc;
+            background: #540b25b0;
+            border: 1px solid #540B24;
+            color: #fff;
         }
 
         #respostaP{
@@ -578,13 +583,14 @@ INICIO
              line-height: 2rem;
          }
        
-        #textoGrafico p {
+        #textoGrafico  {
             font-size: 2rem;
         }
          #textoGrafico  span, #textoGrafico2  span{
             background-color: #540B24 !important;
             color: #fff !important;
         }
+        
         .usoMedio {
             position: relative;
             width: 220px;
@@ -631,6 +637,9 @@ INICIO
         .grafico:hover::after,
         .usoMedio:hover::after {
             opacity: 1;
+        }
+        #videoContainer.mostrar{
+            display: flex;
         }
 
 /* FIM INICIO  */
@@ -3128,14 +3137,27 @@ REFERÊNCIAS
     }
     #graficoHoras.mostrar {
         display: block;
+        text-align: left;
     }
     .hobbie{
         display: block;
     }
-         .grafico {
+    .grafico {
         width: 80px !important;
         height: 80px !important;
     }
+    .usoMedio {
+        width: 110px !important;
+        height: 110px !important;
+    }
+     .grafico::after,
+        .usoMedio::after {
+            font-size: 15px;
+            left: 50%;
+        }
+          #videoContainer.mostrar{
+            display: block;
+        }
 
     /*NOTÍCIAS*/
     
