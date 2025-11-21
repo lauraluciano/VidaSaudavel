@@ -22,7 +22,6 @@ function converterHoras(cod) {
 
 
 
-
 function finalizar() {
     const pergunta1 = respostas[1];
     const pergunta2 = respostas[2];
@@ -674,7 +673,7 @@ function finalizar() {
     }
     document.getElementById("tituloRecomendado").innerText = tituloRecomendado;
     document.getElementById("recomendacao").innerText = recomendacao;
-    document.getElementById("graficoHoras").style.display = "flex"
+     document.getElementById("graficoHoras").classList.add("mostrar")
     document.getElementById("containerGrafico").style.display = "block"
     document.getElementById("respostaP").classList.remove("hidden");
     document.getElementById("respostaP2").classList.remove("hidden");
@@ -689,7 +688,5 @@ function finalizar() {
     document.querySelector(".hobbie div p span").innerHTML = listaHobbie
       document.getElementById("tituloRecomendado").style.display = "block"
        document.getElementById("textoRecomendado").style.display = "block"
-       
 }
-
 
