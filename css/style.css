@@ -3088,7 +3088,7 @@ REFERÊNCIAS
         margin: 0 7vw;
     }
 
-    /*NOTICIAS*/
+    /*NOTICIAS - Primeira página*/
 
     .noticiasInicio h1 {
         font-size: 1.4rem;
@@ -3127,7 +3127,137 @@ REFERÊNCIAS
 
     }
 
+    /*NOTÍCIAS*/
+    
+    .bannerNot h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    }
+    .bannerNot p.textBot {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    }
+    .bannerNot div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1rem;
+    }
 
+    .bannerNot div p {
+    font-size: 1rem;
+    max-width: 700px;
+    }
+    .bannerNot div img {
+    width: 100%;
+    }
+    .texto1 {
+    padding: 0vw 4vw 4vw 4vw;
+    line-height: 1.1rem;
+    }
+
+    .texto1 div {
+    display: block;
+    font-size: 1.5rem;
+    }
+
+    .texto1 div iframe {
+    width: 340px;
+    height: 231px;
+    padding: 0 0 2vw 0;
+    }
+
+    .texto1 div p {
+    max-width: 1000px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    }
+
+    .texto1 p {
+    margin-top: 40px;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    }
+    .texto2 p {
+    font-size: 1rem;
+    }
+    .texto2 div h2 a{
+    font-size: 1.3rem;
+    }
+    .texto2 div h2{
+    margin-bottom: 3vw;
+    }
+    .texto2 div.bloco {
+    display: block;
+    
+    }
+    .texto2 a img {
+    width: 80%;
+    padding: 2vw 0 0 10vw;
+    }
+    .conjuntoCarro div.pod-cast{
+    padding: 4vw;
+    }
+    .conjuntoCarro div.pod-cast a img{
+        width: 100%;
+    }
+    .ultimosTextos {
+    margin: 6vw 2vw;
+    font-size: 1rem;
+}
+
+.ultimosTextos div {
+    margin: 2vw;
+    display: block;
+}
+
+.ultimosTextos div iframe {
+    width: 600px;
+    height: 560px;
+}
+
+.ultimosTextos div p {
+    line-height: 1rem;
+    padding: 0 0 2vw 2vw;}
+
+.ultimosTextos p {
+    line-height: 1rem;
+    
+    padding: 0 0 2vw 2vw;
+}
+}
+
+
+  
+    
+/*
+.ultimosTextos {
+    margin: 6vw 2vw;
+    font-size: 1rem;
+}
+
+.ultimosTextos div {
+    margin: 2vw;
+    display: flex;
+}
+
+.ultimosTextos div iframe {
+    width: 600px;
+    height: 560px;
+}
+
+.ultimosTextos div p {
+    max-width: 800px;
+    line-height: 2.5rem;
+    margin: 0 0 0 5vw;
+}
+
+.ultimosTextos p {
+    line-height: 2.5rem;
+    padding: 0 0 2vw 2vw;
+}
+
+*/
 
 
    
