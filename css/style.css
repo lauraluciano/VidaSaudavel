@@ -409,238 +409,258 @@ INICIO
 }
 
 /*  QUIZZZZZZZ */
- .quiz {
-            margin: 8vw;
-            background: url("../imagens/resposta.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            border-radius: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 4vw;
-            color: #000;
-            box-shadow: 2px 2px 15px #000 ;
-           
-        }
-        
-        .quiz h1 {
-            background-color: #540B24;
-            color: #fff;
-            font-weight: bold;
-            font-size: 3rem;
-            padding: 10px 40px;
-            border-radius: 50px;
-            text-align: center;
-            display: inline-block;
-            margin: 2vw auto;
+.quiz {
+    margin: 8vw;
+    background: url("../imagens/resposta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4vw;
+    color: #000;
+    box-shadow: 2px 2px 15px #000;
 
-        }
+}
 
-        .quiz>p {
-            border-top: 2px solid #540B24;
-            color: #000;
-            padding-top: 2vw;
-            font-size: 2rem;
-        }
+.quiz h1 {
+    background-color: #540B24;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 2vw auto;
 
-        #btn-modalQuizz {
-            background-color: #540B24;
-            color: #fff;
-            font-weight: bold;
-            font-size: 2rem;
-            padding: 20px 40px;
-            border-radius: 50px;
-            display: inline-block;
-            margin: 0 auto;
-        }
+}
 
-        div#modal {
-            
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            margin: 0 auto;
-            background: rgba(0, 0, 0, 0.6);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            z-index: 999;
+.quiz>p {
+    border-top: 2px solid #540B24;
+    color: #000;
+    padding-top: 2vw;
+    font-size: 2rem;
+}
 
-            overflow: hidden;
-        }
+#btn-modalQuizz {
+    background-color: #540B24;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
 
-        #modal-content {
-            margin-top: 4vw;
-            background: url("../imagens/perguntas.png")  ;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            padding: 40px;
-            border-radius: 20px;
-            max-width: 1500px;
-            width: 100%;
-            max-height: 90vh;
-            height: 70%;
-            overflow-y: auto;
-        }
+div#modal {
 
-        .hidden {
-            display: none;
-        }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
 
-        .pergunta {
-            text-align: center;
+    overflow: hidden;
+}
 
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
+#modal-content {
+    margin-top: 4vw;
+    background: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 1500px;
+    width: 100%;
+    max-height: 90vh;
+    height: 70%;
+    overflow-y: auto;
+}
 
-        button.option {
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-            padding: 20px;
-            margin: 40px auto;
-            background: #eeeeee;
-            border: 1px solid #ccc;
-            border-radius: 50px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+.hidden {
+    display: none;
+}
 
-        button.option:hover {
-            background: #540b25b0;
-            border: 1px solid #540B24;
-            color: #fff;
-        }
+.pergunta {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 
-        #respostaP{
-            margin-top: 40px;
-            color: #000;
-            font-weight: bolder;
-        }
+.pergunta h3 {
+    background-color: #540B24;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: bolder;
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 2vw;
+}
 
-        #graficoHoras{
-            display: none;
-            gap: 20px;
-            text-align: center;
-            justify-content: center;
-            padding: 15px;
-        }
-        #graficoHoras.mostrar{
-            display: flex;
-        }
-         #graficoHoras p {
-            margin-bottom: 30px;
-            font-size: 2rem;
-            line-height: 3.5rem;
-        }
-         #graficoHoras p span {
-            background-color: #fff;
-            border-radius: 5px ;
-            margin: 5px;
-        }
-          .hobbie {
-            display: flex;
-            gap: 40px;
-        }
+button.option {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+    background: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-        #tituloRecomendado {
-            display: none;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-            background-color: #540B24;
-            padding: 10px 20px;
-            border-radius: 15px;
-            text-align: center;
-            margin: 20px 2vw;
-        }
-        #textoRecomendado{
-            display: none;
-            font-size: 1.5rem;
-            line-height: 2rem;
-        }
-        #respostaP{
-            font-size: 1.8rem;
-          
-        }
-        #respostaP2 {
-            color: #fff;
-            background-color: #540B24;
-            padding: 10px 20px;
-            border-radius: 15px;
-            font-size: 2rem;
-              line-height: 2rem;
-        }
-         #recomendacao{
-            font-size: 1.5rem ;
-             line-height: 2rem;
-         }
-       
-        #textoGrafico  {
-            font-size: 2rem;
-        }
-         #textoGrafico  span, #textoGrafico2  span{
-            background-color: #540B24 !important;
-            color: #fff !important;
-        }
-        
-        .usoMedio {
-            position: relative;
-            width: 220px;
-            height: 220px;
-            background-color: #2c3e50a9;
-            border: 8px solid #2C3E50;
-            border-radius: 50%;
-            display: flex;
-            margin: 0 auto;
-            justify-content: center;
-            align-items: center;
-        }
+button.option:hover {
+    background: #540b25b0;
+    border: 1px solid #540B24;
+    color: #fff;
+}
 
-        .graficoQuizz {
-            position: absolute;
-            width: 130px;
-            height: 130px;
-            bottom: 0;
-            background-color: #540b25bd;
-            border: 6px solid #540B24;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+#respostaP {
+    margin-top: 40px;
+    color: #000;
+    font-weight: bolder;
+}
 
-      
-        .graficoQuizz::after,
-        .usoMedio::after {
-            content: attr(data-info);
-            position: absolute;
-            top: -35px;
-            left: 100%;
-            transform: translateX(-50%);
-            padding: 6px 10px;
-            border-radius: 6px;
-            font-size: 20px;
-            opacity: 0;
-            pointer-events: none;
-            transition: 0.2s;
-            white-space: nowrap;
-        }
+#graficoHoras {
+    display: none;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
 
-        .graficoQuizz:hover::after,
-        .usoMedio:hover::after {
-            opacity: 1;
-        }
-        #videoContainer.mostrar{
-            display: flex;
-        }
+#graficoHoras.mostrar {
+    display: flex;
+}
+
+#graficoHoras p {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+#graficoHoras p span {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.hobbie {
+    display: flex;
+    gap: 40px;
+}
+
+#tituloRecomendado {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #540B24;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 2vw;
+}
+
+#textoRecomendado {
+    display: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#respostaP {
+    font-size: 1.8rem;
+
+}
+
+#respostaP2 {
+    color: #fff;
+    background-color: #540B24;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+#recomendacao {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#textoGrafico {
+    font-size: 2rem;
+}
+
+#textoGrafico span,
+#textoGrafico2 span {
+    background-color: #540B24 !important;
+    color: #fff !important;
+}
+
+.usoMedio {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background-color: #2c3e50a9;
+    border: 8px solid #2C3E50;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.graficoQuizz {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 0;
+    background-color: #540b25bd;
+    border: 6px solid #540B24;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.graficoQuizz::after,
+.usoMedio::after {
+    content: attr(data-info);
+    position: absolute;
+    top: -35px;
+    left: 100%;
+    transform: translateX(-50%);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+
+.graficoQuizz:hover::after,
+.usoMedio:hover::after {
+    opacity: 1;
+}
+
+#videoContainer.mostrar {
+    display: flex;
+}
 
 /* FIM INICIO  */
 
@@ -2389,7 +2409,7 @@ DADOS
 
 .bannerDados img {
     border-radius: 30px;
-    width:50%;
+    width: 50%;
 }
 
 .estudantes {
@@ -2648,9 +2668,11 @@ div.imgSobreBanner p {
     justify-content: center;
     padding: 5vw 0 5vw 0;
 }
+
 .border {
     font-weight: bolder;
 }
+
 .projeto {
     width: 100%;
     display: flex;
@@ -2805,48 +2827,58 @@ div.imgSobreBanner p {
     width: 80%;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 900px) {
-.sobreProj h1 {
-    font-size: 3rem;
-}
-.subtitulo {
-    font-size: 1.3rem;
-    color: white;
-    padding: 0;
-    font-weight: 0;
-    line-height: 20px;
-}
-.projeto {
-    display: block;
-}
-.projeto ul{
-    display: block;
-}
-.projeto ul li { 
-    width: 110%;
-    line-height: 10px;
-    margin: 5vw 0;
-}
-.projeto ul li p.segunda {
-    padding: 4vw;
-    font-weight: 600;
-    line-height: 20px;
-}
-.projeto ul li p.primeiraAzul {
-    padding: 4vw;
-    font-weight: 600;
-    line-height: 20px;
-}
-.grupo1sobre {
-    display: block;
-}
-.grupo2sobre {
-    display: block;
-}
-.card {
-    width: 100%;
-    margin: 15vw 0;
-}
+    .sobreProj h1 {
+        font-size: 3rem;
+    }
+
+    .subtitulo {
+        font-size: 1.3rem;
+        color: white;
+        padding: 0;
+        font-weight: 0;
+        line-height: 20px;
+    }
+
+    .projeto {
+        display: block;
+    }
+
+    .projeto ul {
+        display: block;
+    }
+
+    .projeto ul li {
+        width: 110%;
+        line-height: 10px;
+        margin: 5vw 0;
+    }
+
+    .projeto ul li p.segunda {
+        padding: 4vw;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .projeto ul li p.primeiraAzul {
+        padding: 4vw;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .grupo1sobre {
+        display: block;
+    }
+
+    .grupo2sobre {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15vw 0;
+    }
 }
 
 /*==========================================================
@@ -2927,22 +2959,28 @@ REFERÊNCIAS
     padding: 10px 0;
     font-size: 25px;
 }
-@media only screen and (max-width: 900px){
+
+@media only screen and (max-width: 900px) {
     .refs .inicio h1 {
         font-size: 2.5rem;
     }
+
     .refs .inicio h2 {
         font-size: 1.3rem;
     }
+
     .refs .inicio ul li {
         font-size: 1rem;
     }
+
     .refs .inicio h2.Azul a:hover {
         padding: 5px;
     }
+
     .refs .inicio h2.Vermelho a:hover {
         padding: 5px;
     }
+
     .refs .inicio h2.Preto a:hover {
         padding: 5px;
     }
@@ -3111,44 +3149,53 @@ REFERÊNCIAS
         margin: 0 0 15vw 0;
 
     }
+
     /*QUIZZ*/
-    .quiz h1{
-    font-size: 1.5rem;
+    .quiz h1 {
+        font-size: 1.5rem;
     }
-    .quiz >p {
+
+    .quiz>p {
         font-size: 1rem;
     }
+
     #btn-modalQuizz {
         font-size: 1.5rem;
         margin-top: 20px;
         padding: 10px 20px;
     }
+
     #graficoHoras.mostrar {
         display: block;
         text-align: left;
     }
-    .hobbie{
+
+    .hobbie {
         display: block;
     }
+
     .grafico {
         width: 80px !important;
         height: 80px !important;
     }
+
     .usoMedio {
         width: 110px !important;
         height: 110px !important;
     }
-     .grafico::after,
-        .usoMedio::after {
-            font-size: 15px;
-            left: 50%;
-        }
-          #videoContainer.mostrar{
-            display: block;
-        }
 
-    
-    /*CIÊNCIAS*/
+    .grafico::after,
+    .usoMedio::after {
+        font-size: 15px;
+        left: 50%;
+    }
+
+    #videoContainer.mostrar {
+        display: block;
+    }
+
+
+  /*CIÊNCIAS*/
 
     .bannerCien {
         display: block;
@@ -3167,7 +3214,7 @@ REFERÊNCIAS
     .bannerCien h2 {
         color: rgb(214, 214, 214);
         text-align: center;
-        margin: 0 0 5vw 0;
+        margin: 6vw;
     }
 
 
@@ -3185,7 +3232,7 @@ REFERÊNCIAS
 
     .introCien p {
         font-size: 1rem;
-        line-height: 30px;
+        line-height: 20px;
     }
 
     .introCien div.neuro {
@@ -3212,21 +3259,23 @@ REFERÊNCIAS
     }
 
     .neurodopamina div.textoEsquerda p {
-
+        
         font-size: 1rem;
-        line-height: 30px;
+        line-height: 20px;
+        margin: 3vw;
     }
 
     .dopa p {
         font-size: 1rem;
         padding: 4vw;
         text-align: center;
-        line-height: 30px;
+        line-height: 25px;
     }
 
     .dopa img {
-        margin: 3vw;
-        width: 80%;
+        
+        width: 70%;
+        margin: 4vw 0 0 10vw;
     }
 
     .cerebroParte {
@@ -3241,14 +3290,14 @@ REFERÊNCIAS
 
     .cerebroParte p {
         font-size: 1rem;
-        line-height: 30px;
+        line-height: 20px;
         margin: 5vw 5vw 0 5vw;
     }
 
     .cerebroParte a img.imgcerebro {
 
-        width: 50%;
-        bottom: -1vw;
+        width: 45%;
+        bottom: -2vw;
         z-index: 5;
     }
 
@@ -3262,508 +3311,557 @@ REFERÊNCIAS
     }
 
     .conclusaoCien div.maquinaCassino p {
-        font-size: 1.1rem;
-        line-height: 30px;
-
+        font-size: 1rem;
+        line-height: 25px;
+        
     }
 
     .conclusaoCien div.maquinaCassino img {
-        height: 50%;
+        height: 60%;
         width: 90%;
     }
 
     .conclusaoCien div.texImgCere {
         display: block;
     }
+    .textosCere {
+        padding: 0;
+    }
     .textosCere p {
         font-size: 1rem;
         text-align: center;
-        line-height: 30px;
+        line-height: 22px;
+        padding: 4vw;
     }
     .conclusaoCien div.texImgCere a img {
-        width: 60%;
-       
+        width: 40%;
+        padding: 0;
+        margin: 4vw 15vw 0 0vw;
+    }
+    .conclusaoCien p.mencao {
+        font-size: 1rem;
+        line-height: 20px;
+        padding: 5vw;
+        text-align: center;
+    }
+    .conclusaoCien div.psico {
+        display: block;
+    }
+    .conclusaoCien div.psico p {
+        font-size: 1rem;
+        line-height: 20px;
+        
+        padding: 
+        5vw 0 0 0;
+    }
+    .conclusaoCien h2.conclusaoH2 {
+        font-size: 1.5rem;
+    }
+    .conclusaoCien p {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .referenciasCere h2 {
+        font-size: 1.5rem;
+        margin: 6vw 0 0 0;
+    }
+    .referenciasCere a {
+        
+        font-size: 1rem;
     }
 
-    
- /*MALEFICIOS*/
 
+    /*MALEFICIOS*/
 
 
 
- .maleficios {
-   background: #540B24;
-   margin: 2vw;
-   max-width: 1000px;
 
+    .maleficios {
+        background: #540B24;
+        margin: 2vw;
+        max-width: 1000px;
 
-}
 
+    }
 
-.inicioMal {
-   display: flex;
-   border-bottom: 1px solid rgb(202, 202, 202);
-   padding: 12vw 6vw;
-   margin-bottom: 8vw;
-  
-}
 
+    .inicioMal {
+        display: flex;
+        border-bottom: 1px solid rgb(202, 202, 202);
+        padding: 12vw 6vw;
+        margin-bottom: 8vw;
 
-.inicioMal {
-   border: 1px solid #000000;
-   border-radius: 80px;
+    }
 
 
-}
+    .inicioMal {
+        border: 1px solid #000000;
+        border-radius: 80px;
 
 
-.inicioMal div.texto {
-   border: 1px solid #000000;
-   border-radius: 40px;
-   padding: 2vw 4vw;
-   margin-left: 6vw;
-}
+    }
 
 
-.inicioMal h2 {
-   font-size: 13px;
-   line-height: 11px;
-   margin: 0;
-   padding-bottom: 5vw;
-}
+    .inicioMal div.texto {
+        border: 1px solid #000000;
+        border-radius: 40px;
+        padding: 2vw 4vw;
+        margin-left: 6vw;
+    }
 
 
+    .inicioMal h2 {
+        font-size: 13px;
+        line-height: 11px;
+        margin: 0;
+        padding-bottom: 5vw;
+    }
 
 
-.inicioMal h1 {
-   font-family: "Abril Fatface", serif;
-   font-size: 1.5rem;
-   margin: 20px 20px 10px 20px;
-   text-align: center;
-}
 
 
-.inicioMal img {
-  margin: 8vw 2vw 2vw 0;
-   width: 119%;
-   height: 65%;
-}
+    .inicioMal h1 {
+        font-family: "Abril Fatface", serif;
+        font-size: 1.5rem;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
 
 
+    .inicioMal img {
+        margin: 8vw 2vw 2vw 0;
+        width: 119%;
+        height: 65%;
+    }
 
 
-/*pesquisa*/
 
 
+    /*pesquisa*/
 
 
-.pesquisaMal h2{
-   font-size: 1.8rem;
-   margin: 5vw 4vw;
-}
 
 
-.pesquisaMal p {
-   font-size: 1.1rem;
-   margin-bottom: 9vw;
-}
+    .pesquisaMal h2 {
+        font-size: 1.8rem;
+        margin: 5vw 4vw;
+    }
 
 
-.pesquisa-2Mal h2 {
-   font-size: 2.5rem;
-   line-height: 10vw;
-}
+    .pesquisaMal p {
+        font-size: 1.1rem;
+        margin-bottom: 9vw;
+    }
 
 
-.pesquisa-2Mal div.tabelaTexto {
-   display: block;
-}
+    .pesquisa-2Mal h2 {
+        font-size: 2.5rem;
+        line-height: 10vw;
+    }
 
 
-.pesquisa-2Mal div.tabelaTexto p {
-font-size: 1.1rem;
-line-height: 5vw;
-}
+    .pesquisa-2Mal div.tabelaTexto {
+        display: block;
+    }
 
 
-.pesquisa-2Mal div.tabelaTexto p span {
-   line-height: 6vw;
-}
+    .pesquisa-2Mal div.tabelaTexto p {
+        font-size: 1.1rem;
+        line-height: 5vw;
+    }
 
 
-.pesquisa-2Mal div.tabelaTexto img {
-  width: 100%;
-  height: 160%;
-}
+    .pesquisa-2Mal div.tabelaTexto p span {
+        line-height: 6vw;
+    }
 
 
+    .pesquisa-2Mal div.tabelaTexto img {
+        width: 100%;
+        height: 160%;
+    }
 
 
-.enfermidades h2 {
-   top: 160.5rem;
-   text-align: center;
-   font-size: 1.1rem;
-   padding: 3vw;
-   margin: 0 15vw;
-    width: 200px;
-  word-break: break-word;
- 
 
-}
 
+    .enfermidades h2 {
+        top: 160.5rem;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 3vw;
+        margin: 0 15vw;
+        width: 200px;
+        word-break: break-word;
 
-.enfermidades div.enfermidadesEx ul {
-  display: block;
-}
 
+    }
 
-.enfermidades div.enfermidadesEx ul li p {
-   line-height: 6vw;
-   padding: 2vw 3vw;
-}
 
-.modal-content {
-    background: white;
-    padding: 20px;
-    max-width: 300px;
-    border-radius: 8px;
-}
+    .enfermidades div.enfermidadesEx ul {
+        display: block;
+    }
 
 
-.pesquisa-3Mal h2 {
-    font-family: "Abril Fatface", serif;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    display: block;
-    margin-top: 20px;
+    .enfermidades div.enfermidadesEx ul li p {
+        line-height: 6vw;
+        padding: 2vw 3vw;
+    }
 
-}
+    .modal-content {
+        background: white;
+        padding: 20px;
+        max-width: 300px;
+        border-radius: 8px;
+    }
 
-.pesquisa-3Mal p {
-    font-size: 1.1rem;
-    line-height: 1.8rem;
-}
 
-.pesquisa-3Mal div img {
-    width: 261px;
-    height: 261px;
-    margin: 0 10px;
-}
+    .pesquisa-3Mal h2 {
+        font-family: "Abril Fatface", serif;
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        display: block;
+        margin-top: 20px;
 
-.pesquisa-3Mal div {
-    margin: 1px;
+    }
 
-}
+    .pesquisa-3Mal p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
 
-.finalMale h2 {
-    font-size: 2.3rem;
-    font-weight: bold;
-    margin: 2vw 0.5vw;
-}
+    .pesquisa-3Mal div img {
+        width: 261px;
+        height: 261px;
+        margin: 0 10px;
+    }
 
-.finalMale div p {
-    margin: 3vw 0;
-    max-width: 900px;
-    font-size: 1.1rem;
-    padding-right: 5vw;
-}
+    .pesquisa-3Mal div {
+        margin: 1px;
 
+    }
 
-.finalMale div iframe {
-    width: 300px;
-    height: 150px;
-    margin: 2vw;
-}
+    .finalMale h2 {
+        font-size: 2.3rem;
+        font-weight: bold;
+        margin: 2vw 0.5vw;
+    }
 
+    .finalMale div p {
+        margin: 3vw 0;
+        max-width: 900px;
+        font-size: 1.1rem;
+        padding-right: 5vw;
+    }
 
-.referenciasMale h1 {
-    font-size: 1.8rem;
-}
 
-.referenciasMale a {
-    margin: 6vw 2vw;
-   font-size: 0.9rem;
-    line-height: 2rem;
-}
+    .finalMale div iframe {
+        width: 300px;
+        height: 150px;
+        margin: 2vw;
+    }
 
 
-/*PERIGOSSSSSSSSSS*/
+    .referenciasMale h1 {
+        font-size: 1.8rem;
+    }
 
-.inicioPerigos {
-   display: flex;
-   border-bottom: 1px solid rgb(202, 202, 202);
-   padding: 12vw 6vw;
-   margin-bottom: 8vw;
-  
-}
+    .referenciasMale a {
+        margin: 6vw 2vw;
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
 
 
-.inicioPerigos {
-   border: 1px solid #000000;
-   border-radius: 80px;
+    /*PERIGOSSSSSSSSSS*/
 
+    .inicioPerigos {
+        display: flex;
+        border-bottom: 1px solid rgb(202, 202, 202);
+        padding: 12vw 6vw;
+        margin-bottom: 8vw;
 
-}
+    }
 
 
-.inicioPerigos div.texto {
-   border: 1px solid #000000;
-   border-radius: 40px;
-   padding: 2vw 4vw;
-   margin-left: 6vw;
-}
+    .inicioPerigos {
+        border: 1px solid #000000;
+        border-radius: 80px;
 
 
-.inicioPerigos h2 {
-   font-size: 16px;
-   line-height: 18px;
-   padding: 4vw ;
-}
+    }
 
 
+    .inicioPerigos div.texto {
+        border: 1px solid #000000;
+        border-radius: 40px;
+        padding: 2vw 4vw;
+        margin-left: 6vw;
+    }
 
 
-.inicioPerigos h1 {
-   font-family: "Abril Fatface", serif;
-   font-size: 1.8rem;
-   margin: 20px 20px 10px 20px;
-   text-align: center;
-}
+    .inicioPerigos h2 {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 4vw;
+    }
 
 
-.inicioPerigos img {
-  margin: 8vw 2vw 2vw 0;
-   width: 119%;
-   height: 65%;
-}
 
-.comentariosPerigos div.blocoPeri {
-    display: block;
 
-}
+    .inicioPerigos h1 {
+        font-family: "Abril Fatface", serif;
+        font-size: 1.8rem;
+        margin: 20px 20px 10px 20px;
+        text-align: center;
+    }
 
 
-.comentariosPerigos div.blocoPeri div.texto1Peri p {
-    font-size: 1.1rem;
-    padding: 4vw 0;
-}
+    .inicioPerigos img {
+        margin: 8vw 2vw 2vw 0;
+        width: 119%;
+        height: 65%;
+    }
 
-.comentariosPerigos h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin: 0 0 2vw;
-}
+    .comentariosPerigos div.blocoPeri {
+        display: block;
 
-.comentariosPerigos ul li {
-     font-size: 1.2rem;
-}
+    }
 
-.comentariosPerigos ul li span {
-    font-weight: bold;
-    font-size: 1.2rem;
 
-}
+    .comentariosPerigos div.blocoPeri div.texto1Peri p {
+        font-size: 1.1rem;
+        padding: 4vw 0;
+    }
 
-.comentariosPerigos p {
-font-size: 1.1rem;
-}
+    .comentariosPerigos h2 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 0 0 2vw;
+    }
 
-.comentariosPerigos div.imagem img {
-    margin: 6vw auto;
-    width: 90%;
-}
+    .comentariosPerigos ul li {
+        font-size: 1.2rem;
+    }
 
-.comentariosPerigos div.imagem p {
+    .comentariosPerigos ul li span {
+        font-weight: bold;
+        font-size: 1.2rem;
+
+    }
+
+    .comentariosPerigos p {
+        font-size: 1.1rem;
+    }
+
+    .comentariosPerigos div.imagem img {
+        margin: 6vw auto;
+        width: 90%;
+    }
+
+    .comentariosPerigos div.imagem p {
         font-size: 1.1rem;
         margin: 0;
         margin-top: 2vw;
-}
+    }
 
 
-.cyberbullying h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 4vw 0;
-}
+    .cyberbullying h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 4vw 0;
+    }
 
-.cyberbullying p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-}
-
-
-.cyberbullying p.caixaAjuda {
-    line-height: 1.3rem;
-    font-size: 1.1rem;
-
-}
-
-.menores h1 {
-    font-size: 2rem;
-}
-
-.menores h2 {
-    font-size: 1.2rem;
-
-}
-
-.menores details.grupoUm div p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-}
-
-.menores details.grupoUm p span {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-}
-
-.menores details.grupoDois p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-}
-
-.menores a {
-    font-size: 0.9rem;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.384);
-    border-radius: 1.5vw;
-    line-height: 3rem;
-}
+    .cyberbullying p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
 
 
+    .cyberbullying p.caixaAjuda {
+        line-height: 1.3rem;
+        font-size: 1.1rem;
 
-.referenciasPeri h1 {
-    font-size: 1.8rem;
-}
+    }
 
-.referenciasPeri a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-    font-size: 0.9rem;
-}
+    .menores h1 {
+        font-size: 2rem;
+    }
+
+    .menores h2 {
+        font-size: 1.2rem;
+
+    }
+
+    .menores details.grupoUm div p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .menores details.grupoUm p span {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .menores details.grupoDois p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .menores a {
+        font-size: 0.9rem;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0.384);
+        border-radius: 1.5vw;
+        line-height: 3rem;
+    }
+
+
+
+    .referenciasPeri h1 {
+        font-size: 1.8rem;
+    }
+
+    .referenciasPeri a {
+        margin: 2vw;
+        text-align: left;
+        font-weight: bolder;
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 2rem;
+        font-size: 0.9rem;
+    }
 
 
     /*NOTÍCIAS*/
-    
+
     .bannerNot h1 {
-    font-size: 4rem;
-    letter-spacing: 0.5rem;
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
     }
+
     .bannerNot p.textBot {
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    margin-bottom: 3rem;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        margin-bottom: 3rem;
     }
+
     .bannerNot div {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1rem;
     }
 
     .bannerNot div p {
-    font-size: 1rem;
-    max-width: 700px;
+        font-size: 1rem;
+        max-width: 700px;
     }
+
     .bannerNot div img {
-    width: 100%;
+        width: 100%;
     }
+
     .texto1 {
-    padding: 0vw 4vw 4vw 4vw;
-    line-height: 1.1rem;
+        padding: 0vw 4vw 4vw 4vw;
+        line-height: 1.1rem;
     }
 
     .texto1 div {
-    display: block;
-    font-size: 1.5rem;
+        display: block;
+        font-size: 1.5rem;
     }
 
     .texto1 div iframe {
-    width: 340px;
-    height: 231px;
-    padding: 0 0 2vw 0;
+        width: 340px;
+        height: 231px;
+        padding: 0 0 2vw 0;
     }
 
     .texto1 div p {
-    max-width: 1000px;
-    font-size: 1rem;
-    margin-bottom: 2rem;
+        max-width: 1000px;
+        font-size: 1rem;
+        margin-bottom: 2rem;
     }
 
     .texto1 p {
-    margin-top: 40px;
-    font-size: 1rem;
-    line-height: 1.1rem;
+        margin-top: 40px;
+        font-size: 1rem;
+        line-height: 1.1rem;
     }
+
     .texto2 p {
-    font-size: 1rem;
+        font-size: 1rem;
     }
-    .texto2 div h2 a{
-    font-size: 1.3rem;
+
+    .texto2 div h2 a {
+        font-size: 1.3rem;
     }
-    .texto2 div h2{
-    margin-bottom: 3vw;
+
+    .texto2 div h2 {
+        margin-bottom: 3vw;
     }
+
     .texto2 div.bloco {
-    display: block;
-    
+        display: block;
+
     }
-    .texto2 div.bloco div{
+
+    .texto2 div.bloco div {
         margin-bottom: 2rem;
     }
 
     .texto2 a img {
-    width: 80%;
-    padding: 2vw 0 0 10vw;
+        width: 80%;
+        padding: 2vw 0 0 10vw;
     }
-    .conjuntoCarro div.pod-cast{
-    padding: 4vw;
+
+    .conjuntoCarro div.pod-cast {
+        padding: 4vw;
     }
-    .conjuntoCarro div.pod-cast a img{
+
+    .conjuntoCarro div.pod-cast a img {
         width: 100%;
     }
+
     .ultimosTextos {
-    margin: 6vw 2vw;
-    font-size: 1rem;
+        margin: 6vw 2vw;
+        font-size: 1rem;
     }
 
     .ultimosTextos div {
-    display: block;
+        display: block;
     }
 
     .ultimosTextos div iframe {
-    width: 340px;
-    height: 231px;
-    margin-bottom: 2rem;
-    padding: 0 1.5rem 0 0;
+        width: 340px;
+        height: 231px;
+        margin-bottom: 2rem;
+        padding: 0 1.5rem 0 0;
     }
 
     .ultimosTextos div p {
-    line-height: 1rem;
-    text-align: left;
-    margin:  0 0 0 -9px ;
+        line-height: 1rem;
+        text-align: left;
+        margin: 0 0 0 -9px;
     }
 
     .ultimosTextos p {
-    line-height: 1rem;
-    padding: 0 0 2vw 0vw;
+        line-height: 1rem;
+        padding: 0 0 2vw 0vw;
     }
 
     .conjuntoCarro div.carrosel-container div.carrosel div.slider div.slide img {
         width: 225px;
         height: 315px;
     }
+
     .referenciasMale h1 {
-    font-size: 1.8rem;
+        font-size: 1.8rem;
     }
 
     .referenciasMale a {
-    margin: 7vw 2vw;
-    font-size: 0.8rem;
-    line-height: 1.5rem;
+        margin: 7vw 2vw;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
     }
 
 
@@ -3883,33 +3981,40 @@ font-size: 1.1rem;
         border-color: #2C3E50 !important;
         color: #000;
     }
-        /*DADOS*/
+
+    /*DADOS*/
     .bannerDados div {
         border: none;
     }
+
     .bannerDados {
         border: none;
         display: block;
     }
-    .bannerDados h1{
+
+    .bannerDados h1 {
         font-size: 4rem;
         text-align: center;
         margin: 0 0 10vw 0;
     }
+
     .bannerDados p {
         padding: 0;
-        line-height: 20px;
+        line-height: 25px;
         font-weight: 500;
         text-align: center;
-    } 
+    }
+
     .bannerDados img {
         border-radius: 0;
         margin: 10vw 0 0 0;
         width: 100%;
     }
+
     .estudantes div.texto {
         background-color: transparent;
     }
+
     .estudantes div.texto h2 {
         background-color: #540B24;
         color: white;
@@ -3918,7 +4023,19 @@ font-size: 1.1rem;
         border-radius: 40px;
         font-size: 2rem;
     }
+
     .estudantes div.texto p {
         color: white;
+        line-height: 25px;
+        margin: 10vw 0;
+    }
+
+    .estudantes div.grafico {
+        display: block;
+    }
+
+    .estudantes div.grafico img {
+        width: 200%;
+        border-radius: 0;
     }
 }

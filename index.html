@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/d588e7aa63.js" crossorigin="anonymous"></script>
   <script src="js/menu.js"></script>
- 
+
   <title>Inicio</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -75,8 +75,8 @@
   <main>
     <section class="banner">
       <div>
-        <a href="https://br.pinterest.com/pin/748512400616415189/"><img src="imagens/computador.png"
-            alt="computador"> </a>
+        <a href="https://br.pinterest.com/pin/748512400616415189/"><img src="imagens/computador.png" alt="computador">
+        </a>
       </div>
 
       <div class="texto">
@@ -92,19 +92,13 @@
         <div>
           <h2>Introduzindo</h2>
           <div class="textoInt">
-            <p>Seja muito bem-vindo ao Off Web! Nosso site tem como objetivo informar sobre os malefícios do uso
-              excessivo
-              de telas e ajudar os leitores a reduzirem seu tempo de exposição por meio de soluções dinâmicas.
-              Além disso,
-              nosso projeto se aprofunda em como elas afetam o cérebro.</p>
-            <p>
-              O site conta com 9 páginas repletas de conteúdos
-              variados, como dados, notícias, o funcionamento do cérebro, dicas para se desconectar, sugestões de
-              atividades
-              , entre outros. <br>
-              Esperamos que você aproveite ao máximo o conteúdo e que ele possa ajudar, seja qual for
-              o seu motivo para estar aqui. Todas as referências e fontes utilizadas estão disponíveis no próprio site.
-              Muito obrigado pela visita e boa sorte na sua jornada! </p>
+            <p>O Off Web é um site criado para informar sobre os malefícios do uso excessivo de telas e oferecer
+              maneiras práticas de reduzir o tempo de exposição. O projeto também explica como as telas afetam o
+              cérebro</p>
+              <p>O site possui 9 páginas com conteúdos variados, como dados, notícias, funcionamento cerebral, dicas para
+              desconectar e sugestões de atividades.</p>
+              <p>O objetivo é ajudar cada visitante de acordo com sua necessidade. Todas as referências usadas estão
+              disponíveis no próprio site. Obrigado pela visita!</p>
           </div>
         </div>
         <div class="creditoMaos">
@@ -156,84 +150,87 @@
       </ul>
     </section>
     <section class="quiz">
-        <h1> Faça nosso formulário </h1>
-        <p>Futuramente na página desconecta você verá como sair das telas, uma forma que é muito eficaz e que
-            acreditamos que você irá gostar é realizando novas coisas, criando habilidades e passatempos, para isso
-            criamos um formulário que, além de calcular se o seu tempo de tela está acima do normal, te mostra um
-            hobby para você realizar no seu tempo
-            livre fora das telas. </p>
-        <p id="btn-modalQuizz"> Formulário</p>
-        <div id="modal">
-            <div id="modal-content">
-                <div class="perguntas">
-                    <div class="pergunta" id="pergunta1">
-                        <h3>Quantas horas você trabalha/estuda por dia?</h3>
-                        <button onclick="responder(1,1)" class="option">0 a 4 horas</button>
-                        <button onclick="responder(1,2)" class="option">4 a 8 horas</button>
-                        <button onclick="responder(1,3)" class="option">Mais de 8 horas</button>
-                    </div>
-                    <div class="pergunta hidden" id="pergunta2">
-                        <h3>Quantas horas você usa o celular por dia?</h3>
-                        <button onclick="responder(2,1)" class="option">0 a 4 horas</button>
-                        <button onclick="responder(2,2)" class="option">4 a 9 horas</button>
-                        <button onclick="responder(2,3)" class="option">Mais de 9 horas</button>
-                    </div>
-                    <div class="pergunta hidden" id="pergunta3">
-                        <h3>O celular faz parte do seu trabalho?</h3>
-                        <button onclick="responder(3,1)" class="option">Sim</button>
-                        <button onclick="responder(3,2)" class="option">Não</button>
-                    </div>
-                    <div class="pergunta hidden" id="pergunta4">
-                        <h3>Qual período você trabalha/estuda?</h3>
-                        <button onclick="responder(4,1)" class="option">Manhã</button>
-                        <button onclick="responder(4,2)" class="option">Tarde</button>
-                        <button onclick="responder(4,3)" class="option">Noite</button>
-                        <button onclick="responder(4,4)" class="option">Integral</button>
-                    </div>
-                    <div class="pergunta hidden" id="pergunta5">
-                        <h3>Qual área você tem mais afinidade?</h3>
-                        <button onclick="responder(5,1)" class="option">Artes/artesasnto</button>
-                        <button onclick="responder(5,2)" class="option">Leitura</button>
-                        <button onclick="responder(5,3)" class="option">Atividade Física</button>
-                        <button onclick="responder(5,4)" class="option">Cozinha</button>
-                        <button onclick="responder(5,5)" class="option">Jardinagem</button>
-                    </div>
-                </div>
-                <div id="graficoHoras">
-                    <p>Segundo as respostas anteriores, a sua média de uso de tela é <br> <span>X horas</span> </p>
-                    <div id="containerGrafico">
-                    <div class="usoMedio" data-info="Consumo Médio dos brasileiros: 9 horas">
-                        <div class="graficoQuizz" data-info="Seu consumo de tela "></div>
-                    </div>
-                    </div>
-                    <p id="textoGrafico"  class="hidden"> Você está <span class="horasTexto">XX</span> horas acima da média dos brasileiros! 
-                   O seu consumo de tela é <span>inadequado</span> , para mudar isso recomendamos... </p>
-                    <p id="textoGrafico2"  class="hidden"> Você está <span class="horasTexto">XX</span> horas abaixo da média dos brasileiros! 
-                   O seu consumo de tela é <span>adequado</span> , porém caso queira diminuir temos uma opção para você! </p>
-                </div>
-                <div class="hobbie">
-                    <div>
-                        <h2 id="respostaP" class="hidden">Você deveria tentar!</h2>
-                        <h3 id="tituloRecomendado"></h3>
-                        <p  id="textoRecomendado" >Segundo suas respostas anteriores, você pode tentar começar a <span> praticar DIY</span> como alternativa para não ficar no celular</p>
-                    </div>
-                    <div>
-                        <p id="respostaP2" class="hidden">Não sabe por onde começar?</p>
-                        <p id="recomendacao"></p>
-                        <p id="videoTexto" ></p>
-                        
-
-                      <div id="videoContainer" >
-                          
-
-                        </div>
-                    </div>
-                </div>
+      <h1> Faça nosso formulário </h1>
+      <p>Futuramente na página desconecta você verá como sair das telas, uma forma que é muito eficaz e que
+        acreditamos que você irá gostar é realizando novas coisas, criando habilidades e passatempos, para isso
+        criamos um formulário que, além de calcular se o seu tempo de tela está acima do normal, te mostra um
+        hobby para você realizar no seu tempo
+        livre fora das telas. </p>
+      <p id="btn-modalQuizz"> Formulário</p>
+      <div id="modal">
+        <div id="modal-content">
+          <div class="perguntas">
+            <div class="pergunta" id="pergunta1">
+              <h3>Quantas horas você trabalha/estuda por dia?</h3>
+              <button onclick="responder(1,1)" class="option">0 a 4 horas</button>
+              <button onclick="responder(1,2)" class="option">4 a 8 horas</button>
+              <button onclick="responder(1,3)" class="option">Mais de 8 horas</button>
             </div>
+            <div class="pergunta hidden" id="pergunta2">
+              <h3>Quantas horas você usa o celular por dia?</h3>
+              <button onclick="responder(2,1)" class="option">0 a 4 horas</button>
+              <button onclick="responder(2,2)" class="option">4 a 9 horas</button>
+              <button onclick="responder(2,3)" class="option">Mais de 9 horas</button>
+            </div>
+            <div class="pergunta hidden" id="pergunta3">
+              <h3>O celular faz parte do seu trabalho?</h3>
+              <button onclick="responder(3,1)" class="option">Sim</button>
+              <button onclick="responder(3,2)" class="option">Não</button>
+            </div>
+            <div class="pergunta hidden" id="pergunta4">
+              <h3>Qual período você trabalha/estuda?</h3>
+              <button onclick="responder(4,1)" class="option">Manhã</button>
+              <button onclick="responder(4,2)" class="option">Tarde</button>
+              <button onclick="responder(4,3)" class="option">Noite</button>
+              <button onclick="responder(4,4)" class="option">Integral</button>
+            </div>
+            <div class="pergunta hidden" id="pergunta5">
+              <h3>Qual área você tem mais afinidade?</h3>
+              <button onclick="responder(5,1)" class="option">Artes/artesanto</button>
+              <button onclick="responder(5,2)" class="option">Leitura</button>
+              <button onclick="responder(5,3)" class="option">Atividade Física</button>
+              <button onclick="responder(5,4)" class="option">Cozinha</button>
+              <button onclick="responder(5,5)" class="option">Jardinagem</button>
+            </div>
+          </div>
+          <div id="graficoHoras">
+            <p>Segundo as respostas anteriores, a sua média de uso de tela é <br> <span>X horas</span> </p>
+            <div id="containerGrafico">
+              <div class="usoMedio" data-info="Consumo Médio dos brasileiros: 9 horas">
+                <div class="graficoQuizz" data-info="Seu consumo de tela "></div>
+              </div>
+            </div>
+            <p id="textoGrafico" class="hidden"> Você está <span class="horasTexto">XX</span> horas acima da média dos
+              brasileiros!
+              O seu consumo de tela é <span>inadequado</span> , para mudar isso recomendamos... </p>
+            <p id="textoGrafico2" class="hidden"> Você está <span class="horasTexto">XX</span> horas abaixo da média dos
+              brasileiros!
+              O seu consumo de tela é <span>adequado</span> , porém caso queira diminuir temos uma opção para você! </p>
+          </div>
+          <div class="hobbie">
+            <div>
+              <h2 id="respostaP" class="hidden">Você deveria tentar</h2>
+              <h3 id="tituloRecomendado"></h3>
+              <p id="textoRecomendado">Segundo suas respostas anteriores, você pode tentar começar a <span> praticar
+                  DIY</span> como alternativa para não ficar no celular</p>
+            </div>
+            <div>
+              <p id="respostaP2" class="hidden">Não sabe por onde começar?</p>
+              <p id="recomendacao"></p>
+              <p id="videoTexto"></p>
+
+
+              <div id="videoContainer">
+
+
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
   </main>
-     <script src="js/textosQuizz.js"></script>
+  <script src="js/textosQuizz.js"></script>
   <script src="js/modal.js"></script>
   <footer>
     <div class="footerCont">
@@ -257,11 +254,9 @@
         <p> Desconecte-se da tela com o Off Web! </p>
         <p> Acompanhe a gente nas redes sociais, vamos adorar te ter por lá! </p>
         <nav>
-          <p> <a
-              href="?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span
-                class="fa-brands fa-instagram" style="color: #000000;"></span></a> <a
-              href="https://github.com/lauraluciano/Vida_Saudavel.git"><span class="fa-brands fa-github"
-                style="color: #000000;"></span></a> <a href="https://x.com/off_weeb"><i
+          <p> <a href="?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span class="fa-brands fa-instagram"
+                style="color: #000000;"></span></a> <a href="https://github.com/lauraluciano/Vida_Saudavel.git"><span
+                class="fa-brands fa-github" style="color: #000000;"></span></a> <a href="https://x.com/off_weeb"><i
                 class="fa-brands fa-square-x-twitter" style="color: #000000;"></i></a> </p>
         </nav>
       </div>

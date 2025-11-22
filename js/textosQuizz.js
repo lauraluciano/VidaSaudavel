@@ -189,7 +189,7 @@ function finalizar() {
                         Além disso, ler à noite pode ser uma ótima forma de desacelerar a mente antes de dormir. 
                         Aqui vai uma sugestão de rotina de leitura diurna que exige mais foco: 
 
-                        ROTINA DE LEITURA DIÁRIA COM FOCO(30–45 minutos) 
+                        ROTINA DE LEITURA DIÁRIA COM FOCO(30–45 minutos)
                         Escolha o livro certo: Opte por algo mais complexo ou que exija atenção aos detalhes, como romances densos, ensaios ou livros de ciência e história. 
 
 
