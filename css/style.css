@@ -3632,6 +3632,166 @@ line-height: 5vw;
 }
 
 
+/*PERIGOSSSSSSSSSS*/
+
+.inicioPerigos {
+   display: flex;
+   border-bottom: 1px solid rgb(202, 202, 202);
+   padding: 12vw 6vw;
+   margin-bottom: 8vw;
+  
+}
+
+
+.inicioPerigos {
+   border: 1px solid #000000;
+   border-radius: 80px;
+
+
+}
+
+
+.inicioPerigos div.texto {
+   border: 1px solid #000000;
+   border-radius: 40px;
+   padding: 2vw 4vw;
+   margin-left: 6vw;
+}
+
+
+.inicioPerigos h2 {
+   font-size: 16px;
+   line-height: 18px;
+   padding: 4vw ;
+}
+
+
+
+
+.inicioPerigos h1 {
+   font-family: "Abril Fatface", serif;
+   font-size: 1.8rem;
+   margin: 20px 20px 10px 20px;
+   text-align: center;
+}
+
+
+.inicioPerigos img {
+  margin: 8vw 2vw 2vw 0;
+   width: 119%;
+   height: 65%;
+}
+
+.comentariosPerigos div.blocoPeri {
+    display: block;
+
+}
+
+
+.comentariosPerigos div.blocoPeri div.texto1Peri p {
+    font-size: 1.1rem;
+    padding: 4vw 0;
+}
+
+.comentariosPerigos h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 2vw;
+}
+
+.comentariosPerigos ul li {
+     font-size: 1.2rem;
+}
+
+.comentariosPerigos ul li span {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.comentariosPerigos p {
+font-size: 1.1rem;
+}
+
+.comentariosPerigos div.imagem img {
+    margin: 6vw auto;
+    width: 90%;
+}
+
+.comentariosPerigos div.imagem p {
+        font-size: 1.1rem;
+        margin: 0;
+        margin-top: 2vw;
+}
+
+
+.cyberbullying h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 4vw 0;
+}
+
+.cyberbullying p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+
+.cyberbullying p.caixaAjuda {
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+
+}
+
+.menores h1 {
+    font-size: 2rem;
+}
+
+.menores h2 {
+    font-size: 1.2rem;
+
+}
+
+.menores details.grupoUm div p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.menores details.grupoUm p span {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.menores details.grupoDois p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.menores a {
+    font-size: 0.9rem;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 1.5vw;
+    line-height: 3rem;
+}
+
+
+
+.referenciasPeri h1 {
+    font-size: 1.8rem;
+}
+
+.referenciasPeri a {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+
+
     /*FOOTER*/
 
     footer nav.mapaFooter {
