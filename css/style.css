@@ -604,7 +604,7 @@ INICIO
             align-items: center;
         }
 
-        .grafico {
+        .graficoQuizz {
             position: absolute;
             width: 130px;
             height: 130px;
@@ -618,7 +618,7 @@ INICIO
         }
 
       
-        .grafico::after,
+        .graficoQuizz::after,
         .usoMedio::after {
             content: attr(data-info);
             position: absolute;
@@ -634,7 +634,7 @@ INICIO
             white-space: nowrap;
         }
 
-        .grafico:hover::after,
+        .graficoQuizz:hover::after,
         .usoMedio:hover::after {
             opacity: 1;
         }
@@ -2389,28 +2389,13 @@ DADOS
 
 .bannerDados img {
     border-radius: 30px;
-    width: 50%;
+    width:50%;
 }
 
 .estudantes {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw;
     margin: 5vw 0 0 0;
-}
-
-.estudantes p.mochila img {
-    width: 100%;
-}
-
-.estudantes p.mochila {
-    position: absolute;
-    width: 3%;
-    top: 54vw;
-    left: 10vw;
-    background-color: white;
-    padding: 2vw 2.5vw;
-    border-radius: 300px;
-    margin: 0 0 0 1vw;
 }
 
 .dados span {
@@ -2422,7 +2407,7 @@ DADOS
     font-size: 2.5rem;
     font-weight: 300;
     color: #000;
-    margin: 0 0 0 10vw;
+    text-align: center;
 }
 
 .estudantes div.texto p {
@@ -2447,6 +2432,7 @@ DADOS
 
 .estudantes div.grafico img {
     border-radius: 30px;
+    margin: 0 2vw 0 0;
 }
 
 .estudantes div.grafico p {
@@ -3161,21 +3147,7 @@ REFERÊNCIAS
             display: block;
         }
 
-    /*NOTÍCIAS*/
     
-    .bannerNot h1 {
-    font-size: 4rem;
-    letter-spacing: 0.5rem;
-    }
-    .bannerNot p.textBot {
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    margin-bottom: 3rem;
-    }
-    .bannerNot div {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1rem;
     /*CIÊNCIAS*/
 
     .bannerCien {
@@ -3313,126 +3285,7 @@ REFERÊNCIAS
        
     }
 
-    .bannerNot div p {
-    font-size: 1rem;
-    max-width: 700px;
-    }
-    .bannerNot div img {
-    width: 100%;
-    }
-    .texto1 {
-    padding: 0vw 4vw 4vw 4vw;
-    line-height: 1.1rem;
-    }
-
-    .texto1 div {
-    display: block;
-    font-size: 1.5rem;
-    }
-
-    .texto1 div iframe {
-    width: 340px;
-    height: 231px;
-    padding: 0 0 2vw 0;
-    }
-
-    .texto1 div p {
-    max-width: 1000px;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    }
-
-    .texto1 p {
-    margin-top: 40px;
-    font-size: 1rem;
-    line-height: 1.1rem;
-    }
-    .texto2 p {
-    font-size: 1rem;
-    }
-    .texto2 div h2 a{
-    font-size: 1.3rem;
-    }
-    .texto2 div h2{
-    margin-bottom: 3vw;
-    }
-    .texto2 div.bloco {
-    display: block;
     
-    }
-    .texto2 a img {
-    width: 80%;
-    padding: 2vw 0 0 10vw;
-    }
-    .conjuntoCarro div.pod-cast{
-    padding: 4vw;
-    }
-    .conjuntoCarro div.pod-cast a img{
-        width: 100%;
-    }
-    .ultimosTextos {
-    margin: 6vw 2vw;
-    font-size: 1rem;
-}
-
-.ultimosTextos div {
-    margin: 2vw;
-    display: block;
-}
-
-.ultimosTextos div iframe {
-    width: 600px;
-    height: 560px;
-}
-
-.ultimosTextos div p {
-    line-height: 1rem;
-    padding: 0 0 2vw 2vw;}
-
-.ultimosTextos p {
-    line-height: 1rem;
-    
-    padding: 0 0 2vw 2vw;
-}
-}
-
-
-  
-    
-/*
-.ultimosTextos {
-    margin: 6vw 2vw;
-    font-size: 1rem;
-}
-
-.ultimosTextos div {
-    margin: 2vw;
-    display: flex;
-}
-
-.ultimosTextos div iframe {
-    width: 600px;
-    height: 560px;
-}
-
-.ultimosTextos div p {
-    max-width: 800px;
-    line-height: 2.5rem;
-    margin: 0 0 0 5vw;
-}
-
-.ultimosTextos p {
-    line-height: 2.5rem;
-    padding: 0 0 2vw 2vw;
-}
-
-*/
-
-
-   
-
-
-
  /*MALEFICIOS*/
 
 
@@ -3794,6 +3647,126 @@ font-size: 1.1rem;
 }
 
 
+    /*NOTÍCIAS*/
+    
+    .bannerNot h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    }
+    .bannerNot p.textBot {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    }
+    .bannerNot div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1rem;
+    }
+
+    .bannerNot div p {
+    font-size: 1rem;
+    max-width: 700px;
+    }
+    .bannerNot div img {
+    width: 100%;
+    }
+    .texto1 {
+    padding: 0vw 4vw 4vw 4vw;
+    line-height: 1.1rem;
+    }
+
+    .texto1 div {
+    display: block;
+    font-size: 1.5rem;
+    }
+
+    .texto1 div iframe {
+    width: 340px;
+    height: 231px;
+    padding: 0 0 2vw 0;
+    }
+
+    .texto1 div p {
+    max-width: 1000px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    }
+
+    .texto1 p {
+    margin-top: 40px;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    }
+    .texto2 p {
+    font-size: 1rem;
+    }
+    .texto2 div h2 a{
+    font-size: 1.3rem;
+    }
+    .texto2 div h2{
+    margin-bottom: 3vw;
+    }
+    .texto2 div.bloco {
+    display: block;
+    
+    }
+    .texto2 div.bloco div{
+        margin-bottom: 2rem;
+    }
+
+    .texto2 a img {
+    width: 80%;
+    padding: 2vw 0 0 10vw;
+    }
+    .conjuntoCarro div.pod-cast{
+    padding: 4vw;
+    }
+    .conjuntoCarro div.pod-cast a img{
+        width: 100%;
+    }
+    .ultimosTextos {
+    margin: 6vw 2vw;
+    font-size: 1rem;
+    }
+
+    .ultimosTextos div {
+    display: block;
+    }
+
+    .ultimosTextos div iframe {
+    width: 340px;
+    height: 231px;
+    margin-bottom: 2rem;
+    padding: 0 1.5rem 0 0;
+    }
+
+    .ultimosTextos div p {
+    line-height: 1rem;
+    text-align: left;
+    margin:  0 0 0 -9px ;
+    }
+
+    .ultimosTextos p {
+    line-height: 1rem;
+    padding: 0 0 2vw 0vw;
+    }
+
+    .conjuntoCarro div.carrosel-container div.carrosel div.slider div.slide img {
+        width: 225px;
+        height: 315px;
+    }
+    .referenciasMale h1 {
+    font-size: 1.8rem;
+    }
+
+    .referenciasMale a {
+    margin: 7vw 2vw;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    }
+
+
     /*FOOTER*/
 
     footer nav.mapaFooter {
@@ -3910,6 +3883,42 @@ font-size: 1.1rem;
         border-color: #2C3E50 !important;
         color: #000;
     }
-
-
+        /*DADOS*/
+    .bannerDados div {
+        border: none;
+    }
+    .bannerDados {
+        border: none;
+        display: block;
+    }
+    .bannerDados h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0 0 10vw 0;
+    }
+    .bannerDados p {
+        padding: 0;
+        line-height: 20px;
+        font-weight: 500;
+        text-align: center;
+    } 
+    .bannerDados img {
+        border-radius: 0;
+        margin: 10vw 0 0 0;
+        width: 100%;
+    }
+    .estudantes div.texto {
+        background-color: transparent;
+    }
+    .estudantes div.texto h2 {
+        background-color: #540B24;
+        color: white;
+        font-weight: 550;
+        padding: 5vw;
+        border-radius: 40px;
+        font-size: 2rem;
+    }
+    .estudantes div.texto p {
+        color: white;
+    }
 }

@@ -38,15 +38,15 @@ function finalizar() {
     /*GRAFICO*/
     const usoMedio = 9;
     const horasLivres = 24 - (horasTrabalho + 8);
-    const grafico = document.querySelector('.grafico');
+    const graficoQuizz = document.querySelector('.graficoQuizz');
     const circuloAdequado = document.querySelector('.usoMedio')
    
     const proporção = usoMedio / horasCelular;
     const tamanhoBase = 200;
     const tamanhoMedia = Math.min(tamanhoBase, 360);
     const tamanhoAdequado = Math.min(tamanhoMedia * proporção, 360);
-    grafico.style.width = `${tamanhoMedia}px`;
-    grafico.style.height = `${tamanhoMedia}px`;
+    graficoQuizz.style.width = `${tamanhoMedia}px`;
+    graficoQuizz.style.height = `${tamanhoMedia}px`;
     circuloAdequado.style.width = `${tamanhoAdequado}px`;
     circuloAdequado.style.height = `${tamanhoAdequado}px`;
     
@@ -678,7 +678,7 @@ function finalizar() {
    document.getElementById("videoContainer").classList.add("mostrar")
     console.log(`eba`)
     document.getElementById("modal-content").style.background=`url("imagens/resposta.png") center/cover no-repeat`;
-    document.querySelector(".grafico")
+    document.querySelector(".graficoQuizz")
         .setAttribute("data-info", "Seu consumo de tela: " + horasCelular + " horas");
     document.querySelector("#graficoHoras p span").innerHTML = horasCelular + " horas";
       document.querySelector(".hobbie div p ").classList.remove("hidden")
