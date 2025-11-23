@@ -259,9 +259,14 @@ INICIO
         1px 1px 0 #000;
 }
 
+.introducao div.textos {
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 2vw;
+    max-width: 1100px;
+}
 .introducao img {
     width: 100%;
-    padding: 7vw 0 0 0;
 }
 
 .introducao p {
@@ -269,20 +274,6 @@ INICIO
     line-height: 2rem;
     font-size: 1.5rem;
     margin: 0 6vw 0 3vw;
-}
-
-.introducao div.creditoMaos {
-    display: block;
-}
-
-.introducao div.creditoMaos p {
-    font-size: 1rem;
-    margin: 0;
-    line-height: normal;
-}
-
-.textoInt {
-    padding: 0 0 6vw 0;
 }
 
 .mapa {
@@ -380,7 +371,7 @@ INICIO
 }
 
 .noticiasInicio ul li {
-    background-color: #ffffff;
+    background-color: #dddddd;
     border-radius: 80px;
     padding: 2vw;
     width: 50%;
@@ -403,7 +394,7 @@ INICIO
     margin-top: 2vw;
     font-size: 1.7rem;
     font-weight: bold;
-    color: #000;
+    color: #000000;
 }
 
 .noticiasInicio h4 a {
@@ -414,7 +405,7 @@ INICIO
 .noticiasInicio p {
     margin-top: 15px;
     font-size: 1.5rem;
-    color: #000;
+    color: #000000;
 }
 
 /*  QUIZZZZZZZ */
@@ -960,15 +951,10 @@ p.creditosCien {
     background-color: #2C3E50;
 }
 
-.conclusaoCien div.texImgCere a img {
+.conclusaoCien div.texImgCere img {
     padding: 9vw 0 0 9vw;
     width: 120%;
 }
-
-.conclusaoCien div.liberacao img {
-    width: 120%;
-}
-
 .textosCere {
     padding: 4vw 0 4vw 14vw;
 }
@@ -2033,7 +2019,7 @@ NOTÍCIAS
 }
 
 .texto2 p.img {
-    text-align: center;
+    align-items: center;
 }
 
 .texto2 div.right {
@@ -4147,11 +4133,20 @@ REFERÊNCIAS
     .estudantes div.grafico {
         display: block;
     }
-
+    .estudantes div.grafico div {
+        width: 50%;
+    }
+    .estudantes {
+        border: none;
+    }
     .estudantes div.grafico img {
-        width: 200%;
+        width: 325%;
         border-radius: 0;
     }
+    .estudantes div.grafico div {
+        width: 20%;
+    }
+
     /* DESCONECTA */
     .bannerDesconecta{
         display: block;  
