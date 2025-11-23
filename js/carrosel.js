@@ -8,6 +8,6 @@ window.onload = function () {
     setInterval(() => {
       radios[count].checked = true;
       count = (count + 1) % radios.length;
-    }, 3000);
+    }, 5000);
   });
 };

@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+        outline: 1px solid red;
+
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;
@@ -12,6 +14,7 @@
 }
 
 html {
+      background: red;
     text-decoration: none;
     background: #2C3E50;
     color: #ffffff;
@@ -381,6 +384,12 @@ INICIO
     border-radius: 80px;
     padding: 2vw;
     width: 50%;
+    box-shadow: 2px 2px 15px #000;
+    transition: transform 0.3s ease;
+}
+
+.noticiasInicio ul li:hover {
+    transform: translateY(-20px);
 }
 
 .noticiasInicio ul li a img {
@@ -3033,8 +3042,8 @@ REFERÊNCIAS
 
     .banner img {
         width: 80%;
-        display: grid;
-        margin: 0 12vw;
+        display: block;
+        margin: 0 auto;
     }
 
     .banner h1 {
@@ -3088,33 +3097,38 @@ REFERÊNCIAS
     }
 
     .mapa div.bloco2 {
-
+        position: relative;
         padding: 3vw;
         margin: 40px;
         border-radius: 20px;
-        width: 200px;
+        width: 270px;
         line-height: 30px;
         font-size: 0.9rem;
         transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
 
     .mapa div.bloco2 img.lupa {
-        width: 50%;
-        margin: 0 8vw;
-        position: absolute;
-        top: -70px;
+           position: absolute;
+    top: -85px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin: 0;
     }
 
     .mapa div.bloco2 img.comp {
-        width: 50%;
-        top: -60px;
-        margin: 0 7vw;
+        position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin: 0;
     }
 
     /*NOTICIAS - Primeira página*/
 
     .noticiasInicio h1 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
 
     }
 
@@ -3126,8 +3140,10 @@ REFERÊNCIAS
 
     .noticiasInicio ul {
         display: block;
-        margin: 0 0 0 10vw;
-        width: 150%;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 10px;
 
     }
 
@@ -3146,8 +3162,12 @@ REFERÊNCIAS
     }
 
     .noticiasInicio ul li {
-        margin: 0 0 15vw 0;
-
+         width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 15vw;
+    border-radius: 40px;
+    box-sizing: border-box;
     }
 
     /*QUIZZ*/
@@ -3163,6 +3183,21 @@ REFERÊNCIAS
         font-size: 1.5rem;
         margin-top: 20px;
         padding: 10px 20px;
+    }
+
+    div#modal {
+        padding: 10px;
+        height: 100%;
+    }
+
+    #modal-content {
+        padding: 20px;
+        max-width: 100%;
+        width: 100%;
+
+        height: fit-content;
+        margin-top: 0;
+        border-radius: 10px;
     }
 
     #graficoHoras.mostrar {
@@ -3195,7 +3230,7 @@ REFERÊNCIAS
     }
 
 
-  /*CIÊNCIAS*/
+    /*CIÊNCIAS*/
 
     .bannerCien {
         display: block;
@@ -3259,7 +3294,7 @@ REFERÊNCIAS
     }
 
     .neurodopamina div.textoEsquerda p {
-        
+
         font-size: 1rem;
         line-height: 20px;
         margin: 3vw;
@@ -3273,7 +3308,7 @@ REFERÊNCIAS
     }
 
     .dopa img {
-        
+
         width: 70%;
         margin: 4vw 0 0 10vw;
     }
@@ -3313,7 +3348,7 @@ REFERÊNCIAS
     .conclusaoCien div.maquinaCassino p {
         font-size: 1rem;
         line-height: 25px;
-        
+
     }
 
     .conclusaoCien div.maquinaCassino img {
@@ -3324,49 +3359,59 @@ REFERÊNCIAS
     .conclusaoCien div.texImgCere {
         display: block;
     }
+
     .textosCere {
         padding: 0;
     }
+
     .textosCere p {
         font-size: 1rem;
         text-align: center;
         line-height: 22px;
         padding: 4vw;
     }
+
     .conclusaoCien div.texImgCere a img {
         width: 40%;
         padding: 0;
         margin: 4vw 15vw 0 0vw;
     }
+
     .conclusaoCien p.mencao {
         font-size: 1rem;
         line-height: 20px;
         padding: 5vw;
         text-align: center;
     }
+
     .conclusaoCien div.psico {
         display: block;
     }
+
     .conclusaoCien div.psico p {
         font-size: 1rem;
         line-height: 20px;
-        
-        padding: 
-        5vw 0 0 0;
+
+        padding:
+            5vw 0 0 0;
     }
+
     .conclusaoCien h2.conclusaoH2 {
         font-size: 1.5rem;
     }
+
     .conclusaoCien p {
         font-size: 1rem;
         line-height: 20px;
     }
+
     .referenciasCere h2 {
         font-size: 1.5rem;
         margin: 6vw 0 0 0;
     }
+
     .referenciasCere a {
-        
+
         font-size: 1rem;
     }
 
@@ -3735,7 +3780,7 @@ REFERÊNCIAS
     /*NOTÍCIAS*/
 
     .bannerNot h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         letter-spacing: 0.5rem;
     }
 
@@ -3771,9 +3816,8 @@ REFERÊNCIAS
     }
 
     .texto1 div iframe {
-        width: 340px;
-        height: 231px;
-        padding: 0 0 2vw 0;
+        width: 90%;
+        height: auto;
     }
 
     .texto1 div p {
@@ -3813,16 +3857,7 @@ REFERÊNCIAS
         width: 80%;
         padding: 2vw 0 0 10vw;
     }
-
-    .conjuntoCarro div.pod-cast {
-        padding: 4vw;
-    }
-
-    .conjuntoCarro div.pod-cast a img {
-        width: 100%;
-    }
-
-    .ultimosTextos {
+        .ultimosTextos {
         margin: 6vw 2vw;
         font-size: 1rem;
     }
@@ -3832,10 +3867,10 @@ REFERÊNCIAS
     }
 
     .ultimosTextos div iframe {
-        width: 340px;
-        height: 231px;
-        margin-bottom: 2rem;
-        padding: 0 1.5rem 0 0;
+        width:90%;
+        height: auto;
+        margin-bottom: 2vw;
+        padding: 0 1.5vw 0 0;
     }
 
     .ultimosTextos div p {
@@ -3848,10 +3883,77 @@ REFERÊNCIAS
         line-height: 1rem;
         padding: 0 0 2vw 0vw;
     }
+    .conjuntoCarro h2 {
+        font-size: 3rem;
+    }
+    .conjuntoCarro div.pod-cast {
+        padding: 2vw;
+    }
+
+    .conjuntoCarro div.pod-cast a img {
+        width: 100%;
+    }
+    .carrosel-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0 5vw;
+        justify-content: center;
+      
+        align-items: center;
+    }
+
+    .carrosel .slider {
+        width: 90vw;
+        max-width: 100%;
+        margin: 0 auto;
+          justify-content: center;
+          align-items: center;
+    }
+
+    .carrosel .slides {
+        width: 600%; /* Se tiver 6 slides */
+        display: flex;
+      
+    }
+
+    .carrosel .slide {
+        max-width: 100%;
+        height: auto;
+          
+    }
+
+    .carrosel .slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Mantém o alinhamento impecável */
+    #radio1:checked ~ .slides { margin-left: 0; }
+    #radio2:checked ~ .slides { margin-left: -100%; }
+    #radio3:checked ~ .slides { margin-left: -200%; }
+    #radio4:checked ~ .slides { margin-left: -300%; }
+    #radio5:checked ~ .slides { margin-left: -400%; }
+    #radio6:checked ~ .slides { margin-left: -500%; }
+      #c2radio1:checked ~ .slides { margin-left: 0; }
+    #c2radio2:checked ~ .slides { margin-left: -100%; }
+    #c2radio3:checked ~ .slides { margin-left: -200%; }
+    #c2radio4:checked ~ .slides { margin-left: -300%; }
+    #c2radio5:checked ~ .slides { margin-left: -400%; }
+    #c2radio6:checked ~ .slides { margin-left: -500%; }
+    .carrosel .manual-navigation{
+        margin-top: -200px;
+    }
+    .carrosel .manual-btn:not(:last-child),.carrosel .manual-btn2:not(:last-child){
+        margin-right:20px;
+    }
+
 
     .conjuntoCarro div.carrosel-container div.carrosel div.slider div.slide img {
-        width: 225px;
-        height: 315px;
+        width: 90% !important;
+        height: auto !important;
     }
 
     .referenciasMale h1 {
