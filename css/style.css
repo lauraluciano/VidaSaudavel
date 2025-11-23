@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-        outline: 1px solid red;
+    outline: 1px solid red;
 
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
@@ -14,7 +14,7 @@
 }
 
 html {
-      background: red;
+    background: red;
     text-decoration: none;
     background: #2C3E50;
     color: #ffffff;
@@ -1640,6 +1640,7 @@ DESCONECTA
 
 .introDesc {
     margin: 4vw;
+    position: relative;
 }
 
 .introDesc .ponto {
@@ -1647,11 +1648,12 @@ DESCONECTA
     font-family: "Abril Fatface", serif;
     position: absolute;
     font-size: 4rem;
-    background-color: #F4F4F4;
+    background-color: #ffffff;
     padding: 2vw 3vw;
     border-radius: 200px;
-    top: 37vw;
-    right: 48vw;
+    top: -25px;
+    left: 50%;
+       transform: translateX(-50%);
 }
 
 .introDesc div {
@@ -1678,6 +1680,8 @@ DESCONECTA
     padding: 4vw;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 2vw;
 }
 
@@ -1685,6 +1689,7 @@ DESCONECTA
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
+     flex: 1 1 300px;
     border-radius: 20px;
     line-height: 2rem;
     margin: 2vw 0;
@@ -1697,7 +1702,10 @@ DESCONECTA
     font-size: 2rem;
     margin: 2vw 0;
 }
-
+.abandonar ul {
+     flex: 2 1 500px; 
+    padding: 0;
+}
 .abandonar ul li {
     background-color: #ffffff;
     color: #000;
@@ -1708,23 +1716,20 @@ DESCONECTA
 }
 
 .abandonar ul li>p {
-    background-color: #262323;
-    border-radius: 200px;
-    width: 10%;
-    height: 40%;
-    color: #000;
-    padding: 20px;
-    margin: 20px 10px;
+     background-color: #262323;
+    border-radius: 50%;
+    width: 70px;    
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;     
+    flex-shrink: 0;  
 }
-
-.abandonar ul li:last-child p {
-    height: 10%;
-
-}
-
-.abandonar ul li p img {
-    width: 100%;
-    height: auto;
+.abandonar ul li p svg {
+  width: 60%;
+    height: 60%;
+    fill: #fff;
 }
 
 .abandonar ul li div {
@@ -1877,9 +1882,12 @@ DESCONECTA
 }
 
 .fotosAlternadas {
+    position: relative;
     display: flex;
+    align-items: center;
+    gap: 4vw;
     margin: 4vw 0;
-    width: 90%;
+    width: 100%;
 }
 
 .fotosAlternadas div h3 {
@@ -1889,24 +1897,26 @@ DESCONECTA
 
 .fotosAlternadas div p {
     font-size: 1.4rem;
-    line-height: 3rem;
+    line-height: 2.2rem;
 }
-
 .fotosAlternadas img {
-    width: 20%;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 50px;
+     width: 22%;
+       border-radius: 40px;
+           padding: 10px;
+            background: #fff;
+}
+.fotosAlternadas img.imgCima {
     border: 10px solid #D9D9D9;
+    position: relative;
+    top: -40px; 
 }
 
 img.azulBaixo {
-    width: 15%;
-    background-color: #ffffff;
     border: 20px solid #2C3E50;
-    position: absolute;
-    right: 2vw;
-    top: 210vw;
+    position: relative;
+    top:60px;
+    left: -30px;
+  
 }
 
 
@@ -2322,7 +2332,11 @@ APLICATIVOS
     display: flex;
     gap: 4vw;
     width: 90%;
+    transition: transform 0.4s ease;
+}
 
+.apliDois:hover {
+    transform: translateY(-20px);
 }
 
 .apliDois>div {
@@ -2332,6 +2346,7 @@ APLICATIVOS
     border-radius: 60px;
     padding: 20px;
     border: 15px solid #F4F4F4;
+
 }
 
 .apliDois div div {
@@ -3108,21 +3123,21 @@ REFERÊNCIAS
     }
 
     .mapa div.bloco2 img.lupa {
-           position: absolute;
-    top: -85px;
-    left: 40%;
-    transform: translateX(-50%);
-    width: 50%;
-    margin: 0;
+        position: absolute;
+        top: -85px;
+        left: 40%;
+        transform: translateX(-50%);
+        width: 50%;
+        margin: 0;
     }
 
     .mapa div.bloco2 img.comp {
         position: absolute;
-    top: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    margin: 0;
+        top: -70px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        margin: 0;
     }
 
     /*NOTICIAS - Primeira página*/
@@ -3162,12 +3177,12 @@ REFERÊNCIAS
     }
 
     .noticiasInicio ul li {
-         width: 100%;
-    max-width: 100%;
-    padding: 20px;
-    margin-bottom: 15vw;
-    border-radius: 40px;
-    box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin-bottom: 15vw;
+        border-radius: 40px;
+        box-sizing: border-box;
     }
 
     /*QUIZZ*/
@@ -3857,7 +3872,8 @@ REFERÊNCIAS
         width: 80%;
         padding: 2vw 0 0 10vw;
     }
-        .ultimosTextos {
+
+    .ultimosTextos {
         margin: 6vw 2vw;
         font-size: 1rem;
     }
@@ -3867,7 +3883,7 @@ REFERÊNCIAS
     }
 
     .ultimosTextos div iframe {
-        width:90%;
+        width: 90%;
         height: auto;
         margin-bottom: 2vw;
         padding: 0 1.5vw 0 0;
@@ -3883,9 +3899,11 @@ REFERÊNCIAS
         line-height: 1rem;
         padding: 0 0 2vw 0vw;
     }
+
     .conjuntoCarro h2 {
         font-size: 3rem;
     }
+
     .conjuntoCarro div.pod-cast {
         padding: 2vw;
     }
@@ -3893,6 +3911,7 @@ REFERÊNCIAS
     .conjuntoCarro div.pod-cast a img {
         width: 100%;
     }
+
     .carrosel-container {
         display: flex;
         flex-direction: column;
@@ -3900,7 +3919,7 @@ REFERÊNCIAS
         padding: 0;
         margin: 0 5vw;
         justify-content: center;
-      
+
         align-items: center;
     }
 
@@ -3908,20 +3927,21 @@ REFERÊNCIAS
         width: 90vw;
         max-width: 100%;
         margin: 0 auto;
-          justify-content: center;
-          align-items: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .carrosel .slides {
-        width: 600%; /* Se tiver 6 slides */
+        width: 600%;
+        /* Se tiver 6 slides */
         display: flex;
-      
+
     }
 
     .carrosel .slide {
         max-width: 100%;
         height: auto;
-          
+
     }
 
     .carrosel .slide img {
@@ -3930,24 +3950,61 @@ REFERÊNCIAS
         display: block;
     }
 
-    /* Mantém o alinhamento impecável */
-    #radio1:checked ~ .slides { margin-left: 0; }
-    #radio2:checked ~ .slides { margin-left: -100%; }
-    #radio3:checked ~ .slides { margin-left: -200%; }
-    #radio4:checked ~ .slides { margin-left: -300%; }
-    #radio5:checked ~ .slides { margin-left: -400%; }
-    #radio6:checked ~ .slides { margin-left: -500%; }
-      #c2radio1:checked ~ .slides { margin-left: 0; }
-    #c2radio2:checked ~ .slides { margin-left: -100%; }
-    #c2radio3:checked ~ .slides { margin-left: -200%; }
-    #c2radio4:checked ~ .slides { margin-left: -300%; }
-    #c2radio5:checked ~ .slides { margin-left: -400%; }
-    #c2radio6:checked ~ .slides { margin-left: -500%; }
-    .carrosel .manual-navigation{
+    #radio1:checked~.slides {
+        margin-left: 0;
+    }
+
+    #radio2:checked~.slides {
+        margin-left: -100%;
+    }
+
+    #radio3:checked~.slides {
+        margin-left: -200%;
+    }
+
+    #radio4:checked~.slides {
+        margin-left: -300%;
+    }
+
+    #radio5:checked~.slides {
+        margin-left: -400%;
+    }
+
+    #radio6:checked~.slides {
+        margin-left: -500%;
+    }
+
+    #c2radio1:checked~.slides {
+        margin-left: 0;
+    }
+
+    #c2radio2:checked~.slides {
+        margin-left: -100%;
+    }
+
+    #c2radio3:checked~.slides {
+        margin-left: -200%;
+    }
+
+    #c2radio4:checked~.slides {
+        margin-left: -300%;
+    }
+
+    #c2radio5:checked~.slides {
+        margin-left: -400%;
+    }
+
+    #c2radio6:checked~.slides {
+        margin-left: -500%;
+    }
+
+    .carrosel .manual-navigation {
         margin-top: -200px;
     }
-    .carrosel .manual-btn:not(:last-child),.carrosel .manual-btn2:not(:last-child){
-        margin-right:20px;
+
+    .carrosel .manual-btn:not(:last-child),
+    .carrosel .manual-btn2:not(:last-child) {
+        margin-right: 20px;
     }
 
 
@@ -4004,85 +4061,40 @@ REFERÊNCIAS
 
 
     /*APLICATIVOS*/
-
     .bannerAplicativo {
-        display: flex;
-        justify-content: space-between;
-        padding: 1vw;
+        display: block;
     }
 
     .bannerAplicativo h1 {
-        font-size: 2rem;
-        font-family: "Abril Fatface", serif;
-        line-height: 34px;
+        font-size: 2.5rem;
+        line-height: 30px;
+        margin-bottom: 40px;
     }
 
-    .bannerAplicavo h2 {
-        font-size: 2rem;
+    .bannerAplicativo h2 {
         font-weight: 700;
     }
 
     .bannerAplicativo p {
-        font-size: 1.5rem;
-        color: rgba(255, 255, 255, 0.89);
-        line-height: 40px;
+        font-size: 1.2rem;
+        line-height: 35px;
     }
 
     .bannerAplicativo div {
-        border: 2px solid rgba(255, 255, 255, 0.795);
-        border-radius: 80px;
-        padding: 5vw;
-        max-width: 700px;
+        padding: 7vw;
     }
 
     .apliDois {
-        margin: 0 auto;
-        display: flex;
-        gap: 4vw;
-        width: 80%;
-
+        display: block;
+        width: 100%;
+        margin-bottom: 2vw;
     }
 
     .apliDois>div {
-        width: 90%;
-        margin: 9.8vw 0;
-        background-color: #1D1D1D;
-        border-radius: 60px;
-        padding: 18px;
-        border: 10px solid #F4F4F4;
+        width: 100%;
+        margin-bottom: 4vh;
     }
 
-    .apliDois div div {
-        display: grid;
-    }
-
-    .apliDois div div img {
-        width: 25%;
-        border: 5px solid #ffffff;
-        border-radius: 20px;
-        margin-right: 20px
-    }
-
-    .apliDois div div h3 {
-        font-weight: bold;
-        font-size: 1.7rem;
-    }
-
-    .apliDois div p {
-        margin: 2vw 0;
-        line-height: 1.5rem;
-        font-size: 1.4rem;
-    }
-
-    .foco {
-        background-color: #FFFFFF;
-    }
-
-    .brancoAzul {
-        background-color: #D9D9D9 !important;
-        border-color: #2C3E50 !important;
-        color: #000;
-    }
 
     /*DADOS*/
     .bannerDados div {
@@ -4139,5 +4151,61 @@ REFERÊNCIAS
     .estudantes div.grafico img {
         width: 200%;
         border-radius: 0;
+    }
+    /* DESCONECTA */
+    .bannerDesconecta{
+        display: block;  
+         margin: 0 auto;
+    }
+    .bannerDesconecta div{
+        margin-top: 4vw;
+       
+    }
+    .bannerDesconecta div h1 {
+        font-size: 2.5rem;
+    }
+    .bannerDesconecta img {
+        width: 80%;
+    }
+    .introDesc .ponto{
+        top: -55px;
+    }
+
+    .passos{
+        display: block;
+    }
+    .passos div p {
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    .hobbieSquare{
+        width: 100%;
+    }
+    .imagem-direita{
+        display: block;
+    }
+    .imagem-direita img {
+        width: 80%;
+    }
+    .imagem-direita div p {
+        line-height: 25px;
+    }
+    .fotosAlternadas{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .fotosAlternadas img {
+        width: 60%;
+    }
+    .fotosAlternadas img.imgCima,.fotosAlternadas img.azulBaixo{
+         width: 70%;
+        position: relative;
+        
+        top: 20px;
+        margin-top: 20px;
+    }
+    img.azulBaixo {
+        top: -10px;
     }
 }
