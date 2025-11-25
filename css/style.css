@@ -1918,41 +1918,73 @@ img.azulBaixo {
 }
 
 
-.svg .container {
+.svgCasa .tituloSvg {
+    display:grid ;
+    justify-content: center;
+}
+
+.svgCasa h3 {
+    font-size: 2rem;
+    margin: 2vw;
+    display: inline-block;
+ 
+    text-align: center;
+    font-weight: 600;
+    background-color: white;
+    padding: 2vw;
+    color: #000;
+    border-radius: 20px;
+}
+
+
+
+  .container {
     display: flex;
     gap: 30px;
     align-items: flex-start;
+    position: relative;
   }
 
-  svg {
-    width: 300px;
+ .container svg {
+ 
+    width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius: 90px;
   }
 
+  /* Estilo dos cômodos (paths) */
   #cozinha {
     fill: #d8d8d8;
-    stroke: #555;
     stroke-width: 2;
-    transition: fill 0.3s;
+    transition: fill 10s;
   }
 
   #cozinha:hover {
     fill: #a0c4ff;
   }
 
-  
+  /* Caixa de texto */
   .info-box {
-    width: 200px;
-    padding: 15px;
+    width: 40%;
+    height: 70%;
+    padding: 3vw;
     border: 2px solid #333;
     border-radius: 8px;
     background: #f8f8f8;
-    display: none; /* Esconde inicialmente */
+    display: none; 
+    font-size: 1.5rem;
+    color: #000000;
+    position: absolute;
+    top: 10vw;
+    line-height: 2vw;
+    overflow: auto;
   }
+
 
   .info-box.active {
     display: block;
+     
   }
 
 
@@ -2408,19 +2440,6 @@ APLICATIVOS
     border-color: #2C3E50 !important;
     color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*==========================================================
@@ -4173,4 +4192,53 @@ REFERÊNCIAS
     img.azulBaixo {
         top: -10px;
     }
+
+
+.svgCasa h3 {
+    font-size: 1.1rem;
+}
+
+
+ .container svg {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+   
+  }
+
+  /* Estilo dos cômodos (paths) */
+  #cozinha {
+    fill: #d8d8d8;
+    stroke-width: 2;
+    transition: fill 10s;
+  }
+
+  #cozinha:hover {
+    fill: #a0c4ff;
+  }
+
+  /* Caixa de texto */
+  .info-box {
+    width: 40%;
+    height: 70%;
+    padding: 3vw;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #f8f8f8;
+    display: none; 
+    font-size: 1rem;
+    color: #000000;
+    position: absolute;
+    top: 10vw;
+    line-height: 4vw;
+    overflow: auto;
+  }
+
+
+  .info-box.active {
+    display: block;
+     
+  }
+
+
 }

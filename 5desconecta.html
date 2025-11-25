@@ -21,7 +21,59 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap"
     rel="stylesheet">
+ 
 </head>
+    <style>
+
+  .container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    position: relative;
+  }
+
+ .container svg {
+  
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 90px;
+  }
+
+  /* Estilo dos cômodos (paths) */
+  #cozinha {
+    fill: #d8d8d8;
+    stroke-width: 2;
+    transition: fill 10s;
+  }
+
+  #cozinha:hover {
+    fill: #a0c4ff;
+  }
+
+  /* Caixa de texto */
+  .info-box {
+    width: 40%;
+    height: 70%;
+    padding: 3vw;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #f8f8f8;
+    display: none; 
+    font-size: 1.5rem;
+    color: #000000;
+    position: absolute;
+    top: 10vw;
+    line-height: 2vw;
+    overflow: auto;
+  }
+
+
+  .info-box.active {
+    display: block;
+     
+  }
+</style>
 
 <body>
   <header>
@@ -329,7 +381,7 @@
       </div>
       <div class="fotosAlternadas">
         <div>
-          <h3>° Entenda o seu vício</h3>
+          <h3>Entenda o seu vício</h3>
           <p>
            Entender a origem e o funcionamento do vício é fundamental para conseguir superá-lo, já que ele afeta emoções, pensamentos, ações e até o corpo. Embora seja difícil no começo, vencer esse vício traz uma sensação transformadora e mostra o tempo que foi perdido. Mesmo que ele retorne, você estará mais preparado para enfrentá-lo novamente. Nosso site busca ajudar você a compreender esse processo e a viver com mais tranquilidade, sem depender tanto das telas.
           </p>
@@ -341,10 +393,10 @@
     </section>
 
 
-    <section class="svg">
-
-      <h2>DESCUBRA HOBBIES SEM SAIR DE CASA!</h2>
-
+    <section class="svgCasa">
+ <div class="tituloSvg">
+      <h3>DESCUBRA HOBBIES SEM SAIR DE CASA!</h3>
+</div>
 
 <div class="container">
 
@@ -488,44 +540,39 @@
        style="fill:black"
        d="m 1039.7347,27.46469 h -32.6961 l 20.2716,28.772532 -50.35194,-1.961763 -18.96372,-24.195084 -29.42645,-6.539212 -15.69411,10.462739 0.65392,11.770581 -9.15489,7.193133 4.57745,12.424503 1.96176,5.23137 -9.80882,19.617635 c 0,0 7.19313,16.348026 7.19313,11.116656 0,-5.231365 11.11666,11.11666 11.11666,11.11666 l -0.65392,217.75576 41.19704,2.61569 9.15489,1.96176 33.35,-29.42645 h 52.3137 l -13.0784,26.15684 30.7343,-0.65392 v -132.746 l -66.0461,1.96176 32.0422,-3.92352 z"
        id="path22960" />
-    <path id="salaY"
+       <path id="yoga"
        style="fill:transparent"
        d="m 398.89193,171.00039 2.94264,136.01561 13.07843,0.65392 16.02106,12.75146 h 39.23528 l 15.04018,-12.4245 50.02497,-1.30784 V 169.69255 Z"
        id="path22961" />
-    <path id="musica"
+
+    <path id="cozinha"
        style="fill:transparent"
        d="m 431.58799,35.638705 3.2696,135.034725 134.70777,-1.30784 -1.30784,-134.380806 z"
        id="path22962" />
-    <path id="salaL"
+
+    <path id="leitura"
        style="fill:transparent"
-       d="m 228.4217,35.1418 1.84957,168.77312 169.23551,0.92478 0.92479,-33.29223 35.1418,-1.38717 -1.84957,168.77312 169.23551,0.92478 0.92479,-33.29223 35.1418,-1.38717 -1.84957,-134.556108 z"
+       d="m 228.4217,35.1418 1.84957,168.77312 169.23551,0.92478 0.92479,-33.29223 35.1418,-1.38717 -1.84957,-134.556108 z"
        id="path22963" />
-    <path id="jardi"
+
+    <path id="musica"
        style="fill:transparent"
        d="m 264.95068,205.3021 v 134.7873 l 135.01849,-0.92479 V 203.45253 Z"
        id="path22964" />
-    <path id="cozinha"
+
+    <path id="jardinagem"
        style="fill:transparent"
        d="m 228.88409,36.066584 -31.44266,-0.462392 18.95808,26.356351 -48.08878,0.462392 -14.33416,-18.958077 -32.36745,-12.484587 -14.79654,3.236745 -3.69914,14.334155 0.92478,5.086314 -9.247838,6.935881 6.935878,16.183724 -6.935878,12.022195 -2.31196,13.409375 15.258938,13.40937 2.77435,224.26017 42.07769,-0.46239 5.08631,4.16153 37.91615,-32.36745 50.40074,0.46239 -13.87176,25.43157 32.82984,1.84957 -0.46239,-132.70654 -36.06659,0.46239 z"
        id="path22965" />
   </g>
 </svg>
+  <div id="infoBox" class="info-box">
+    Passe o mouse sobre um cômodo da casa.
+  </div>
 </div>
+
+  
      </section>
-
-
-
-
-
-
-    </section>
-
-
-
-
-
-
-
     <section class="referenciasMale">
       <h1>
         Referências
@@ -541,6 +588,7 @@
       </ul>
     </section>
   </main>
+   <script src="js/textosSvg.js"></script>
   <footer>
     <div class="footerCont">
       <nav class="mapaFooter">
