@@ -282,7 +282,7 @@ INICIO
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
-.mapa h1 {
+.mapa h2 {
     text-align: center;
     font-size: 4rem;
     color: #D1D1D1;
@@ -354,7 +354,7 @@ INICIO
 
 }
 
-.noticiasInicio h1 {
+.noticiasInicio h2 {
     text-align: center;
     font-size: 3rem;
     font-style: italic;
@@ -426,7 +426,7 @@ INICIO
 
 }
 
-.quiz h1 {
+.quiz h2 {
     background-color: #540B24;
     color: #fff;
     font-weight: bold;
@@ -819,7 +819,7 @@ p.creditosCien {
     line-height: 2.5rem;
 }
 
-.neurodopamina h2 {
+.neurodopamina h3 {
     font-size: 3rem;
     font-weight: 100;
     color: #FFFFFF;
@@ -891,7 +891,7 @@ p.creditosCien {
     position: relative;
 }
 
-.cerebroParte h2 {
+.cerebroParte h3 {
     font-size: 3rem;
     font-weight: 400;
     margin: 2vw 2vw 0 2vw;
@@ -936,7 +936,7 @@ p.creditosCien {
     margin: 2vw 0 0 0;
 }
 
-.conclusaoCien h2 {
+.conclusaoCien h3 {
     font-size: 3rem;
     font-weight: bold;
     margin: 4vw 0;
@@ -965,7 +965,7 @@ p.creditosCien {
     font-weight: bold
 }
 
-.conclusaoCien h2.conclusaoH2 {
+.conclusaoCien h3.conclusaoh3 {
     font-size: 2rem;
     font-weight: bold;
     margin: 5vw 2vw 2vw 2vw;
@@ -1010,7 +1010,7 @@ p.creditosCien {
     padding: 4vw 0;
 }
 
-.referenciasCere h2 {
+.referenciasCere h4 {
     font-size: 2rem;
 }
 
@@ -1091,7 +1091,7 @@ MALEFÍCIOS
     border-bottom: 1px solid rgb(202, 202, 202);
 }
 
-.pesquisaMal h2 {
+.pesquisaMal h3 {
     font-size: 2.3rem;
     margin: 2vw;
     font-weight: 600;
@@ -1123,7 +1123,7 @@ MALEFÍCIOS
 }
 
 
-.pesquisa-2Mal h2 {
+.pesquisa-2Mal h3 {
     font-family: "Abril Fatface", serif;
     font-size: 3.2rem;
     display: block;
@@ -1163,7 +1163,7 @@ MALEFÍCIOS
 }
 
 
-.enfermidades h2 {
+.enfermidades h3 {
     font-size: 2.5rem;
     color: #000;
     font-weight: bolder;
@@ -1244,7 +1244,7 @@ MALEFÍCIOS
     margin: 40px;
 }
 
-.pesquisa-3Mal h2 {
+.pesquisa-3Mal h3 {
     font-family: "Abril Fatface", serif;
     font-size: 3.2rem;
     margin-bottom: 40px;
@@ -1284,7 +1284,7 @@ MALEFÍCIOS
     padding: 0 4vw 4vw 4vw;
 }
 
-.finalMale h2 {
+.finalMale h3 {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 2vw 0.5vw;
@@ -1315,7 +1315,7 @@ MALEFÍCIOS
     padding: 4vw;
 }
 
-.referenciasMale h1 {
+.referenciasMale h4 {
     font-size: 2rem;
 }
 
@@ -1433,7 +1433,7 @@ PERIGOS
 
 }
 
-.comentariosPerigos h2 {
+.comentariosPerigos h3 {
     font-size: 2rem;
     font-weight: bold;
     margin: 0 0 2vw;
@@ -1518,13 +1518,13 @@ PERIGOS
     border-radius: 1.5vw;
 }
 
-.menores h1 {
+.menores h3 {
     font-size: 3rem;
     font-weight: bold;
     margin: 1vw 2vw 3vw 2vw;
 }
 
-.menores h2 {
+.menores h4 {
     font-size: 2.2rem;
     font-weight: 300;
 
@@ -1582,7 +1582,7 @@ PERIGOS
     margin: 0 0 0 5vw;
 }
 
-.referenciasPeri h1 {
+.referenciasPeri h5 {
     font-size: 2rem;
 }
 
@@ -1913,14 +1913,42 @@ img.azulBaixo {
 }
 
 
-#comodo1 {
+.svg .container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  svg {
+    width: 300px;
+    height: auto;
     cursor: pointer;
+  }
 
-}
+  #cozinha {
+    fill: #d8d8d8;
+    stroke: #555;
+    stroke-width: 2;
+    transition: fill 0.3s;
+  }
 
-#comodo1:hover {
-    color: #540B24;
-}
+  #cozinha:hover {
+    fill: #a0c4ff;
+  }
+
+  
+  .info-box {
+    width: 200px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #f8f8f8;
+    display: none; /* Esconde inicialmente */
+  }
+
+  .info-box.active {
+    display: block;
+  }
 
 
 
