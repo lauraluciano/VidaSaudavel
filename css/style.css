@@ -955,7 +955,8 @@ p.creditosCien {
 
 .conclusaoCien div.texImgCere img {
     padding: 9vw 0 0 9vw;
-    width: 120%;
+    width: 25
+    rem;
 }
 .textosCere {
     padding: 4vw 0 4vw 14vw;
@@ -1162,7 +1163,9 @@ MALEFÍCIOS
     line-height: 2vw;
 }
 
-
+.enfermidades{
+    position: relative;
+}
 .enfermidades h3 {
     font-size: 2.5rem;
     color: #000;
@@ -1172,7 +1175,6 @@ MALEFÍCIOS
     padding: 1.7vw;
     text-align: center;
     position: absolute;
-    top: 137vw;
     margin: 0 0 0 23vw;
 }
 
@@ -1626,7 +1628,7 @@ DESCONECTA
     font-family: "Abril Fatface", serif;
 }
 
-.bannerDesconecta p {
+.bannerDesconecta h2 {
     font-size: 1.7rem;
     max-width: 700px;
 }
@@ -1656,7 +1658,7 @@ DESCONECTA
     border-radius: 50px;
 }
 
-.introDesc h2 {
+.introDesc h3 {
     font-size: 1.7rem;
     text-align: center;
     font-weight: bolder;
@@ -1974,7 +1976,7 @@ NOTÍCIAS
     border-bottom: 2px solid #ffffff;
 }
 
-.bannerNot p.textBot {
+.bannerNot h2{
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
     text-align: center;
@@ -2041,7 +2043,7 @@ NOTÍCIAS
     display: flex;
 }
 
-.texto2 div h2 a {
+.texto2 div h4 a {
     text-decoration: none;
     color: #ffffff;
     font-size: 2rem;
@@ -2094,7 +2096,7 @@ NOTÍCIAS
     padding: 0 0 2vw 2vw;
 }
 
-.conjuntoCarro h2 {
+.conjuntoCarro h3 {
     font-family: "Abril Fatface", serif;
     font-size: 4rem;
     text-align: center;
@@ -2442,7 +2444,7 @@ DADOS
     margin: 0 2vw 0 0;
 }
 
-.bannerDados p {
+.bannerDados h2 {
     font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 1.4rem;
     line-height: 40px;
@@ -2467,7 +2469,7 @@ DADOS
     font-weight: bold;
 }
 
-.estudantes h2 {
+.estudantes h3 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: 300;
@@ -2527,7 +2529,7 @@ DADOS
     justify-content: space-between;
 }
 
-.equipamento h2 {
+.equipamento h3 {
     font-family: "Jacques Francois", serif;
     font-size: 2.5rem;
     font-weight: 500;
@@ -2582,7 +2584,7 @@ DADOS
 
 }
 
-.idade h2 {
+.idade h3 {
     font-family: "Jacques Francois", serif;
     font-size: 3rem;
     font-weight: bold;
@@ -2625,7 +2627,7 @@ DADOS
     margin: 2vw;
 }
 
-.conclusao h2 {
+.conclusao h3 {
     font-family: "Jacques Francois", serif;
     font-size: 3rem;
     font-weight: bold;
@@ -2652,7 +2654,7 @@ DADOS
     padding: 4vw 4vw 4vw 4vw;
 }
 
-.referencias h3 {
+.referencias h4 {
     font-size: 2rem;
     font-weight: bold;
     margin: 2vw;
@@ -2764,65 +2766,8 @@ div.imgSobreBanner p {
     margin: 33.5vw;
 }
 
-/*.pessoas h2 {
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-}
-
-.grupo1sobre,
-.grupo2sobre {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 2vw;
-  margin: 2vw auto;
-}
-
-.card {
-  position: relative; 
-  background-color: #fff;
-  padding: 2vw;
-  color: #000;
-  width: 20%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  transition: transform 0.2s ease;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 4px;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-
-.card::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  z-index: -1;
-  transition: 0.3s;
-}
-
-
-.card.azul::before {
-  background: #2f5061;
-}
-
-.card.vinho::before {
-  background: #6b1228;
-}*/
-.pessoas h2 {
+.pessoas h3
+ {
     text-align: center;
     font-size: 2rem;
 }
@@ -3123,7 +3068,7 @@ REFERÊNCIAS
 
     /*MAPA*/
 
-    .mapa h1 {
+    .mapa h2 {
         font-size: 2rem;
         margin: 0 0 13vw;
     }
@@ -3163,7 +3108,7 @@ REFERÊNCIAS
 
     /*NOTICIAS - Primeira página*/
 
-    .noticiasInicio h1 {
+    .noticiasInicio h2 {
         font-size: 1.6rem;
 
     }
@@ -3207,7 +3152,7 @@ REFERÊNCIAS
     }
 
     /*QUIZZ*/
-    .quiz h1 {
+    .quiz h2 {
         font-size: 1.5rem;
     }
 
@@ -3323,7 +3268,7 @@ REFERÊNCIAS
         display: block;
     }
 
-    .neurodopamina div.textoEsquerda h2 {
+    .neurodopamina div.textoEsquerda h3 {
         text-align: center;
         font-size: 1.3rem;
 
@@ -3353,7 +3298,7 @@ REFERÊNCIAS
         padding-bottom: 15vw;
     }
 
-    .cerebroParte h2 {
+    .cerebroParte h3 {
         font-size: 1.5rem;
         font-weight: bold;
         margin: 5vw;
@@ -3372,7 +3317,7 @@ REFERÊNCIAS
         z-index: 5;
     }
 
-    .conclusaoCien h2 {
+    .conclusaoCien h3 {
         font-size: 1.5rem;
         color: white;
     }
@@ -3432,7 +3377,7 @@ REFERÊNCIAS
             5vw 0 0 0;
     }
 
-    .conclusaoCien h2.conclusaoH2 {
+    .conclusaoCien h3.conclusaoh3 {
         font-size: 1.5rem;
     }
 
@@ -3441,7 +3386,7 @@ REFERÊNCIAS
         line-height: 20px;
     }
 
-    .referenciasCere h2 {
+    .referenciasCere h3 {
         font-size: 1.5rem;
         margin: 6vw 0 0 0;
     }
@@ -3456,7 +3401,6 @@ REFERÊNCIAS
 
 
 
-
     .maleficios {
         background: #540B24;
         margin: 2vw;
@@ -3467,33 +3411,25 @@ REFERÊNCIAS
 
 
     .inicioMal {
-        display: flex;
         border-bottom: 1px solid rgb(202, 202, 202);
-        padding: 12vw 6vw;
+        padding: 6vw 3vw;
         margin-bottom: 8vw;
-
+          display: block;
+          border: none;
     }
-
-
-    .inicioMal {
-        border: 1px solid #000000;
-        border-radius: 80px;
-
-
-    }
-
 
     .inicioMal div.texto {
         border: 1px solid #000000;
         border-radius: 40px;
-        padding: 2vw 4vw;
+        padding: 4vw 8vw;
         margin-left: 6vw;
+        gap: 20px;
     }
 
 
     .inicioMal h2 {
-        font-size: 13px;
-        line-height: 11px;
+        font-size: 15px;
+        line-height: 13px;
         margin: 0;
         padding-bottom: 5vw;
     }
@@ -3509,10 +3445,10 @@ REFERÊNCIAS
     }
 
 
-    .inicioMal img {
-        margin: 8vw 2vw 2vw 0;
-        width: 119%;
-        height: 65%;
+    .inicioMal div a img {
+        margin: 6vw 16vw;
+        width: 60%;
+        height: 30%;
     }
 
 
@@ -3523,7 +3459,7 @@ REFERÊNCIAS
 
 
 
-    .pesquisaMal h2 {
+    .pesquisaMal h3 {
         font-size: 1.8rem;
         margin: 5vw 4vw;
     }
@@ -3535,7 +3471,7 @@ REFERÊNCIAS
     }
 
 
-    .pesquisa-2Mal h2 {
+    .pesquisa-2Mal h3 {
         font-size: 2.5rem;
         line-height: 10vw;
     }
@@ -3565,8 +3501,8 @@ REFERÊNCIAS
 
 
 
-    .enfermidades h2 {
-        top: 160.5rem;
+    .enfermidades h3 {
+        top: 0;
         text-align: center;
         font-size: 1.1rem;
         padding: 3vw;
@@ -3578,8 +3514,13 @@ REFERÊNCIAS
     }
 
 
+    .enfermidades div.enfermidadesEx {
+            padding-top: 9vw
+    }
+
     .enfermidades div.enfermidadesEx ul {
         display: block;
+    
     }
 
 
@@ -3596,7 +3537,7 @@ REFERÊNCIAS
     }
 
 
-    .pesquisa-3Mal h2 {
+    .pesquisa-3Mal h3 {
         font-family: "Abril Fatface", serif;
         font-size: 2.5rem;
         margin-bottom: 40px;
@@ -3621,7 +3562,7 @@ REFERÊNCIAS
 
     }
 
-    .finalMale h2 {
+    .finalMale h3 {
         font-size: 2.3rem;
         font-weight: bold;
         margin: 2vw 0.5vw;
@@ -3642,7 +3583,7 @@ REFERÊNCIAS
     }
 
 
-    .referenciasMale h1 {
+    .referenciasMale h4 {
         font-size: 1.8rem;
     }
 
@@ -3656,26 +3597,20 @@ REFERÊNCIAS
     /*PERIGOSSSSSSSSSS*/
 
     .inicioPerigos {
-        display: flex;
+        display: block;
         border-bottom: 1px solid rgb(202, 202, 202);
         padding: 12vw 6vw;
         margin-bottom: 8vw;
+        border: none;
 
     }
 
-
-    .inicioPerigos {
-        border: 1px solid #000000;
-        border-radius: 80px;
-
-
-    }
 
 
     .inicioPerigos div.texto {
         border: 1px solid #000000;
         border-radius: 40px;
-        padding: 2vw 4vw;
+        padding: 4vw 8vw;
         margin-left: 6vw;
     }
 
@@ -3698,8 +3633,8 @@ REFERÊNCIAS
 
 
     .inicioPerigos img {
-        margin: 8vw 2vw 2vw 0;
-        width: 119%;
+        margin: 6vw 10vw;
+        width: 80%;
         height: 65%;
     }
 
@@ -3714,7 +3649,7 @@ REFERÊNCIAS
         padding: 4vw 0;
     }
 
-    .comentariosPerigos h2 {
+    .comentariosPerigos h3 {
         font-size: 1.8rem;
         font-weight: bold;
         margin: 0 0 2vw;
@@ -3764,11 +3699,11 @@ REFERÊNCIAS
 
     }
 
-    .menores h1 {
+    .menores h3 {
         font-size: 2rem;
     }
 
-    .menores h2 {
+    .menores h4 {
         font-size: 1.2rem;
 
     }
@@ -3798,7 +3733,7 @@ REFERÊNCIAS
 
 
 
-    .referenciasPeri h1 {
+    .referenciasPeri h5 {
         font-size: 1.8rem;
     }
 
@@ -3872,11 +3807,11 @@ REFERÊNCIAS
         font-size: 1rem;
     }
 
-    .texto2 div h2 a {
+    .texto2 div h4 a {
         font-size: 1.3rem;
     }
 
-    .texto2 div h2 {
+    .texto2 div h4 {
         margin-bottom: 3vw;
     }
 
@@ -3921,7 +3856,7 @@ REFERÊNCIAS
         padding: 0 0 2vw 0vw;
     }
 
-    .conjuntoCarro h2 {
+    .conjuntoCarro h3 {
         font-size: 3rem;
     }
 
@@ -4034,7 +3969,7 @@ REFERÊNCIAS
         height: auto !important;
     }
 
-    .referenciasMale h1 {
+    .referenciasMale h4 {
         font-size: 1.8rem;
     }
 
@@ -4048,7 +3983,7 @@ REFERÊNCIAS
     /*FOOTER*/
 
     footer nav.mapaFooter {
-        display: flex;
+        display: none;
 
     }
 
@@ -4056,11 +3991,6 @@ REFERÊNCIAS
         display: block;
     }
 
-
-    .mapaFooter ul li a {
-        font-size: 1rem;
-
-    }
 
     footer nav p {
         display: flex;
@@ -4079,6 +4009,7 @@ REFERÊNCIAS
         line-height: 12px;
         margin: 0vw 0 5vw 0;
     }
+
 
 
     /*APLICATIVOS*/
@@ -4133,7 +4064,7 @@ REFERÊNCIAS
         margin: 0 0 10vw 0;
     }
 
-    .bannerDados p {
+    .bannerDados h2 {
         padding: 0;
         line-height: 25px;
         font-weight: 500;
@@ -4150,7 +4081,7 @@ REFERÊNCIAS
         background-color: transparent;
     }
 
-    .estudantes div.texto h2 {
+    .estudantes div.texto h3 {
         background-color: #540B24;
         color: white;
         font-weight: 550;
