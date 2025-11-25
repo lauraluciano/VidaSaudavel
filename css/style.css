@@ -194,6 +194,9 @@ footer div.creditos p {
     font-size: small;
     color: #1B1B1B;
 }
+footer div.creditos p.copyright {
+    font-weight: normal;
+}
 
 /*==========================================================
 INICIO
@@ -1799,7 +1802,7 @@ DESCONECTA
 
 }
 
-#tooltip {
+.tooltipDesc {
     position: relative;
     cursor: pointer;
     padding: 7px;
@@ -1809,7 +1812,7 @@ DESCONECTA
 
 }
 
-#tooltipText {
+.tooltipTextDesc {
     position: absolute;
     left: 50%;
     top: 0;
@@ -1824,12 +1827,12 @@ DESCONECTA
     transition: opacity 0.5s ease;
 }
 
-#tooltipText a {
+.tooltipTextDesc a {
     text-decoration: none;
     color: #000;
 }
 
-#tooltipText::before {
+.tooltipTextDesc::before {
     position: absolute;
     left: 50%;
     top: 60%;
@@ -1838,7 +1841,7 @@ DESCONECTA
 
 }
 
-#tooltip:hover #tooltipText {
+.tooltipDesc:hover .tooltipTextDesc {
     top: -30%;
     visibility: visible;
     opacity: 1;
@@ -2055,8 +2058,9 @@ NOTÍCIAS
 
 }
 
-.texto2 p.img {
-    align-items: center;
+.texto2 a.img{ 
+    display: grid;
+    justify-content: center;
 }
 
 .texto2 div.right {
