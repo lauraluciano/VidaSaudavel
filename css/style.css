@@ -2882,7 +2882,7 @@ div.imgSobreBanner p {
         font-size: 1.3rem;
         color: white;
         padding: 0;
-        font-weight: 0;
+        font-weight: normal;
         line-height: 20px;
     }
 
