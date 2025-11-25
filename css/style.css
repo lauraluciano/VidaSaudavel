@@ -194,6 +194,7 @@ footer div.creditos p {
     font-size: small;
     color: #1B1B1B;
 }
+
 footer div.creditos p.copyright {
     font-weight: normal;
 }
@@ -268,6 +269,7 @@ INICIO
     padding: 2vw;
     max-width: 1100px;
 }
+
 .introducao img {
     width: 100%;
 }
@@ -958,9 +960,9 @@ p.creditosCien {
 
 .conclusaoCien div.texImgCere img {
     padding: 9vw 0 0 9vw;
-    width: 25
-    rem;
+    width: 25 rem;
 }
+
 .textosCere {
     padding: 4vw 0 4vw 14vw;
 }
@@ -1166,9 +1168,10 @@ MALEFÍCIOS
     line-height: 2vw;
 }
 
-.enfermidades{
+.enfermidades {
     position: relative;
 }
+
 .enfermidades h3 {
     font-size: 2.5rem;
     color: #000;
@@ -1204,7 +1207,7 @@ MALEFÍCIOS
     font-size: 2rem;
     font-weight: bold;
     color: white;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .enfermidades div.enfermidadesEx ul li p {
@@ -1231,7 +1234,7 @@ MALEFÍCIOS
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
 .modal-content {
@@ -1557,14 +1560,14 @@ PERIGOS
 .menores details.grupoUm {
     background-color: #540B24;
     padding: 2vw;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .menores details.grupoDois {
 
     background-color: #1B1B1B;
     padding: 2vw;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -1651,7 +1654,7 @@ DESCONECTA
     border-radius: 200px;
     top: -25px;
     left: 50%;
-       transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .introDesc div {
@@ -1687,7 +1690,7 @@ DESCONECTA
     background-color: #ffffff;
     color: #000;
     padding: 2vw;
-     flex: 1 1 300px;
+    flex: 1 1 300px;
     border-radius: 20px;
     line-height: 2rem;
     margin: 2vw 0;
@@ -1700,10 +1703,12 @@ DESCONECTA
     font-size: 2rem;
     margin: 2vw 0;
 }
+
 .abandonar ul {
-     flex: 2 1 500px; 
+    flex: 2 1 500px;
     padding: 0;
 }
+
 .abandonar ul li {
     background-color: #ffffff;
     color: #000;
@@ -1714,18 +1719,19 @@ DESCONECTA
 }
 
 .abandonar ul li>p {
-     background-color: #262323;
+    background-color: #262323;
     border-radius: 50%;
-    width: 70px;    
+    width: 70px;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;     
-    flex-shrink: 0;  
+    padding: 0;
+    flex-shrink: 0;
 }
+
 .abandonar ul li p svg {
-  width: 60%;
+    width: 60%;
     height: 60%;
     fill: #fff;
 }
@@ -1897,24 +1903,26 @@ DESCONECTA
     font-size: 1.4rem;
     line-height: 2.2rem;
 }
+
 .fotosAlternadas img {
-     width: 22%;
-       border-radius: 40px;
-           padding: 10px;
-            background: #fff;
+    width: 22%;
+    border-radius: 40px;
+    padding: 10px;
+    background: #fff;
 }
+
 .fotosAlternadas img.imgCima {
     border: 10px solid #D9D9D9;
     position: relative;
-    top: -40px; 
+    top: -40px;
 }
 
 img.azulBaixo {
     border: 20px solid #2C3E50;
     position: relative;
-    top:60px;
+    top: 60px;
     left: -30px;
-  
+
 }
 
 
@@ -1960,9 +1968,9 @@ img.azulBaixo {
     transition: fill 10s;
   }
 
-  #cozinha:hover {
+#cozinha:hover {
     fill: #a0c4ff;
-  }
+}
 
   /* Caixa de texto */
   .info-box {
@@ -2011,7 +2019,7 @@ NOTÍCIAS
     border-bottom: 2px solid #ffffff;
 }
 
-.bannerNot h2{
+.bannerNot h2 {
     font-family: "Abril Fatface", serif;
     font-size: 3rem;
     text-align: center;
@@ -2090,7 +2098,7 @@ NOTÍCIAS
 
 }
 
-.texto2 a.img{ 
+.texto2 a.img {
     display: grid;
     justify-content: center;
 }
@@ -2789,8 +2797,7 @@ div.imgSobreBanner p {
     margin: 33.5vw;
 }
 
-.pessoas h3
- {
+.pessoas h3 {
     text-align: center;
     font-size: 2rem;
 }
@@ -3044,10 +3051,10 @@ REFERÊNCIAS
         padding-bottom: 40px;
     }
 
-    .banner img {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+    .banner div a {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .banner h1 {
@@ -3084,9 +3091,10 @@ REFERÊNCIAS
     }
 
     .introducao img {
-        align-items: center;
-        width: 80%;
-        padding: 0 0 0 12vw;
+        display: grid;
+        width: 70%;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     /*MAPA*/
@@ -3437,8 +3445,8 @@ REFERÊNCIAS
         border-bottom: 1px solid rgb(202, 202, 202);
         padding: 6vw 3vw;
         margin-bottom: 8vw;
-          display: block;
-          border: none;
+        display: block;
+        border: none;
     }
 
     .inicioMal div.texto {
@@ -3538,12 +3546,12 @@ REFERÊNCIAS
 
 
     .enfermidades div.enfermidadesEx {
-            padding-top: 9vw
+        padding-top: 9vw
     }
 
     .enfermidades div.enfermidadesEx ul {
         display: block;
-    
+
     }
 
 
@@ -4122,73 +4130,91 @@ REFERÊNCIAS
     .estudantes div.grafico {
         display: block;
     }
+
     .estudantes div.grafico div {
         width: 50%;
     }
+
     .estudantes {
         border: none;
     }
+
     .estudantes div.grafico img {
         width: 325%;
         border-radius: 0;
     }
+
     .estudantes div.grafico div {
         width: 20%;
     }
 
     /* DESCONECTA */
-    .bannerDesconecta{
-        display: block;  
-         margin: 0 auto;
+    .bannerDesconecta {
+        display: block;
+        margin: 0 auto;
     }
-    .bannerDesconecta div{
+
+    .bannerDesconecta div {
         margin-top: 4vw;
-       
+
     }
+
     .bannerDesconecta div h1 {
         font-size: 2.5rem;
     }
+
     .bannerDesconecta img {
         width: 80%;
     }
-    .introDesc .ponto{
+
+    .introDesc .ponto {
         top: -55px;
     }
 
-    .passos{
+    .passos {
         display: block;
     }
+
     .passos div p {
         width: 100%;
         margin-bottom: 4vh;
     }
-    .hobbieSquare{
+
+    .hobbieSquare {
         width: 100%;
     }
-    .imagem-direita{
+
+    .imagem-direita {
         display: block;
     }
+
     .imagem-direita img {
         width: 80%;
     }
+
     .imagem-direita div p {
         line-height: 25px;
     }
-    .fotosAlternadas{
+
+    .fotosAlternadas {
         flex-direction: column;
         align-items: center;
-       
+
     }
+
     .fotosAlternadas img {
         width: 60%;
     }
-    .fotosAlternadas img.imgCima,.fotosAlternadas img.azulBaixo{
-         width: 70%;
+
+    .fotosAlternadas img.imgCima,
+    .fotosAlternadas img.azulBaixo {
+        width: 70%;
         position: relative;
-        
+
         top: 20px;
         margin-top: 20px;
     }
+
     img.azulBaixo {
         top: -10px;
     }
