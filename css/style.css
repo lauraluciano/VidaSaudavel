@@ -299,6 +299,7 @@ INICIO
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .mapa div.bloco2 {
@@ -454,6 +455,7 @@ INICIO
     border-radius: 50px;
     display: inline-block;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 div#modal {
@@ -1197,6 +1199,7 @@ MALEFÍCIOS
     font-size: 2rem;
     font-weight: bold;
     color: white;
+        cursor: pointer;
 }
 
 .enfermidades div.enfermidadesEx ul li p {
@@ -1222,6 +1225,8 @@ MALEFÍCIOS
     display: none;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .modal-content {
@@ -1547,12 +1552,14 @@ PERIGOS
 .menores details.grupoUm {
     background-color: #540B24;
     padding: 2vw;
+        cursor: pointer;
 }
 
 .menores details.grupoDois {
 
     background-color: #1B1B1B;
     padding: 2vw;
+        cursor: pointer;
 }
 
 
