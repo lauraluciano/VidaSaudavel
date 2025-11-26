@@ -3369,8 +3369,8 @@ REFERÊNCIAS
         display: block;
     }
     .conclusaoCien div.texImgCere img {
-        width: 40%;
-        
+        width: 45%;
+        align-items: center;
     }
 
     .textosCere {
