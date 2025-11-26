@@ -175,7 +175,4 @@ Finalização do SVG
 Adição de Copyright e pointer
 Responsividade do header
 Responsividade da página Ciências
-25 de nov. de 2025 | Finalização
-Participantes: Laura Luciano Werner, Tiago Martins Perin, Halicya Gabrielly França Recalde, Ester de Souza Viana, Giulia Marcos Côrrea, Eduarda Gomes
-Reparos finais e correção dos erros no HTML e CSS
 
