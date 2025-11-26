@@ -2,7 +2,7 @@
 
 Atualmente, nascemos e crescemos cercados de tecnologias, e conforme essas tecnologias avançaram, as telas pouco a pouco foram se tornando uma parte indispensável do nosso dia a dia. Entretanto, isso não é sinônimo de que o uso dessas telas possa ser feito de qualquer forma, e é com essa reflexão que nasce o Off Web!
 
-O projeto vem com um objetivo muito claro: trazer de maneira simples e didática o porquê de nós deveríamos limitar o quanto de telas consumimos diariamente, explicando como nosso cérebro lida com isso, quais os malefícios e perigos, o que os dados atuais nos dizem sobre o consumo de tela… Tudo isso de maneira simplificada, para que o usuário, ao mesmo tempo, tenha uma experiência leve lendo e ainda assim possa se conscientizar e decidir mudar seus hábitos. Junto disso, também trazemos soluções para que o usuário possa ter outras formas de usar o seu tempo livre sem ficar preso nas telas.
+O projeto vem com um objetivo muito claro: trazer de maneira simples e didática o porquê nós deveríamos limitar o quanto de telas consumimos diariamente, explicando como nosso cérebro lida com isso, quais os malefícios e perigos, o que os dados atuais nos dizem sobre o consumo de tela… Tudo isso de maneira simplificada, para que o usuário, ao mesmo tempo, tenha uma experiência leve lendo e ainda assim possa se conscientizar e decidir mudar seus hábitos. Junto disso, também trazemos soluções para que o usuário possa ter outras formas de usar o seu tempo livre sem ficar preso nas telas.
 
 O trabalho foi iniciado em julho de 2025, um projeto integrado para as matérias de Projeto Integrador I, Desenvolvimento Web I e Biologia, com a equipe formada por seis alunos do primeiro ano do ensino médio integrado ao curso técnico de Informática para  Internet no Instituto Federal Catarinense, campus Araquari.  
 O nosso site foi pensado e desenvolvido como um site informativo, focado mais em textos e elementos visuais, porém integrando outros elementos de interação para o usuário. Nosso projeto foi feito via HTML, CSS e JavaScript. Além dos textos, o site também conta com um formulário, que, ao o usuário responder, retorna se o uso de telas dele é saudável e uma alternativa de atividade para ele fazer no lugar do uso de telas, cada resposta personalizada conforme o que o usuário respondeu!
@@ -175,7 +175,4 @@ Finalização do SVG
 Adição de Copyright e pointer
 Responsividade do header
 Responsividade da página Ciências
-25 de nov. de 2025 | Finalização
-Participantes: Laura Luciano Werner, Tiago Martins Perin, Halicya Gabrielly França Recalde, Ester de Souza Viana, Giulia Marcos Côrrea, Eduarda Gomes
-Reparos finais e correção dos erros no HTML e CSS
 
