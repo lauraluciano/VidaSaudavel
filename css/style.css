@@ -747,7 +747,7 @@ p.creditosCien {
     padding: 8px;
     position: absolute;
     bottom: 125%;
-    /* aparece acima do elemento */
+    
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.3s;
@@ -793,7 +793,7 @@ p.creditosCien {
     max-width: 500px;
 }
 
-.introCien div.neuro ul {
+.introCien div.neuro ul li ul  {
     display: flex;
 }
 
@@ -855,9 +855,6 @@ p.creditosCien {
 .dopa img {
     margin: 0 0 0 5vw;
 }
-
-
-
 
 
 .cerebroParte {
@@ -960,7 +957,7 @@ p.creditosCien {
 
 .conclusaoCien div.texImgCere img {
     padding: 9vw 0 0 9vw;
-    width: 25 rem;
+    width: 230%;
 }
 
 .textosCere {
@@ -3286,12 +3283,12 @@ REFERÊNCIAS
         display: block;
     }
 
-    .introCien div.neuro ul {
+    .introCien div.neuro ul li  ul {
         display: block;
-        margin: 4vw;
+       
     }
 
-    .introCien div.neuro ul li {
+    .introCien div.neuro ul li ul  {
         margin: 4vw;
     }
 
@@ -3386,11 +3383,15 @@ REFERÊNCIAS
         line-height: 22px;
         padding: 4vw;
     }
-
-    .conclusaoCien div.texImgCere a img {
-        width: 40%;
-        padding: 0;
-        margin: 4vw 15vw 0 0vw;
+    div.texImgCere div {
+       display: grid;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    .conclusaoCien div.texImgCere  img {
+        width: 60%; 
+        margin:  0 auto;
     }
 
     .conclusaoCien p.mencao {
