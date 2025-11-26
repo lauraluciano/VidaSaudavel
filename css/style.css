@@ -1009,46 +1009,12 @@ p.creditosCien {
     padding: 1vw 0 2vw 0;
 }
 
-.referenciasCere {
-    padding: 4vw 0;
-}
-
-.referenciasCere h4 {
-    font-size: 2rem;
-}
-
-.referenciasCere a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
 
 body p.creditosCien {
     font-size: 0.7rem;
     padding: 0;
 }
 
-@media screen and (max-width: 900px) {
-    .bannerCien img {
-        width: 200%;
-    }
-
-    .bannerCien h1 {
-        font-size: 30px;
-    }
-
-    .bannerCien h2 {
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .bannerCien div {
-        padding: 10px;
-    }
-}
 
 /*==========================================================
 MALEFÍCIOS
@@ -1316,77 +1282,21 @@ MALEFÍCIOS
     height: 300px;
 }
 
-.referenciasMale {
+.referencias {
     padding: 4vw;
 }
 
-.referenciasMale h4 {
+.referencias h4 {
     font-size: 2rem;
 }
 
-.referenciasMale a {
+.referencias a {
     margin: 2vw;
     text-align: left;
     font-weight: bolder;
     color: #ffffff;
     text-decoration: none;
     line-height: 2rem;
-}
-
-@media screen and (max-width: 900px) {
-    .inicioMal img {
-        width: 40%;
-        height: 390px;
-    }
-
-    .pesquisaMal img {
-        width: 100%;
-    }
-
-    .pesquisaMal div.div-pesquisa {
-        display: block;
-    }
-
-    .pesquisa-2Mal {
-        display: block;
-        max-width: none;
-        margin: 0;
-    }
-
-    .pesquisa-2Mal div {
-        width: 100%;
-    }
-
-    .pesquisa-3Mal {
-        margin: 20px;
-    }
-
-    .pesquisa-3Mal div {
-        display: block;
-    }
-
-    .pesquisa-3Mal div img {
-        width: 100%;
-    }
-
-    .pesquisa-3Mal div p {
-        padding: 10px;
-        width: 100%;
-        margin: 10px;
-    }
-
-    .finalMale div {
-        display: block;
-    }
-
-    .finalMale div iframe {
-        width: 400px;
-        height: 300px;
-    }
-
-    .referenciasMale {
-        margin: 40px 0;
-    }
 }
 
 /*==========================================================
@@ -1587,18 +1497,7 @@ PERIGOS
     margin: 0 0 0 5vw;
 }
 
-.referenciasPeri h5 {
-    font-size: 2rem;
-}
 
-.referenciasPeri a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
 
 /*========================================3==================
 DESCONECTA
@@ -1715,23 +1614,20 @@ DESCONECTA
     border-radius: 40px;
 }
 
-.abandonar ul li>p {
+.abandonar ul li svg {
     background-color: #262323;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 20px;
     flex-shrink: 0;
+     fill: #fff;
 }
 
-.abandonar ul li p svg {
-    width: 60%;
-    height: 60%;
-    fill: #fff;
-}
+
 
 .abandonar ul li div {
     display: block;
@@ -1757,7 +1653,7 @@ DESCONECTA
     font-weight: bold;
 }
 
-.passos div p {
+.passos div  p {
     width: 40%;
     font-size: 1.2rem;
 }
@@ -1932,7 +1828,6 @@ img.azulBaixo {
     font-size: 2rem;
     margin: 2vw;
     display: inline-block;
- 
     text-align: center;
     font-weight: 600;
     background-color: white;
@@ -1951,24 +1846,11 @@ img.azulBaixo {
   }
 
  .container svg {
- 
     width: 100%;
     height: auto;
     cursor: pointer;
     border-radius: 90px;
   }
-
-  /* Estilo dos cômodos (paths) */
-  #cozinha {
-    fill: #d8d8d8;
-    stroke-width: 2;
-    transition: fill 10s;
-  }
-
-#cozinha:hover {
-    fill: #a0c4ff;
-}
-
   /* Caixa de texto */
   .info-box {
     width: 40%;
@@ -2683,24 +2565,6 @@ DADOS
     padding: 0 4vw 0 0;
 }
 
-.referencias {
-    padding: 4vw 4vw 4vw 4vw;
-}
-
-.referencias h4 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 2vw;
-}
-
-.referencias a {
-    margin: 2vw;
-    text-align: left;
-    font-weight: bolder;
-    color: #ffffff;
-    text-decoration: none;
-    line-height: 2rem;
-}
 
 /*==========================================================
 SOBRE O PROJETO
@@ -2850,59 +2714,6 @@ div.imgSobreBanner p {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 900px) {
-    .sobreProj h1 {
-        font-size: 3rem;
-    }
-
-    .subtitulo {
-        font-size: 1.3rem;
-        color: white;
-        padding: 0;
-        font-weight: normal;
-        line-height: 20px;
-    }
-
-    .projeto {
-        display: block;
-    }
-
-    .projeto ul {
-        display: block;
-    }
-
-    .projeto ul li {
-        width: 110%;
-        line-height: 10px;
-        margin: 5vw 0;
-    }
-
-    .projeto ul li p.segunda {
-        padding: 4vw;
-        font-weight: 600;
-        line-height: 20px;
-    }
-
-    .projeto ul li p.primeiraAzul {
-        padding: 4vw;
-        font-weight: 600;
-        line-height: 20px;
-    }
-
-    .grupo1sobre {
-        display: block;
-    }
-
-    .grupo2sobre {
-        display: block;
-    }
-
-    .card {
-        width: 100%;
-        margin: 15vw 0;
-    }
-}
-
 /*==========================================================
 REFERÊNCIAS
 ==========================================================*/
@@ -2982,31 +2793,7 @@ REFERÊNCIAS
     font-size: 25px;
 }
 
-@media only screen and (max-width: 900px) {
-    .refs .inicio h1 {
-        font-size: 2.5rem;
-    }
 
-    .refs .inicio h2 {
-        font-size: 1.3rem;
-    }
-
-    .refs .inicio ul li {
-        font-size: 1rem;
-    }
-
-    .refs .inicio h2.Azul a:hover {
-        padding: 5px;
-    }
-
-    .refs .inicio h2.Vermelho a:hover {
-        padding: 5px;
-    }
-
-    .refs .inicio h2.Preto a:hover {
-        padding: 5px;
-    }
-}
 
 @media only screen and (max-width: 900px) {
     /*HEADER*/
@@ -3045,6 +2832,38 @@ REFERÊNCIAS
     .open {
         display: block;
     }
+    
+    /*FOOTER*/
+
+    footer nav.mapaFooter {
+        display: none;
+
+    }
+
+    footer .footerCont {
+        display: block;
+    }
+
+
+    footer nav p {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div.creditos p {
+
+        font-size: 0.8rem;
+        line-height: 14px;
+    }
+
+    footer div.p p {
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 12px;
+        margin: 0vw 0 5vw 0;
+    }
+
+
 
     /*BANNER*/
     .banner {
@@ -4021,38 +3840,6 @@ REFERÊNCIAS
     }
 
 
-    /*FOOTER*/
-
-    footer nav.mapaFooter {
-        display: none;
-
-    }
-
-    footer .footerCont {
-        display: block;
-    }
-
-
-    footer nav p {
-        display: flex;
-        justify-content: center;
-    }
-
-    footer div.creditos p {
-
-        font-size: 0.8rem;
-        line-height: 14px;
-    }
-
-    footer div.p p {
-        font-size: 0.8rem;
-        text-align: center;
-        line-height: 12px;
-        margin: 0vw 0 5vw 0;
-    }
-
-
-
     /*APLICATIVOS*/
     .bannerAplicativo {
         display: block;
@@ -4243,40 +4030,27 @@ REFERÊNCIAS
     font-size: 1.1rem;
 }
 
-
+.container {
+       flex-direction: column;
+       position: relative;
+}
  .container svg {
     width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius: 50px;
+
    
   }
 
-  /* Estilo dos cômodos (paths) */
-  #cozinha {
-    fill: #d8d8d8;
-    stroke-width: 2;
-    transition: fill 10s;
-  }
-
-  #cozinha:hover {
-    fill: #a0c4ff;
-  }
 
   /* Caixa de texto */
   .info-box {
-    width: 40%;
-    height: 70%;
-    padding: 3vw;
-    border: 2px solid #333;
-    border-radius: 8px;
-    background: #f8f8f8;
-    display: none; 
-    font-size: 1rem;
-    color: #000000;
-    position: absolute;
-    top: 10vw;
-    line-height: 4vw;
+    width: 100%;
+    position: relative;
     overflow: auto;
+    line-height: 2rem;
+    margin: 4vw 0;
   }
 
 
@@ -4284,6 +4058,29 @@ REFERÊNCIAS
     display: block;
      
   }
+/* referências */
+ .refs .inicio h1 {
+        font-size: 2.5rem;
+    }
 
+    .refs .inicio h2 {
+        font-size: 1.3rem;
+    }
+
+    .refs .inicio ul li {
+        font-size: 1rem;
+    }
+
+    .refs .inicio h2.Azul a:hover {
+        padding: 5px;
+    }
+
+    .refs .inicio h2.Vermelho a:hover {
+        padding: 5px;
+    }
+
+    .refs .inicio h2.Preto a:hover {
+        padding: 5px;
+    }
 
 }
