@@ -2535,21 +2535,24 @@ DADOS
     font-weight: bold;
 }
 
-.estudantes div.grafico ul {
+.grafico div  ul {
     display: flex;
     justify-content: space-between;
-    margin: 4vw 4vw 0 4vw;
+    margin-top: 2vw;
+    gap: 2vw;
 }
-
-.estudantes div.grafico ul li {
-    background-color: white;
+.grafico div ul li ul {
+    display: flex;
+    flex-direction: column;
+}
+.grafico div ul li ul li {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 10px solid #fff;
     color: #000;
-    margin: 0 0 2vw 0;
-    font-size: 1.2rem;
-    padding: 1vw;
-    max-width: 300px;
+    list-style-type: disc ;
+    list-style-position: inside;
 }
-
 .equipamento {
     border-bottom: 1px solid rgb(202, 202, 202);
     padding: 4vw;
@@ -2592,18 +2595,20 @@ DADOS
 .equipamento div.textoEqui {
     color: #000;
     background-color: white;
-    margin: 0 0 0 20vw;
+    width: 40%;
     padding: 3vw;
     border: 80px solid #000;
 }
 
 .equipamento div ul {
-    padding: 0 0 0 5vw;
     list-style-type: disc;
     font-size: 1.5rem;
+    width: 70%;
 }
 
 .equipamento img {
+    max-width: 100%;
+    height: auto;
     border-radius: 30px;
 }
 
@@ -3218,7 +3223,7 @@ REFERÊNCIAS
         display: block;
     }
 
-    .grafico {
+    .graficoQuizz {
         width: 80px !important;
         height: 80px !important;
     }
@@ -3228,7 +3233,7 @@ REFERÊNCIAS
         height: 110px !important;
     }
 
-    .grafico::after,
+    .graficoQuizz::after,
     .usoMedio::after {
         font-size: 15px;
         left: 50%;
@@ -4112,78 +4117,55 @@ REFERÊNCIAS
         margin: 10vw 0 0 0;
         width: 100%;
     }
-
-    .estudantes div.texto {
-        background-color: transparent;
-    }
-
-    .estudantes div.texto h3 {
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        font-weight: 550;
-        padding: 5vw;
-        border-radius: 40px;
-        font-size: 2rem;
-    }
-
-    .estudantes div.texto p {
-        color: white;
-        line-height: 25px;
-        margin: 10vw 0;
-    }
-
     .estudantes div.grafico {
-        display: block;
+        flex-direction: column;
+        align-items: center;
     }
-
-    .estudantes div.grafico div {
-        width: 50%;
+    .estudantes div.grafico div p {
+        margin-top: 4vw;
     }
-
-    .estudantes {
-        border: none;
-    }
-
+   
     .estudantes div.grafico img {
-        width: 325%;
-        border-radius: 0;
+        width: 80%;
     }
-
-    .estudantes div.grafico div {
-        width: 20%;
-    }
-    .estudantes .grafico div p {
-        font-size: 1.5rem;
-        line-height: 20px;
-        margin: 10vw 0;
-    }
-    .estudantes .grafico div ul {
-        display: block;
-    }
-    .estudantes .grafico div ul li {
-        display: inline-block;
-        color: #ffffff;
-        margin: 4vw 0;
-        background-color: transparent;
-    }
-    .estudantes .grafico div ul li ul {
-        display: flex;
-        justify-content: space-between;
+    .grafico ul li ul li  {
+      height: 13vh;
     }
     .equipamento {
-        
+        flex-direction: column;
+        align-items: center;
     }
-    .idade {
-        display: none;
+    .equipamento div {
+        max-width: 100%;
     }
-    .conclusao {
-        display: none;
+    .equipamento div ul {
+      width: 100%;
+      list-style-position: inside;
     }
-    .referencias {
-        display: none;
+    .equipamento div.textoEqui{
+        border-width: 40px;
+        width: 100%;
+        margin: 2vw 0;
     }
-    footer {
-        display: none;
+    .idade div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .idade .textosIdade p {
+        padding: 3vw ;
+        border-radius: 20px;
+    }
+    .idade div a {
+        text-align: center;
+    }
+    .idade div a img {
+        width: 85%;
+
+        margin: 2vw auto;
+    }
+    .conclusao >div {
+     flex-direction: column;
     }
     /* DESCONECTA */
     .bannerDesconecta {
