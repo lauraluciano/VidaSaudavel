@@ -2592,7 +2592,7 @@ DADOS
     border-radius: 20px 20px 20px 0px;
 }
 
-.equipamento div.texto {
+.equipamento div.textoEqui {
     color: #000;
     background-color: white;
     margin: 0 0 0 20vw;
@@ -3343,7 +3343,7 @@ REFERÊNCIAS
 
     .cerebroParte a img.imgcerebro {
 
-        width: 45%;
+        width: 45;
         bottom: -2vw;
         z-index: 5;
     }
@@ -3370,6 +3370,10 @@ REFERÊNCIAS
 
     .conclusaoCien div.texImgCere {
         display: block;
+    }
+    .conclusaoCien div.texImgCere img {
+        width: 40%;
+        
     }
 
     .textosCere {
@@ -4113,8 +4117,8 @@ REFERÊNCIAS
     }
 
     .estudantes div.texto h3 {
-        background-color: #540B24;
-        color: white;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
         font-weight: 550;
         padding: 5vw;
         border-radius: 40px;
@@ -4147,7 +4151,39 @@ REFERÊNCIAS
     .estudantes div.grafico div {
         width: 20%;
     }
-
+    .estudantes .grafico div p {
+        font-size: 1.5rem;
+        line-height: 20px;
+        margin: 10vw 0;
+    }
+    .estudantes .grafico div ul {
+        display: block;
+    }
+    .estudantes .grafico div ul li {
+        display: inline-block;
+        color: #ffffff;
+        margin: 4vw 0;
+        background-color: transparent;
+    }
+    .estudantes .grafico div ul li ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .equipamento {
+        
+    }
+    .idade {
+        display: none;
+    }
+    .conclusao {
+        display: none;
+    }
+    .referencias {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
     /* DESCONECTA */
     .bannerDesconecta {
         display: block;
