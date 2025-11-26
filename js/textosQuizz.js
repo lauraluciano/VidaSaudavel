@@ -671,12 +671,10 @@ function finalizar() {
     document.getElementById("tituloRecomendado").innerText = tituloRecomendado;
     document.getElementById("recomendacao").innerText = recomendacao;
      document.getElementById("graficoHoras").classList.add("mostrar")
-    document.getElementById("containerGrafico").style.display = "block"
-    document.getElementById("respostaP").classList.remove("hidden");
+     document.getElementById("respostaP").style.display = "block"
     document.getElementById("respostaP2").classList.remove("hidden");
     document.getElementById("respostaP2").style.display = "inline-block";
    document.getElementById("videoContainer").classList.add("mostrar")
-    console.log(`eba`)
     document.getElementById("modal-content").style.background=`url("imagens/resposta.png") center/cover no-repeat`;
     document.querySelector(".graficoQuizz")
         .setAttribute("data-info", "Seu consumo de tela: " + horasCelular + " horas");

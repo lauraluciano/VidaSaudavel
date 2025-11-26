@@ -536,8 +536,9 @@ button.option:hover {
 }
 
 #respostaP {
+     display: none;
     margin-top: 40px;
-    color: #000;
+    color: #fff;
     font-weight: bolder;
 }
 
@@ -586,11 +587,6 @@ button.option:hover {
     display: none;
     font-size: 1.5rem;
     line-height: 2rem;
-}
-
-#respostaP {
-    font-size: 1.8rem;
-
 }
 
 #respostaP2 {
@@ -1135,7 +1131,7 @@ MALEFÍCIOS
     position: relative;
 }
 
-.enfermidades h3 {
+.enfermidades >h3 {
     font-size: 2.5rem;
     color: #000;
     font-weight: bolder;
@@ -3232,7 +3228,6 @@ REFERÊNCIAS
     .conclusaoCien div.psico p {
         font-size: 1rem;
         line-height: 20px;
-
         padding:
             5vw 0 0 0;
     }
@@ -3361,7 +3356,7 @@ REFERÊNCIAS
 
 
 
-    .enfermidades h3 {
+    .enfermidades >h3 {
         top: 0;
         text-align: center;
         font-size: 1.1rem;
@@ -4082,5 +4077,103 @@ REFERÊNCIAS
     .refs .inicio h2.Preto a:hover {
         padding: 5px;
     }
+    .sobreProj h1 {
 
+
+
+        font-size: 3rem;
+
+
+    }
+
+
+
+
+
+    .subtitulo {
+
+
+        font-size: 1.3rem;
+
+
+        color: white;
+
+
+        padding: 0;
+
+
+        font-weight: normal;
+
+
+        line-height: 20px;
+
+
+    }
+
+
+
+
+
+    .projeto {
+
+
+        display: block;
+
+
+    }
+
+
+
+
+
+    .projeto ul {
+
+
+        display: block;
+
+
+    }
+
+
+
+
+
+    .projeto ul li {
+
+
+        width: 110%;
+
+
+        line-height: 10px;
+
+
+        margin: 5vw 0;
+
+
+    }
+    .projeto ul li p.segunda {
+
+
+        padding: 4vw;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .projeto ul li p.primeiraAzul {
+        padding: 4vw;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .grupo1sobre {
+        display: block;
+    }
+    .grupo2sobre {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin: 15vw 0;
+    }
 }
