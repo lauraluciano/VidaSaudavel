@@ -602,7 +602,9 @@ button.option:hover {
     font-size: 1.5rem;
     line-height: 2rem;
 }
-
+#recomendacao strong{
+    font-weight: bold;
+}
 #textoGrafico {
     font-size: 2rem;
 }
@@ -664,7 +666,11 @@ button.option:hover {
 #videoContainer.mostrar {
     display: flex;
 }
-
+#videoTexto {
+    display: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
 /* FIM INICIO  */
 
 /*==========================================================
