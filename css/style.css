@@ -2899,6 +2899,7 @@ REFERÊNCIAS
 
     .introducao h2 {
         font-size: 1.8rem;
+        padding: 4vw ;
     }
 
     .introducao div.textoInt p {
@@ -3390,8 +3391,11 @@ REFERÊNCIAS
         max-width: 300px;
         border-radius: 8px;
     }
-
-
+   
+    .pesquisa-3Mal {
+        width: 100%;
+        margin: 5px;
+    }
     .pesquisa-3Mal h3 {
         font-family: "Abril Fatface", serif;
         font-size: 2.5rem;
@@ -3400,40 +3404,47 @@ REFERÊNCIAS
         margin-top: 20px;
 
     }
+   .pesquisa-3Mal div {
+        margin: 1px;
+        display: block;
 
+    }
     .pesquisa-3Mal p {
         font-size: 1.1rem;
         line-height: 1.8rem;
     }
-
+    .pesquisa-3Mal div p {
+        width: 90%;
+        margin: 2vw;
+        padding: 20px;
+    }
     .pesquisa-3Mal div img {
         width: 261px;
         height: 261px;
         margin: 0 10px;
     }
 
-    .pesquisa-3Mal div {
-        margin: 1px;
-
-    }
+ 
 
     .finalMale h3 {
         font-size: 2.3rem;
         font-weight: bold;
         margin: 2vw 0.5vw;
     }
-
+     .finalMale div {
+      display: block;
+     }
     .finalMale div p {
+       
         margin: 3vw 0;
-        max-width: 900px;
         font-size: 1.1rem;
         padding-right: 5vw;
     }
 
 
     .finalMale div iframe {
-        width: 300px;
-        height: 150px;
+        width: 80%;
+        height: auto;
         margin: 2vw;
     }
 
@@ -3609,7 +3620,9 @@ REFERÊNCIAS
         font-size: 3rem;
         letter-spacing: 0.5rem;
     }
-
+    .bannerNot h2 {
+        font-size: 2rem;
+    }
     .bannerNot p.textBot {
         font-size: 1.6rem;
         letter-spacing: 1px;
@@ -3744,7 +3757,6 @@ REFERÊNCIAS
 
     .carrosel .slides {
         width: 600%;
-        /* Se tiver 6 slides */
         display: flex;
 
     }
@@ -3752,7 +3764,7 @@ REFERÊNCIAS
     .carrosel .slide {
         max-width: 100%;
         height: auto;
-
+        overflow: hidden;
     }
 
     .carrosel .slide img {
