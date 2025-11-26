@@ -3983,6 +3983,10 @@ REFERÊNCIAS
     .introDesc .ponto {
         top: -55px;
     }
+ .abandonar ul li {
+    display: block;
+  
+ }
 
     .passos {
         display: block;
@@ -3992,7 +3996,7 @@ REFERÊNCIAS
         width: 100%;
         margin-bottom: 4vh;
     }
-
+   
     .hobbieSquare {
         width: 100%;
     }
