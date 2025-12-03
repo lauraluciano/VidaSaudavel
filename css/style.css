@@ -48,15 +48,21 @@ header {
 }
 
 
-header nav ul {
+header nav {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
 }
 
-header ul li.logo {
-    padding: 0 25vw 0 0;
+header nav h1 img {
+    padding-left: 5vw;
 }
+
+header nav ul {
+    display: flex;
+    padding: 1vw;
+}
+
 
 header ul li.azulHeader a:hover {
     background-color: #2C3E50 !important;
@@ -567,19 +573,18 @@ button.option:hover {
 }
 
 .hobbie {
-    display: flex;
     gap: 40px;
 }
 
 #tituloRecomendado {
     display: none;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #fff;
     background-color: #540B24;
     padding: 10px 20px;
     border-radius: 15px;
-    text-align: center;
+    text-align: left;
     margin: 20px 2vw;
 }
 
@@ -587,6 +592,7 @@ button.option:hover {
     display: none;
     font-size: 1.5rem;
     line-height: 2rem;
+    
 }
 
 #respostaP2 {
@@ -596,6 +602,7 @@ button.option:hover {
     border-radius: 15px;
     font-size: 2rem;
     line-height: 2rem;
+    margin: 2vw 0vw ;
 }
 
 #recomendacao {
@@ -2923,6 +2930,9 @@ REFERÊNCIAS
 
     /*MAPA*/
 
+    .mapa {
+        width: 100%;
+    }
     .mapa h2 {
         font-size: 2rem;
         margin: 0 0 13vw;
@@ -2931,13 +2941,17 @@ REFERÊNCIAS
     .mapa p {
         font-size: 0.8rem;
     }
+    .blocos {
+        width: 100%;
+        gap: 8vw;
+    }
 
     .mapa div.bloco2 {
         position: relative;
         padding: 3vw;
-        margin: 40px;
+        margin: 2vw;
         border-radius: 20px;
-        width: 270px;
+        width: 100%;
         line-height: 30px;
         font-size: 0.9rem;
         transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -2945,20 +2959,20 @@ REFERÊNCIAS
 
     .mapa div.bloco2 img.lupa {
         position: absolute;
-        top: -85px;
+        top: -100px;
         left: 40%;
         transform: translateX(-50%);
         width: 50%;
-        margin: 0;
+        
     }
 
     .mapa div.bloco2 img.comp {
         position: absolute;
-        top: -70px;
+        top: -90px;
         left: 50%;
         transform: translateX(-50%);
         width: 50%;
-        margin: 0;
+        
     }
 
     /*NOTICIAS - Primeira página*/

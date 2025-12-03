@@ -704,13 +704,13 @@ function finalizar() {
     document.getElementById("graficoHoras").classList.add("mostrar")
     document.getElementById("respostaP").style.display = "block"
      document.getElementById("videoTexto").style.display = "block"
-      document.getElementById("tituloRecomendado").style.display = "block"
+      document.getElementById("tituloRecomendado").style.display = "inline-block"
     document.getElementById("textoRecomendado").style.display = "block"
     document.getElementById("respostaP2").classList.remove("hidden");
       document.querySelector(".hobbie div p ").classList.remove("hidden")
     document.getElementById("respostaP2").style.display = "inline-block";
-    document.getElementById("videoContainer").classList.add("mostrar")
-    document.getElementById("modal-content").style.background = `url("imagens/resposta.png") center/cover no-repeat`;
+    document.getElementById("videoContainer").classList.add("mostrar");
+     document.getElementById("modal-content").style.background = `url("imagens/resposta.png") center/cover no-repeat`;
     document.querySelector(".graficoQuizz")
         .setAttribute("data-info", "Seu consumo de tela: " + horasCelular + " horas");
     document.querySelector("#graficoHoras p span").innerHTML = horasCelular + " horas";
