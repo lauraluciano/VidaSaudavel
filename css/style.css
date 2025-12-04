@@ -1353,6 +1353,7 @@ PERIGOS
 
 .comentariosPerigos div.blocoPeri {
     font-size: 1.5rem;
+     line-height: 2rem;
     display: flex;
 
 }
@@ -1388,6 +1389,7 @@ PERIGOS
 
 .comentariosPerigos div.imagem p {
     margin: 2vw 2vw 1vw 3vw;
+    line-height: 2rem;
     font-size: 1.5rem;
 }
 
@@ -2923,9 +2925,10 @@ REFERÊNCIAS
 
     .introducao img {
         display: grid;
-        width: 70%;
+        width: 90%;
         justify-content: center !important;
         align-items: center !important;
+        margin: 0 auto;
     }
 
     /*MAPA*/
@@ -2959,20 +2962,15 @@ REFERÊNCIAS
 
     .mapa div.bloco2 img.lupa {
         position: absolute;
-        top: -100px;
+        top: -50%;
         left: 40%;
         transform: translateX(-50%);
-        width: 50%;
+        width: 35%;
         
     }
 
     .mapa div.bloco2 img.comp {
-        position: absolute;
-        top: -90px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 50%;
-        
+        display: none;
     }
 
     /*NOTICIAS - Primeira página*/
@@ -3531,7 +3529,8 @@ REFERÊNCIAS
 
 
     .comentariosPerigos div.blocoPeri div.texto1Peri p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 25px;
         padding: 4vw 0;
     }
 
@@ -3552,7 +3551,7 @@ REFERÊNCIAS
     }
 
     .comentariosPerigos p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .comentariosPerigos div.imagem img {
@@ -3561,7 +3560,8 @@ REFERÊNCIAS
     }
 
     .comentariosPerigos div.imagem p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 25px;
         margin: 0;
         margin-top: 2vw;
     }
@@ -4095,13 +4095,16 @@ REFERÊNCIAS
     }
 
     .refs .inicio h2 {
-        font-size: 1.3rem;
+        font-size: 1.9rem;
     }
-
-    .refs .inicio ul li {
-        font-size: 1rem;
+  
+    .refs .inicio ul li p {
+        font-size: 20px;
     }
-
+     .refs .inicio ul li a {
+        font-size: 20px;
+        word-break: break-all;
+     }
     .refs .inicio h2.Azul a:hover {
         padding: 5px;
     }
@@ -4114,9 +4117,6 @@ REFERÊNCIAS
         padding: 5px;
     }
     .sobreProj h1 {
-
-
-
         font-size: 3rem;
 
 
